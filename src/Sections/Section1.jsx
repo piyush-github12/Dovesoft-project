@@ -111,7 +111,7 @@ const Section1 = () => {
       <div className="w-[60vw] h-[60vw] absolute bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
       <div className="w-[50%] h-screen pl-[6vw]  z-10 flex flex-col justify-center   gap-5">
         <div className="relative w-full h-[230px]  max-md:h-[120px] max-md:mt-[200px] overflow-hidden ">
-          <h1 className="heading1 h-[200px] max-md:h-[120px]  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw]  font-extrabold leading-[4vw] absolute ">
+          <h1 className="heading1 h-[200px] max-md:h-[120px]  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw]  font-bold leading-[4vw] absolute ">
             Effortlessly Simplified &  Powerful Multi-Channel 
             CPaaS Platform.
           </h1>
