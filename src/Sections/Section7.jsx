@@ -4,11 +4,12 @@ import Swiperjs from '../components/Swiperjs'
 const Section7 = () => {
   return (
     <div className="w-screen h-fit">
-      <h1 className="text-center text-[30px] leading-[30px] font-bold mb-5">
-        Check Out 
+      <h1 className="text-center text-[30px] max-md:text-[5vw] leading-[30px] font-bold mb-5">
+        Check Out
         <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md ml-2 px-2">
           What customer is saying
-        </span> <br />
+        </span>{" "}
+        <br />
         about us
       </h1>
       <Swiperjs />

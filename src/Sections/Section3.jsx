@@ -126,11 +126,11 @@ const Section3 = () => {
             >
               <img
                 src={`./images/${item.image}`}
-                className="h-[60px] mb-2"
+                className="h-[60px] mb-2 max-sm:h-[40px]"
                 alt=""
               />
-              <h1 className="font-bold mb-2 text-2xl">{item.heading}</h1>
-              <p className="w-[300px] text-xs mb-2">{item.para}</p>
+              <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
+              <p className="w-[300px] text-xs mb-2 max-sm:text-[10px]">{item.para}</p>
             </div>
           ))}
         </div>

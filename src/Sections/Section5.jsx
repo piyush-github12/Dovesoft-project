@@ -17,8 +17,8 @@ const Section5 = () => {
         start:"top 80%"
       },
       keyframes: [
-        { color: "#61a3ff", scale: "1.1", fontWeight: 900,duration:2 },
-        { color: "#fff", scale: "1", fontWeight: 500,  },
+        { color: "#61a3ff", scale: "1.1", duration:2 },
+        { color: "#fff", scale: "1",},
       ],
       duration:3,
       repeat: -1,
