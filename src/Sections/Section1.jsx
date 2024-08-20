@@ -101,23 +101,23 @@ const Section1 = () => {
       <div className="w-[60vw] h-[60vw] absolute bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
       <div className="w-[50%] h-screen pl-[6vw]  z-10 flex flex-col justify-center   gap-5">
         <div className="relative w-full h-[15vw]  max-md:min-h-[120px] max-md:mt-[100px] overflow-hidden ">
-          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-full font-extrabold leading-[4vw] absolute ">
+          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-fit font-extrabold leading-[4vw] absolute ">
             Effortlessly Simplified & <br /> Powerful Multi-Channel <br />
             CPaaS Platform.
           </h1>
-          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-full font-bold leading-[4vw] absolute translate-y-[110%]">
+          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-fit font-bold leading-[4vw] absolute translate-y-[110%]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
             vitae!
           </h1>
-          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-full font-bold leading-[4vw] absolute translate-y-[110%]">
+          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-fit font-bold leading-[4vw] absolute translate-y-[110%]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
             vitae!
           </h1>
-          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-full font-bold leading-[4vw] absolute translate-y-[110%]">
+          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-fit font-bold leading-[4vw] absolute translate-y-[110%]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
             vitae!
           </h1>
-          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-full font-bold leading-[4vw] absolute translate-y-[110%]">
+          <h1 className="heading1  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw] h-fit font-bold leading-[4vw] absolute translate-y-[110%]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
             vitae!
           </h1>
