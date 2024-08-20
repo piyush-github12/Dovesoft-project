@@ -112,7 +112,7 @@ const Section1 = () => {
       <div className="w-[50%] h-screen pl-[6vw]  z-10 flex flex-col justify-center   gap-5">
         <div className="relative w-full h-[230px]  max-md:h-[120px] max-md:mt-[200px] overflow-hidden ">
           <h1 className="heading1 h-[200px] max-md:h-[120px]  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw]  font-extrabold leading-[4vw] absolute ">
-            Effortlessly Simplified & <br /> Powerful Multi-Channel <br />
+            Effortlessly Simplified &  Powerful Multi-Channel 
             CPaaS Platform.
           </h1>
           <h1 className="heading1 h-[200px] max-md:h-[120px]  text-[3.5vw] max-md:text-[5vw] max-md:leading-[5vw]  font-bold leading-[4vw] absolute translate-y-[250px]">
