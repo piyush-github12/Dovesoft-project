@@ -55,7 +55,7 @@ const Section4 = () => {
         <br />
         across various messaging channels
       </h1>
-      <div className="w-full h-fit grid grid-cols-3 px-[15vw] gap-4 max-md:px-[0vw] justify-items-center   max-lg:grid-cols-2">
+      <div className="w-full h-fit grid grid-cols-3 px-[13vw] gap-4 max-md:px-[0vw] justify-items-center   max-lg:grid-cols-2">
         {data.map((item) => (
           <div
             key={item.heading}
