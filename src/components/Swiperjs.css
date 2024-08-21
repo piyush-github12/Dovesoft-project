@@ -26,10 +26,12 @@ body {
   /* background-position: center; */
   /* background-size: cover; */
   width: 50vw;
-  height: 40vh;
+  min-height: fit-content;
+  height: 400px;
   /* margin-bottom: 50px; */
   background-color: #021f43;
   border-radius: 20px;
   overflow: hidden;
+  
 }
 

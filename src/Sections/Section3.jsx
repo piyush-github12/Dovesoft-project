@@ -80,22 +80,24 @@ const Section3 = () => {
 
 
   return (
-    <div id="section3" className="w-screen h-[100vh]  flex  px-14">
+    <div id="section3" className="w-screen h-[100vh] overflow-hidden  flex  px-14">
       <div className="h-full w-[55%]  max-sm:hidden ">
         <div className="w-full h-screen pl-[50px] max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
-          <h1 className="text-[30px]  font-bold leading-[40px]">
+          <h1 className="text-3xl font-bold leading-[40px]">
             <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
             <br /> experience with the world’s <br /> most connected platform
           </h1>
-          <h1>
+          <h1 className='text-sm'>
             With industry-leading expertise, you can deliver superb customer{" "}
             <br />
             experience through our global network.
           </h1>
-          <div className="w-fit h-[40px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC]  px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white whitespace-nowrap">Book Demo</h1>
+          <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
+            <h1 className="text-white text-lg  font-bold whitespace-nowrap">
+              Book Demo
+            </h1>
           </div>
         </div>
       </div>
@@ -117,8 +119,8 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="h-fit w-[55%] overflow-hidden py-[10vh] max-sm:w-[80%] ">
-        <div id="pinscroll" className="">
+      <div className="h-fit w-[55%] overflow-hidden pt-[10vh] max-sm:w-[80%] ">
+        <div id="pinscroll" className=" h-[200vh]">
           {data.map((item) => (
             <div
               key={item.heading}
@@ -126,11 +128,13 @@ const Section3 = () => {
             >
               <img
                 src={`./images/${item.image}`}
-                className="h-[60px] mb-2 max-sm:h-[40px]"
+                className="h-[72] mb-2 "
                 alt=""
               />
               <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-              <p className="w-[300px] text-xs mb-2 max-sm:text-[10px]">{item.para}</p>
+              <p className="w-[300px] text-xs mb-2 ">
+                {item.para}
+              </p>
             </div>
           ))}
         </div>

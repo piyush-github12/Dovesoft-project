@@ -46,8 +46,8 @@ const Section4 = () => {
 
 
   return (
-    <div className="w-screen h-fit py-[100px] max-md:py-[150px]  max-lg:px-[10vw]">
-      <h1 className="text-[30px] max-md:text-[3vw] text-center  font-bold mb-10">
+    <div className="w-screen h-fit py-[100px]  ">
+      <h1 className="text-3xl  text-center  font-bold mb-10">
         Leverage a single API to{" "}
         <span className="bg-gradient-to-r from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
           automate conversational engagement
@@ -55,23 +55,21 @@ const Section4 = () => {
         <br />
         across various messaging channels
       </h1>
-      <div className="w-full h-fit  grid grid-cols-3 justify-items-center gap-4 max-lg:grid-cols-2">
+      <div className="w-full h-fit grid grid-cols-3 px-[15vw] gap-4 max-md:px-[0vw] justify-items-center   max-lg:grid-cols-2">
         {data.map((item) => (
           <div
             key={item.heading}
-            className="w-[250px] h-[300px] max-sm:w-[40vw] max-sm:h-fit rounded-2xl overflow-hidden"
+            className="w-[300px] h-fit  max-sm:w-[40vw] max-sm:h-fit rounded-2xl overflow-hidden"
           >
-            <div className="w-full h-[50%] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] mb-2 flex items-center justify-center">
-              <img className="w-[100px]" src={`${item.image}`} alt="" />
+            <div className="w-full h-[170px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] mb-2 flex items-center justify-center">
+              <img className="w-[140px]" src={`${item.image}`} alt="" />
             </div>
-            <div className="w-full h-[50%] px-2">
-              <h1 className="font-bold mb-6">{item.heading}</h1>
-              <p className="text-sm max-sm:text-[2.5vw] max-sm:leading-[2.5vw] mb-2">
-                {item.para}
-              </p>
+            <div className="w-full h-fit px-2">
+              <h1 className="font-bold text-2xl mb-6">{item.heading}</h1>
+              <p className="text-sm  mb-2">{item.para}</p>
               <div className="flex gap-2 items-center text-[#1871ED] text-xs  hover:text-sm transition-all cursor-pointer">
                 <h1 className=" ">Explore {item.explor}</h1>
-                <FaLongArrowAltRight  />
+                <FaLongArrowAltRight />
               </div>
             </div>
           </div>

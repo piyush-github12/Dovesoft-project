@@ -32,15 +32,15 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed w-screen h-[100px] z-50 flex items-center justify-center">
-      <div className="w-[95%] h-[80px] px-[5vw] bg-[#021E43] text-white rounded-full flex items-center">
+    <div className="fixed w-screen  p-1 z-50 flex items-center justify-center">
+      <div className="w-[90vw] h-[100px] px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center">
         <div className="w-[50%]  ">
           <h1 className="text-2xl font-bold text-white whitespace-nowrap">
             Dove Soft Limited.
           </h1>
         </div>
-        <div className="w-[50%] flex justify-end items-center font-bold gap-10">
-          <div className="w-[50%] flex justify-center items-center max-lg:hidden">
+        <div className="w-[50%] flex justify-end items-center font-bold gap-10 text-sm">
+          <div className="w-[50%] flex text-lg justify-center items-center max-lg:hidden">
             <div className="w-[50%] h-[50px] flex justify-center items-center gap-2">
               <h1>Product</h1>
               <IoIosArrowDown className="mt-[5px]" />
@@ -52,11 +52,15 @@ const Navbar = () => {
           </div>
 
           <div className="w-[50%] px-10  flex justify-center max-md:hidden items-center gap-10">
-            <div className="w-[150px] h-[40px] bg-white  px-5  border-2 border-white rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-              <h1 className="text-black whitespace-nowrap">Book Demo</h1>
+            <div className="min-w-fit w-[160px] h-[50px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
+              <h1 className="text-white text-lg  font-bold whitespace-nowrap">
+                Book Demo
+              </h1>
             </div>
-            <div className="w-[100px] h-[40px] border-2 px-5 border-white rounded-md  flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer ">
-              <h1 className="">Login</h1>
+            <div className="min-w-fit w-[160px] h-[50px]  border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
+              <h1 className="text-white text-lg  font-bold whitespace-nowrap">
+                Log-in
+              </h1>
             </div>
           </div>
 
