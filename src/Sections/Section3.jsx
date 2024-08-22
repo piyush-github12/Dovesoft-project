@@ -44,10 +44,8 @@ const Section3 = () => {
 
      useGSAP(()=>{
 
-
-
       gsap.to("#pinscroll" , {
-        y:"-50%",
+        y:"-750px",
         scrollTrigger:{
           trigger:"#section3",
           start:"top top",
@@ -80,7 +78,7 @@ const Section3 = () => {
 
 
   return (
-    <div id="section3" className="w-screen h-[100vh] overflow-hidden  flex  px-14">
+    <div  id="section3" className="w-screen h-[100vh] overflow-hidden  flex  px-14">
       <div className="h-full w-[55%]  max-sm:hidden ">
         <div className="w-full h-screen pl-[50px] max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl font-bold leading-[40px]">
@@ -101,7 +99,7 @@ const Section3 = () => {
           </div>
         </div>
       </div>
-      <div className="h-full w-[10%] flex items-center justify-center  ">
+      <div className="h-[100vh] w-[10%] flex items-center justify-center  ">
         <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
           <div className="circlesonline w-[30px] h-[30px] rounded-full absolute top-[-15px] left-[-15px] bg-[#1989f9]"></div>
           <div className="circlesonline w-[30px] h-[30px] rounded-full absolute top-[50%] left-[-15px] bg-[#1989f9]"></div>
@@ -120,6 +118,8 @@ const Section3 = () => {
       </div>
 
       <div className="h-fit w-[55%] overflow-hidden pt-[10vh] max-sm:w-[80%] ">
+
+        
         <div id="pinscroll" className=" h-[200vh]">
           {data.map((item) => (
             <div
@@ -132,7 +132,7 @@ const Section3 = () => {
                 alt=""
               />
               <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-              <p className="w-[300px] text-sm mb-2 ">
+              <p className="w-[300px] text-sm  mb-2 ">
                 {item.para}
               </p>
             </div>
