@@ -128,7 +128,7 @@ const Section3 = () => {
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[400px] h-[30vh] flex flex-col justify-center bg-teal-200  "
+              className="w-[400px] h-[30vh] flex flex-col justify-center   "
             >
               <img
                 src={`./images/${item.image}`}
@@ -146,7 +146,7 @@ const Section3 = () => {
           {data1.map((item) => (
             <div
               key={item.heading}
-              className="w-[400px] h-[30vh]  flex flex-col justify-center bg-teal-200  "
+              className="w-[400px] h-[30vh]  flex flex-col justify-center   "
             >
               <img
                 src={`./images/${item.image}`}
