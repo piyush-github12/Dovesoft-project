@@ -57,7 +57,10 @@ const Section5 = () => {
   })
   return (
     <div className="section5 w-full h-[100vh]  text-white flex justify-center items-center ">
-      <div className="w-[95%] h-[95%] rounded-[55px] bg-[#021f43] py-[100px]">
+      <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px]">
+        <div className='h-full w-full absolute'>
+          <div ></div>
+        </div>
         <h1 className="text-center text-3xl  font-bold mb-10">
           Platform capabilities to make you a <br />{" "}
           <span className="text-[#61a3ff]">superhuman</span>

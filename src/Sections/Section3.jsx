@@ -128,7 +128,7 @@ const Section3 = () => {
             >
               <img
                 src={`./images/${item.image}`}
-                className="h-[72] mb-2 "
+                className="h-[50px] mb-2 "
                 alt=""
               />
               <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
