@@ -22,6 +22,10 @@ const Section3 = () => {
         heading: "Converstaions",
         para: "Forge connections and drive conversions like never before. Enhance your conversion rate with SMS, Voice, email, RCS, and WhatsApp, incorporating images, CTA actions, and more.",
       },
+      
+    ];
+
+    const data1 = [
       {
         image: "image.png",
         heading: "Chatbots",
@@ -45,7 +49,7 @@ const Section3 = () => {
      useGSAP(()=>{
 
       gsap.to("#pinscroll" , {
-        y:"-750px",
+        y:"-100vh",
         scrollTrigger:{
           trigger:"#section3",
           start:"top top",
@@ -78,7 +82,7 @@ const Section3 = () => {
 
 
   return (
-    <div  id="section3" className="w-screen h-[100vh] overflow-hidden  flex  px-14">
+    <div  id="section3" className="w-screen h-[100vh] overflow-hidden  flex max-sm:gap-[20px] px-14 max-sm:px-[20px]">
       <div className="h-full w-[55%]  max-sm:hidden ">
         <div className="w-full h-screen pl-[50px] max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl font-bold leading-[40px]">
@@ -117,22 +121,40 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div className="h-fit w-[55%] overflow-hidden pt-[10vh] max-sm:w-[80%] ">
+      <div className="h-fit w-[55%]   max-sm:w-[80%] ">
 
-        
-        <div id="pinscroll" className=" h-[200vh]">
+
+        <div id="pinscroll" className=" flex flex-col gap-5 justify-center  h-[100vh]" >
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-fit h-[220px] p-10 mb-[20px]  "
+              className="w-[400px] h-[30vh] flex flex-col justify-center bg-teal-200  "
             >
               <img
                 src={`./images/${item.image}`}
-                className="h-[50px] mb-2 "
+                className="h-[50px] w-[50px] mb-2 "
                 alt=""
               />
               <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-              <p className="w-[300px] text-sm  mb-2 ">
+              <p className="w-[400px] max-sm:w-[250px] text-sm   mb-2 ">
+                {item.para}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div id="pinscroll" className="flex flex-col gap-5 justify-center   h-[100vh] ">
+          {data1.map((item) => (
+            <div
+              key={item.heading}
+              className="w-[400px] h-[30vh]  flex flex-col justify-center bg-teal-200  "
+            >
+              <img
+                src={`./images/${item.image}`}
+                className="h-[50px] w-[50px] mb-2 "
+                alt=""
+              />
+              <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
+              <p className="w-[400px] max-sm:w-[250px] text-sm   mb-2 ">
                 {item.para}
               </p>
             </div>
