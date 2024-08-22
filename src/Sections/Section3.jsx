@@ -23,17 +23,17 @@ const Section3 = () => {
         para: "Forge connections and drive conversions like never before. Enhance your conversion rate with SMS, Voice, email, RCS, and WhatsApp, incorporating images, CTA actions, and more.",
       },
       {
-        image: "marketing 1-2.png",
+        image: "image.png",
         heading: "Chatbots",
         para: "Verify users quickly and efficiently. Provide your users with a fast and simple OTP & 2FA process, supported by a failover solution. Enable OTP login via mobile number or email address.",
       },
       {
-        image: "marketing 1-3.png",
+        image: "image-1.png",
         heading: "Failovers",
         para: "We Make sure your urgent messages never fail. Send Communications through secure channels. API automatically handles switch routes to make sure your message gets delivered successfully.",
       },
       {
-        image: "marketing 1-4.png",
+        image: "image-2.png",
         heading: "Easy Interactions",
         para: "Cloud APIs are built keeping developers in mind. This helps Easy understanding and Implementing things with knowledge base API docs and 24X7 Support.",
       },
@@ -132,7 +132,7 @@ const Section3 = () => {
                 alt=""
               />
               <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-              <p className="w-[300px] text-xs mb-2 ">
+              <p className="w-[300px] text-sm mb-2 ">
                 {item.para}
               </p>
             </div>

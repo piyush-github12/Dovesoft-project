@@ -59,15 +59,15 @@ const Section4 = () => {
         {data.map((item) => (
           <div
             key={item.heading}
-            className="w-[300px] h-fit  max-sm:w-[40vw] max-sm:h-fit rounded-2xl overflow-hidden"
+            className="w-[300px] h-[350px]   max-sm:w-[40vw] max-sm:h-fit rounded-2xl overflow-hidden"
           >
-            <div className="w-full h-[170px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] mb-2 flex items-center justify-center">
+            <div className="w-full h-[170px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
               <img className="w-[140px]" src={`${item.image}`} alt="" />
             </div>
-            <div className="w-full h-fit px-2">
-              <h1 className="font-bold text-2xl mb-6">{item.heading}</h1>
+            <div className="w-full h-[180px]  px-2 py-2 relative">
+              <h1 className="font-bold h-[70px]  text-2xl ">{item.heading}</h1>
               <p className="text-sm  mb-2">{item.para}</p>
-              <div className="flex gap-2 items-center text-[#1871ED] text-xs  hover:text-sm transition-all cursor-pointer">
+              <div className="flex absolute bottom-3 gap-2 items-center text-[#1871ED] text-sm  hover:text-[16px] transition-all cursor-pointer">
                 <h1 className=" ">Explore {item.explor}</h1>
                 <FaLongArrowAltRight />
               </div>

@@ -36,7 +36,7 @@ const Section6 = () => {
       },
     ];
   return (
-    <div className="w-screen h-fit py-[100px] ">
+    <div className="w-screen h-fit py-[100px] bg-[#fff] ">
       <h1 className="text-3xl text-center font-bold mb-2">
         <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
           Conversational automation for every industry
@@ -51,17 +51,17 @@ const Section6 = () => {
         {data.map((item) => (
           <div
             key={item.heading}
-            className="w-[300px] h-[250px]  max-sm:w-[40vw] max-sm:h-fit  rounded-2xl"
+            className="w-[300px] h-[250px]  max-sm:w-[40vw]   rounded-2xl"
           >
             <div className="w-full h-[40%]  p-2 flex items-end">
               <img className="w-[72]" src={`${item.image}`} alt="" />
             </div>
-            <div className="w-full h-[60%] px-2">
+            <div className="w-full h-[60%] relative px-2">
               <h1 className="font-bold text-xl mb-2">{item.heading}</h1>
               <p className="text-sm mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
                 {item.para}
               </p>
-              <div className="flex gap-2 items-center text-[#1871ED] text-xs   hover:text-sm transition-all cursor-pointer">
+              <div className="flex gap-2 absolute bottom-3 items-center text-[#1871ED] text-sm   hover:text-[16px] transition-all cursor-pointer">
                 <h1 className="">Explore {item.heading}</h1>
                 <FaLongArrowAltRight />
               </div>

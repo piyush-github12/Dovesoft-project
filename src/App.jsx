@@ -14,7 +14,7 @@ import Section9 from './Sections/Section9';
 
 const App = () => {
   return (
-    <div className='overflow-hidden '>
+    <div className='overflow-hidden bg-[#fff]'>
       <Navbar/>
       <Section1/>
       <Section2/>
