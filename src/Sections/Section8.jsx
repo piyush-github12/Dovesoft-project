@@ -8,8 +8,8 @@ const Section8 = () => {
           Why Choose Dove Soft
         </span>
       </h1>
-      <div className="grid grid-cols-4  max-lg:grid-cols-2 gap-10 justify-items-center px-24 max-md:px-5">
-        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-fit rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#FF9A0D] flex flex-col items-center  gap-2">
+      <div className="grid grid-cols-4  max-lg:grid-cols-2 gap-10 justify-items-center px-24  max-md:px-5">
+        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-[100%] rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#FF9A0D] flex flex-col items-center  gap-2">
           <img className="w-[54px] " src="./images/image 19.png" alt="" />
           <h1 className="font-bold text-lg ">We Scale with You</h1>
           <h1 className="text-sm text-center">
@@ -17,7 +17,7 @@ const Section8 = () => {
             infrastructure will ensure you that they deliver on time.
           </h1>
         </div>
-        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-fit rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#3C3585] flex flex-col items-center  gap-2">
+        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-[100%] rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#3C3585] flex flex-col items-center  gap-2">
           <img className="w-[54px] " src="./images/image 19-1.png" alt="" />
           <h1 className="font-bold text-lg ">Secure</h1>
           <h1 className="text-sm text-center">
@@ -25,7 +25,7 @@ const Section8 = () => {
             sectors.
           </h1>
         </div>
-        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-fit rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#B22556] flex flex-col items-center  gap-2">
+        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-[100%] rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#B22556] flex flex-col items-center  gap-2">
           <img className="w-[54px] " src="./images/image 19-2.png" alt="" />
           <h1 className="font-bold text-lg ">Enterprise-grade</h1>
           <h1 className="text-sm text-center">
@@ -33,7 +33,7 @@ const Section8 = () => {
             countries for international delivery that is best in class.
           </h1>
         </div>
-        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-fit rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#116B6B] flex flex-col items-center  gap-2">
+        <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[40vw] max-sm:h-[100%] rounded-tl-[30px] p-5 rounded-br-[30px] border-2  border-[#116B6B] flex flex-col items-center  gap-2">
           <img className="w-[54px] " src="./images/image 19-3.png" alt="" />
           <h1 className="font-bold text-lg ">Compliance & developers</h1>
           <h1 className="text-sm text-center">

@@ -75,7 +75,7 @@ const Section1 = () => {
           <div className="line w-full h-[10px]  rotate-[72deg]  absolute ">
             <div className="smallcircle w-[170px] h-[170px] rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#47cbff] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
               <RiUserVoiceLine className="text-[40px]" />
-              <h1 className="font-extrabold text-[2vw ] max-md:text-[20px]">
+              <h1 className="font-extrabold text-[2vw] max-md:text-[20px]">
                 Voice
               </h1>
             </div>
@@ -84,7 +84,7 @@ const Section1 = () => {
           <div className="line w-full h-[10px]  rotate-[144deg] absolute">
             <div className="smallcircle w-[170px] h-[170px] rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#ff8147] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
               <MdOutlineMail className="text-[40px]" />
-              <h1 className="font-extrabold text-[2vw ] max-md:text-[20px]">
+              <h1 className="font-extrabold text-[2vw] max-md:text-[20px]">
                 Email
               </h1>
             </div>
@@ -102,7 +102,7 @@ const Section1 = () => {
           <div className="line w-full h-[10px]  rotate-[288deg] absolute">
             <div className="smallcircle w-[170px] h-[170px] rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#4781ff] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
               <MdOutlineMessage className="text-[40px]" />
-              <h1 className="font-extrabold text-[2vw ] max-md:text-[20px]">
+              <h1 className="font-extrabold text-[2vw] max-md:text-[20px]">
                 RCS
               </h1>
             </div>

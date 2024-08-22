@@ -15,17 +15,17 @@ const Section6 = () => {
         para: "Deliver expert guidance anytime, anywhere, and sell more with a personalised shopping experience",
       },
       {
-        image: "./images/bubble-chat 1-2.png",
+        image: "./images/bubble-chat 2.png",
         heading: "Food & Beverage",
         para: "Receive orders and payments directly, manage home delivery and marketing",
       },
       {
-        image: "./images/bubble-chat 1-3.png",
+        image: "./images/bubble-chat 1-2.png",
         heading: "Education",
         para: "Enhance student experience from onboarding to learning with AI chatbots and voice bots",
       },
       {
-        image: "./images/bubble-chat 2.png",
+        image: "./images/bubble-chat 1-3.png",
         heading: "Healthcare",
         para: "Transform patient-doctor engagement with chatbots on messaging channels",
       },
