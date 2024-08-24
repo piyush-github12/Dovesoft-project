@@ -9,6 +9,7 @@ import { RiUserVoiceLine } from "react-icons/ri";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Section3 from './Section3';
+import Section2 from './Section2';
 
 const Section1 = () => {
 
@@ -82,8 +83,8 @@ const Section1 = () => {
 
 
   return (
-    <div className='relative h-[200vh] '>
-      <div id='section1' className=" w-full relative z-[20] h-screen flex items-center justify-center">
+    <div className='relative h-[210vh] '>
+      <div id='section1' className=" w-full relative z-[20] h-screen flex items-center justify-center ">
         <div className=" w-[95%] h-[95%]  rounded-[55px]  flex relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
           <div
             id="maincircle"
@@ -236,6 +237,7 @@ const Section1 = () => {
             />
           </div>
         </div>
+      <Section2/>
       </div>
       <Section3/>
     </div>
