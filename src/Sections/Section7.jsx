@@ -14,7 +14,7 @@ const Section7 = () => {
   gsap.registerPlugin(ScrollTrigger); 
   useGSAP(() => {
     gsap.to("#section7", {
-      y: "-200%",
+      y: "-100%",
       scrollTrigger: {
         trigger: "#section7",
         //  markers: true,

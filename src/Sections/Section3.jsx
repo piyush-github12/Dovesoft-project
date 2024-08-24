@@ -87,7 +87,7 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-[100vw] h-[100vh] py-2  top-[100px]  absolute  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-14 max-sm:px-[20px]"
+      className="w-[100vw] h-[100vh] py-2  top-[100px]  absolute  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-14 max-sm:px-[0px]"
     >
       <div className="h-full w-[40%] max-sm:absolute max-sm:top-[-50vw]   max-sm:w-full  ">
         <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center pl-[50px]  max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
@@ -112,7 +112,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[60%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-center  gap-10 "
+        className="w-[60%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-center  gap-10 max-sm:gap-2 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">

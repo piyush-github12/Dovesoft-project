@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div
       id="foot"
-      className="h-[1000px]  bg-[#031e42] "
+      className="h-[1100px]  bg-[#031e42] "
     ></div>
   );
 }
