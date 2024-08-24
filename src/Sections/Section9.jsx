@@ -3,7 +3,7 @@ import React from 'react'
 const Section9 = () => {
   return (
     <div className="w-screen h-fit pb-[100px] text-white flex items-center justify-center">
-      <div className="w-[80%] h-[300px]  shadow-lg shadow-[#000000b9] rounded-l-full rounded-tr-full bg-[#031e42] py-10 flex flex-col items-center justify-center gap-5">
+      <div className="w-[80%] h-[300px]  shadow-lg shadow-[#000000b9] rounded-l-full max-md:rounded-l-[15vw] rounded-tr-full max-md:rounded-tr-[15vw]  bg-[#031e42] py-10 flex flex-col items-center justify-center gap-5">
         <h1 className="text-3xl  text-center">
           Goodbye isolated interactions. <br />
           <span

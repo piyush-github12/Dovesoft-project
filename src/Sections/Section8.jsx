@@ -1,9 +1,10 @@
 import React from 'react'
 
 const Section8 = () => {
+
   return (
     <div className="w-screen h-fit  py-[100px]  ">
-      <h1 className="text-center text-3xl font-bold mb-10">
+      <h1  className="text-center text-3xl font-bold mb-10">
         <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
           Why Choose Dove Soft
         </span>

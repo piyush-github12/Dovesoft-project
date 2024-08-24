@@ -6,11 +6,17 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./Swiperjs.css";
 
 // import required modules
-import {Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
+import {
+  Autoplay,
+  EffectCoverflow,
+  Pagination,
+  Navigation,
+} from "swiper/modules";
 
 export default function App() {
   return (
@@ -29,11 +35,12 @@ export default function App() {
           //   slideShadows: true,
         }}
         autoplay={{
-          delay: 3000,
+          delay: 4000,
           disableOnInteraction: false,
         }}
+        navigation={true}
         pagination={true}
-        modules={[Autoplay, EffectCoverflow, Pagination]}
+        modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
         className="mySwiper text-white text-center "
       >
         <SwiperSlide className=" relative">
@@ -53,7 +60,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">
@@ -79,7 +90,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">
@@ -105,7 +120,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">
@@ -131,7 +150,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">
@@ -157,7 +180,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">
@@ -183,7 +210,11 @@ export default function App() {
             </div>
             <div className="h-[40%] flex flex-col items-center justify-end gap-1">
               <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
-                <img className="w-full object-cover" src="./images/customer.jpg" alt="" />
+                <img
+                  className="w-full object-cover"
+                  src="./images/customer.jpg"
+                  alt=""
+                />
               </div>
               <h2>Jone Wick</h2>
               <h4 className="text-xs font-[50] ">

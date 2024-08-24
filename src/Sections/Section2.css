@@ -4,7 +4,9 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
    
-
+}
+#mq::-webkit-scrollbar{
+    display: none;
 }
 
 @keyframes marqueanimation {
@@ -12,7 +14,7 @@
         transform: translate(0, 0);
     }
     100%{
-        transform: translatex(-100vw);
+        transform: translatex(-1000px);
     }
     
 }
