@@ -3,6 +3,7 @@ import React from 'react'
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import Section4 from './Section4';
 
 const Section3 = () => {
 
@@ -49,7 +50,7 @@ const Section3 = () => {
      useGSAP(()=>{
 
       gsap.to("#pinscroll" , {
-        y:"-100vh",
+        y:"-120vh",
         scrollTrigger:{
           trigger:"#section3",
           start:"top top",
@@ -78,6 +79,7 @@ const Section3 = () => {
         },
       });
 
+      
      
      })
 
@@ -85,17 +87,17 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-[100vw] h-[100vh] absolute top-[100px] z-10  mt-10 max-sm:h-fit max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-14 max-sm:px-[20px]"
+      className="w-[100vw] h-[100vh] py-2  top-[100px]  absolute  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-14 max-sm:px-[20px]"
     >
-      <div className="h-full w-[40%] max-sm:absolute max-sm:top-[-50vw]  max-sm:w-full  ">
-        <div className="w-full h-screen max-sm:h-[50vw] pl-[50px] max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
-          <h1 className="text-3xl font-bold leading-[40px]">
-            <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
+      <div className="h-full w-[40%] max-sm:absolute max-sm:top-[-50vw]   max-sm:w-full  ">
+        <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center pl-[50px]  max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
+          <h1 className="text-3xl max-sm:text-2xl font-bold leading-[40px]">
+            <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
             <br /> experience with the world’s <br /> most connected platform
           </h1>
-          <h1 className="text-sm">
+          <h1 className="text-sm max-sm:text-xs max-sm:text-center">
             With industry-leading expertise, you can deliver superb customer{" "}
             <br />
             experience through our global network.
@@ -108,7 +110,10 @@ const Section3 = () => {
         </div>
       </div>
 
-      <div id='dualipa' className="w-[60%] max-sm:w-[100%]  max-sm:h-[100vh] flex justify-center  gap-10 ">
+      <div
+        id="dualipa"
+        className="w-[60%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-center  gap-10 "
+      >
         <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
             <div className="circlesonline w-[30px] h-[30px] rounded-full absolute top-[-15px] left-[-15px] bg-[#1989f9]"></div>
@@ -127,15 +132,15 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[55%] max-sm:w-[70%]  ">
+        <div className="h-fit w-[55%] max-sm:w-[70%]   mt-[15vh] ">
           <div
             id="pinscroll"
-            className=" flex flex-col gap-5 justify-center  h-[100vh]"
+            className=" flex flex-col  justify-center  h-[100vh]"
           >
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-[400px] h-[30vh] flex flex-col justify-center   "
+                className="w-[400px] h-[30vh]  flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}

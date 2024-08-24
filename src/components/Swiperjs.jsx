@@ -35,13 +35,13 @@ export default function App() {
           //   slideShadows: true,
         }}
         autoplay={{
-          delay: 4000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         navigation={true}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
-        className="mySwiper text-white text-center "
+        className="mySwiper bg-white text-white text-center "
       >
         <SwiperSlide className=" relative">
           <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">

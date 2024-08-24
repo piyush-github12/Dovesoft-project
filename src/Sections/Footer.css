@@ -1,0 +1,21 @@
+/* @media (max-height:600px) {
+
+    #foot{
+        height: 2500px;
+    }
+} */
+
+@media (max-width:420px) {
+
+    #foot{
+        height: 2300px;
+    }
+    
+}
+@media (max-width:350px) {
+
+    #foot{
+        height: 2400px;
+    }
+    
+}

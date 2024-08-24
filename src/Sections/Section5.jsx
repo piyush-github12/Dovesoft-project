@@ -3,6 +3,7 @@ import React from 'react'
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from 'gsap/all';
+import Section6 from './Section6';
 
 const Section5 = () => {
 
@@ -62,7 +63,7 @@ const Section5 = () => {
     let currentimage = e.target.id + "image"
     let currenttext = e.target.id 
 
-     let tl = gsap.timeline()
+    //  let tl = gsap.timeline()
 
     gsap.to(".sec5heading",{
       opacity:0,
@@ -95,156 +96,179 @@ const Section5 = () => {
       color: "#61a3ff",
       scale:1.1
     });
-    
-  }
 
+    
+  };
+
+  useGSAP(()=>{
+
+     gsap.to("#section5", {
+       y: "-120%",
+       scrollTrigger: {
+         trigger: "#section5",
+        //  markers: true,
+         start: "10px -100px ",
+         end: "-200px -400vh ",
+         scrub:2,
+          // pin:true
+       },
+     });
+
+  })
+ 
   return (
-    <div className="section5 w-full absolute top-[20vh] z-[1] h-[100vh] min-h-[700px] text-white flex justify-center items-center ">
-      <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px] ">
-        <h1 className="text-center text-3xl  font-bold mb-10"> 
-          Platform capabilities to make you a <br />{" "}
-          <span className="text-[#61a3ff]">superhuman</span>
-        </h1>
-        <div className="flex max-lg:flex-col  w-full h-[60vh] justify-center">
-          <div className="max-md:text-[2vw]  whitespace-nowrap max-lg:text-[15px] w-[15%] max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-lg:flex-row gap-10 max-md:gap-5 justify-center  border-r-[1px] border-[#cce1ff5e] ">
-            <h1
-              onClick={handalclick}
-              id="h1"
-              className=" textanimation cursor-pointer text-[#61a3ff]"
-            >
-              Live Agents
-            </h1>
-            <h1
-              onClick={handalclick}
-              id="h2"
-              className=" textanimation cursor-pointer"
-            >
-              Integrations
-            </h1>
-            <h1
-              onClick={handalclick}
-              id="h3"
-              className=" textanimation cursor-pointer"
-            >
-              Encrypted content
-            </h1>
-            <h1
-              onClick={handalclick}
-              id="h4"
-              className=" textanimation cursor-pointer"
-            >
-              Auto-short URL
-            </h1>
-            <h1
-              onClick={handalclick}
-              id="h5"
-              className=" textanimation cursor-pointer"
-            >
-              Smart Addons
-            </h1>
-            <h1
-              onClick={handalclick}
-              id="h6"
-              className=" textanimation cursor-pointer"
-            >
-              File GPT
-            </h1>
-          </div>
-          <div className="w-[70%]  flex max-lg:w-full max-lg:h-[85%]">
-            <div className="w-[40%]  h-full  flex justify-center items-center relative p-2 overflow-hidden ">
-              <div className="  w-full h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
-              <img
-                id="h1image"
-                src="./images/Liveagent.png"
-                className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] "
-                alt=""
-              />
-              <img
-                id="h2image"
-                src="./images/sms.png"
-                className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
-                alt=""
-              />
-              <img
-                id="h3image"
-                src="./images/Liveagent.png"
-                className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
-                alt=""
-              />
-              <img
-                id="h4image"
-                src="./images/voice_website.png"
-                className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
-                alt=""
-              />
-              <img
-                id="h5image"
-                src="./images/Liveagent.png"
-                className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
-                alt=""
-              />
-              <img
-                id="h6image"
-                src="./images/Liveagent.png"
-                className="imageani object-cover h-[400px] max-md:h-[50vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
-                alt=""
-              />
+    <div className="absolute top-[20vh] py-2 w-[100vw] h-[120vh] max-lg:h-[170vh]">
+      <div
+        id="section5"
+        className="section5 w-[100vw] absolute top-[10px] z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
+      >
+        <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px] ">
+          <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
+            Platform capabilities to make you a <br />{" "}
+            <span className="text-[#61a3ff]">superhuman</span>
+          </h1>
+          <div className="flex max-lg:flex-col  w-full h-[60vh] justify-center">
+            <div className="max-md:text-[12px]  whitespace-nowrap max-lg:text-[15px] w-[15%] max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5 justify-center  border-r-[1px] border-[#cce1ff5e] ">
+              <h1
+                onClick={handalclick}
+                id="h1"
+                className=" textanimation cursor-pointer text-[#61a3ff]"
+              >
+                Live Agents
+              </h1>
+              <h1
+                onClick={handalclick}
+                id="h2"
+                className=" textanimation cursor-pointer"
+              >
+                Integrations
+              </h1>
+              <h1
+                onClick={handalclick}
+                id="h3"
+                className=" textanimation cursor-pointer"
+              >
+                Encrypted content
+              </h1>
+              <h1
+                onClick={handalclick}
+                id="h4"
+                className=" textanimation cursor-pointer"
+              >
+                Auto-short URL
+              </h1>
+              <h1
+                onClick={handalclick}
+                id="h5"
+                className=" textanimation cursor-pointer"
+              >
+                Smart Addons
+              </h1>
+              <h1
+                onClick={handalclick}
+                id="h6"
+                className=" textanimation cursor-pointer"
+              >
+                File GPT
+              </h1>
             </div>
-            <div className="w-[60%]  h-[60vh] ">
-              <div className="w-full h-[60vh] pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
-                <div className="w-full h-[100px]  max-md:h-[100px]   overflow-hidden relative ">
-                  <h1
-                    id="h1para"
-                    className="sec5heading text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px] absolute"
-                  >
-                    Craft custom conversational journeys with zero code
+            <div className="w-[70%]  flex max-lg:w-full max-lg:h-[85%]">
+              <div className="w-[40%]  h-full  flex justify-center items-center relative p-2 overflow-hidden ">
+                <div className="  w-full h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
+                <img
+                  id="h1image"
+                  src="./images/Liveagent.png"
+                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] "
+                  alt=""
+                />
+                <img
+                  id="h2image"
+                  src="./images/sms.png"
+                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  alt=""
+                />
+                <img
+                  id="h3image"
+                  src="./images/Liveagent.png"
+                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  alt=""
+                />
+                <img
+                  id="h4image"
+                  src="./images/voice_website.png"
+                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  alt=""
+                />
+                <img
+                  id="h5image"
+                  src="./images/Liveagent.png"
+                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  alt=""
+                />
+                <img
+                  id="h6image"
+                  src="./images/Liveagent.png"
+                  className="imageani object-cover h-[400px] max-md:h-[50vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  alt=""
+                />
+              </div>
+              <div className="w-[60%]  h-[60vh] ">
+                <div className="w-full h-[60vh] pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
+                  <div className="w-full h-[100px]  max-md:h-[100px]   overflow-hidden relative ">
+                    <h1
+                      id="h1para"
+                      className="sec5heading text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px] absolute"
+                    >
+                      Craft custom conversational journeys with zero code
+                    </h1>
+                    <h1
+                      id="h2para"
+                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                    >
+                      craft custom conversational journeys with zero code
+                    </h1>
+                    <h1
+                      id="h3para"
+                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                    >
+                      raft custom conversational journeys with zero code
+                    </h1>
+                    <h1
+                      id="h4para"
+                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                    >
+                      Craft custom conversational journeys with zero code
+                    </h1>
+                    <h1
+                      id="h5para"
+                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                    >
+                      Craft custom conversational journeys with zero code
+                    </h1>
+                    <h1
+                      id="h6para"
+                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                    >
+                      Craft custom conversational journeys with zero code
+                    </h1>
+                  </div>
+                  <h1 className="max-lg:text-[2vw]">
+                    Empower your marketing, product and support users
+                    with pre-built bot templates and a visual editor
+                    to go-live on any channel in minutes
                   </h1>
-                  <h1
-                    id="h2para"
-                    className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
-                  >
-                    disko diwane
-                  </h1>
-                  <h1
-                    id="h3para"
-                    className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
-                  >
-                    naaach meri jan hoke magan ti
-                  </h1>
-                  <h1
-                    id="h4para"
-                    className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
-                  >
-                    Craft custom conversational journeys with zero code
-                  </h1>
-                  <h1
-                    id="h5para"
-                    className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
-                  >
-                    Craft custom conversational journeys with zero code
-                  </h1>
-                  <h1
-                    id="h6para"
-                    className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
-                  >
-                    Craft custom conversational journeys with zero code
-                  </h1>
-                </div>
-                <h1 className="max-lg:text-[2vw]">
-                  Empower your marketing, product and support users
-                  with pre-built bot templates and a visual editor to go-live on
-                  any channel in minutes
-                </h1>
-                <div className="min-w-fit w-[160px] max-sm:w-[10vw] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-                  <h1 className="text-white text-lg max-sm:text-sm font-bold whitespace-nowrap">
-                    Explore Bot Studio
-                  </h1>
+                  <div className="min-w-fit w-[160px] max-sm:w-[10vw] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
+                    <h1 className="text-white text-lg max-sm:text-sm font-bold whitespace-nowrap">
+                      Explore Bot Studio
+                    </h1>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <Section6 />
     </div>
   );
 }

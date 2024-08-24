@@ -32,7 +32,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed w-screen  p-1 z-50 flex items-center justify-center">
+    <div className="absolute top-0 w-screen  p-1 z-50 flex items-center justify-center">
       <div className="w-[90vw] h-[100px] px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center">
         <div className="w-[50%]  ">
           <h1 className="text-2xl font-bold text-white whitespace-nowrap">

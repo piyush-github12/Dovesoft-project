@@ -15,15 +15,15 @@ import Section9 from './Sections/Section9';
 const App = () => {
   return (
     <div className='overflow-hidden bg-[#fff]'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <Section1/>
       {/* <Section2/> */}
       {/* <Section3/> */}
       <Section4/>
-      <Section6/>
-      <Section7/>
-      <Section8/>
-      <Section9/>
+      {/* <Section6/> */}
+      {/* <Section7/> */}
+      {/* <Section8/> */}
+      {/* <Section9/> */}
       <Footer/>
      
     </div>

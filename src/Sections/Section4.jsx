@@ -60,13 +60,13 @@ const Section4 = () => {
       // })
 
        gsap.to("#section4", {
-         y: "-100%",
+         y: "-140%",
          scrollTrigger: {
            trigger: "#section4",
-           markers: true,
-           start: "10px -30px",
-           end: "-10px -200vh",
-           scrub: 1,
+          //  markers: true,
+           start: "10px -100px",
+           end: "-200px -400vh",
+           scrub:2,
           //  pin:true
          },
        });
@@ -76,14 +76,14 @@ const Section4 = () => {
   
 
   return (
-    <div className="relative h-fit">
+    <div className="relative h-[110vh] py-2  max-sm:mt-[400px]  ">
       <div
         id="section4"
-        className="w-screen h-fit relative top-[0] z-10 py-[100px] bg-[#fff] rounded-b-[55px] "
+        className="w-screen h-fit relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
       >
-        <h1 className="text-3xl  text-center z-10 relative  font-bold mb-10">
+        <h1 className="text-3xl max-sm:text-2xl  text-center z-10 relative  font-bold mb-10">
           Leverage a single API to{" "}
-          <span className="bg-gradient-to-r from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
+          <span className="bg-gradient-to-r max-md:whitespace-nowrap from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
             automate conversational engagement
           </span>{" "}
           <br />
@@ -93,17 +93,21 @@ const Section4 = () => {
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[300px] h-[350px]   max-sm:w-[40vw] max-sm:h-fit rounded-2xl overflow-hidden"
+              className="w-[300px] h-[380px]   max-sm:w-[40vw]   rounded-2xl overflow-hidden"
             >
               <div className="w-full h-[170px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
-                <img className="w-[140px]" src={`${item.image}`} alt="" />
+                <img
+                  className="w-[140px] max-sm:w-[100px]"
+                  src={`${item.image}`}
+                  alt=""
+                />
               </div>
-              <div className="w-full h-[180px]  px-2 py-2 relative">
-                <h1 className="font-bold h-[70px]  text-2xl ">
+              <div className="w-full h-[210px]  px-2 py-2 relative">
+                <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl max-sm:text-xl ">
                   {item.heading}
                 </h1>
-                <p className="text-sm  mb-2">{item.para}</p>
-                <div className="flex absolute bottom-3 gap-2 items-center text-[#1871ED] text-sm  hover:text-[16px] transition-all cursor-pointer">
+                <p className="text-sm max-sm:text-xs  mb-2">{item.para}</p>
+                <div className="flex absolute bottom-3 gap-2 items-center text-[#1871ED] text-sm   hover:text-[16px] transition-all cursor-pointer">
                   <h1>Explore {item.explor}</h1>
                   <FaLongArrowAltRight />
                 </div>
