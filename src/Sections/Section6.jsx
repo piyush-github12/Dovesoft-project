@@ -65,7 +65,7 @@ const Section6 = () => {
     <div className="absolute top-[20vh] py-2  h-[100vh]  w-full max-sm:h-fit">
       <div
         id="section6"
-        className="w-screen absolute z-[9]  h-[100vh] max-lg:h-fit max-sm:h-fit py-[100px] rounded-b-[55px] bg-[#fcfcfc] "
+        className="w-screen absolute z-[9]  h-[100vh] max-lg:h-fit max-sm:h-fit py-[100px] rounded-b-[55px] bg-[#ffffff] "
       >
         <h1 className="text-3xl max-md:text-2xl  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">

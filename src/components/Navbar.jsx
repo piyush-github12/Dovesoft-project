@@ -14,7 +14,6 @@ const Navbar = () => {
     setnavon(true)
 
     if(navon == true){
-      console.log("true")
       let navpage = document.querySelector("#navpage")
       navpage.style.transform = "translate(0 ,0)"
       navpage.style.display = "flex"
