@@ -20,12 +20,12 @@ const Section1 = () => {
   useGSAP(
     () => {
       gsap.to("#maincircle", { keyframes: [
-        { rotation: 27, duration:  3 , delay:2 },
+        { rotation: 27,  duration: 3 , delay:2 },
         { rotation: 99,  duration: 3 , delay:2 },
         { rotation: 171, duration: 3 , delay:2 },
         { rotation: 243, duration: 3 , delay:2 },
         { rotation: 315, duration: 3 , delay:2 },
-      ],repeat:-1 ,repeatDelay:2 });
+      ],repeat:-1 ,repeatDelay:0 });
 
       gsap.to(".smallcirclefirst", {
         keyframes: {
@@ -33,10 +33,10 @@ const Section1 = () => {
           height: ["170px", "220px",  "220px", "170px"],
         },
         stagger: 5,
-        duration: 4,
+        duration: 5,
         delay: 0,
         repeat:-1,
-        repeatDelay:3,
+        repeatDelay:0,
       });
 
       gsap.to(".heading1", {
@@ -46,7 +46,7 @@ const Section1 = () => {
         stagger: 5,
         duration: 5,
         repeat: -1,
-        repeatDelay: 2,
+        repeatDelay: 0,
       });
       gsap.to(".paras", {
         keyframes: {
@@ -55,38 +55,38 @@ const Section1 = () => {
         stagger: 5,
         duration: 5,
         repeat: -1,
-        repeatDelay: 2,
+        repeatDelay: 0,
       });
 
       gsap.to(".posterimage> img", {
         keyframes: [
-          { opacity: 1, scale: 1, duration: 1,  },
-          { opacity: 1, scale: 1, duration: 4,  },
+          { opacity: 1, scale: 1, duration: 0,  },
+          { opacity: 1, scale: 1, duration: 5,  },
           { opacity: 0, scale: 0.7, duration: 0, delay: 0 },
         ],
         stagger: 5,
         repeat: -1,
-        repeatDelay: 2,
+        repeatDelay: 0,
       });
 
-      gsap.to("#section1", {
-        y: "-100vh",
-        scrollTrigger: {
-          trigger: "#section1",
-          // markers: true,
-          start: "10px -100px",
-          end: "-200px -600vh",
-          scrub: 2,
-          //  pin:true
-        },
-      });
+      // gsap.to("#section1", {
+      //   y: "-100vh",
+      //   scrollTrigger: {
+      //     trigger: "#section1",
+      //     // markers: true,
+      //     start: "10px -100px",
+      //     end: "-200px -600vh",
+      //     scrub: 2,
+      //     //  pin:true
+      //   },
+      // });
     },
   );
 
 
 
   return (
-    <div className="relative h-[220vh] max-sm:h-[210vh] ">
+    <div className="relative h-[100vh] max-sm:h-[210vh] ">
       <div
         id="section1"
         className=" w-full relative z-[20] h-screen flex items-center justify-center "
@@ -159,8 +159,8 @@ const Section1 = () => {
               ></div>
             </div>
           </div>
-          <div className="w-[60vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
-          <div className="w-[50%] h-screen pl-[6vw] relative  z-10 flex flex-col justify-center   gap-5">
+          <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
+          <div className="w-[50%]  h-screen pl-[6vw] relative  z-10 flex flex-col justify-center   gap-5">
             <div className="w-full h-[170px]  max-md:mt-[10vh] ">
               <div className="relative  h-[170px] overflow-hidden   ">
                 <h1 className="heading1  whitespace-nowrap  text-[40px]   font-bold leading-[56px] absolute translate-y-[250px]">
@@ -186,25 +186,25 @@ const Section1 = () => {
               </div>
             </div>
 
-            <div className="relative h-[80px] w-full overflow-hidden">
-              <h1 className="paras max-md:text-sm w-[80%] absolute ">
+            <div className="relative h-[100px] w-full overflow-hidden">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute ">
                 Send and receive text messages without latency, with a superior
                 network of direct carrier connections in over 160 countries
               </h1>
-              <h1 className="paras max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
                 Engage customers across marketing, commerce, and support with
                 rich media, branding, credible trust marks, and conversational
                 journeys
               </h1>
-              <h1 className="paras max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
                 Go beyond one-way messages. Interact with customers across their
                 lifecycle
               </h1>
-              <h1 className="paras max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
                 - With all the features to help businesses achieve their
                 marketing and sales goals in the most simplified manner.
               </h1>
-              <h1 className="paras max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
                 - Deflect callers to digital channels, boost agent productivity,
                 and lower contact center costs with cloud-based Voice AI API
               </h1>
@@ -215,39 +215,40 @@ const Section1 = () => {
               </h1>
             </div>
           </div>
-          <div className="posterimage w-[40%] h-screen relative   flex items-end justify-center overflow-hidden ">
+          <div className=" w-[60vw]  h-screen relative   flex items-end justify-start overflow-hidden ">
             <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div>
-
-            <img
-              className=" h-[500px] max-lg:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
-              src="./images/sms_website.png"
-              alt=""
-            />
-            <img
-              className=" h-[500px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
-              src="./images/rcs_website.png"
-              alt=""
-            />
-            <img
-              className=" h-[500px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
-              src="./images/whatsapp_website.png"
-              alt=""
-            />
-            <img
-              className=" h-[500px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
-              src="./images/email_website.png"
-              alt=""
-            />
-            <img
-              className=" h-[500px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
-              src="./images/voice_website.png"
-              alt=""
-            />
+            <div className="posterimage flex items-end justify-center w-[500px] h-full ">
+              <img
+                className=" h-[550px] max-lg:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
+                src="./images/sms_website.png"
+                alt=""
+              />
+              <img
+                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                src="./images/rcs_website.png"
+                alt=""
+              />
+              <img
+                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                src="./images/whatsapp_website.png"
+                alt=""
+              />
+              <img
+                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                src="./images/email_website.png"
+                alt=""
+              />
+              <img
+                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                src="./images/voice_website.png"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <Section2 />
+        {/* <Section2 /> */}
       </div>
-      <Section3 />
+      {/* <Section3 /> */}
     </div>
   );
 }

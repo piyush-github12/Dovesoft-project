@@ -46,26 +46,26 @@ const Section6 = () => {
     ];
 
     useGSAP(()=>{
-      gsap.to("#section6", {
-        y: "-120%",
-        scrollTrigger: {
-          trigger: "#section6",
-          //  markers: true,
-          start: "10px -100px ",
-          end: "-10px -400vh ",
-          scrub:2,
-          //  pin:true
-        },
-      });
+      // gsap.to("#section6", {
+      //   y: "-120%",
+      //   scrollTrigger: {
+      //     trigger: "#section6",
+      //     //  markers: true,
+      //     start: "10px -100px ",
+      //     end: "-10px -400vh ",
+      //     scrub:2,
+      //     //  pin:true
+      //   },
+      // });
 
     })
 
     
   return (
-    <div className="absolute top-[40vh] py-2 pt-[20vh]  h-[100vh]  w-full max-sm:h-fit">
+    <div className=" relative   mt-[15vh] h-[100vh]  w-full max-sm:h-fit">
       <div
         id="section6"
-        className="w-screen absolute z-[9] min-h-[100vh] h-fit max-sm:h-fit py-[100px] rounded-b-[55px] bg-[#ffffff] "
+        className="w-screen absolute z-[9] h-[100vh] max-sm:h-fit  rounded-b-[55px] bg-[#ffffff] "
       >
         <h1 className="text-3xl max-md:text-2xl  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
@@ -77,7 +77,7 @@ const Section6 = () => {
           <br />
           conversational across marketing, commerce, and support
         </h2>
-        <div className="w-full h-fit  grid grid-cols-3 px-[13vw]  max-lg:px-[10vw] justify-items-center gap-4 max-lg:grid-cols-2">
+        <div className="w-full h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[10vw] justify-items-center gap-4 max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
@@ -93,7 +93,7 @@ const Section6 = () => {
                 <p className="text-sm   max-sm:text-xs mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
                   {item.para}
                 </p>
-                <div className="flex gap-2 absolute bottom-3 items-center text-[#1871ED] text-sm   hover:text-[15px] transition-all cursor-pointer">
+                <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-sm   hover:text-[15px] transition-all cursor-pointer">
                   <h1 className="">Explore {item.heading}</h1>
                   <FaLongArrowAltRight />
                 </div>
@@ -103,7 +103,7 @@ const Section6 = () => {
         </div>
       </div>
 
-      <Section7 />
+      {/* <Section7 /> */}
     </div>
   );
 }

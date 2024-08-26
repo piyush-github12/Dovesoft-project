@@ -102,25 +102,25 @@ const Section5 = () => {
 
   useGSAP(()=>{
 
-     gsap.to("#section5", {
-       y: "-120%",
-       scrollTrigger: {
-         trigger: "#section5",
-        //  markers: true,
-         start: "10px -100px ",
-         end: "-100px -600vh ",
-         scrub:2,
-          // pin:true
-       },
-     });
+    //  gsap.to("#section5", {
+    //    y: "-120%",
+    //    scrollTrigger: {
+    //      trigger: "#section5",
+    //     //  markers: true,
+    //      start: "10px -100px ",
+    //      end: "-100px -600vh ",
+    //      scrub:2,
+    //       // pin:true
+    //    },
+    //  });
 
   })
  
   return (
-    <div className="absolute top-[10vh] py-2 w-[100vw] h-[120vh]  max-lg:h-[190vh]">
+    <div className=" relative py-2 w-[100vw] h-[100vh]  ">
       <div
         id="section5"
-        className="section5 w-[100vw] absolute  top-[30vh]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
+        className="section5 w-[100vw]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
       >
         <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px] ">
           <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
@@ -259,7 +259,7 @@ const Section5 = () => {
                   </h1>
                   <div className="min-w-fit w-[160px] max-sm:w-[10vw] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
                     <h1 className="text-white text-lg max-sm:text-sm font-bold whitespace-nowrap">
-                      Explore Bot Studio
+                      Video View
                     </h1>
                   </div>
                 </div>
@@ -268,7 +268,7 @@ const Section5 = () => {
           </div>
         </div>
       </div>
-      <Section6 />
+      {/* <Section6 /> */}
     </div>
   );
 }

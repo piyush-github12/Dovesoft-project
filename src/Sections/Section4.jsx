@@ -52,35 +52,30 @@ const Section4 = () => {
 
      useGSAP(()=>{
 
-      // gsap.to("#section4",{
-      //   scrollTrigger:{
-      //     trigger:"#section4",
-      //     y:"-100vh",
-      //   }
-      // })
+    
 
-       gsap.to("#section4", {
-         y: "-120%",
-         scrollTrigger: {
-           trigger: "#section4",
-          //  markers: true,
-           start: "10px -100px",
-           end: "-100px -600vh",
-           scrub:2,
-          //  ease:"linear"
-          //  pin:true
-         },
-       });
+      //  gsap.to("#section4", {
+      //    y: "-120%",
+      //    scrollTrigger: {
+      //      trigger: "#section4",
+      //     //  markers: true,
+      //      start: "10px -100px",
+      //      end: "-100px -600vh",
+      //      scrub:2,
+      //     //  ease:"linear"
+      //     //  pin:true
+      //    },
+      //  });
 
      })
 
   
 
   return (
-    <div className="relative h-[110vh] py-2  max-sm:mt-[400px]  ">
+    <div className="relative h-[130vh]  py-[10vh] max-sm:mt-[400px]  ">
       <div
         id="section4"
-        className="w-screen h-fit min-h-[110vh] relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
+        className="w-screen h-fit  relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
       >
         <h1 className="text-3xl max-sm:text-2xl  text-center z-10 relative  font-bold mb-10">
           Leverage a single API to{" "}
@@ -103,11 +98,11 @@ const Section4 = () => {
                   alt=""
                 />
               </div>
-              <div className="w-full h-[210px]  px-2 py-2 relative">
+              <div className="w-full h-[170px]  px-2 py-2 relative">
                 <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl max-sm:text-xl ">
                   {item.heading}
                 </h1>
-                <p className="text-sm max-sm:text-xs  mb-2">{item.para}</p>
+                <p className="text-sm max-sm:text-xs   mb-2">{item.para}</p>
                 <div className="flex absolute bottom-3 gap-2 items-center text-[#1871ED] text-sm   hover:text-[16px] transition-all cursor-pointer">
                   <h1>Explore {item.explor}</h1>
                   <FaLongArrowAltRight />
@@ -117,7 +112,7 @@ const Section4 = () => {
           ))}
         </div>
       </div>
-      <Section5 />
+      {/* <Section5 /> */}
     </div>
   );
 };

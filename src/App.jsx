@@ -17,14 +17,15 @@ const App = () => {
     <div className='overflow-hidden bg-[#fff]'>
       {/* <Navbar/> */}
       <Section1/>
-      {/* <Section2/> */}
-      {/* <Section3/> */}
+      <Section2/>
+      <Section3/>
       <Section4/>
-      {/* <Section6/> */}
-      {/* <Section7/> */}
-      {/* <Section8/> */}
-      {/* <Section9/> */}
-      <Footer/>
+      <Section5/>
+      <Section6/>
+      <Section7/>
+      <Section8/>
+      <Section9/>
+      {/* <Footer/> */}
      
     </div>
   );
