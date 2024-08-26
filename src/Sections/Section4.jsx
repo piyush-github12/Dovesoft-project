@@ -60,13 +60,14 @@ const Section4 = () => {
       // })
 
        gsap.to("#section4", {
-         y: "-140%",
+         y: "-120%",
          scrollTrigger: {
            trigger: "#section4",
           //  markers: true,
            start: "10px -100px",
-           end: "-200px -400vh",
+           end: "-100px -600vh",
            scrub:2,
+          //  ease:"linear"
           //  pin:true
          },
        });
@@ -79,7 +80,7 @@ const Section4 = () => {
     <div className="relative h-[110vh] py-2  max-sm:mt-[400px]  ">
       <div
         id="section4"
-        className="w-screen h-fit relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
+        className="w-screen h-fit min-h-[110vh] relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
       >
         <h1 className="text-3xl max-sm:text-2xl  text-center z-10 relative  font-bold mb-10">
           Leverage a single API to{" "}
@@ -89,7 +90,7 @@ const Section4 = () => {
           <br />
           across various messaging channels
         </h1>
-        <div className="w-full h-fit relative z-10 grid grid-cols-3 px-[13vw] gap-4 max-md:px-[0vw] justify-items-center   max-lg:grid-cols-2">
+        <div className="w-full h-fit relative z-10 grid grid-cols-3 px-[13vw] gap-4 max-xl:px-[0vw] justify-items-center   max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}

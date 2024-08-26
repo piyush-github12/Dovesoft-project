@@ -40,20 +40,22 @@ const Section1 = () => {
       });
 
       gsap.to(".heading1", {
-        keyframes:{
-          y:["250px" ,"0px" ,"0px" , "0px" , "-250px"],
+        keyframes: {
+          y: ["250px", "0px", "0px", "0px", "-250px"],
         },
         stagger: 5,
-        duration:5,
+        duration: 5,
         repeat: -1,
+        repeatDelay: 2,
       });
       gsap.to(".paras", {
-        keyframes:{
-          y:["120px" ,"10px", "10px" , "10px" , "-120px"],
+        keyframes: {
+          y: ["120px", "10px", "10px", "10px", "-120px"],
         },
         stagger: 5,
-        duration:5,
+        duration: 5,
         repeat: -1,
+        repeatDelay: 2,
       });
 
       gsap.to(".posterimage> img", {
@@ -64,7 +66,7 @@ const Section1 = () => {
         ],
         stagger: 5,
         repeat: -1,
-        repeatDelay: 1,
+        repeatDelay: 2,
       });
 
       gsap.to("#section1", {
@@ -73,7 +75,7 @@ const Section1 = () => {
           trigger: "#section1",
           // markers: true,
           start: "10px -100px",
-          end: "-200px -400vh",
+          end: "-200px -600vh",
           scrub: 2,
           //  pin:true
         },

@@ -47,12 +47,12 @@ const Section6 = () => {
 
     useGSAP(()=>{
       gsap.to("#section6", {
-        y: "-100%",
+        y: "-120%",
         scrollTrigger: {
           trigger: "#section6",
           //  markers: true,
           start: "10px -100px ",
-          end: "-200px -400vh ",
+          end: "-10px -400vh ",
           scrub:2,
           //  pin:true
         },
@@ -62,10 +62,10 @@ const Section6 = () => {
 
     
   return (
-    <div className="absolute top-[20vh] py-2  h-[100vh]  w-full max-sm:h-fit">
+    <div className="absolute top-[40vh] py-2 pt-[20vh]  h-[100vh]  w-full max-sm:h-fit">
       <div
         id="section6"
-        className="w-screen absolute z-[9]  h-[100vh] max-lg:h-fit max-sm:h-fit py-[100px] rounded-b-[55px] bg-[#ffffff] "
+        className="w-screen absolute z-[9] min-h-[100vh] h-fit max-sm:h-fit py-[100px] rounded-b-[55px] bg-[#ffffff] "
       >
         <h1 className="text-3xl max-md:text-2xl  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">

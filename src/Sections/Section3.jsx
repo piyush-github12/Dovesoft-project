@@ -50,7 +50,7 @@ const Section3 = () => {
      useGSAP(()=>{
 
       gsap.to("#pinscroll" , {
-        y:"-120vh",
+        y:"-160vh",
         scrollTrigger:{
           trigger:"#section3",
           start:"top top",
@@ -132,7 +132,7 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[55%] max-sm:w-[70%]   mt-[15vh] ">
+        <div className="h-fit w-[55%] max-sm:w-[70%]   mt-[55vh] max-sm:mt-[10vh] ">
           <div
             id="pinscroll"
             className=" flex flex-col  justify-center  h-[100vh]"

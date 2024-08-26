@@ -19,7 +19,7 @@ const Section7 = () => {
         trigger: "#section7",
         //  markers: true,
         start: "10px -100px ",
-        end: "-200px -400vh ",
+        end: "-100px -600vh ",
         scrub: 2,
         //  pin:true
       },
@@ -27,10 +27,10 @@ const Section7 = () => {
   });
 
   return (
-    <div className="absolute w-screen h-[100vh]">
+    <div className="absolute w-screen ">
       <div
         id="section7"
-        className="w-screen absolute py-2 z-[8] top-[30vh] pt-[10vh] bg-white  h-[100vh]  rounded-b-[55px]"
+        className="w-screen absolute  py-2 z-[8] top-[35vh]  pt-[10vh] bg-white  h-[100vh]  rounded-b-[55px]"
       >
         <h1 className="text-center text-3xl max-sm:text-2xl leading-[30px] font-bold mb-5">
           Check Out

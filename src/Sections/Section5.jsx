@@ -108,7 +108,7 @@ const Section5 = () => {
          trigger: "#section5",
         //  markers: true,
          start: "10px -100px ",
-         end: "-200px -400vh ",
+         end: "-100px -600vh ",
          scrub:2,
           // pin:true
        },
@@ -117,10 +117,10 @@ const Section5 = () => {
   })
  
   return (
-    <div className="absolute top-[20vh] py-2 w-[100vw] h-[120vh] max-lg:h-[170vh]">
+    <div className="absolute top-[10vh] py-2 w-[100vw] h-[120vh]  max-lg:h-[190vh]">
       <div
         id="section5"
-        className="section5 w-[100vw] absolute top-[10px] z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
+        className="section5 w-[100vw] absolute  top-[20vh]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
       >
         <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px] ">
           <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
