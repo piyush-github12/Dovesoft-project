@@ -36,7 +36,7 @@ const Section1 = () => {
         duration: 4,
         delay: 0,
         repeat:-1,
-        repeatDelay:2
+        repeatDelay:3,
       });
 
       gsap.to(".heading1", {
