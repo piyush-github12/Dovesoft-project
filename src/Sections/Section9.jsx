@@ -5,11 +5,11 @@ const Section9 = () => {
     <div className="  relative h-[100vh] bg-black  z-[6]  ">
       <div
         id="foot1"
-        className="w-screen  h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[100px] py-[150px]    max-md:px-[5vw]"
+        className="w-screen  h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[10vw] py-[150px]    max-md:px-[5vw]"
       >
         <div className="w-[30%] max-md:w-full h-full max-md:h-fit max-md:mb-10 ">
           <h1 className="font-bold text-3xl mb-10 max-md:mb-5">Dove Soft.</h1>
-          <h2 className="text-sm ">
+          <h2 className="text-lg ">
             Sakari, LLC <br /> 201 Spear Street, Suite 1100 <br /> San
             Francisco, CA 94105
           </h2>
@@ -29,7 +29,7 @@ const Section9 = () => {
             <img src="./images/Vector-3.png" alt="" />
           </div>
         </div>
-        <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-sm font-light">
+        <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-lg font-light">
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5 ">Features</h1>
             <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
@@ -85,9 +85,9 @@ const Section9 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  h-[20vh] flex justify-center  text-white text-center bg-[#031e42]">
-        <div className="w-[90%] border-t-2 px-32 py-5 max-md:px-[20px] border-white ">
-          <h2 className="text-sm  max-lg::text-xs">
+      <div className="w-full px-[10vw] h-[20vh] flex justify-center  text-white text-center bg-[#031e42]">
+        <div className="w-[100%] border-t-2 px-32 py-5 max-md:px-[20px] border-white ">
+          <h2 className="text-lg  max-lg::text-xs">
             Sakari is a 100% opt in service, to unsubscribe, text ‘STOP’ to the
             originating number. Msg & data rates may apply. Privacy of your data
             is important to us, please see our privacy policy to. To learn about

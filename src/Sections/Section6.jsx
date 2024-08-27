@@ -72,28 +72,28 @@ const Section6 = () => {
             Conversational automation for every industry
           </span>
         </h1>
-        <h2 className="text-center text-sm max-md:text-xs  mb-10">
+        <h2 className="text-center text-lg max-md:text-sm  mb-10">
           We understand your business and can make every customer touchpoint{" "}
           <br />
           conversational across marketing, commerce, and support
         </h2>
-        <div className="w-full h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[10vw] justify-items-center gap-4 max-lg:grid-cols-2">
+        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[10vw]  gap-4 max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[300px] h-[250px] max-sm:w-[40vw]   rounded-2xl"
+              className="w-[25vw]  h-[290px] max-sm:w-[40vw]   rounded-2xl"
             >
               <div className="w-full h-[100px]  p-2 flex items-end">
                 <img className="w-[72]" src={`${item.image}`} alt="" />
               </div>
-              <div className="w-full h-[150px] relative px-2">
+              <div className="w-full h-[190px] relative px-2">
                 <h1 className="font-bold h-[50px] whitespace-nowrap max-sm:h-[40px]  text-2xl max-sm:text-xl ">
                   {item.heading}
                 </h1>
-                <p className="text-sm   max-sm:text-xs mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
+                <p className="text-lg   max-sm:text-sm mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
                   {item.para}
                 </p>
-                <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-sm   hover:text-[15px] transition-all cursor-pointer">
+                <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
                   <h1 className="">Explore {item.heading}</h1>
                   <FaLongArrowAltRight />
                 </div>

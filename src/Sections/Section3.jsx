@@ -87,19 +87,18 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-[100vw] h-[100vh] py-2     z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-14 max-sm:px-[0px]"
+      className="w-[100vw] h-[100vh] py-2   z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
     >
       <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-50vw]   max-sm:w-full  ">
-        <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center pl-[50px]  max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
+        <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl max-sm:text-2xl font-bold leading-[40px]">
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
             <br /> experience with the world’s <br /> most connected platform
           </h1>
-          <h1 className="text-sm max-sm:text-xs max-sm:text-center">
-            With industry-leading expertise, you can deliver superb customer{" "}
-            <br />
+          <h1 className="text-lg max-sm:text-sm max-sm:text-center">
+            With industry-leading expertise, you can deliver superb customer
             experience through our global network.
           </h1>
           <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
@@ -132,7 +131,7 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[55%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
+        <div className="h-fit w-[75%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
           <div
             id="pinscroll"
             className=" flex flex-col  justify-center  h-[100vh]"
@@ -140,7 +139,7 @@ const Section3 = () => {
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-[400px] h-[30vh]  flex flex-col justify-center   "
+                className="w-full h-[30vh]  flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -148,7 +147,7 @@ const Section3 = () => {
                   alt=""
                 />
                 <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                <p className="w-[400px] max-sm:w-[250px] text-sm   mb-2 ">
+                <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
                   {item.para}
                 </p>
               </div>
@@ -161,7 +160,7 @@ const Section3 = () => {
             {data1.map((item) => (
               <div
                 key={item.heading}
-                className="w-[400px] h-[30vh]  flex flex-col justify-center   "
+                className="w-full h-[30vh]  flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -169,7 +168,7 @@ const Section3 = () => {
                   alt=""
                 />
                 <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                <p className="w-[400px] max-sm:w-[250px] text-sm   mb-2 ">
+                <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
                   {item.para}
                 </p>
               </div>

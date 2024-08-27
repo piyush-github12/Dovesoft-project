@@ -122,13 +122,13 @@ const Section5 = () => {
         id="section5"
         className="section5 w-[100vw]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
       >
-        <div className="w-[95%] h-[95%] relative rounded-[55px] bg-[#021f43] py-[100px] ">
+        <div className="w-[95%] h-[95%] px-[10vw] relative rounded-[55px] bg-[#021f43] py-[100px] ">
           <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
             Platform capabilities to make you a <br />{" "}
             <span className="text-[#61a3ff]">superhuman</span>
           </h1>
-          <div className="flex max-lg:flex-col  w-full h-[60vh] justify-center">
-            <div className="max-md:text-[12px]  whitespace-nowrap max-lg:text-[15px] w-[15%] max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5 justify-center  border-r-[1px] border-[#cce1ff5e] ">
+          <div className="flex max-lg:flex-col  w-full h-[60vh] justify-between">
+            <div className="max-md:text-[12px]   whitespace-nowrap max-lg:text-[15px] w-[25%] justify-center max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5   border-r-[1px] border-[#cce1ff5e] ">
               <h1
                 onClick={handalclick}
                 id="h1"
@@ -178,37 +178,37 @@ const Section5 = () => {
                 <img
                   id="h1image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] "
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] "
                   alt=""
                 />
                 <img
                   id="h2image"
                   src="./images/sms.png"
-                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h3image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h4image"
                   src="./images/voice_website.png"
-                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h5image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover h-[400px] max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h6image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover h-[400px] max-md:h-[50vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[50vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
               </div>
@@ -219,7 +219,7 @@ const Section5 = () => {
                       id="h1para"
                       className="sec5heading text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px] absolute"
                     >
-                      Craft custom conversational journeys with zero code
+                      Empower your employees to do more
                     </h1>
                     <h1
                       id="h2para"
@@ -252,7 +252,7 @@ const Section5 = () => {
                       Craft custom conversational journeys with zero code
                     </h1>
                   </div>
-                  <h1 className="max-lg:text-[2vw]">
+                  <h1 className="max-lg:text-[2vw] text-lg">
                     Empower your marketing, product and support users
                     with pre-built bot templates and a visual editor
                     to go-live on any channel in minutes

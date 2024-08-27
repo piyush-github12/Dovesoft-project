@@ -44,12 +44,12 @@ export default function App() {
         className="mySwiper bg-white text-white text-center "
       >
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -66,20 +66,20 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -96,20 +96,20 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -126,20 +126,20 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -156,20 +156,20 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -186,20 +186,20 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide className=" relative">
-          <div className="w-[95%] h-[350px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
+          <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
-              <h2 className="text-sm leading-[28px] italic  relative ">
+              <h2 className="text-lg leading-[28px] italic  relative ">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Officiis, voluptates ab ex blanditiis deserunt debitis a enim
                 nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
@@ -216,8 +216,8 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2>Jone Wick</h2>
-              <h4 className="text-xs font-[50] ">
+              <h2 className="text-lg">Jone Wick</h2>
+              <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>

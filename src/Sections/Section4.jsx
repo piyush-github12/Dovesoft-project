@@ -85,25 +85,25 @@ const Section4 = () => {
           <br />
           across various messaging channels
         </h1>
-        <div className="w-full h-fit relative z-10 grid grid-cols-3 px-[13vw] gap-4 max-xl:px-[0vw] justify-items-center   max-lg:grid-cols-2">
+        <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] gap-4    max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[300px] h-[380px]   max-sm:w-[40vw]   rounded-2xl overflow-hidden"
+              className="w-[25vw]  h-[380px]    max-sm:w-[40vw]   rounded-2xl overflow-hidden"
             >
-              <div className="w-full h-[170px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
+              <div className=" h-[180px] bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                 <img
                   className="w-[140px] max-sm:w-[100px]"
                   src={`${item.image}`}
                   alt=""
                 />
               </div>
-              <div className="w-full h-[170px]  px-2 py-2 relative">
+              <div className=" h-[210px]  px-2 py-2 relative">
                 <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl max-sm:text-xl ">
                   {item.heading}
                 </h1>
-                <p className="text-sm max-sm:text-xs   mb-2">{item.para}</p>
-                <div className="flex absolute bottom-3 gap-2 items-center text-[#1871ED] text-sm   hover:text-[16px] transition-all cursor-pointer">
+                <p className="text-lg max-sm:text-sm   mb-2">{item.para}</p>
+                <div className="flex absolute bottom-5 gap-2 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
                   <h1>Explore {item.explor}</h1>
                   <FaLongArrowAltRight />
                 </div>
