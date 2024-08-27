@@ -12,13 +12,13 @@ const Section4 = () => {
     {
       image:"./images/sec-4-1.png",
       heading: "SMS",
-      para: "Make online finance easy with AI and 150+pre-built journeys that automate routine customer interactions",
+      para: "Leverage quick, reliable and scalable SMS API to deliver SMS in 195 contrues ",
       explor: "SMS",
     },
     {
       image:"./images/sec-4-2.png",
       heading: "Whatsapp Messaging API",
-      para: "Leverage WhatsApp to connect, converse and care for customers",
+      para: "Leverage Whatsapp to connect, converse and care for customers",
       explor: "Whatsapp",
     },
     {
@@ -30,19 +30,19 @@ const Section4 = () => {
     {
       image:"./images/sec-4-4.png",
       heading: "Voice",
-      para: "Enhance student experience from onboarding to learning with AI chatbots and voice bots",
+      para: "Boost agent productivity and enhance CSAT with voice API ",
       explor: "Voice",
     },
     {
       image:"./images/sec-4-5.png",
       heading: "Email",
-      para: "Transform patient-doctor engagement with chatbots on messaging channels",
+      para: "Execute transactional email for purchase confirmations or shipping updates",
       explor: "Email",
     },
     {
       image:"./images/sec-4-6.png",
       heading: "Instagram messaging API",
-      para: "Improve booking, travel and guest experience with chatbots on messaging channels",
+      para: "Engage with followers through Instagram Messaging API ",
       explor: "instagram",
     },
   ];

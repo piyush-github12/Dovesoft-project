@@ -93,10 +93,10 @@ const Section6 = () => {
                 <p className="text-lg   max-sm:text-sm mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
                   {item.para}
                 </p>
-                <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
+                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
                   <h1 className="">Explore {item.heading}</h1>
                   <FaLongArrowAltRight />
-                </div>
+                </div> */}
               </div>
             </div>
           ))}

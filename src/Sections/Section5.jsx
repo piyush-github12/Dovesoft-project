@@ -208,51 +208,91 @@ const Section5 = () => {
                 <img
                   id="h6image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover w-full max-md:h-[50vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
               </div>
               <div className="w-[60%]  h-[60vh] ">
                 <div className="w-full h-[60vh] pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
-                  <div className="w-full h-[100px]  max-md:h-[100px]   overflow-hidden relative ">
+                  <div className="w-full h-full  flex flex-col justify-center  max-md:h-[100px]   overflow-hidden relative ">
                     <h1
                       id="h1para"
-                      className="sec5heading text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px] absolute"
+                      className="sec5heading text-lg max-md:text-[5vw]  h-fit    absolute"
                     >
-                      Empower your employees to do more
+                      1 . Empower your employees to do more <br /><br />
+                      2 . Improve agent efficiency by bringing all digital
+                      conversations, context and support actions in single view.
                     </h1>
                     <h1
                       id="h2para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
                     >
-                      craft custom conversational journeys with zero code
+                      1 . Seamless integrations with multiple e-commerce portals,
+                      CRMs & more. Incorporate our cloud API capabilities into
+                      your business workflow through our trusted integration
+                      partners.
                     </h1>
                     <h1
                       id="h3para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
                     >
-                      raft custom conversational journeys with zero code
+                      1 . This tool enables you to encrypt sensitive SMS contents
+                      such as one-time passwords, and banking transaction
+                      details. <br />
+                      <br />
+                      2 . This functionality is exclusively available through the
+                      SMS API. <br />
+                      <br />
+                      3 . No one, not even our support staff, can decrypt the
+                      contents of these encrypted SMS messages.
                     </h1>
                     <h1
                       id="h4para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
                     >
-                      Craft custom conversational journeys with zero code
+                      1 . The system can automatically identify URLs within SMS
+                      content, whether they are from HTTP links or the user
+                      interface. <br />
+                      <br />2 . The application then converts this lengthy URL into
+                      a shortened, unique URL specific to each mobile number.{" "}
+                      <br />
+                      <br />3 . When the user clicks on this shortened URL, the
+                      application will track and record the timing, device
+                      category (e.g. computer or mobile device), operating
+                      system, and browser information.
                     </h1>
                     <h1
                       id="h5para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
                     >
-                      Craft custom conversational journeys with zero code
+                      1 . Construct feedback forms, quizzes, surveys, polls, and
+                      lead capture forms. <br />
+                      <br />
+                      2 . Generate trackable short URLs for the smart add-ons, which
+                      provide insights like timing, device category (e.g.
+                      computer or mobile), operating system, and browser when
+                      the URL is accessed. <br />
+                      <br />
+                      3 . Leverage these smart add-ons across other communication
+                      channels such as SMS, WhatsApp, RCS, and Email using
+                      generated short URLs.
                     </h1>
                     <h1
                       id="h6para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-2xl max-md:text-[5vw] max-md:leading-[5vw] h-[100px]  font-bold leading-[40px]  absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
                     >
-                      Craft custom conversational journeys with zero code
+                      1 . Upload a PDF file that showcases your services or
+                      products. <br />
+                      <br />
+                      2 . Allow your customers to ask any questions related to your
+                      business, and this tool will provide answers drawn from
+                      the uploaded document. <br />
+                      <br />
+                      3 . You can also integrate this tool into your WhatsApp and
+                      RCS chatbots.
                     </h1>
                   </div>
-                  <h1 className="max-lg:text-[2vw] text-lg">
+                  {/* <h1 className="max-lg:text-[2vw] text-lg">
                     Empower your marketing, product and support users
                     with pre-built bot templates and a visual editor
                     to go-live on any channel in minutes
@@ -261,7 +301,7 @@ const Section5 = () => {
                     <h1 className="text-white text-lg max-sm:text-sm font-bold whitespace-nowrap">
                       Video View
                     </h1>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

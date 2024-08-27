@@ -127,17 +127,17 @@ const Navbar = () => {
 
   return (
     <div className="absolute top-0 w-screen  p-1 z-50 flex items-center justify-center">
-      <div
-        onMouseEnter={() => setdropdoun(true)}
-        onMouseLeave={() => setdropdoun(false)}
-        className="w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center justify-between max-lg:justify-center"
-      >
+      <div className="w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center justify-between max-lg:justify-center">
         <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
-          <div className="w-[50%] h-[50px] flex justify-center items-center gap-2">
+          <div
+            onMouseEnter={() => setdropdoun(true)}
+            onMouseLeave={() => setdropdoun(false)}
+            className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+          >
             <h1>Product</h1>
             <IoIosArrowDown className="mt-[5px]" />
           </div>
-          <div className="w-[50%] h-[50px] flex justify-center items-center gap-2 ">
+          <div className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer ">
             <h1>Compony</h1>
             <IoIosArrowDown className="mt-[5px]" />
           </div>
@@ -187,21 +187,25 @@ const Navbar = () => {
 
         <div
           id="dropdown"
+          onMouseLeave={() => setdropdoun(false)}
           className="absolute left-0 top-[0px] text-black flex justify-center    px-20   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
         >
           <div className="w-[90vw]  h-[100px] absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center">
             <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
-              <div className="w-[50%] h-[50px] flex justify-center items-center gap-2">
+              <div
+                onMouseEnter={() => setdropdoun(true)}
+                className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+              >
                 <h1>Product</h1>
                 <IoIosArrowDown className="mt-[5px]" />
               </div>
-              <div className="w-[50%] h-[50px] flex justify-center items-center gap-2 ">
+              <div className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer ">
                 <h1>Compony</h1>
                 <IoIosArrowDown className="mt-[5px]" />
               </div>
             </div>
-            <div className=" h-[100px]  ">
-              <img className="h-[80px]" src="./images/blacklogo.png" alt="" />
+            <div className=" h-[100px] flex items-center  ">
+              <img className="h-[80px]  " src="./images/blacklogo.png" alt="" />
             </div>
 
             <div
