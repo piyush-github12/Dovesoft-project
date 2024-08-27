@@ -122,7 +122,7 @@ const Section5 = () => {
         id="section5"
         className="section5 w-[100vw]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
       >
-        <div className="w-[95%] h-[95%] px-[10vw] relative rounded-[55px] bg-[#021f43] py-[100px] ">
+        <div className="w-[95%] h-[95%] px-[8vw] relative rounded-[55px] bg-[#021f43] py-[100px] ">
           <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
             Platform capabilities to make you a <br />{" "}
             <span className="text-[#61a3ff]">superhuman</span>
