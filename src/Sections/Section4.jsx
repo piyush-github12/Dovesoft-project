@@ -12,7 +12,7 @@ const Section4 = () => {
     {
       image:"./images/sec-4-1.png",
       heading: "SMS",
-      para: "Leverage quick, reliable and scalable SMS API to deliver SMS in 195 contrues ",
+      para: "Leverage quick, reliable and scalable SMS API to deliver SMS in 160 contrues ",
       explor: "SMS",
     },
     {
@@ -102,8 +102,8 @@ const Section4 = () => {
                 <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl max-sm:text-xl ">
                   {item.heading}
                 </h1>
-                <p className="text-lg max-sm:text-sm   mb-2">{item.para}</p>
-                <div className="flex absolute bottom-5 gap-2 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
+                <p className="text-lg max-sm:text-sm ">{item.para}</p>
+                <div className="flex  gap-2 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
                   <h1>Explore {item.explor}</h1>
                   <FaLongArrowAltRight />
                 </div>

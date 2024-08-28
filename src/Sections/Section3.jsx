@@ -16,7 +16,7 @@ const Section3 = () => {
       {
         image: "marketing 1.png",
         heading: "Campaings",
-        para: "Whether you want to upload a list of contacts or capture leads from a website form, with Sakari you can effortlessly create customized forms without any coding skills.",
+        para: "Whether you want to upload a list of contacts or capture leads from a website form, with Dove Soft you can effortlessly create customized forms without any coding skills.",
       },
       {
         image: "marketing 1-1.png",

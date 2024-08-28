@@ -257,10 +257,9 @@ const Navbar = () => {
             </div>
             <div className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
               <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
-                <h1 className="font-bold text-xl "> Live Chat</h1>
+                <h1 className="font-bold text-xl ">Chat Bot</h1>
                 <h2 className="text-xs ">
-                  Multiple Agent can do live chat for these channels, Whatsapp,
-                  Instagram, Facebook & RCS
+                  Easey to build chat bots
                 </h2>
               </div>
               <div className="w-[30%] flex justify-center items-center h-full">
@@ -269,10 +268,9 @@ const Navbar = () => {
             </div>
             <div className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
               <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
-                <h1 className="font-bold text-xl "> Live Chat</h1>
+                <h1 className="font-bold text-xl "> integration</h1>
                 <h2 className="text-xs ">
-                  Multiple Agent can do live chat for these channels, Whatsapp,
-                  Instagram, Facebook & RCS
+                  Explore Digital tools
                 </h2>
               </div>
               <div className="w-[30%] flex justify-center items-center h-full">
