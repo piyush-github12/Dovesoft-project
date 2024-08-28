@@ -62,10 +62,10 @@ const Section6 = () => {
 
     
   return (
-    <div className=" relative   mt-[15vh] min-h-[120vh]   w-full max-sm:h-fit">
+    <div className=" relative    min-h-fit   w-full max-sm:h-fit">
       <div
         id="section6"
-        className="w-screen absolute z-[9] h-[100vh] max-sm:h-fit  rounded-b-[55px] bg-[#ffffff] "
+        className="w-screen  pt-[10vh] z-[9] min-h-fit  max-sm:h-fit  rounded-b-[55px]  "
       >
         <h1 className="text-3xl max-md:text-2xl  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">

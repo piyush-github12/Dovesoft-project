@@ -117,7 +117,7 @@ const Section5 = () => {
   })
  
   return (
-    <div className=" relative py-2 w-[100vw] h-[100vh]  ">
+    <div className=" relative py-2 w-[100vw] min-h-[100vh]  ">
       <div
         id="section5"
         className="section5 w-[100vw]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
