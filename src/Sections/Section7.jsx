@@ -27,10 +27,10 @@ const Section7 = () => {
   });
 
   return (
-    <div className="h-[90vh] w-screen relative ">
+    <div className="min-h-[90vh]  w-screen relative ">
       <div
         id="section7"
-        className="w-screen relative  py-2 z-[8]   bg-white  h-[90vh]  rounded-b-[55px]"
+        className="w-screen relative  py-2 z-[8]     min-h-[90vh]  rounded-b-[55px]"
       >
         <h1 className="text-center text-3xl max-sm:text-2xl leading-[30px] font-bold mb-5">
           Check Out

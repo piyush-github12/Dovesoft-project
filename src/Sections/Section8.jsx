@@ -26,8 +26,8 @@ const Section8 = () => {
   });
 
   return (
-    <div className="w-[100vw] h-[100vh] relative    bg-[#fff] ">
-      <div id="section8" className="w-full h-[100vh]  z-[7]">
+    <div className="w-[100vw] min-h-[100vh] relative  pt-10  bg-[#fff] ">
+      <div id="section8" className="w-full min-h-[100vh]  z-[7]">
         <div className="w-screen px-[10vw]  h-fit z-[7] relative bg-white pb-[100px]  ">
           <h1 className="text-center text-3xl max-sm:text-2xl font-bold mb-10">
             <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">

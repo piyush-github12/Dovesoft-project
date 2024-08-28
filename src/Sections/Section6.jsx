@@ -62,7 +62,7 @@ const Section6 = () => {
 
     
   return (
-    <div className=" relative   mt-[15vh] h-[100vh]   w-full max-sm:h-fit">
+    <div className=" relative   mt-[15vh] min-h-[120vh]   w-full max-sm:h-fit">
       <div
         id="section6"
         className="w-screen absolute z-[9] h-[100vh] max-sm:h-fit  rounded-b-[55px] bg-[#ffffff] "

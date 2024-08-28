@@ -2,10 +2,10 @@ import React from 'react'
 
 const Section9 = () => {
   return (
-    <div className="  relative h-[100vh] bg-black  z-[6]  ">
+    <div className="  relative min-h-[100vh] bg-black  z-[6]  ">
       <div
         id="foot1"
-        className="w-screen  h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[10vw] py-[150px]    max-md:px-[5vw]"
+        className="w-screen  min-h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[10vw] py-[150px]    max-md:px-[5vw]"
       >
         <div className="w-[30%] max-md:w-full h-full max-md:h-fit max-md:mb-10 ">
           <h1 className="font-bold text-3xl mb-10 max-md:mb-5">Dove Soft.</h1>
@@ -85,7 +85,7 @@ const Section9 = () => {
           </div>
         </div>
       </div>
-      <div className="w-full px-[10vw] h-[20vh] flex justify-center  text-white text-center bg-[#031e42]">
+      <div className="w-full px-[10vw] min-h-[20vh] flex justify-center  text-white text-center bg-[#031e42]">
         <div className="w-[100%] border-t-2 px-32 py-5 max-md:px-[20px] border-white ">
           <h2 className="text-lg  max-lg::text-xs">
             Sakari is a 100% opt in service, to unsubscribe, text ‘STOP’ to the

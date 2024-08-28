@@ -12,7 +12,7 @@ const Section4 = () => {
     {
       image:"./images/sec-4-1.png",
       heading: "SMS",
-      para: "Leverage quick, reliable and scalable SMS API to deliver SMS in 160 contrues ",
+      para: "Leverage quick, reliable and scalable SMS API to deliver SMS in 160 countries ",
       explor: "SMS",
     },
     {
@@ -72,7 +72,7 @@ const Section4 = () => {
   
 
   return (
-    <div className="relative h-[130vh]  py-[10vh] max-sm:mt-[400px]  ">
+    <div className="relative min-h-[130vh]  py-[10vh] max-sm:mt-[400px]  ">
       <div
         id="section4"
         className="w-screen h-fit  relative  z-[11]  pb-10 bg-[#fff] rounded-b-[55px] "
