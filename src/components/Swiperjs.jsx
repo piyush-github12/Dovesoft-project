@@ -20,7 +20,7 @@ import {
 
 export default function App() {
   return (
-    <>
+    <div div className="">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -41,9 +41,11 @@ export default function App() {
         navigation={true}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
-        className="mySwiper bg-white text-white text-center "
+        className={` bg-white text-white text-center  `}
       >
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit bg-[#021f43] h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -73,7 +75,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -103,7 +107,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -133,7 +139,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -163,7 +171,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -193,7 +203,9 @@ export default function App() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide className=" relative">
+        <SwiperSlide
+          className={` w-[50vw] min-h-fit h-[450px] landingpageswiper relative`}
+        >
           <div className="w-[95%] h-[400px]  py-[20px] px-[5vw] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] rounded-xl border-4 border-white  ">
             <div className="h-[60%] overflow-hidden ">
               <div className=" ">
@@ -224,6 +236,6 @@ export default function App() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

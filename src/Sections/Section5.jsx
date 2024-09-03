@@ -117,18 +117,21 @@ const Section5 = () => {
   })
  
   return (
-    <div className=" relative py-2 w-[100vw] min-h-[100vh]  ">
+    <div className=" relative py-2 w-[100vw] min-h-[850px]  ">
       <div
         id="section5"
-        className="section5 w-[100vw]  z-[10] h-[100vh] min-h-[700px] text-white flex justify-center items-center "
+        className="section5 w-[100vw]  z-[10] px-[5vw] min-h-[800px] text-white flex justify-center items-center "
       >
-        <div className="w-[95%] h-[95%] px-[8vw] relative rounded-[55px] bg-[#021f43] py-[100px] ">
-          <h1 className="text-center text-3xl max-md:text-2xl font-bold mb-10">
+
+        <div className="w-[100%] h-[95%] px-[5vw] max-sm:px-[0vw] relative rounded-[55px] bg-red-300 py-[100px] max-sm:py-[50px] ">
+          <img className='absolute top-0 left-0 w-full h-full' src="./images/BlueBackground.png" alt="" />
+
+          <h1 className="text-center text-3xl relative z-[9] max-md:text-2xl font-bold mb-10">
             Platform capabilities to make you a <br />{" "}
             <span className="text-[#61a3ff]">superhuman</span>
-          </h1>
-          <div className="flex max-lg:flex-col  w-full h-[60vh] justify-between">
-            <div className="max-md:text-[12px]   whitespace-nowrap max-lg:text-[15px] w-[25%] justify-center max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5   border-r-[1px] border-[#cce1ff5e] ">
+          </h1> 
+          <div className="flex max-lg:flex-col relative z-[9]  w-full h-[60vh] max-sm:min-h-[500px] justify-between">
+            <div className="max-md:text-[15px]   whitespace-nowrap max-lg:text-[15px] w-[25%] justify-center max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5   border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
               <h1
                 onClick={handalclick}
                 id="h1"
@@ -172,7 +175,7 @@ const Section5 = () => {
                 File GPT
               </h1>
             </div>
-            <div className="w-[70%]  flex max-lg:w-full max-lg:h-[85%]">
+            <div className="w-[70%]  flex max-lg:w-full max-lg:h-fit">
               <div className="w-[40%]  h-full  flex justify-center items-center relative p-2 overflow-hidden ">
                 <div className="  w-full h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
                 <img
@@ -212,12 +215,12 @@ const Section5 = () => {
                   alt=""
                 />
               </div>
-              <div className="w-[60%]  h-[60vh] ">
-                <div className="w-full h-[60vh] pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
-                  <div className="w-full h-full  flex flex-col justify-center  max-md:h-[100px]   overflow-hidden relative ">
+              <div className="w-[60%]  h-[60vh] max-lg:h-[500px] ">
+                <div className="w-full h-[60vh] max-lg:h-[500px]  pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
+                  <div className="w-full h-full  flex flex-col justify-center    overflow-hidden relative ">
                     <h1
                       id="h1para"
-                      className="sec5heading text-lg max-md:text-[5vw]  h-fit    absolute"
+                      className="sec5heading text-lg max-md:text-base  h-fit    absolute"
                     >
                       1 . Empower your employees to do more <br /><br />
                       2 . Improve agent efficiency by bringing all digital
@@ -225,7 +228,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h2para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
                       1 . Seamless integrations with multiple e-commerce portals,
                       CRMs & more. Incorporate our cloud API capabilities into
@@ -234,7 +237,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h3para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
                       1 . This tool enables you to encrypt sensitive SMS contents
                       such as one-time passwords, and banking transaction
@@ -248,7 +251,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h4para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
                       1 . The system can automatically identify URLs within SMS
                       content, whether they are from HTTP links or the user
@@ -263,7 +266,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h5para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
                       1 . Construct feedback forms, quizzes, surveys, polls, and
                       lead capture forms. <br />
@@ -279,7 +282,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h6para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-[5vw]  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
                       1 . Upload a PDF file that showcases your services or
                       products. <br />

@@ -27,15 +27,15 @@ const Section7 = () => {
   });
 
   return (
-    <div className="min-h-fit py-[10vh] w-screen relative ">
+    <div className="min-h-fit py-[10vh] max-sm:py-[5vh] w-screen relative ">
       <div
         id="section7"
         className="w-screen relative  py-2 z-[8] min-h-fit  rounded-b-[55px]"
       >
         <h1 className="text-center text-3xl max-sm:text-2xl leading-[30px] font-bold mb-5">
           Check Out
-          <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md ml-2 px-2">
-            What customer is saying
+          <span className="bg-gradient-to-r from-[#A8CCFF] max-sm:whitespace-nowrap to-[#F4F9FF] rounded-md ml-2 px-2">
+          What customer is saying
           </span>{" "}
           <br />
           about us

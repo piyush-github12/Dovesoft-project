@@ -86,7 +86,7 @@ const Section1 = () => {
 
 
   return (
-    <div className="relative h-[100vh] max-sm:h-[210vh] ">
+    <div className="relative h-[100vh]  ">
       <div
         id="section1"
         className=" w-full relative z-[20] h-screen flex items-center justify-center "

@@ -5,7 +5,7 @@ const Section9 = () => {
     <div className="  relative min-h-[100vh] bg-black  z-[6]  ">
       <div
         id="foot1"
-        className="w-screen  min-h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[10vw] py-[150px]    max-md:px-[5vw]"
+        className="w-screen  min-h-[80vh]   flex max-md:flex-col bg-[#031e42] text-white px-[10vw] py-[150px]  max-sm:py-[20px]  max-md:px-[5vw]"
       >
         <div className="w-[30%] max-md:w-full h-full max-md:h-fit max-md:mb-10 ">
           <h1 className="font-bold text-3xl mb-10 max-md:mb-5">Dove Soft.</h1>
@@ -32,54 +32,54 @@ const Section9 = () => {
         <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-lg font-light">
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5 ">Features</h1>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Intigrations
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Business Messaging
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               VOIP/Leading Texting
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">Mobile App</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">Mobile App</h2>
           </div>
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Learn</h1>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">Book Demo</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">Book Demo</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               HubSpot Integration
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               SalesMsg vs Sakari
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Partner Program
             </h2>
           </div>
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Resources</h1>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">About Us</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">blog</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">About Us</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">blog</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Knowledge Base
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">Careers</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">Careers</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Developer Portal
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               SMS Lenght Circulator
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">Case Study</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">Contact Us</h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">API Status</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">Case Study</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">Contact Us</h2>
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">API Status</h2>
           </div>
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Leagal</h1>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Privacy Policy
             </h2>
-            <h2 className="mb-5  max-md:leading-0  max-sm:text-[10px]">
+            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Terms of Service
             </h2>
           </div>

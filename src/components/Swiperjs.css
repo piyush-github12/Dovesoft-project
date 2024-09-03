@@ -22,20 +22,23 @@ body {
   /* background-color: #ad3f3f; */
 }
 
-.swiper-slide {
+.landingpageswiper{
   /* background-position: center; */
   /* background-size: cover; */
-  width: 50vw;
-  min-height: fit-content;
+  
+  height: fit-content;
   height: 450px;
-  /* margin-bottom: 50px; */
+  width: 50vw;
+
   background-color: #021f43;
   border-radius: 20px;
   overflow: hidden;
   
 }
+
+
 @media (max-width: 600px) {
-  .swiper-slide{
+  .landingpageswiper{
     width: 80vw;
   }
 }

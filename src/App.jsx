@@ -12,6 +12,7 @@ import Section7 from './Sections/Section7';
 import Section8 from './Sections/Section8';
 import Section9 from './Sections/Section9';
 
+
 const App = () => {
   return (
     <div className='overflow-hidden bg-[#fff]'>
@@ -26,7 +27,7 @@ const App = () => {
       <Section8/>
       <Section9/>
       {/* <Footer/> */}
-     
+
     </div>
   );
 }

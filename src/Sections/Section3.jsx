@@ -23,7 +23,7 @@ const Section3 = () => {
         heading: "Converstaions",
         para: "Forge connections and drive conversions like never before. Enhance your conversion rate with SMS, Voice, email, RCS, and WhatsApp, incorporating images, CTA actions, and more.",
       },
-      
+    
     ];
 
     const data1 = [
@@ -48,12 +48,14 @@ const Section3 = () => {
      gsap.registerPlugin(ScrollTrigger); 
 
      useGSAP(()=>{
+      let screenheight = window.screen.height
 
       gsap.to("#pinscroll" , {
-        y:"-120vh",
+        y:"-140%",
         scrollTrigger:{
           trigger:"#section3",
           start:"top top",
+         
           // markers:true,
           pin:true,
           scrub:true,
@@ -87,9 +89,9 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-[100vw] h-[100vh] py-2   z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[50vh]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
+      className="w-[100vw] h-[100vh] py-2 bg-[#fff]  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[300px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
     >
-      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-50vw]   max-sm:w-full  ">
+      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-300px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-full  ">
         <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl max-sm:text-2xl font-bold leading-[40px]">
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
@@ -97,12 +99,12 @@ const Section3 = () => {
             </span>{" "}
             <br /> experience with the world’s <br /> most connected platform
           </h1>
-          <h1 className="text-lg max-sm:text-sm max-sm:text-center">
+          <h1 className="text-lg max-sm:text-base max-sm:text-center">
             With industry-leading expertise, you can deliver superb customer
             experience through our global network.
           </h1>
           <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-lg  font-bold whitespace-nowrap">
+            <h1 className="text-white text-lg h-[60px] flex items-center font-bold whitespace-nowrap">
               Book Demo
             </h1>
           </div>
@@ -111,7 +113,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-32 pl-20  max-sm:gap-2 "
+        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-32 pl-20 max-sm:pl-5 max-sm:gap-2 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
@@ -134,12 +136,12 @@ const Section3 = () => {
         <div className="h-fit w-[75%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
           <div
             id="pinscroll"
-            className=" flex flex-col  justify-center  h-[100vh]"
+            className=" flex flex-col  justify-center  min-h-[100vh] "
           >
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh]  flex flex-col justify-center   "
+                className="w-full h-[30vh] max-lg:h-[320px]  flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -155,12 +157,12 @@ const Section3 = () => {
           </div>
           <div
             id="pinscroll"
-            className="flex flex-col gap-5 justify-center   h-[100vh] "
+            className="flex flex-col gap-5 justify-center   min-h-[100vh] max-lg:mt-10  "
           >
             {data1.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh]  flex flex-col justify-center   "
+                className="w-full h-[30vh] max-lg:h-[320px]  flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}

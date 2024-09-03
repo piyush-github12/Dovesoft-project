@@ -11,11 +11,15 @@ import { RiUserVoiceLine } from "react-icons/ri";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import { Link, Route, Routes } from "react-router-dom";
+import SMSPage from "../SMS page/SMSpage";
 
 const Navbar = () => {
   gsap.registerPlugin(useGSAP);
 
   const [navon, setnavon] = useState(false)
+
+  
  
   // const navonclick = ()=>{
   //   setnavon(true)
@@ -44,6 +48,7 @@ const Navbar = () => {
         {
           subnameimage: <BiMessageDetail />,
           subsubname: "SMS",
+          elemname:"sms"
         },
         {
           subnameimage: <FaWhatsapp />,
@@ -126,7 +131,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="absolute top-0 w-screen  p-1 z-50 flex items-center justify-center">
+    <div className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
       <div className="w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center justify-between max-lg:justify-center">
         <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
           <div
@@ -231,11 +236,13 @@ const Navbar = () => {
 
                 {item.subname.map((subitem, i) => {
                   return (
+                    
                     <div className="flex items-center cursor-pointer  mt-5  gap-2">
                       <div className="w-[30px] flex items-center justify-center h-[30px] text-[#61a3ff] text-[25px]">
                         {subitem.subnameimage}
                       </div>
-                      <h1 className="text-xl  ">{subitem.subsubname}</h1>
+                      
+                      <Link to={`/${subitem.elemname ? subitem.elemname : ''}`} className="text-xl  ">{subitem.subsubname}</Link>
                     </div>
                   );
                 })}
@@ -279,9 +286,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* <div className="w-[25%] h-full bg-red-400 "></div>
-          <div className="w-[25%] h-full bg-teal-400 "></div>
-          <div className="w-[25%] h-full bg-purple-400 "></div> */}
+         
         </div>
       </div>
     </div>
