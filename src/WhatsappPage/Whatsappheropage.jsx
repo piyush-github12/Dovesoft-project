@@ -4,8 +4,8 @@ import Bookdemobutton from '../components/Bookdemobutton';
 const Whatsappheropage = () => {
   return (
     <div className="w-screen h-fit  ">
-      <div className="w-screen min-h-[600px] px-[10vw] text-white bg-[#3AB52E] pt-[150px] pb-[2vh] flex">
-        <div className="w-[50%] h-full relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
+      <div className="w-screen min-h-[600px] px-[10vw] text-white bg-[#3AB52E] pt-[150px] pb-[2vh] flex max-md:block ">
+        <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
           <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] ">
             Whatsapp API
           </h2>
@@ -19,12 +19,12 @@ const Whatsappheropage = () => {
           </h1>
           <Bookdemobutton clr="#fff" textclr="#000" />
         </div>
-        <div className="h-[550px]  w-[50%] flex items-center  ">
+        <div className="h-[550px] max-md:h-fit max-md:py-[50px]  w-[50%] max-md:w-full flex items-center  ">
           <img src="./images/whatsappPageImages/hero.png" alt="" />
         </div>
       </div>
-      <div className="w-screen px-[10vw] h-[600px] py-[50px] flex">
-        <div className="w-[50%] h-full relative z-[2] pt-[50px] flex flex-col justify-center gap-5">
+      <div className="w-screen px-[10vw] min-h-[600px] py-[50px] flex max-md:block">
+        <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] pt-[50px] flex flex-col justify-center gap-5">
           <h1 className="text-[48px] w-[80%] leading-[52px] font-bold">
             Import, Broadcast & Track
           </h1>
@@ -37,7 +37,7 @@ const Whatsappheropage = () => {
           </h1>
           <Bookdemobutton clr="#3AB52E" textclr="#fff" />
         </div>
-        <div className="h-[550px]  w-[50%] flex items-center justify-center ">
+        <div className="h-[550px] max-md:h-fit max-md:py-[50px]  w-[50%] max-md:w-full flex items-center justify-center ">
           <img src="./images/whatsappPageImages/page2image.png" alt="" />
         </div>
       </div>

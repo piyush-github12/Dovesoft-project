@@ -13,15 +13,15 @@ const WhatsappConvertLeads = () => {
           your Website and Boost Conversions
         </h1>
       </div>
-      <div className="w-screen h-[500px] flex px-[10vw] pt-[100px]">
-        <div className="w-[50%] h-fit">
+      <div className="w-screen h-[500px] max-md:h-fit flex max-md:block px-[10vw] pt-[100px]">
+        <div className="w-[50%] max-md:w-full h-fit">
           <img
             className="w-[400px] "
             src="./images/whatsappPageImages/convertleads.svg"
             alt=""
           />
         </div>
-        <div className="w-[50%] h-full relative z-[2]  flex flex-col justify-center gap-5">
+        <div className="w-[50%] max-md:w-full h-full max-md:h-fit max-md:pt-[50px] relative z-[2]  flex flex-col justify-center gap-5">
           <h1 className="text-[48px] w-[80%] leading-[52px] font-bold">
             45-60% Abandoned Cart Recovery
           </h1>

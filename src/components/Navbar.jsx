@@ -136,9 +136,12 @@ const Navbar = (params) => {
   return (
     <div className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
       <div
-        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  ${
-          params.color ? `bg-[${params.color}]` : `bg-[#021E43]`
-        }   text-white rounded-full flex items-center justify-between max-lg:justify-center`}
+        style={
+          params.color
+            ? { backgroundColor: params.color }
+            : { backgroundColor: "#021E43" }
+        }
+        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
       >
         <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
           <div

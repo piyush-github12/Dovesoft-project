@@ -34,7 +34,7 @@ const Whatsapp = () => {
           </div>
         </div>
       </div>
-      <Section9 bg="#29C853" />
+      <Section9 bg="#2B9C24" />
     </div>
   );
 }

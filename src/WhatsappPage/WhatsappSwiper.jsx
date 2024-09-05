@@ -67,8 +67,6 @@ export default function App() {
         "effectively to send personalised campaigns ",
       ],
     },
-  ];
-  let data2 = [
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Connect Your APIs",
@@ -83,6 +81,9 @@ export default function App() {
         "Quick Fast Template Message Approval Process (10 minutes - 1hour) via Interactive Dashboard",
       ],
     },
+  ];
+  let data2 = [
+    
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Chat CRM Included",
@@ -185,7 +186,7 @@ export default function App() {
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold min-h-[70px] max-sm:h-[100px]  text-2xl ">
+                    <h1 className="font-bold min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>
