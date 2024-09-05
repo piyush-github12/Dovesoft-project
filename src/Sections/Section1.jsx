@@ -162,7 +162,7 @@ const Section1 = () => {
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
           <div className="w-[65%]  h-screen pl-[9vw] relative  z-10 flex flex-col justify-center   gap-5">
             <div className="min-w-full h-[170px]  max-md:mt-[10vh] ">
-              <div className="relative  h-[170px]   overflow-y-hidden  ">
+              <div className="relative  h-[170px]  overflow-hidden  ">
                 <h1 className="heading1   whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
                   SMS API
