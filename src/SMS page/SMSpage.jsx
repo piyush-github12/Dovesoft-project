@@ -20,7 +20,7 @@ const SMSpage = () => {
           <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] ">
             OTP, Notification & Marketing
           </h2>
-          <h1 className="text-[48px] leading-[52px] font-bold">
+          <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Connect instantly with SMS
           </h1>
           <h1 className="text-lg">

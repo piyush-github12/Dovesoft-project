@@ -86,7 +86,7 @@ const Section3 = () => {
     >
       <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-300px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-full  ">
         <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
-          <h1 className="text-3xl max-sm:text-2xl font-bold leading-[40px]">
+          <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl font-bold leading-[40px]">
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Use Dove Soft’s SMS API to
             </span>{" "}

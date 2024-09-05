@@ -103,7 +103,7 @@ export default function App() {
                   />
                 </div>
                 <div className=" h-[210px] text-left px-2 py-2 relative">
-                  <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl ">
+                  <h1 className="font-bold font-['Epilogue']  h-[70px] max-sm:h-[90px]  text-2xl ">
                     {item.heading}
                   </h1>
                   <p className="text-lg max-sm:text-base  ">{item.para}</p>
@@ -127,7 +127,7 @@ export default function App() {
                   />
                 </div>
                 <div className="  min-h-fit text-left px-2 py-2 relative">
-                  <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl ">
+                  <h1 className="font-bold font-['Epilogue']  h-[70px] max-sm:h-[90px]  text-2xl ">
                     {item.heading}
                   </h1>
                   <p className="text-lg max-sm:text-base  ">{item.para}</p>

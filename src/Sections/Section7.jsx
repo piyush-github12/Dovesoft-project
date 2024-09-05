@@ -32,10 +32,10 @@ const Section7 = () => {
         id="section7"
         className="w-screen relative  py-2 z-[8] min-h-fit  rounded-b-[55px]"
       >
-        <h1 className="text-center text-3xl max-sm:text-2xl leading-[30px] font-bold mb-5">
+        <h1 className="text-center font-['Epilogue']  text-3xl max-sm:text-2xl leading-[30px] font-bold mb-5">
           Check Out
           <span className="bg-gradient-to-r from-[#A8CCFF] max-sm:whitespace-nowrap to-[#F4F9FF] rounded-md ml-2 px-2">
-          What customer is saying
+            What customer is saying
           </span>{" "}
           <br />
           about us

@@ -186,7 +186,7 @@ export default function App() {
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
+                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>

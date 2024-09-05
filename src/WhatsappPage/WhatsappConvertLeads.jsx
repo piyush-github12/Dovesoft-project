@@ -5,7 +5,7 @@ const WhatsappConvertLeads = () => {
   return (
     <div className="w-screen h-fit  ">
       <div className=" mt-[50px] w-screen">
-        <h1 className="text-3xl text-center font-bold">
+        <h1 className="text-3xl font-['Epilogue']  text-center font-bold">
           Convert Leads to Customers <br /> via Smart Notifications
         </h1>
         <h1 className="text-center text-lg px-[15vw] mt-[20px]">
@@ -22,7 +22,7 @@ const WhatsappConvertLeads = () => {
           />
         </div>
         <div className="w-[50%] max-md:w-full h-full max-md:h-fit max-md:pt-[50px] relative z-[2]  flex flex-col justify-center gap-5">
-          <h1 className="text-[48px] w-[80%] leading-[52px] font-bold">
+          <h1 className="text-[48px] font-['Epilogue']  w-[80%] leading-[52px] font-bold">
             45-60% Abandoned Cart Recovery
           </h1>
           <h1 className="w-[90%] text-lg">

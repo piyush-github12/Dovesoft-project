@@ -303,7 +303,7 @@ const WhatsappSolutions = () => {
             src="./images/whatsappPageImages/BackgroundGreen.png"
             alt=""
           />
-          <h1 className="text-center text-3xl relative z-[9] max-md:text-2xl font-bold mb-10">
+          <h1 className="text-center text-3xl font-['Epilogue']  relative z-[9] max-md:text-2xl font-bold mb-10">
             Solutions for All
           </h1>
 

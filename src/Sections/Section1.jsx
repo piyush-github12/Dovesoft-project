@@ -162,24 +162,24 @@ const Section1 = () => {
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
           <div className="w-[65%]  h-screen pl-[9vw] relative  z-10 flex flex-col justify-center   gap-5">
             <div className="min-w-full h-[170px]  max-md:mt-[10vh] ">
-              <div className="relative  h-[170px]  overflow-hidden  ">
-                <h1 className="heading1   whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
+              <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
+                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
                   SMS API
                 </h1>
-                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Stand out in the <br /> messaging inbox with <br />
                   RCS Business Messaging
                 </h1>
-                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Build stronger customer <br /> relationships with <br />
                   WhatsApp Business API
                 </h1>
-                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Discover the Unlimited <br /> Potential of Emails and <br />{" "}
                   Hit the Inbox
                 </h1>
-                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Automate outbound and <br /> support calls with <br /> Voice
                   AI
                 </h1>

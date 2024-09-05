@@ -9,7 +9,7 @@ const Whatsappheropage = () => {
           <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] ">
             Whatsapp API
           </h2>
-          <h1 className="text-[48px] leading-[52px] font-bold">
+          <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Your Complete <br /> WhatsApp <br /> Engagement Platform
           </h1>
           <h1 className="w-[90%] text-lg">
@@ -25,7 +25,7 @@ const Whatsappheropage = () => {
       </div>
       <div className="w-screen px-[10vw] min-h-[600px] py-[50px] flex max-md:block">
         <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] pt-[50px] flex flex-col justify-center gap-5">
-          <h1 className="text-[48px] w-[80%] leading-[52px] font-bold">
+          <h1 className="text-[48px] font-['Epilogue']  w-[80%] leading-[52px] font-bold">
             Import, Broadcast & Track
           </h1>
           <h1 className="w-[90%] text-lg">

@@ -77,7 +77,7 @@ const Section4 = () => {
         id="section4"
         className="w-screen h-fit  relative  z-[11] pb-10 bg-[#fff] rounded-b-[55px] "
       >
-        <h1 className="text-3xl max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-10">
+        <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-10">
           Leverage a single API to{" "}
           <span className="bg-gradient-to-r max-md:whitespace-nowrap max-sm:white from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
             automate conversational engagement

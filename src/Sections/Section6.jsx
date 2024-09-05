@@ -67,7 +67,7 @@ const Section6 = () => {
         id="section6"
         className="w-screen  pt-[10vh] max-sm:pt-[5vh] z-[9] min-h-fit  max-sm:h-fit  rounded-b-[55px]  "
       >
-        <h1 className="text-3xl max-md:text-2xl  text-center font-bold mb-2">
+        <h1 className="text-3xl font-['Epilogue']  max-md:text-2xl  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
             Conversational automation for every industry
           </span>

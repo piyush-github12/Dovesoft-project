@@ -51,7 +51,7 @@ const SMSsection6 = () => {
 
   return (
     <div className="w-screen h-fit py-20 px-[5vw]">
-      <h1 className="text-3xl text-center font-bold">
+      <h1 className="text-3xl font-['Epilogue']  text-center font-bold">
         Frequently Asked Questions
       </h1>
       <h1 className="px-[15vw] text-lg text-center mb-10">
@@ -68,7 +68,9 @@ const SMSsection6 = () => {
                 >
                   {item.question}
                   <IoIosArrowDown
-                    onClick={() => {index == open ? setopen(50):setopen(index)}}
+                    onClick={() => {
+                      index == open ? setopen(50) : setopen(index);
+                    }}
                     className={`arrow cursor-pointer text-[30px] h-[40px] w-[40px] p-[8px] flex justify-center items-center transition-all ease-linear duration-200 rounded-full  bg-[#2a555a46] text-[#2A555A]  ${
                       open == index ? "rotate-180" : "rotate-0"
                     }`}

@@ -122,14 +122,17 @@ const Section5 = () => {
         id="section5"
         className="section5 w-[100vw]  z-[10] px-[5vw] min-h-[800px] text-white flex justify-center items-center "
       >
-
         <div className="w-[100%] h-[95%] px-[5vw] max-sm:px-[0vw] relative rounded-[55px] bg-red-300 py-[100px] max-sm:py-[50px] ">
-          <img className='absolute top-0 left-0 w-full h-full object-cover' src="./images/BlueBackground.png" alt="" />
+          <img
+            className="absolute top-0 left-0 w-full h-full object-cover"
+            src="./images/BlueBackground.png"
+            alt=""
+          />
 
-          <h1 className="text-center text-3xl relative z-[9] max-md:text-2xl font-bold mb-10">
+          <h1 className="text-center font-['Epilogue']  text-3xl relative z-[9] max-md:text-2xl font-bold mb-10">
             Platform capabilities to make you a <br />{" "}
             <span className="text-[#61a3ff]">superhuman</span>
-          </h1> 
+          </h1>
           <div className="flex max-lg:flex-col relative z-[9]  w-full h-[60vh] max-sm:min-h-[500px] justify-between">
             <div className="max-md:text-[15px]   whitespace-nowrap max-lg:text-[15px] w-[25%] justify-center max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5   border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
               <h1
@@ -222,32 +225,31 @@ const Section5 = () => {
                       id="h1para"
                       className="sec5heading text-lg max-md:text-base  h-fit    absolute"
                     >
-                      1 . Empower your employees to do more <br /><br />
-                      2 . Improve agent efficiency by bringing all digital
+                      1 . Empower your employees to do more <br />
+                      <br />2 . Improve agent efficiency by bringing all digital
                       conversations, context and support actions in single view.
                     </h1>
                     <h1
                       id="h2para"
                       className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
-                      1 . Seamless integrations with multiple e-commerce portals,
-                      CRMs & more. Incorporate our cloud API capabilities into
-                      your business workflow through our trusted integration
-                      partners.
+                      1 . Seamless integrations with multiple e-commerce
+                      portals, CRMs & more. Incorporate our cloud API
+                      capabilities into your business workflow through our
+                      trusted integration partners.
                     </h1>
                     <h1
                       id="h3para"
                       className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
                     >
-                      1 . This tool enables you to encrypt sensitive SMS contents
-                      such as one-time passwords, and banking transaction
-                      details. <br />
+                      1 . This tool enables you to encrypt sensitive SMS
+                      contents such as one-time passwords, and banking
+                      transaction details. <br />
                       <br />
-                      2 . This functionality is exclusively available through the
-                      SMS API. <br />
-                      <br />
-                      3 . No one, not even our support staff, can decrypt the
-                      contents of these encrypted SMS messages.
+                      2 . This functionality is exclusively available through
+                      the SMS API. <br />
+                      <br />3 . No one, not even our support staff, can decrypt
+                      the contents of these encrypted SMS messages.
                     </h1>
                     <h1
                       id="h4para"
@@ -256,9 +258,9 @@ const Section5 = () => {
                       1 . The system can automatically identify URLs within SMS
                       content, whether they are from HTTP links or the user
                       interface. <br />
-                      <br />2 . The application then converts this lengthy URL into
-                      a shortened, unique URL specific to each mobile number.{" "}
-                      <br />
+                      <br />2 . The application then converts this lengthy URL
+                      into a shortened, unique URL specific to each mobile
+                      number. <br />
                       <br />3 . When the user clicks on this shortened URL, the
                       application will track and record the timing, device
                       category (e.g. computer or mobile device), operating
@@ -271,14 +273,13 @@ const Section5 = () => {
                       1 . Construct feedback forms, quizzes, surveys, polls, and
                       lead capture forms. <br />
                       <br />
-                      2 . Generate trackable short URLs for the smart add-ons, which
-                      provide insights like timing, device category (e.g.
+                      2 . Generate trackable short URLs for the smart add-ons,
+                      which provide insights like timing, device category (e.g.
                       computer or mobile), operating system, and browser when
                       the URL is accessed. <br />
-                      <br />
-                      3 . Leverage these smart add-ons across other communication
-                      channels such as SMS, WhatsApp, RCS, and Email using
-                      generated short URLs.
+                      <br />3 . Leverage these smart add-ons across other
+                      communication channels such as SMS, WhatsApp, RCS, and
+                      Email using generated short URLs.
                     </h1>
                     <h1
                       id="h6para"
@@ -287,12 +288,11 @@ const Section5 = () => {
                       1 . Upload a PDF file that showcases your services or
                       products. <br />
                       <br />
-                      2 . Allow your customers to ask any questions related to your
-                      business, and this tool will provide answers drawn from
-                      the uploaded document. <br />
-                      <br />
-                      3 . You can also integrate this tool into your WhatsApp and
-                      RCS chatbots.
+                      2 . Allow your customers to ask any questions related to
+                      your business, and this tool will provide answers drawn
+                      from the uploaded document. <br />
+                      <br />3 . You can also integrate this tool into your
+                      WhatsApp and RCS chatbots.
                     </h1>
                   </div>
                   {/* <h1 className="max-lg:text-[2vw] text-lg">
