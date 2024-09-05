@@ -99,7 +99,7 @@ const Section1 = () => {
           >
             <div className="line w-full  h-[10px]  rotate-[0deg] absolute">
               <div className="smallcircle w-[170px] h-[170px] text-blue-500 rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#ffffff] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
-                <BiMessageDetail className="text-[40px] " />
+                <BiMessageDetail className="text-[48px] " />
                 <h1 className="font-extrabold text-[2vw]  max-md:text-[20px]">
                   SMS
                 </h1>
@@ -160,26 +160,26 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
-          <div className="w-[50%]  h-screen pl-[9vw] relative  z-10 flex flex-col justify-center   gap-5">
-            <div className="w-full h-[170px]  max-md:mt-[10vh] ">
-              <div className="relative  h-[170px] overflow-hidden   ">
-                <h1 className="heading1  whitespace-nowrap  text-[40px]  font-bold leading-[56px] absolute translate-y-[250px]">
+          <div className="w-[65%]  h-screen pl-[9vw] relative  z-10 flex flex-col justify-center   gap-5">
+            <div className="min-w-full h-[170px]  max-md:mt-[10vh] ">
+              <div className="relative  h-[170px]   overflow-y-hidden overflow-x-visible ">
+                <h1 className="heading1   whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
                   SMS API
                 </h1>
-                <h1 className="heading1  whitespace-nowrap  text-[40px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Stand out in the <br /> messaging inbox with <br />
                   RCS Business Messaging
                 </h1>
-                <h1 className="heading1  whitespace-nowrap  text-[40px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Build stronger customer <br /> relationships with <br />
                   WhatsApp Business API
                 </h1>
-                <h1 className="heading1  whitespace-nowrap  text-[40px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Discover the Unlimited <br /> Potential of Emails and <br />{" "}
                   Hit the Inbox
                 </h1>
-                <h1 className="heading1  whitespace-nowrap  text-[40px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1   whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Automate outbound and <br /> support calls with <br /> Voice
                   AI
                 </h1>
@@ -215,9 +215,9 @@ const Section1 = () => {
               </h1>
             </div>
           </div>
-          <div className=" w-[60vw]  h-screen relative  pb-[5vh] flex items-end justify-start overflow-hidden ">
+          <div className=" w-[60vw]  h-screen relative  pb-[5vh] flex items-end justify-start  ">
             <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div>
-            <div className="posterimage flex items-end justify-center w-[500px] h-full ">
+            <div className="posterimage translate-x-[-50px] flex items-end justify-center w-[500px] h-full ">
               <img
                 className=" h-[550px] max-lg:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
                 src="./images/sms_website.png"

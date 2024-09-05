@@ -27,7 +27,7 @@ const SMSsection5 = () => {
 
 
   return (
-    <div className="w-screen h-[900px]  px-[5vw] ">
+    <div className="w-screen h-[850px]  px-[5vw] ">
       <div className="w-[100%] h-full relative text-white rounded-[55px] overflow-hidden">
         <img
           className="absloute w-[100%] h-[100%] "
@@ -36,10 +36,10 @@ const SMSsection5 = () => {
         />
 
         <div className="absolute top-0 pt-20 w-full h-full ">
-          <h1 className="text-3xl text-center font-bold">
+          <h1 className="text-3xl text-center mb-20 font-bold">
             Build closer connections with SMS campaigns
           </h1>
-          <div className="flex h-full">
+          <div className="flex h-fit">
             <div className="h-full w-[60%] px-[5vw]  flex flex-col justify-center">
 
               {
@@ -59,7 +59,9 @@ const SMSsection5 = () => {
                       >
                         {item.nm}
                         <IoIosArrowDown
-                          onClick={() => setopen(index)}
+                          onClick={() => {
+                            index == open ? setopen(50) : setopen(index);
+                          }}
                           className={`arrow cursor-pointer text-[40px] transition-all ease-linear duration-200 ${
                             open == index ? "rotate-180" : "rotate-0"
                           }`}
@@ -76,7 +78,7 @@ const SMSsection5 = () => {
                   );})
               }
             </div>
-            <div className="h-full w-[40%] flex  items-center ">
+            <div className=" h-[600px]  w-[40%] flex  items-center ">
               <img
                 className="w-[90%]"
                 src="./images/SMSsection5image.png"

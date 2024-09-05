@@ -124,7 +124,7 @@ const Section5 = () => {
       >
 
         <div className="w-[100%] h-[95%] px-[5vw] max-sm:px-[0vw] relative rounded-[55px] bg-red-300 py-[100px] max-sm:py-[50px] ">
-          <img className='absolute top-0 left-0 w-full h-full' src="./images/BlueBackground.png" alt="" />
+          <img className='absolute top-0 left-0 w-full h-full object-cover' src="./images/BlueBackground.png" alt="" />
 
           <h1 className="text-center text-3xl relative z-[9] max-md:text-2xl font-bold mb-10">
             Platform capabilities to make you a <br />{" "}

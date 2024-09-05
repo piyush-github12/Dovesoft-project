@@ -68,7 +68,7 @@ const SMSsection6 = () => {
                 >
                   {item.question}
                   <IoIosArrowDown
-                    onClick={() => setopen(index)}
+                    onClick={() => {index == open ? setopen(50):setopen(index)}}
                     className={`arrow cursor-pointer text-[30px] h-[40px] w-[40px] p-[8px] flex justify-center items-center transition-all ease-linear duration-200 rounded-full  bg-[#2a555a46] text-[#2A555A]  ${
                       open == index ? "rotate-180" : "rotate-0"
                     }`}

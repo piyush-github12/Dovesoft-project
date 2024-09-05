@@ -113,7 +113,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-32 pl-20 max-sm:pl-5 max-sm:gap-2 "
+        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-5 max-sm:gap-2 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
@@ -133,7 +133,7 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[75%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
+        <div className="h-fit w-[90%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
           <div
             id="pinscroll"
             className=" flex flex-col  justify-center  min-h-[100vh] "
@@ -149,7 +149,7 @@ const Section3 = () => {
                   alt=""
                 />
                 <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
+                <p className="w-[100%] max-sm:w-[250px] text-lg  mb-2 ">
                   {item.para}
                 </p>
               </div>
@@ -170,7 +170,7 @@ const Section3 = () => {
                   alt=""
                 />
                 <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
+                <p className="w-[100%] max-sm:w-[250px] text-lg  mb-2 ">
                   {item.para}
                 </p>
               </div>

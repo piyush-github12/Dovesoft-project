@@ -9,7 +9,7 @@ const Section3 = () => {
     {
       image: "authentication.png",
       heading: "Two-Factor Authentication(2FA)",
-      para: "Verify users quickly and efficiently. Provide your users with a fast and simple OTP & 2FA process, supported by a failover solution. Enable OTP login via mobile number or email address.",
+      para: `Verify users quickly and efficiently. Provide your users with a fast and simple OTP & 2FA process, supported by a failover solution. Enable OTP login via mobile number or email address.`,
     },
     {
       image: "marketing 1.png",
@@ -106,7 +106,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-32 pl-20 max-sm:pl-5 max-sm:gap-2 "
+        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-5 max-sm:gap-2 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
@@ -126,7 +126,7 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[75%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
+        <div className="h-fit w-[95%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
           <div
             id="pinscroll"
             className=" flex flex-col  justify-center  min-h-[100vh] "
@@ -143,7 +143,7 @@ const Section3 = () => {
                 />
                 <div className="flex flex-col justify-center ">
                   <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                  <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
+                  <p className="w-[100%] max-sm:w-[250px] text-lg  mb-2 ">
                     {item.para}
                   </p>
                 </div>

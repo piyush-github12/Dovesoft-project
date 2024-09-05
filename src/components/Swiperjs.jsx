@@ -19,6 +19,7 @@ import {
 } from "swiper/modules";
 
 export default function App() {
+  
   return (
     <div div className="">
       <Swiper
@@ -40,6 +41,7 @@ export default function App() {
         }}
         navigation={true}
         pagination={true}
+        
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
         className={` bg-white text-white text-center  `}
       >

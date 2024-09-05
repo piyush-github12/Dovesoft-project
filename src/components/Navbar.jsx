@@ -14,7 +14,7 @@ import { useGSAP } from "@gsap/react";
 import { Link, Route, Routes } from "react-router-dom";
 import SMSPage from "../SMS page/SMSpage";
 
-const Navbar = () => {
+const Navbar = (params) => {
   gsap.registerPlugin(useGSAP);
 
   const [navon, setnavon] = useState(false)
@@ -53,6 +53,7 @@ const Navbar = () => {
         {
           subnameimage: <FaWhatsapp />,
           subsubname: "Whatsapp",
+          elemname:"whatsapp"
         },
         {
           subnameimage: <MdOutlineMessage />,
@@ -129,10 +130,16 @@ const Navbar = () => {
     });
 
   }
+  
+  
 
   return (
     <div className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
-      <div className="w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  bg-[#021E43] text-white rounded-full flex items-center justify-between max-lg:justify-center">
+      <div
+        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh]  ${
+          params.color ? `bg-[${params.color}]` : `bg-[#021E43]`
+        }   text-white rounded-full flex items-center justify-between max-lg:justify-center`}
+      >
         <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
           <div
             onMouseEnter={() => setdropdoun(true)}
@@ -147,8 +154,11 @@ const Navbar = () => {
             <IoIosArrowDown className="mt-[5px]" />
           </div>
         </div>
+
         <div className=" h-full  ">
-          <img className="h-[120%]" src="./images/whitelogo.png" alt="" />
+          <Link to="/">
+            <img className="h-[120%]" src="./images/whitelogo.png" alt="" />
+          </Link>
         </div>
 
         <div
@@ -160,10 +170,14 @@ const Navbar = () => {
               Book Demo
             </h1>
           </div> */}
-          <div className="min-w-fit w-[100px] h-[50px]  border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-lg  font-bold whitespace-nowrap">
-              Log-in
-            </h1>
+          <div
+            className={`min-w-fit w-[100px] h-[50px]  border-2 ${
+              params.color == "#2B9C24"
+                ? "bg-white border-none text-black"
+                : "bg-transparent border-[#7AB1FC] text-white "
+            }  px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
+          >
+            <h1 className=" text-lg  font-bold whitespace-nowrap">Log-in</h1>
           </div>
         </div>
 
@@ -209,9 +223,15 @@ const Navbar = () => {
                 <IoIosArrowDown className="mt-[5px]" />
               </div>
             </div>
-            <div className=" h-[100px] flex items-center  ">
-              <img className="h-[80px]  " src="./images/blacklogo.png" alt="" />
-            </div>
+            <Link to="/">
+              <div className=" h-[100px] flex items-center  ">
+                <img
+                  className="h-[80px]  "
+                  src="./images/blacklogo.png"
+                  alt=""
+                />
+              </div>
+            </Link>
 
             <div
               id="nn"
@@ -236,13 +256,17 @@ const Navbar = () => {
 
                 {item.subname.map((subitem, i) => {
                   return (
-                    
                     <div className="flex items-center cursor-pointer  mt-5  gap-2">
                       <div className="w-[30px] flex items-center justify-center h-[30px] text-[#61a3ff] text-[25px]">
                         {subitem.subnameimage}
                       </div>
-                      
-                      <Link to={`/${subitem.elemname ? subitem.elemname : ''}`} className="text-xl  ">{subitem.subsubname}</Link>
+
+                      <Link
+                        to={`/${subitem.elemname ? subitem.elemname : ""}`}
+                        className="text-xl  "
+                      >
+                        {subitem.subsubname}
+                      </Link>
                     </div>
                   );
                 })}
@@ -265,9 +289,7 @@ const Navbar = () => {
             <div className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
               <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                 <h1 className="font-bold text-xl ">Chat Bot</h1>
-                <h2 className="text-xs ">
-                  Easey to build chat bots
-                </h2>
+                <h2 className="text-xs ">Easey to build chat bots</h2>
               </div>
               <div className="w-[30%] flex justify-center items-center h-full">
                 <img className="w-full " src="./images/nav2.png" alt="" />
@@ -276,17 +298,13 @@ const Navbar = () => {
             <div className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
               <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                 <h1 className="font-bold text-xl "> integration</h1>
-                <h2 className="text-xs ">
-                  Explore Digital tools
-                </h2>
+                <h2 className="text-xs ">Explore Digital tools</h2>
               </div>
               <div className="w-[30%] flex justify-center items-center h-full">
                 <img className="w-full " src="./images/nav3.png" alt="" />
               </div>
             </div>
           </div>
-
-         
         </div>
       </div>
     </div>
