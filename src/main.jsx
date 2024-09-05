@@ -4,6 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SMSpage from './SMS page/SMSpage.jsx'
 import Whatsapp from './WhatsappPage/Whatsapp.jsx'
+import RCSpage from './RCSpage/RCS.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     <Route path='/' element={<App/>}/>
     <Route path='/sms' element={<SMSpage/>}/>
     <Route path='/whatsapp' element={<Whatsapp/>}/>
+    <Route path='/rcs' element={<RCSpage/>}/>
    </Routes>
     
   </BrowserRouter>,

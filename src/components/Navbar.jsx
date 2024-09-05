@@ -58,6 +58,7 @@ const Navbar = (params) => {
         {
           subnameimage: <MdOutlineMessage />,
           subsubname: "RCS",
+          elemname:"rcs"
         },
         {
           subnameimage: <RiUserVoiceLine />,
