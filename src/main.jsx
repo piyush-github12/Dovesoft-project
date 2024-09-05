@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SMSpage from './SMS page/SMSpage.jsx'
 import Whatsapp from './WhatsappPage/Whatsapp.jsx'
 import RCSpage from './RCSpage/RCS.jsx'
+import Instagram from './instagrampage/instagram.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Route path='/sms' element={<SMSpage/>}/>
     <Route path='/whatsapp' element={<Whatsapp/>}/>
     <Route path='/rcs' element={<RCSpage/>}/>
+    <Route path='/instagram' element={<Instagram/>}/>
    </Routes>
     
   </BrowserRouter>,

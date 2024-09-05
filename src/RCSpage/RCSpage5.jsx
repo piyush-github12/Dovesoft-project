@@ -26,6 +26,7 @@ const RCSpage5 = () => {
 
       gsap.to(".imageani", {
         opacity: 0,
+        delay:0,
         duration: 0,
         x: "-100px",
       });

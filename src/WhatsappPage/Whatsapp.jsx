@@ -10,7 +10,7 @@ import Section9 from '../Sections/Section9';
 const Whatsapp = () => {
   return (
     <div className="bg-white overflow-hidden relative">
-      <Navbar color="#2B9C24" />
+      <Navbar color="#2B9C24" logincolor="#fff" logintextcolor="#2B9C24" />
       <Whatsappheropage />
       <WhatsappFeatures />
       <WhatsappSolutions />

@@ -63,6 +63,7 @@ const Navbar = (params) => {
         {
           subnameimage: <RiUserVoiceLine />,
           subsubname: "Voice",
+          elemname:"instagram"
         },
         {
           subnameimage: <MdOutlineMail />,
@@ -144,7 +145,7 @@ const Navbar = (params) => {
         }
         className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
       >
-        <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
+        <div className="w-[20%] font-bold flex text-lg justify-center items-center max-lg:hidden">
           <div
             onMouseEnter={() => setdropdoun(true)}
             onMouseLeave={() => setdropdoun(false)}
@@ -175,11 +176,11 @@ const Navbar = (params) => {
             </h1>
           </div> */}
           <div
-            className={`min-w-fit w-[100px] h-[50px]  border-2 ${
-              params.color == "#2B9C24"
-                ? "bg-white border-none text-black"
-                : "bg-transparent border-[#7AB1FC] text-white "
-            }  px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
+            style={{
+              backgroundColor: params.logincolor,
+              color: params.logintextcolor,
+            }}
+            className={`min-w-fit w-[100px] h-[50px]  border-2 border-[#fff] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
           >
             <h1 className=" text-lg  font-bold whitespace-nowrap">Log-in</h1>
           </div>
@@ -214,7 +215,7 @@ const Navbar = (params) => {
           className="absolute left-0 top-[0px] text-black flex justify-center    px-20   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
         >
           <div className="w-[90vw]  h-[100px] absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center">
-            <div className="w-[20%]  flex text-lg justify-center items-center max-lg:hidden">
+            <div className="w-[20%] font-bold flex text-lg justify-center items-center max-lg:hidden">
               <div
                 onMouseEnter={() => setdropdoun(true)}
                 className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
