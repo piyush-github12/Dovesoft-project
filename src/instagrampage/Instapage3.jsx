@@ -3,7 +3,7 @@ import React from 'react'
 const Instapage3 = () => {
   return (
     <div className="w-screen h-fit  py-[50px]">
-      <h1 className="text-3xl font-['Epilogue'] px-[10vw] text-center leading-[52px] font-bold ">
+      <h1 className="text-3xl font-['Epilogue'] px-[10vw] max-sm:px-[5vw] text-center  font-bold ">
         Connect Seamlessly with Audiences through
         <span className='text-"#0029C7"'> Instagram Shared Inbox </span> 
       </h1>
@@ -11,15 +11,15 @@ const Instapage3 = () => {
         Forge meaningful connections on Instagram by effortlessly engaging your
         audience through ControlHippo Instagram integration.
       </h1>
-      <div className="w-screen h-[500px] px-[10vw] py-[50px] flex gap-5 max-md:block">
-        <div className="w-[50%]  max-md:w-full h-[500px]">
+      <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[50px] max-md:pb-[20px] flex gap-5 max-md:block">
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full "
             src="./images/instagram/page3-1.svg"
             alt=""
           />
         </div>
-        <div className="w-[50%]  max-md:w-full h-[500px] flex flex-col justify-center gap-5">
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit flex flex-col justify-center gap-5">
           <h1 className='font-["Epilogue"] text-xl font-[500]'>
             Quick & Instant Messaging
           </h1>
@@ -69,8 +69,15 @@ const Instapage3 = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen h-[500px] px-[10vw] py-[50px] mt-[100px] flex gap-5 max-md:block">
-        <div className="w-[50%]  max-md:w-full h-[500px] flex flex-col justify-center gap-5">
+      <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[50px] max-md:py-[20px] mt-[50px] max-md:mt-[20px] flex gap-5 max-md:block">
+        <div className="w-[50%] hidden max-md:block max-md:w-full h-[500px] max-md:h-fit max-md:mb-[50px]">
+          <img
+            className="w-full "
+            src="./images/instagram/page3-2.svg"
+            alt=""
+          />
+        </div>
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit flex flex-col justify-center gap-5">
           <h1 className='font-["Epilogue"] text-xl font-[500]'>
             Unified Dashboard
           </h1>
@@ -115,7 +122,7 @@ const Instapage3 = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[50%]  max-md:w-full h-[500px]">
+        <div className="w-[50%] max-md:hidden  max-md:w-full h-[500px] max-md:h-fit max-md:my-[50px]">
           <img
             className="w-full "
             src="./images/instagram/page3-2.svg"
@@ -123,15 +130,15 @@ const Instapage3 = () => {
           />
         </div>
       </div>
-      <div className="w-screen h-[500px] px-[10vw] py-[50px] mt-[100px] flex gap-5 max-md:block">
-        <div className="w-[50%]  max-md:w-full h-[500px]">
+      <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[50px] max-md:py-[20px] mt-[50px] max-md:mt-[20px] flex gap-5 max-md:block">
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full "
             src="./images/instagram/page3-3.svg"
             alt=""
           />
         </div>
-        <div className="w-[50%]  max-md:w-full h-[500px] flex flex-col justify-center gap-5">
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit flex flex-col justify-center gap-5">
           <h1 className='font-["Epilogue"] text-xl font-[500]'>
             360° Analytics & Reporting
           </h1>
@@ -180,8 +187,15 @@ const Instapage3 = () => {
           </div>
         </div>
       </div>
-      <div className="w-screen h-[500px] px-[10vw] py-[50px] mt-[100px] flex gap-5 max-md:block">
-        <div className="w-[50%]  max-md:w-full h-[500px] flex flex-col justify-center gap-5">
+      <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[50px] max-md:py-[20px] mt-[50px] max-md:mt-[20px] flex gap-5 max-md:block">
+        <div className="w-[50%] hidden max-md:block max-md:w-full h-[500px] max-md:h-fit max-md:mb-[50px]">
+          <img
+            className="w-full "
+            src="./images/instagram/page3-4.svg"
+            alt=""
+          />
+        </div>
+        <div className="w-[50%]  max-md:w-full h-[500px] max-md:h-fit flex flex-col justify-center gap-5">
           <h1 className='font-["Epilogue"] text-xl font-[500]'>
             Manage Sales Funnel
           </h1>
@@ -230,7 +244,7 @@ const Instapage3 = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[50%]  max-md:w-full h-[500px]">
+        <div className="w-[50%] max-md:hidden max-md:w-full h-[500px] max-md:h-fit max-md:my-[50px]">
           <img
             className="w-full "
             src="./images/instagram/page3-4.svg"

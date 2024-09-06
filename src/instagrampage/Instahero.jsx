@@ -6,7 +6,7 @@ const Instahero = () => {
   return (
     <div className="w-screen h-fit">
       <Navbar color="#9777E2" logincolor="#fff" logintextcolor="#000" />
-      <div className="w-screen  min-h-[800px] pt-[150px] px-[10vw] bg-gradient-to-r from-[#5B51D8] relative overflow-hidden to-[#833AB4] text-white flex max-md:block max-md:pt-[150px] pb-[50px]">
+      <div className="w-screen  min-h-[800px] pt-[150px] max-md:pt-[120px] px-[10vw] max-sm:px-[5vw] bg-gradient-to-r from-[#5B51D8] relative overflow-hidden to-[#833AB4] text-white flex max-md:block  pb-[50px]">
         <div className="w-[20vw] h-[20vw] absolute  bottom-0 right-0 translate-x-[30%] translate-y-[20%] bg-[#F04C5B] blur-[100px]  rounded-full "></div>
         <div className="w-[55%] h-full max-md:h-fit max-md:w-full relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
           <h1 className="text-[48px]  font-['Epilogue']  leading-[52px] font-bold">

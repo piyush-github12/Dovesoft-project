@@ -143,7 +143,7 @@ const Navbar = (params) => {
             ? { backgroundColor: params.color }
             : { backgroundColor: "#021E43" }
         }
-        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
+        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh] max-md:mt-[20px] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
       >
         <div className="w-[20%] font-bold flex text-lg justify-center items-center max-lg:hidden">
           <div
