@@ -1,5 +1,5 @@
 import React from "react";
-import Instahero from "./instahero";
+import Instahero from "./Instahero";
 import Instapage2 from "./Instapage2";
 import Instapage3 from "./Instapage3";
 import Section8 from "../Sections/Section8";
