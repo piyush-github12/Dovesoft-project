@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SMSpage from './SMS page/SMSpage.jsx'
 import Whatsapp from './WhatsappPage/Whatsapp.jsx'
 import RCSpage from './RCSpage/RCS.jsx'
-import Instagram from './instagrampage/instagram.jsx'
+import Instagram from './instagrampage/Instagram.jsx'
 
 
 createRoot(document.getElementById('root')).render(
