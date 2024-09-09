@@ -122,7 +122,7 @@ const Section5 = () => {
         id="section5"
         className="section5 w-[100vw]  z-[10] px-[5vw] min-h-[800px] text-white flex justify-center items-center "
       >
-        <div className="w-[100%] h-[95%] px-[5vw] max-sm:px-[0vw] relative rounded-[55px] bg-red-300 py-[100px] max-sm:py-[50px] ">
+        <div className="w-[100%] h-[95%] px-[5vw] max-sm:px-[0vw] relative rounded-[55px] overflow-hidden bg-red-300 py-[100px] max-sm:py-[50px] ">
           <img
             className="absolute top-0 left-0 w-full h-full object-cover"
             src="./images/BlueBackground.png"
@@ -295,23 +295,12 @@ const Section5 = () => {
                       WhatsApp and RCS chatbots.
                     </h1>
                   </div>
-                  {/* <h1 className="max-lg:text-[2vw] text-lg">
-                    Empower your marketing, product and support users
-                    with pre-built bot templates and a visual editor
-                    to go-live on any channel in minutes
-                  </h1>
-                  <div className="min-w-fit w-[160px] max-sm:w-[10vw] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-                    <h1 className="text-white text-lg max-sm:text-sm font-bold whitespace-nowrap">
-                      Video View
-                    </h1>
-                  </div> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <Section6 /> */}
     </div>
   );
 }

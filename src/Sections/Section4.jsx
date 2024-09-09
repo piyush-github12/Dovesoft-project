@@ -79,17 +79,17 @@ const Section4 = () => {
       >
         <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-10">
           Leverage a single API to{" "}
-          <span className="bg-gradient-to-r max-md:whitespace-nowrap max-sm:white from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
+          <span className="bg-gradient-to-r max-md:whitespace-nowrap max-sm:whitespace-normal max-sm:white from-[#A8CCFF]  to-[#F4F9FF] rounded-md px-2">
             automate conversational engagement
           </span>{" "}
           <br />
           across various messaging channels
         </h1>
-        <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+        <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[4vw] gap-4  max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[25vw]  h-[400px]  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+              className="w-[25vw]  min-h-[400px]  max-sm:min-h-[450px]  max-md:w-[45vw]   rounded-2xl overflow-hidden"
             >
               <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                 <img
@@ -98,8 +98,8 @@ const Section4 = () => {
                   alt=""
                 />
               </div>
-              <div className=" h-[210px]  px-2 py-2 relative">
-                <h1 className="font-bold h-[70px] max-sm:h-[90px]  text-2xl ">
+              <div className=" min-h-[210px]  px-2 py-2 relative">
+                <h1 className="font-bold min-h-[70px] max-sm:min-h-[90px]  text-2xl ">
                   {item.heading}
                 </h1>
                 <p className="text-lg max-sm:text-base  ">{item.para}</p>

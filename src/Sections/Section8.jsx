@@ -36,7 +36,7 @@ const Section8 = () => {
             </span>
           </h1>
           <div className="grid grid-cols-4  max-lg:grid-cols-2 gap-10 justify-items-center   max-md:px-5">
-            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-2 rounded-br-[30px] border-2  border-[#FF9A0D] flex flex-col items-center  gap-2">
+            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-1 rounded-br-[30px] border-2  border-[#FF9A0D] flex flex-col items-center  gap-2">
               <img className="w-[64px] " src="./images/image 19.png" alt="" />
               <h1 className="font-bold text-center font-['Epilogue'] max-sm:text-xl text-2xl ">We Scale with You</h1>
               <h1 className="text-lg max-sm:text-base text-center">
@@ -44,7 +44,7 @@ const Section8 = () => {
                 infrastructure will ensure you that they deliver on time.
               </h1>
             </div>
-            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-2 rounded-br-[30px] border-2  border-[#3C3585] flex flex-col items-center  gap-2">
+            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-1 rounded-br-[30px] border-2  border-[#3C3585] flex flex-col items-center  gap-2">
               <img className="w-[64px] " src="./images/image 19-1.png" alt="" />
               <h1 className="font-bold text-center font-['Epilogue'] max-sm:text-xl text-2xl ">Secure</h1>
               <h1 className="text-lg max-sm:text-base text-center">
@@ -52,7 +52,7 @@ const Section8 = () => {
                 highly-regulated sectors.
               </h1>
             </div>
-            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-2 rounded-br-[30px] border-2  border-[#B22556] flex flex-col items-center  gap-2">
+            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-1 rounded-br-[30px] border-2  border-[#B22556] flex flex-col items-center  gap-2">
               <img className="w-[64px] " src="./images/image 19-2.png" alt="" />
               <h1 className="font-bold text-center font-['Epilogue'] max-sm:text-xl text-2xl ">Enterprise-grade</h1>
               <h1 className="text-lg max-sm:text-base text-center">
@@ -60,7 +60,7 @@ const Section8 = () => {
                 200+ countries for international delivery that is best in class.
               </h1>
             </div>
-            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-2 rounded-br-[30px] border-2  border-[#116B6B] flex flex-col items-center  gap-2">
+            <div className="w-[18vw]  min-h-fit max-lg:w-[30vw] max-lg:h-fit   max-sm:w-[45vw] max-sm:h-[100%] rounded-tl-[30px] p-5 max-sm:p-1 rounded-br-[30px] border-2  border-[#116B6B] flex flex-col items-center  gap-2">
               <img className="w-[64px] " src="./images/image 19-3.png" alt="" />
               <h1 className="font-bold text-center font-['Epilogue'] max-sm:text-xl text-2xl ">Compliance & developers</h1>
               <h1 className="text-lg max-sm:text-base text-center">

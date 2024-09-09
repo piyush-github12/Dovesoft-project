@@ -67,17 +67,17 @@ const Section6 = () => {
         id="section6"
         className="w-screen  pt-[10vh] max-sm:pt-[5vh] z-[9] min-h-fit  max-sm:h-fit  rounded-b-[55px]  "
       >
-        <h1 className="text-3xl font-['Epilogue']  max-md:text-2xl  text-center font-bold mb-2">
+        <h1 className="text-3xl font-['Epilogue']  max-md:text-2xl px-[5vw]  text-center font-bold mb-2">
           <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
             Conversational automation for every industry
           </span>
         </h1>
-        <h2 className="text-center text-lg max-sm:text-base  mb-10">
+        <h2 className="text-center text-lg max-sm:text-base  px-[5vw] mb-10">
           We understand your business and can make every customer touchpoint{" "}
           <br />
           conversational across marketing, commerce, and support
         </h2>
-        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[5vw]  gap-4 max-lg:grid-cols-2">
+        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-md:px-[5vw]  gap-4 max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
@@ -87,7 +87,7 @@ const Section6 = () => {
                 <img className="w-[72]" src={`${item.image}`} alt="" />
               </div>
               <div className="w-full h-[190px] relative px-2">
-                <h1 className="font-bold h-[50px] whitespace-nowrap max-sm:h-[40px]  text-2xl  ">
+                <h1 className="font-bold min-h-[50px]  max-sm:min-h-[40px]   text-2xl  ">
                   {item.heading}
                 </h1>
                 <p className="text-lg   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-[40vw]">

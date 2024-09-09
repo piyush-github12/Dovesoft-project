@@ -159,13 +159,13 @@ export default function App() {
                 className="w-[25vw]  h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
               >
                 <div className=" h-[200px] text-left px-2 py-2 relative">
-                  <div className="flex max-md:block gap-2 items-start ">
+                  <div className="flex max-lg:block gap-2 items-start ">
                     <img
                       className="w-[40px] h-[40px]"
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold min-h-[70px] max-sm:h-[100px]  text-2xl ">
+                    <h1 className="font-bold min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>
@@ -183,7 +183,7 @@ export default function App() {
                 className="w-[25vw]  min-h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
               >
                 <div className=" min-h-[200px] text-left px-2 py-2 relative">
-                  <div className="flex max-md:block gap-2 items-start ">
+                  <div className="flex max-lg:block gap-2 items-start ">
                     <img
                       className="w-[40px] h-[40px]"
                       src={item.image}

@@ -74,10 +74,10 @@ const Instapage4 = () => {
       <div className="w-full h-fit rounded-2xl  ">
         {questionanswwer.map((item, index) => {
           return (
-            <div className=" h-fit w-full border-b-2 py-[20px] px-[5vw]  bg-[#fff]  mt-[30px] shadow-[0px_0px_20px_0px] shadow-[#0000004d] rounded-xl border-[#32323258]">
+            <div className=" h-fit w-full border-b-2 py-[20px] px-[5vw]  bg-[#fff]  mt-[30px] shadow-[0px_0px_20px_0px] shadow-[#00000030] rounded-xl border-[#32323258]">
               <div className="flex justify-between items-start w-[100%]  min-h-[40px]">
                 <h1
-                  className={`text-xl w-[90%] min-h-[40px] transition-all ease-linear duration-200 `}
+                  className={`text-xl font-semibold w-[90%] min-h-[40px] transition-all ease-linear duration-200 `}
                 >
                   {item.question}
                 </h1>
@@ -87,7 +87,6 @@ const Instapage4 = () => {
                       onClick={() => {
                         index == open ? setopen(50) : setopen(index);
                       }}
-                      
                       className={`arrow cursor-pointer text-[15px]   h-full w-full absolute top-0 left-o   rounded-full`}
                     />
                   ) : (
@@ -102,7 +101,9 @@ const Instapage4 = () => {
               </div>
               <h1
                 className={`text-lg  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
-                  open == index ? "h-[100px] max-lg:h-[120px] max-md:h-[150px] max-sm:h-[200px] " : "h-0"
+                  open == index
+                    ? "h-[100px] max-lg:h-[120px] max-md:h-[150px] max-sm:h-[200px] "
+                    : "h-0"
                 } `}
               >
                 {item.answer}

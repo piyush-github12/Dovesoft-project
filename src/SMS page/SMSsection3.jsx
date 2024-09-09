@@ -46,14 +46,7 @@ const Section3 = () => {
 
   useGSAP(() => {
     let screenheight = window.screen.height;
-    console.log(screenheight)
     let pinheight = document.querySelector("#pinscroll").offsetHeight;
-    console.log(pinheight)
-
-    console.log(screenheight - pinheight)
-
-    let pinScroll1 = document.querySelectorAll("#pinscroll")[0];
-    let last = document.querySelectorAll("#last");
 
     let slideheight =""
 
@@ -63,16 +56,11 @@ const Section3 = () => {
       slideheight = pinheight
     }
 
-    console.log(slideheight)
-
     gsap.to("#pinscroll", {
       y: -slideheight,
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-        // end:"bottom top ",
-        // end:"100% top ",
-        // markers:true,
         pin: true,
         scrub: true,
       },
@@ -83,7 +71,6 @@ const Section3 = () => {
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-        // pin: true,
         scrub: true,
       },
     });
@@ -92,7 +79,6 @@ const Section3 = () => {
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-        // pin: true,
         scrub: true,
       },
     });
@@ -148,7 +134,7 @@ const Section3 = () => {
         <div className="h-fit w-[90%] max-sm:w-[70%]   ">
           <div
             id="pinscroll"
-            className=" flex flex-col  justify-center   min-h-[100vh] "
+            className=" flex flex-col  justify-center pt-[100px]  min-h-[100vh] "
           >
             {data.map((item) => (
               <div

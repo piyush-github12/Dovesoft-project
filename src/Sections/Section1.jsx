@@ -92,7 +92,7 @@ const Section1 = () => {
         className=" w-full relative z-[20] h-screen flex items-center justify-center "
       >
         <Navbar />
-        <div className=" w-[95%] h-[95%]  rounded-[55px]  flex relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
+        <div className=" w-[95%] h-[95%]  rounded-[55px] px-[7vw]  flex relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
           <div
             id="maincircle"
             className="maincircle w-[35vw] h-[35vw] z-20 max-lg:w-[500px] max-lg:h-[500px] max-md:min-h-[500px] max-md:min-w-[500px]    rotate-[-45deg] absolute right-[-12vw] top-[-12vw] max-lg:right-[-20vw] max-lg:top-[-20vw] max-md:right-[-200px] max-md:top-[-200px]  border-[30px]  border-[#ff8a0496] rounded-full flex items-center justify-center text-white"
@@ -160,7 +160,7 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
-          <div className="w-[65%]  h-screen pl-[9vw] relative  z-10 flex flex-col justify-center   gap-5">
+          <div className="w-[75vw]  h-screen  relative  z-10 flex flex-col justify-center   gap-5">
             <div className="min-w-full h-[170px]  max-md:mt-[10vh] ">
               <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
                 <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
@@ -180,31 +180,30 @@ const Section1 = () => {
                   Hit the Inbox
                 </h1>
                 <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
-                  Automate outbound and <br /> support calls with <br /> Voice
-                  AI
+                  Automate outbound <br /> and support calls <br /> with Voice AI
                 </h1>
               </div>
             </div>
 
             <div className="relative h-[100px] w-full overflow-hidden">
-              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute ">
                 Send and receive text messages without latency, with a superior
                 network of direct carrier connections in over 160 countries
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 Engage customers across marketing, commerce, and support with
                 rich media, branding, credible trust marks, and conversational
                 journeys
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 Go beyond one-way messages. Interact with customers across their
                 lifecycle
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 - With all the features to help businesses achieve their
                 marketing and sales goals in the most simplified manner.
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] absolute translate-y-[120px] ">
+              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 - Deflect callers to digital channels, boost agent productivity,
                 and lower contact center costs with cloud-based Voice AI API
               </h1>

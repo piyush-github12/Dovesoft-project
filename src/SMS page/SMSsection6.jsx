@@ -63,22 +63,28 @@ const SMSsection6 = () => {
           {questionanswwer.map((item, index) => {
             return (
               <div className=" h-fit w-full border-b-2 py-[10px] border-[#32323258]">
+                <div className="flex justify-between items-start w-[100%]  min-h-[40px]">
+                  <h1
+                    className={`text-xl font-semibold w-[90%] min-h-[40px] transition-all ease-linear duration-200 `}
+                  >
+                    {item.question}
+                  </h1>
+                  <div className=" h-[25px] w-[25px]  relative   ">
+                    <IoIosArrowDown
+                      onClick={() => {
+                        index == open ? setopen(50) : setopen(index);
+                      }}
+                      className={`arrow cursor-pointer text-[30px] h-[40px] w-[40px] p-[8px] flex justify-center items-center transition-all ease-linear duration-200 rounded-full  bg-[#2a555a46] text-[#2A555A]  ${
+                        open == index ? "rotate-180" : "rotate-0"
+                      }`}
+                    />
+                  </div>
+                </div>
                 <h1
-                  className={`text-2xl  h-[40px] font-bold flex justify-between items-center transition-all ease-linear duration-200 `}
-                >
-                  {item.question}
-                  <IoIosArrowDown
-                    onClick={() => {
-                      index == open ? setopen(50) : setopen(index);
-                    }}
-                    className={`arrow cursor-pointer text-[30px] h-[40px] w-[40px] p-[8px] flex justify-center items-center transition-all ease-linear duration-200 rounded-full  bg-[#2a555a46] text-[#2A555A]  ${
-                      open == index ? "rotate-180" : "rotate-0"
-                    }`}
-                  />
-                </h1>
-                <h1
-                  className={`text-lg mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
-                    open == index ? "h-[80px]" : "h-0"
+                  className={`text-lg  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
+                    open == index
+                      ? "h-[80px] max-lg:h-[80px] max-md:h-[100px]  max-sm:h-[150px] "
+                      : "h-0"
                   } `}
                 >
                   {item.answer}
