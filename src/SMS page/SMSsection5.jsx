@@ -27,10 +27,10 @@ const SMSsection5 = () => {
 
 
   return (
-    <div className="w-screen h-[850px]  px-[5vw] ">
+    <div className="w-screen h-[800px] max-sm:h-[900px]  px-[5vw] ">
       <div className="w-[100%] h-full relative text-white rounded-[55px] overflow-hidden">
         <img
-          className="absloute w-[100%] h-[100%] "
+          className="absloute w-[100%] h-[100%] object-cover"
           src="./images/BlueBackground.png"
           alt=""
         />
@@ -49,7 +49,7 @@ const SMSsection5 = () => {
                     }  `}
                   >
                     <h1
-                      className={`text-3xl font-['Epilogue']   font-bold flex justify-between items-center transition-all ease-linear duration-200  ${
+                      className={`text-xl font-['Epilogue']   font-bold flex justify-between items-center transition-all ease-linear duration-200  ${
                         open == index ? "text-[#96C2FF]" : "text-white"
                       }`}
                     >
@@ -64,7 +64,7 @@ const SMSsection5 = () => {
                       />
                     </h1>
                     <h1
-                      className={`text-lg mt-5  overflow-hidden mb-5 transition-all ease-linear duration-200 ${
+                      className={`text-lg mt-2  overflow-hidden mb-2 transition-all ease-linear duration-200 ${
                         open == index ? "h-fit" : "h-0"
                       } `}
                     >
@@ -74,7 +74,7 @@ const SMSsection5 = () => {
                 );
               })}
             </div>
-            <div className=" h-[600px]  w-[40%] flex  items-center ">
+            <div className=" h-[500px]  w-[40%] flex  items-center ">
               <img
                 className="w-[90%]"
                 src="./images/SMSsection5image.png"

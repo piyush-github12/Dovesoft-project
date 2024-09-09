@@ -4,8 +4,8 @@ import Bookdemobutton from '../components/Bookdemobutton';
 const Whatsappheropage = () => {
   return (
     <div className="w-screen h-fit  ">
-      <div className="w-screen min-h-[600px] px-[10vw] text-white bg-[#3AB52E] pt-[150px] pb-[2vh] flex max-md:block ">
-        <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
+      <div className="w-screen min-h-[600px] px-[10vw] max-md:px-[5vw] text-white bg-gradient-to-tr from-[#3AB52E] to-[#0BB92B] pt-[200px] max-sm:pt-[150px] pb-[2vh] flex max-md:block ">
+        <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] flex flex-col  gap-5">
           <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] ">
             Whatsapp API
           </h2>

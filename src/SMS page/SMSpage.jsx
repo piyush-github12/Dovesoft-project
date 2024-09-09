@@ -14,10 +14,10 @@ const SMSpage = () => {
   return (
     <div className="bg-[#fff] overflow-hidden relative">
       <Navbar />
-      <div className="w-screen h-[80vh] min-h-[500px] bg-gradient-to-tr from-[#072142] to-[#253164] text-white flex">
+      <div className="w-screen min-h-[650px] bg-gradient-to-tr from-[#072142] to-[#253164] text-white flex max-md:flex-col max-md:gap-20">
         <div className="w-[20vw] h-[20vw] absolute  top-0 left-0 translate-x-[-30%] translate-y-[-40%] bg-[#4F4B5A] blur-[100px]  rounded-full "></div>
-        <div className="w-[50%] h-full relative z-[2] pt-[50px] pl-[10vw] flex flex-col justify-center gap-5">
-          <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] ">
+        <div className="w-[50%] h-full max-md:w-full max-md:h-fit relative z-[2]  pb-[20px] pt-[200px]  max-md:pt-[150px] pl-[10vw] max-md:px-[5vw] flex flex-col  gap-5">
+          <h2 className="rounded-[50px] border-2 border-[#ffffff8d] text-lg w-fit px-[20px] whitespace-nowrap ">
             OTP, Notification & Marketing
           </h2>
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
@@ -30,8 +30,8 @@ const SMSpage = () => {
           </h1>
           <Bookdemobutton clr="#fff" textclr="#000" />
         </div>
-        <div className="w-[50%] h-full flex items-end justify-center">
-          <img className="w-[400px] " src="./images/SMS-hero.png" alt="" />
+        <div className="w-[50%]  min-h-[650px] max-md:w-full max-md:min-h-fit pt-2 flex items-end justify-center">
+          <img className="w-[400px] max-sm:w-[80vw]  " src="./images/SMS-hero.png" alt="" />
         </div>
       </div>
       <div className="text-[#021E43] mt-[50px] w-screen">

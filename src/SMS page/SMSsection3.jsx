@@ -46,13 +46,32 @@ const Section3 = () => {
 
   useGSAP(() => {
     let screenheight = window.screen.height;
+    console.log(screenheight)
+    let pinheight = document.querySelector("#pinscroll").offsetHeight;
+    console.log(pinheight)
+
+    console.log(screenheight - pinheight)
+
+    let pinScroll1 = document.querySelectorAll("#pinscroll")[0];
+    let last = document.querySelectorAll("#last");
+
+    let slideheight =""
+
+    if( pinheight > screenheight){
+      slideheight = 960 + (pinheight - screenheight)
+    }else{
+      slideheight = pinheight
+    }
+
+    console.log(slideheight)
 
     gsap.to("#pinscroll", {
-      y: "-140%",
+      y: -slideheight,
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-
+        // end:"bottom top ",
+        // end:"100% top ",
         // markers:true,
         pin: true,
         scrub: true,
@@ -82,10 +101,10 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-screen  h-[100vh] py-2    z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[300px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
+      className="w-screen  h-[100vh] py-2    z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[350px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
     >
-      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-300px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-full  ">
-        <div className="w-full h-screen max-sm:h-[60vw] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
+      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-350px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-full  ">
+        <div className="w-full h-screen max-sm:h-[300px] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl font-bold leading-[40px]">
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Use Dove Soft’s SMS API to
@@ -106,9 +125,9 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-5 max-sm:gap-2 "
+        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-0 max-sm:gap-2 "
       >
-        <div className="h-[100vh] w-[10%] max-sm:w-[20%] flex items-center justify-center  ">
+        <div className="h-[100vh] w-[10%] max-sm:w-[15%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
             <div className="circlesonline w-[30px] h-[30px] rounded-full absolute top-[-15px] left-[-15px] bg-[#1989f9]"></div>
             <div className="circlesonline w-[30px] h-[30px] rounded-full absolute top-[50%] left-[-15px] bg-[#1989f9]"></div>
@@ -126,15 +145,15 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[95%] max-sm:w-[70%]   mt-[10vh] max-sm:mt-[10vh] ">
+        <div className="h-fit w-[90%] max-sm:w-[70%]   ">
           <div
             id="pinscroll"
-            className=" flex flex-col  justify-center  min-h-[100vh] "
+            className=" flex flex-col  justify-center   min-h-[100vh] "
           >
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh] max-lg:h-[320px] flex  gap-5 items-start    "
+                className="w-full h-[30vh] max-lg:h-[320px] flex justify-center gap-5 items-start    "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -143,7 +162,7 @@ const Section3 = () => {
                 />
                 <div className="flex flex-col justify-center ">
                   <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                  <p className="w-[100%] max-sm:w-[250px] text-lg  mb-2 ">
+                  <p className="w-[100%] max-sm:w-[250px] text-base  mb-2 ">
                     {item.para}
                   </p>
                 </div>
@@ -152,12 +171,13 @@ const Section3 = () => {
           </div>
           <div
             id="pinscroll"
-            className="flex flex-col gap-5 justify-center   min-h-[100vh] max-lg:mt-10  "
+            className=" flex flex-col  justify-center   min-h-[100vh]   "
           >
             {data1.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh] max-lg:h-[320px] flex  gap-5 items-start    "
+                id={item.heading == "Easy Interactions" && "last"}
+                className="w-full h-[30vh] max-lg:h-[320px] flex justify-center  gap-5 items-start    "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -166,7 +186,7 @@ const Section3 = () => {
                 />
                 <div className="flex flex-col justify-center ">
                   <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                  <p className="w-[90%] max-sm:w-[250px] text-lg  mb-2 ">
+                  <p className="w-[90%] max-sm:w-[250px] text-base  mb-2 ">
                     {item.para}
                   </p>
                 </div>

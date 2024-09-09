@@ -67,6 +67,9 @@ export default function App() {
         "effectively to send personalised campaigns ",
       ],
     },
+   
+  ];
+  let data2 = [
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Connect Your APIs",
@@ -81,9 +84,7 @@ export default function App() {
         "Quick Fast Template Message Approval Process (10 minutes - 1hour) via Interactive Dashboard",
       ],
     },
-  ];
-  let data2 = [
-    
+
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Chat CRM Included",
@@ -134,7 +135,9 @@ export default function App() {
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Ecomm+",
-      para: ["Integrate your Shopify & WooCommerce stores easily with AiSensy & automate notifications for Order delivery, Abandoned Carts & more "],
+      para: [
+        "Integrate your Shopify & WooCommerce stores easily with AiSensy & automate notifications for Order delivery, Abandoned Carts & more ",
+      ],
     },
   ];
 
