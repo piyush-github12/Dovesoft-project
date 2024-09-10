@@ -86,13 +86,13 @@ const Section1 = () => {
 
 
   return (
-    <div className="relative h-[100vh]  ">
+    <div className="relative h-fit ">
       <div
         id="section1"
-        className=" w-full relative z-[20] h-screen flex items-center justify-center "
+        className=" w-full  relative z-[20] h-fit flex items-center justify-center "
       >
         <Navbar />
-        <div className=" w-[95%] h-[95%]  rounded-[55px] px-[7vw]  flex relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
+        <div className=" w-[95%] h-[95%] my-[20px] max-md:h-[1500px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-md:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
           <div
             id="maincircle"
             className="maincircle w-[35vw] h-[35vw] z-20 max-lg:w-[500px] max-lg:h-[500px] max-md:min-h-[500px] max-md:min-w-[500px]    rotate-[-45deg] absolute right-[-12vw] top-[-12vw] max-lg:right-[-20vw] max-lg:top-[-20vw] max-md:right-[-200px] max-md:top-[-200px]  border-[30px]  border-[#ff8a0496] rounded-full flex items-center justify-center text-white"
@@ -160,30 +160,33 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92AAFF] blur-[100px]  rounded-full "></div>
-          <div className="w-[75vw]  h-screen  relative  z-10 flex flex-col justify-center   gap-5">
-            <div className="min-w-full h-[170px]  max-md:mt-[10vh] ">
+          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-md:mt-[300px]  relative  z-10 flex flex-col justify-center   gap-5">
+            <div className=" min-w-full h-[170px]  max-md:mt-[10vh] ">
               <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
-                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
                   SMS API
                 </h1>
-                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Stand out in the <br /> messaging inbox with <br />
                   RCS Business Messaging
                 </h1>
-                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Build stronger customer <br /> relationships with <br />
                   WhatsApp Business API
                 </h1>
-                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                <h1 className="heading1 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
                   Discover the Unlimited <br /> Potential of Emails and <br />{" "}
                   Hit the Inbox
                 </h1>
-                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
-                  Automate outbound <br /> and support calls <br /> with Voice AI
+                <h1 className="heading1 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[48px]    font-bold leading-[56px] absolute translate-y-[250px]">
+                  Automate outbound <br /> and support calls <br /> with Voice
+                  AI
                 </h1>
               </div>
+              
             </div>
+           
 
             <div className="relative h-[100px] w-full overflow-hidden">
               <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute ">
@@ -214,7 +217,7 @@ const Section1 = () => {
               </h1>
             </div>
           </div>
-          <div className=" w-[60vw]  h-screen relative  pb-[5vh] flex items-end justify-start  ">
+          <div className=" w-[60vw] max-md:w-[100vw] h-screen max-md:h-[500px] relative  pb-[5vh] flex items-end justify-start  ">
             <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div>
             <div className="posterimage translate-x-[-50px] flex items-end justify-center w-[500px] h-full ">
               <img

@@ -27,20 +27,14 @@ const SMSsection5 = () => {
 
 
   return (
-    <div className="w-screen h-[800px] max-sm:h-[900px]  px-[5vw] ">
-      <div className="w-[100%] h-full relative text-white rounded-[55px] overflow-hidden">
-        <img
-          className="absloute w-[100%] h-[100%] object-cover"
-          src="./images/BlueBackground.png"
-          alt=""
-        />
-
-        <div className="absolute top-0 pt-20 w-full h-full ">
+    <div className="w-screen min-h-[800px] max-md:min-h-[900px]  px-[5vw] ">
+      <div className="w-[100%] min-h-[800px] max-md:min-h-[900px] relative text-white rounded-[55px] overflow-hidden">
+        <div className="relative  z-[9] top-0 left-0 pt-20 w-full h-full ">
           <h1 className="text-3xl font-['Epilogue']  text-center mb-20 font-bold">
             Build closer connections with SMS campaigns
           </h1>
-          <div className="flex h-fit">
-            <div className="h-full w-[60%] px-[5vw]  flex flex-col justify-center">
+          <div className="flex max-md:flex-col h-fit">
+            <div className="h-full w-[60%] max-md:w-[100%] max-md:h-fit px-[5vw]  flex flex-col justify-center">
               {data.map((item, index) => {
                 return (
                   <div
@@ -74,15 +68,20 @@ const SMSsection5 = () => {
                 );
               })}
             </div>
-            <div className=" h-[500px]  w-[40%] flex  items-center ">
+            <div className=" h-[500px] max-md:h-fit max-md:py-[50px] w-[40%] max-md:w-[100%] flex  items-center max-md:justify-center">
               <img
-                className="w-[90%]"
+                className="w-[90%] max-md:w-[60vw]"
                 src="./images/SMSsection5image.png"
                 alt=""
               />
             </div>
           </div>
         </div>
+        <img
+          className="absolute top-0 w-[100%] h-[100%] object-cover"
+          src="./images/BlueBackground.png"
+          alt=""
+        />
       </div>
     </div>
   );

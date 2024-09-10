@@ -18,7 +18,7 @@ const Section4 = () => {
         <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-10">
           Platform Features
         </h1>
-        <h1 className="px-[15vw] text-lg text-center mb-10">
+        <h1 className="px-[15vw] max-md:px-[5vw] text-lg text-center mb-10">
           Enable SMS API service in your application. With the omnichannel
           experience that SMS gateway API provides, we ensure that your messages
           are delivered to your customers smoothly and reliably.

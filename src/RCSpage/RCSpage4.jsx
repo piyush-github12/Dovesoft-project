@@ -15,7 +15,7 @@ const RCSpage4 = () => {
 
   return (
     <div className="">
-      <h1 className="text-3xl py-[50px] max-md:pb-0 font-['Epilogue'] text-center leading-[52px] font-bold">
+      <h1 className="text-3xl py-[50px] max-md:pb-0 max-md:px-[5vw] font-['Epilogue'] text-center  font-bold">
         Features & Benefits of RCS Messaging
       </h1>
       <div className="w-full min-h-[600px] max-md:h-fit px-[10vw]  max-sm:px-[5vw] py-[30px] flex max-md:block bg-[#fff]">

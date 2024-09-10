@@ -25,7 +25,7 @@ const Section6 = () => {
       },
       {
         image: "./images/bubble-chat 2.png",
-        heading: "Food&Beverage",
+        heading: "Food & Beverage",
         para: "Receive orders and payments directly, manage home delivery and marketing",
       },
       {

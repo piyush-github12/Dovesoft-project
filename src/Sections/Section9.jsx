@@ -109,7 +109,7 @@ const Section9 = ({bg}) => {
         style={bg ? { backgroundColor: bg } : { backgroundColor: "#031e42" }}
         className="w-full px-[10vw] min-h-[20vh] flex justify-center  text-white text-center "
       >
-        <div className="w-[100%] border-t-2 px-32 py-5 max-md:px-[20px] border-white ">
+        <div className="w-[100%] border-t-2 px-32 py-5 max-md:px-[10px] border-white ">
           <h2 className="text-lg  max-sm:text-sm">
             Sakari is a 100% opt in service, to unsubscribe, text ‘STOP’ to the
             originating number. Msg & data rates may apply. Privacy of your data
