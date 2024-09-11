@@ -7,6 +7,7 @@ import Whatsapp from './WhatsappPage/Whatsapp.jsx'
 import RCSpage from './RCSpage/RCS.jsx'
 import Instagram from './instagrampage/Instagram.jsx'
 import Chatbot from './Chatbot/Chatbot.jsx'
+import Intigration from './Intigration/Intigration.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     <Route path='/rcs' element={<RCSpage/>}/>
     <Route path='/instagram' element={<Instagram/>}/>
     <Route path='/chatbot' element={<Chatbot/>}/>
+    <Route path='/intigration' element={<Intigration/>}/>
 
    </Routes>
   </BrowserRouter>,
