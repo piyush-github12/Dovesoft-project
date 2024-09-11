@@ -6,17 +6,20 @@ import SMSpage from './SMS page/SMSpage.jsx'
 import Whatsapp from './WhatsappPage/Whatsapp.jsx'
 import RCSpage from './RCSpage/RCS.jsx'
 import Instagram from './instagrampage/Instagram.jsx'
+import Chatbot from './Chatbot/Chatbot.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
    <Routes>
+
     <Route path='/' element={<App/>}/>
     <Route path='/sms' element={<SMSpage/>}/>
     <Route path='/whatsapp' element={<Whatsapp/>}/>
     <Route path='/rcs' element={<RCSpage/>}/>
     <Route path='/instagram' element={<Instagram/>}/>
+    <Route path='/chatbot' element={<Chatbot/>}/>
+
    </Routes>
-    
   </BrowserRouter>,
 )

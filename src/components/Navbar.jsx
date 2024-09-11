@@ -77,6 +77,7 @@ const Navbar = (params) => {
         {
           subnameimage: <BiMessageDetail />,
           subsubname: "Automation",
+          elemname:'chatbot'
         },
         {
           subnameimage: <FaWhatsapp />,
