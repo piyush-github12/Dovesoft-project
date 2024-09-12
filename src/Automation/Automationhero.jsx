@@ -28,8 +28,8 @@ const Automationhero = () => {
           />
         </div>
       </div>
-      <div className=" mt-[50px] mb-[50px] w-screen">
-        <h1 className="text-3xl text-center font-bold">
+      <div className=" mt-[50px] px-[5vw] mb-[50px] w-screen">
+        <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Unlock new use cases across all of your <br />
           <span className="text-[#0029C7]">channels and teams</span>
         </h1>

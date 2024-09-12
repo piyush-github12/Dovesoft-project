@@ -31,11 +31,15 @@ const SMSpage = () => {
           <Bookdemobutton clr="#fff" textclr="#000" />
         </div>
         <div className="w-[50%]  min-h-[650px] max-md:w-full max-md:min-h-fit pt-2 flex items-end justify-center">
-          <img className="w-[400px] max-sm:w-[80vw]  " src="./images/SMS-hero.png" alt="" />
+          <img
+            className="w-[400px] max-sm:w-[80vw]  "
+            src="./images/SMS-hero.png"
+            alt=""
+          />
         </div>
       </div>
       <div className="text-[#021E43] mt-[50px] w-screen">
-        <h1 className="text-3xl text-center font-bold">
+        <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Send message with programmable SMS API
         </h1>
         <h1 className="text-center text-lg px-[15vw] mt-[30px]">

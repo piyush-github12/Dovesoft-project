@@ -31,7 +31,7 @@ const RCSheropage = () => {
         </div>
       </div>
       <div className="text-[#021E43] mt-[50px] w-screen">
-        <h1 className="text-3xl text-center font-bold">
+        <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Engage Customers Over RCS Business Messaging
         </h1>
         <h1 className="text-center text-lg px-[15vw] max-md:px-[5vw] mt-[30px]">

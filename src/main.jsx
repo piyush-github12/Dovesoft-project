@@ -9,6 +9,7 @@ import Instagram from './instagrampage/Instagram.jsx'
 import Chatbot from './Chatbot/Chatbot.jsx'
 import Intigration from './Intigration/Intigration.jsx'
 import Automation from './Automation/Automation.jsx'
+import Email from './Email service/Email.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')).render(
     <Route path='/chatbot' element={<Chatbot/>}/>
     <Route path='/intigration' element={<Intigration/>}/>
     <Route path='/automation' element={<Automation/>}/>
+    <Route path='/email' element={<Email/>}/>
 
    </Routes>
   </BrowserRouter>,

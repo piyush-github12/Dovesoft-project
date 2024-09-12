@@ -7,6 +7,8 @@ import { MdOutlineMail } from "react-icons/md";
 import { FaWhatsapp } from "react-icons/fa6";
 import { MdOutlineMessage } from "react-icons/md";
 import { RiUserVoiceLine } from "react-icons/ri";
+import { FaInstagram } from "react-icons/fa";
+
 
 
 import gsap from "gsap";
@@ -48,26 +50,32 @@ const Navbar = (params) => {
         {
           subnameimage: <BiMessageDetail />,
           subsubname: "SMS",
-          elemname:"sms"
+          elemname: "sms",
         },
         {
           subnameimage: <FaWhatsapp />,
           subsubname: "Whatsapp",
-          elemname:"whatsapp"
+          elemname: "whatsapp",
         },
         {
           subnameimage: <MdOutlineMessage />,
           subsubname: "RCS",
-          elemname:"rcs"
+          elemname: "rcs",
         },
         {
           subnameimage: <RiUserVoiceLine />,
           subsubname: "Voice",
-          elemname:"instagram"
+          elemname: "",
         },
         {
           subnameimage: <MdOutlineMail />,
           subsubname: "Email",
+          elemname: "email",
+        },
+        {
+          subnameimage: <FaInstagram />,
+          subsubname: "Instagram`",
+          elemname: "instagram",
         },
       ],
     },
@@ -77,7 +85,7 @@ const Navbar = (params) => {
         {
           subnameimage: <BiMessageDetail />,
           subsubname: "Automation",
-          elemname:'automation'
+          elemname: "automation",
         },
         {
           subnameimage: <FaWhatsapp />,
@@ -99,6 +107,10 @@ const Navbar = (params) => {
           subnameimage: <MdOutlineMail />,
           subsubname: "Smart Addons",
         },
+        {
+          subnameimage: <FaWhatsapp />,
+          subsubname: "File GPT",
+        },
       ],
     },
     {
@@ -107,10 +119,6 @@ const Navbar = (params) => {
         {
           subnameimage: <BiMessageDetail />,
           subsubname: "OTP Free",
-        },
-        {
-          subnameimage: <FaWhatsapp />,
-          subsubname: "File GPT",
         },
       ],
     },
@@ -144,7 +152,7 @@ const Navbar = (params) => {
             ? { backgroundColor: params.color }
             : { backgroundColor: "#021E43" }
         }
-        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[3.5vh] max-md:mt-[20px] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
+        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[20px] max-md:mt-[20px] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
       >
         <div className="w-[20%] font-bold flex text-lg justify-center items-center max-lg:hidden">
           <div

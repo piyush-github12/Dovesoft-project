@@ -26,8 +26,8 @@ const Intigrationhero = () => {
           />
         </div>
       </div>
-      <div className=" mt-[50px] mb-[50px] w-screen">
-        <h1 className="text-3xl text-center font-bold">
+      <div className=" mt-[50px]  mb-[50px] w-screen">
+        <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Endless integrations to enrich every stage of your customer journey
         </h1>
       </div>
