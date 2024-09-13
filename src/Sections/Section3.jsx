@@ -137,11 +137,14 @@ const Section3 = () => {
         <div className="h-fit w-[90%] max-sm:w-[85%]  ">
           <div
             id="pinscroll"
-            className=" flex flex-col  justify-center pt-[100px] min-h-[100vh] "
+            className=" flex flex-col  justify-center  min-h-[100vh] "
           >
             {data.map((item) => (
               <div
                 key={item.heading}
+                style={
+                  item.heading == "Authentication" ? { marginTop: "100px" } : {}
+                }
                 className="w-full h-[30vh] max-lg:h-[350px]   flex flex-col justify-center   "
               >
                 <img
@@ -160,7 +163,7 @@ const Section3 = () => {
           </div>
           <div
             id="pinscroll"
-            className="flex flex-col  justify-center pt-[100px]  min-h-[100vh]  "
+            className="flex flex-col  justify-center   min-h-[100vh]  "
           >
             {data1.map((item) => (
               <div
