@@ -145,7 +145,7 @@ const Section3 = () => {
                 style={
                   item.heading == "Authentication" ? { marginTop: "100px" } : {}
                 }
-                className="w-full h-[30vh] max-lg:h-[350px]   flex flex-col justify-center   "
+                className="w-full h-[33vh] max-lg:h-[350px]   flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -168,7 +168,7 @@ const Section3 = () => {
             {data1.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh] max-lg:h-[350px]   flex flex-col justify-center   "
+                className="w-full h-[33vh] max-lg:h-[350px]   flex flex-col justify-center   "
               >
                 <img
                   src={`./images/${item.image}`}
