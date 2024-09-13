@@ -163,7 +163,7 @@ const Section3 = () => {
           </div>
           <div
             id="pinscroll"
-            className="flex flex-col  justify-center   min-h-[100vh]  "
+            className="flex flex-col  justify-center  bg-red-400  min-h-[100vh]  "
           >
             {data1.map((item) => (
               <div
