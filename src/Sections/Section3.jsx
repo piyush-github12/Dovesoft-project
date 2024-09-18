@@ -49,12 +49,17 @@ const Section3 = () => {
     let screenheight = window.screen.height;
     let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
+    console.log(pinheight)
+
     let slideheight = "";
 
     if (pinheight > screenheight) {
       slideheight = 1100 + (pinheight - screenheight);
+      console.log(slideheight);
+
     } else {
-      slideheight = pinheight;
+      slideheight = pinheight ;
+      console.log(slideheight)
     }
 
     gsap.to("#pinscroll", {
@@ -142,9 +147,9 @@ const Section3 = () => {
             {data.map((item) => (
               <div
                 key={item.heading}
-                style={
-                  item.heading == "Authentication" ? { marginTop: "100px" } : {}
-                }
+                // style={
+                //   item.heading == "Authentication" ? { marginTop: "100px" } : {}
+                // }
                 className="w-full h-[33vh] max-lg:h-[350px]   flex flex-col justify-center   "
               >
                 <img
