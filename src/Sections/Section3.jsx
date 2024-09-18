@@ -49,17 +49,14 @@ const Section3 = () => {
     let screenheight = window.screen.height;
     let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
-    console.log(pinheight)
 
     let slideheight = "";
 
     if (pinheight > screenheight) {
       slideheight = 1100 + (pinheight - screenheight);
-      console.log(slideheight);
 
     } else {
       slideheight = pinheight ;
-      console.log(slideheight)
     }
 
     gsap.to("#pinscroll", {
