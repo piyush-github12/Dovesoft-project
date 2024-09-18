@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 import { RiMenu3Line } from "react-icons/ri";
 
@@ -124,28 +124,31 @@ const Navbar = (params) => {
     },
   ];
 
+  
+  
   const [dropdoun, setdropdoun] = useState(false)
+  const elementRef = useRef(null);
 
-  if(dropdoun){
-
-      gsap.to("#dropdown" ,{
-        height:"600px",
-        paddingTop:"120px",
-        paddingBottom:"20px"
-    })
-  }else{
-    gsap.to("#dropdown", {
-      height: "0px",
-      paddingTop:"0",
-      paddingBottom:"0"
-    });
-
-  }
+  useGSAP(()=>{
+     if (dropdoun) {
+       gsap.to("#dropdown", {
+         height: "fit-content",
+         paddingTop: "120px",
+         paddingBottom: "20px",
+       });
+    } else {
+      gsap.to("#dropdown", {
+        height: "0px",
+        paddingTop: "0",
+        paddingBottom: "0",
+      });
+    }
+  },[dropdoun ]);
   
   
 
   return (
-    <div className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
+    <div  className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
       <div
         style={
           params.color
@@ -179,11 +182,6 @@ const Navbar = (params) => {
           id="nn"
           className="w-[20%] flex justify-end max-lg:hidden items-center gap-10"
         >
-          {/* <div className="min-w-fit w-[160px] h-[50px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-lg  font-bold whitespace-nowrap">
-              Book Demo
-            </h1>
-          </div> */}
           <div
             style={{
               backgroundColor: params.logincolor,
@@ -195,33 +193,19 @@ const Navbar = (params) => {
           </div>
         </div>
 
-        {/* <div
-            onClick={navonclick}
-            className="w-[30px] h-[30px]   hidden max-lg:block cursor-pointer"
-          >
-            <RiMenu3Line className="w-full h-full text-white " />
-          </div>
-          <div
-            id="navpage"
-            className=" w-[100vw] h-[100vh]  bg-[#021E43] hidden translate-x-[110%] fixed left-0 top-0  flex-col items-center justify-center gap-10"
-          >
-            <div className="py-[5vw] px-[5vw] absolute right-0 top-0 ">
-              <RiMenu3Line
-                onClick={navclickoff}
-                className="w-[40px] h-[40px] text-white "
-              />
-            </div>
-
-            <h5>Products</h5>
-            <h5>Compony</h5>
-            <h5>Book Demo</h5>
-            <h5>Login</h5>
-          </div> */}
+        <div
+          onClick={() => setdropdoun(true)}
+          // onMouseLeave={() => setdropdoun(false)}
+          className="absolute right-[30px] h-[30px] w-[30px]  text-[30px] hidden max-lg:block"
+        >
+          <RiMenu3Line />
+        </div>
 
         <div
           id="dropdown"
+          ref={elementRef}
           onMouseLeave={() => setdropdoun(false)}
-          className="absolute left-0 top-[0px] text-black flex justify-center    px-20   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
+          className="absolute left-0 top-[0px] text-black flex max-lg:flex-col max-lg:items-center max-lg:gap-10  justify-center    px-[3vw]   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
         >
           <div className="w-[90vw]  h-[100px] absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center">
             <div className="w-[20%] font-bold flex text-lg justify-center items-center max-lg:hidden">
@@ -251,22 +235,29 @@ const Navbar = (params) => {
               id="nn"
               className="w-[20%] flex justify-end max-lg:hidden items-center gap-10"
             >
-              {/* <div className="min-w-fit w-[160px] h-[50px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-lg  font-bold whitespace-nowrap">
-              Book Demo
-            </h1>
-          </div> */}
               <div className="min-w-fit w-[100px] h-[50px]  border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
                 <h1 className="text-black text-lg  font-bold whitespace-nowrap">
                   Log-in
                 </h1>
               </div>
             </div>
+
+            <div
+              onClick={() => setdropdoun(false)}
+              // onMouseLeave={() => setdropdoun(false)}
+              className="absolute right-[30px] h-[30px] w-[30px]  text-[30px] hidden max-lg:block"
+            >
+              <RiMenu3Line />
+            </div>
           </div>
+
+          <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
+
+
           {navdata.map((item, index) => {
             return (
-              <div className="w-[25%] h-full  ">
-                <h1 className="text-2xl font-bold">{item.mainname}</h1>
+              <div className="w-[33%]  h-fit max-sm:flex max-sm:flex-col max-sm:w-[250px]  ">
+                <h1 className="text-2xl max-sm:text-center font-bold">{item.mainname}</h1>
 
                 {item.subname.map((subitem, i) => {
                   return (
@@ -287,7 +278,8 @@ const Navbar = (params) => {
               </div>
             );
           })}
-          <div className="w-[40%] h-full  flex flex-col pl-10 justify-evenly  border-l-2 border-[#00000075] p-2">
+          </div>
+          <div className="w-[350px]  h-[400px] max-lg:w-[400px] flex flex-col pl-10 justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
             <div className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2">
               <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                 <h1 className="font-bold text-xl "> Live Chat</h1>

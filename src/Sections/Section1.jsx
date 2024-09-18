@@ -92,7 +92,7 @@ const Section1 = () => {
         className=" w-full  relative z-[20] h-fit flex items-center justify-center "
       >
         <Navbar />
-        <div className=" w-[95%] h-[95%] my-[20px] max-md:h-[1500px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-md:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
+        <div className=" w-[95%] h-[95%] my-[10px] max-md:h-[1500px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-md:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff] to-[#95BFFF]">
           <div
             id="maincircle"
             className="maincircle w-[35vw] h-[35vw] z-20 max-lg:w-[500px] max-lg:h-[500px] max-md:min-h-[500px] max-md:min-w-[500px]    rotate-[-45deg] absolute right-[-12vw] top-[-12vw] max-lg:right-[-20vw] max-lg:top-[-20vw] max-md:right-[-200px] max-md:top-[-200px]  border-[30px]  border-[#ff8a0496] rounded-full flex items-center justify-center text-white"

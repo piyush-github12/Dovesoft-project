@@ -10,10 +10,12 @@ import Chatbot from './Chatbot/Chatbot.jsx'
 import Intigration from './Intigration/Intigration.jsx'
 import Automation from './Automation/Automation.jsx'
 import Email from './Email service/Email.jsx'
+import ScrollToTop from './components/ScrollToTop.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
+  <ScrollToTop/>
    <Routes>
 
     <Route path='/' element={<App/>}/>
