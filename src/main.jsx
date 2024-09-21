@@ -11,6 +11,9 @@ import Intigration from './Intigration/Intigration.jsx'
 import Automation from './Automation/Automation.jsx'
 import Email from './Email service/Email.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
+import Filegpt from './FileGpt/Filegpt.jsx'
+import Linkshortner from './Linkshortner/Linkshortner.jsx'
+import Filehosting from './File hosting/Filehosting.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -27,7 +30,9 @@ createRoot(document.getElementById('root')).render(
     <Route path='/intigration' element={<Intigration/>}/>
     <Route path='/automation' element={<Automation/>}/>
     <Route path='/email' element={<Email/>}/>
-
+    <Route path='/fileGPT' element={<Filegpt/>}/>
+    <Route path='/linkShortner' element={<Linkshortner/>}/>
+    <Route path='/filehosting' element={<Filehosting/>}/>
    </Routes>
   </BrowserRouter>,
 )
