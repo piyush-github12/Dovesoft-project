@@ -14,25 +14,29 @@ import ScrollToTop from './components/ScrollToTop.jsx'
 import Filegpt from './FileGpt/Filegpt.jsx'
 import Linkshortner from './Linkshortner/Linkshortner.jsx'
 import Filehosting from './File hosting/Filehosting.jsx'
+import Otp from './OTP/Otp.jsx'
+import Encry from './Encry Content/Encry.jsx'
 
 
-createRoot(document.getElementById('root')).render(
+
+createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-  <ScrollToTop/>
-   <Routes>
-
-    <Route path='/' element={<App/>}/>
-    <Route path='/sms' element={<SMSpage/>}/>
-    <Route path='/whatsapp' element={<Whatsapp/>}/>
-    <Route path='/rcs' element={<RCSpage/>}/>
-    <Route path='/instagram' element={<Instagram/>}/>
-    <Route path='/chatbot' element={<Chatbot/>}/>
-    <Route path='/intigration' element={<Intigration/>}/>
-    <Route path='/automation' element={<Automation/>}/>
-    <Route path='/email' element={<Email/>}/>
-    <Route path='/fileGPT' element={<Filegpt/>}/>
-    <Route path='/linkShortner' element={<Linkshortner/>}/>
-    <Route path='/filehosting' element={<Filehosting/>}/>
-   </Routes>
-  </BrowserRouter>,
-)
+    <ScrollToTop />
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/sms" element={<SMSpage />} />
+      <Route path="/whatsapp" element={<Whatsapp />} />
+      <Route path="/rcs" element={<RCSpage />} />
+      <Route path="/instagram" element={<Instagram />} />
+      <Route path="/chatbot" element={<Chatbot />} />
+      <Route path="/intigration" element={<Intigration />} />
+      <Route path="/automation" element={<Automation />} />
+      <Route path="/email" element={<Email />} />
+      <Route path="/fileGPT" element={<Filegpt />} />
+      <Route path="/linkShortner" element={<Linkshortner />} />
+      <Route path="/filehosting" element={<Filehosting />} />
+      <Route path="/otp" element={<Otp />} />
+      <Route path="/encryptedcontent" element={<Encry />} />
+    </Routes>
+  </BrowserRouter>
+);

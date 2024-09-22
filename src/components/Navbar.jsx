@@ -76,10 +76,12 @@ const Navbar = (params) => {
         {
           subnameimage: <RiUserVoiceLine />,
           subsubname: "Encrypt Content",
+          elemname:"encryptedcontent"
         },
         {
           subnameimage: <MdOutlineMail />,
           subsubname: "OTP Generator",
+          elemname:"otp"
         },
         {
           subnameimage: <MdOutlineMail />,
@@ -116,11 +118,11 @@ const Navbar = (params) => {
         delay: 0.2,
         opacity:1,
       });
-      // gsap.from("#navrightboxes", {
-      //   x: "200px",
-      //   opacity: 0,
-      //   stagger: 0.2,
-      // });
+      gsap.from("#navrightboxes", {
+        x: "200px",
+        opacity: 0,
+        stagger: 0.2,
+      });
     } else {
       gsap.to("#dropdown", {
         height: "0px",

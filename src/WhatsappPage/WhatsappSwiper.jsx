@@ -118,6 +118,10 @@ export default function App() {
         " clicking on your message's CTA buttons with this Pro Feature.  ",
       ],
     },
+    
+  ];
+
+  let data3 = [
     {
       image: "./images/whatsappPageImages/Group.png",
       heading: "Click-to-WhatsApp-Ads",
@@ -140,7 +144,6 @@ export default function App() {
       ],
     },
   ];
-
   
 
   return (
@@ -178,6 +181,30 @@ export default function App() {
         <SwiperSlide className="SMSswiper">
           <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
             {data2.map((item) => (
+              <div
+                key={item.heading}
+                className="w-[25vw]  min-h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+              >
+                <div className=" min-h-[200px] text-left px-2 py-2 relative">
+                  <div className="flex max-lg:block gap-2 items-start ">
+                    <img
+                      className="w-[40px] h-[40px]"
+                      src={item.image}
+                      alt=""
+                    />
+                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
+                      {item.heading}
+                    </h1>
+                  </div>
+                  <p className="text-lg max-sm:text-base  ">{item.para}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="SMSswiper">
+          <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+            {data3.map((item) => (
               <div
                 key={item.heading}
                 className="w-[25vw]  min-h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"

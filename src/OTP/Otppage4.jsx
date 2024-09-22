@@ -1,7 +1,6 @@
 import React from 'react'
 
-const Filehostingpage4 = () => {
-   
+const Otppage4 = () => {
   return (
     <div className="w-screen text-black pt-[50px] ">
       <h1 className='font-["Epilogue"] text-3xl px-[10vw] max-md:px-[5vw] pt-[50px] text-center  font-[500]'>
@@ -11,11 +10,11 @@ const Filehostingpage4 = () => {
         <div className="w-[40%] h-fit ">
           <div className="w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
-              Upload Your File
+              OTP Generation
             </h1>
             <h1 className="text-base">
-              Simply drag and drop your file into our platform or browse to
-              select the file you want to share.
+              Our API generates a unique OTP and delivers it via your chosen
+              communication channel.
             </h1>
           </div>
           <div className="w-full h-[300px]  flex items-center justify-center ">
@@ -27,11 +26,10 @@ const Filehostingpage4 = () => {
           </div>
           <div className="w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
-              Share and Track
+              User Input
             </h1>
             <h1 className="text-base">
-              Distribute the short URL through your preferred channels and use
-              our detailed reports to track user interactions and engagement.
+              The user enters the received OTP into your application.
             </h1>
           </div>
         </div>
@@ -61,11 +59,11 @@ const Filehostingpage4 = () => {
           </div>
           <div className="w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
-              Upload Your File
+              OTP Validation
             </h1>
             <h1 className="text-base">
-              Simply drag and drop your file into our platform or browse to
-              select the file you want to share.
+              The entered OTP is validated against the one generated, confirming
+              the user’s identity.
             </h1>
           </div>
           <div className="w-full h-[300px]  flex items-center justify-center ">
@@ -79,8 +77,6 @@ const Filehostingpage4 = () => {
       </div>
     </div>
   );
-
 }
 
-
-export default Filehostingpage4
+export default Otppage4

@@ -89,21 +89,21 @@ export default function App() {
        <div className="h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
          <img className="w-[140px] max-sm:w-[100px]" src={`${image}`} alt="" />
        </div>
-       <div className="min-h-fit text-left px-2 py-2 relative">
+       <div className="min-h-[210px] text-left px-2 py-2 relative ">
          <h1 className="font-bold font-['Epilogue'] h-[70px] max-sm:h-[90px] text-2xl">
            {heading}
          </h1>
-         <p className="text-lg max-sm:text-base ">
+         <p className="text-lg max-sm:text-base  ">
            {isExpanded ? para : `${para.substring(0, 80)}...`}
-         </p>
          {para.length > 80 && (
            <button
-             className="text-blue-500 underline cursor-pointer"
+             className="text-blue-500 font-[500] cursor-pointer"
              onClick={handleToggleExpand}
            >
              {isExpanded ? "Read Less" : "Read More"}
            </button>
          )}
+         </p>
        </div>
      </div>
    );
