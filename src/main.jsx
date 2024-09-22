@@ -16,6 +16,7 @@ import Linkshortner from './Linkshortner/Linkshortner.jsx'
 import Filehosting from './File hosting/Filehosting.jsx'
 import Otp from './OTP/Otp.jsx'
 import Encry from './Encry Content/Encry.jsx'
+import Voice from './Voice/Voice.jsx'
 
 
 
@@ -37,6 +38,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/filehosting" element={<Filehosting />} />
       <Route path="/otp" element={<Otp />} />
       <Route path="/encryptedcontent" element={<Encry />} />
+      <Route path="/voice" element={<Voice />} />
     </Routes>
   </BrowserRouter>
 );

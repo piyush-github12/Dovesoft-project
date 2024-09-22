@@ -45,7 +45,7 @@ const Otppage2 = () => {
   ];
 
   return (
-    <div className="w-screen h-fit pt-[50px] ">
+    <div className="w-screen h-fit  ">
       {data.map((item, index) => {
         return (
           <div className="w-screen min-h-[400px] px-[10vw] max-md:px-[5vw] py-[50px] max-md:py-[20px]  max-md:mt-[20px] flex items-center justify-between gap-10 max-md:block">

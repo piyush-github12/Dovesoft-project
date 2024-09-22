@@ -41,7 +41,7 @@ const Navbar = (params) => {
         {
           subnameimage: <RiUserVoiceLine />,
           subsubname: "Voice",
-          elemname: "",
+          elemname: "voice",
         },
         {
           subnameimage: <MdOutlineMail />,
@@ -149,7 +149,7 @@ const Navbar = (params) => {
       >
         <div className="w-[30%] font-bold flex text-lg justify-center items-center max-lg:hidden">
           <div
-            onMouseEnter={() => setdropdown(true)}
+            onMouseMove={() => setdropdown(true)}
             // onMouseLeave={() => setdropdown(false)}
             className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
           >
