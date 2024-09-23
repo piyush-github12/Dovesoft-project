@@ -223,7 +223,7 @@ const Section5 = () => {
                   <div className="w-full h-full  flex flex-col justify-center    overflow-hidden relative ">
                     <h1
                       id="h1para"
-                      className="sec5heading text-lg max-md:text-base  h-fit    absolute"
+                      className="sec5heading text-base max-md:text-base  h-fit    absolute"
                     >
                       1 . Empower your employees to do more <br />
                       <br />2 . Improve agent efficiency by bringing all digital
@@ -231,7 +231,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h2para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-md:text-base  h-fit     absolute"
                     >
                       1 . Seamless integrations with multiple e-commerce
                       portals, CRMs & more. Incorporate our cloud API
@@ -240,7 +240,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h3para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-md:text-base  h-fit     absolute"
                     >
                       1 . This tool enables you to encrypt sensitive SMS
                       contents such as one-time passwords, and banking
@@ -253,7 +253,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h4para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-md:text-base  h-fit     absolute"
                     >
                       1 . The system can automatically identify URLs within SMS
                       content, whether they are from HTTP links or the user
@@ -268,7 +268,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h5para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-md:text-base  h-fit     absolute"
                     >
                       1 . Construct feedback forms, quizzes, surveys, polls, and
                       lead capture forms. <br />
@@ -283,7 +283,7 @@ const Section5 = () => {
                     </h1>
                     <h1
                       id="h6para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-md:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-md:text-base  h-fit     absolute"
                     >
                       1 . Upload a PDF file that showcases your services or
                       products. <br />

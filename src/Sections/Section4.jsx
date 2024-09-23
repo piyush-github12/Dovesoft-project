@@ -102,8 +102,8 @@ const Section4 = () => {
                 <h1 className="font-bold min-h-[70px] max-sm:min-h-[90px]  text-2xl ">
                   {item.heading}
                 </h1>
-                <p className="text-lg max-sm:text-base  ">{item.para}</p>
-                <div className="flex  gap-2 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
+                <p className="text-base max-sm:text-base  ">{item.para}</p>
+                <div className="flex  gap-2 items-center text-[#1871ED] text-base   hover:text-xl transition-all cursor-pointer">
                   <h1>Explore {item.explor}</h1>
                   <FaLongArrowAltRight />
                 </div>

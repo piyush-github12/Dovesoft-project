@@ -340,7 +340,7 @@ const WhatsappSolutions = () => {
                     <h1 className="text-xl mb-2 font-bold">
                       {boxitems.boxheading}
                     </h1>
-                    <h1 className="text-lg ">{boxitems.boxpara}</h1>
+                    <h1 className="text-base ">{boxitems.boxpara}</h1>
                   </div>
                 </div>
               );

@@ -189,30 +189,30 @@ const Section1 = () => {
            
 
             <div className="relative h-[100px] w-full overflow-hidden">
-              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute ">
+              <h1 className="paras text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute ">
                 Send and receive text messages without latency, with a superior
                 network of direct carrier connections in over 160 countries
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 Engage customers across marketing, commerce, and support with
                 rich media, branding, credible trust marks, and conversational
                 journeys
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 Go beyond one-way messages. Interact with customers across their
                 lifecycle
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 - With all the features to help businesses achieve their
                 marketing and sales goals in the most simplified manner.
               </h1>
-              <h1 className="paras text-lg max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
                 - Deflect callers to digital channels, boost agent productivity,
                 and lower contact center costs with cloud-based Voice AI API
               </h1>
             </div>
             <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC]  rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-              <h1 className="text-white text-lg  font-bold whitespace-nowrap">
+              <h1 className="text-white text-base  font-bold whitespace-nowrap">
                 Book Demo
               </h1>
             </div>

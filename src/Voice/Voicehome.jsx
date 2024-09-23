@@ -12,7 +12,7 @@ const Voicehome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Voice solutions for your business
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Voice solutions provide an easy way to rach your customers and
             create a more visible image for your business. It can help you to
             conrert a caller into a customers.
@@ -31,7 +31,7 @@ const Voicehome = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           1. Voice Broadcasting
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Voice Broadcasting is a technique of sending pre-recorded voice
           messages to your audience. Our interactive voice broadcasting platform
           is based on latest technology and is capable of handling huge traffic.

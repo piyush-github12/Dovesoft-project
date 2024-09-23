@@ -172,7 +172,7 @@ export default function App() {
                       {item.heading}
                     </h1>
                   </div>
-                  <p className="text-lg max-sm:text-base  ">{item.para}</p>
+                  <p className="text-base max-sm:text-base  ">{item.para}</p>
                 </div>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function App() {
                       {item.heading}
                     </h1>
                   </div>
-                  <p className="text-lg max-sm:text-base  ">{item.para}</p>
+                  <p className="text-base max-sm:text-base  ">{item.para}</p>
                 </div>
               </div>
             ))}
@@ -220,7 +220,7 @@ export default function App() {
                       {item.heading}
                     </h1>
                   </div>
-                  <p className="text-lg max-sm:text-base  ">{item.para}</p>
+                  <p className="text-base max-sm:text-base  ">{item.para}</p>
                 </div>
               </div>
             ))}

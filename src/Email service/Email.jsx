@@ -9,7 +9,7 @@ import Emailpage5 from './Emailpage5'
 import Emailpage6 from './Emailpage6'
 
 const Email = () => {
-  return( <div className="bg-white overflow-hidden relative text-lg">
+  return( <div className="bg-white overflow-hidden relative text-base">
         <Emailhero/>
         <Emailpage2/>
         <Emailpage3/>

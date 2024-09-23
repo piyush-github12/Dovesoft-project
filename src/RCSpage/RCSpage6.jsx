@@ -59,10 +59,10 @@ const RCSpage6 = () => {
                 <h1 className="font-bold min-h-[50px]  text-center  text-2xl  ">
                   {item.heading}
                 </h1>
-                <p className="text-lg text-center  max-sm:text-base mb-2  max-lg:w-[40vw]">
+                <p className="text-base text-center  max-sm:text-base mb-2  max-lg:w-[40vw]">
                   {item.para}
                 </p>
-                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
+                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-base   hover:text-xl transition-all cursor-pointer">
                   <h1 className="">Explore {item.heading}</h1>
                   <FaLongArrowAltRight />
                 </div> */}

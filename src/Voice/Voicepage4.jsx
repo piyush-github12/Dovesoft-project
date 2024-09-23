@@ -49,7 +49,7 @@ const Voicepage4 = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           3. IVR
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Dove Soft delivers the full-featured, unique, business-ready, and
           customized cloud call center to cut your business cost and improve
           customer experience. Everything you need in a single cloud solution.
@@ -65,7 +65,7 @@ const Voicepage4 = () => {
               </div>
               <div className="w-full h-full  pl-[1.5vw]  ">
                 <h1 className="text-xl mb-2 font-bold">{item.heading}</h1>
-                <h1 className="text-lg ">{item.para}</h1>
+                <h1 className="text-base ">{item.para}</h1>
               </div>
             </div>
           );

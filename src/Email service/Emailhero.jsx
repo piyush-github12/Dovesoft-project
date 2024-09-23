@@ -13,7 +13,7 @@ const Emailhero = () => {
             Powerful & affordable:{" "}
             <span className="text-[#96C2FF]">the best mass</span> email service
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Whether you’re a beginner marketer, small business, a global brand,
             a blogger, or a non-profit organization, you can send mass
             emails that boost sales and build better customer relationships.

@@ -11,7 +11,7 @@ const WhatsappConvertLeads = () => {
         <h1 className="text-3xl font-['Epilogue']  text-center font-bold">
           Convert Leads to Customers <br /> via Smart Notifications
         </h1>
-        <h1 className="text-center text-lg px-[15vw] mt-[20px]">
+        <h1 className="text-center text-base px-[15vw] mt-[20px]">
           Whatsapp CTA button-based Notifications help you <br /> drive users to
           your Website and Boost Conversions
         </h1>
@@ -51,7 +51,7 @@ const WhatsappConvertLeads = () => {
           <h1 className="text-[48px] font-['Epilogue']  w-[80%] leading-[52px] font-bold">
             45-60% Abandoned Cart Recovery
           </h1>
-          <h1 className="w-[90%] text-lg">
+          <h1 className="w-[90%] text-base">
             Send an Automated Notification to all the users dropping off after
             adding products to your cart.
             <br />

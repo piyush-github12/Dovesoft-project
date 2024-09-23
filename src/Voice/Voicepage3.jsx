@@ -30,7 +30,7 @@ const Voicepage3 = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           2. What Can You Do With a Missed Call Number Service?{" "}
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           You can publish your unique missed call number in print media,
           website, app and sms campaign
         </h1>
@@ -59,7 +59,7 @@ const Voicepage3 = () => {
           {data.map((item, index) => {
             return (
               <div className="w-[300px] max-md:w-[40vw] h-[250px] flex items-center">
-                <h1 className="text-lg">{item.para}</h1>
+                <h1 className="text-base">{item.para}</h1>
               </div>
             );
           })}

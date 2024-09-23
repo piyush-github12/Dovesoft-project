@@ -139,7 +139,7 @@ const RCSpage5 = () => {
                   <div className="w-full h-full  flex flex-col justify-center    overflow-hidden relative ">
                     <h1
                       id="h1para"
-                      className="sec5heading text-lg max-lg:text-base  h-fit    absolute"
+                      className="sec5heading text-base max-lg:text-base  h-fit    absolute"
                     >
                       <span className="font-bold  text-2xl font-['Epilogue'] ">
                         RCS for Retail
@@ -152,7 +152,7 @@ const RCSpage5 = () => {
                     </h1>
                     <h1
                       id="h2para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
                       1 . Seamless integrations with multiple e-commerce
                       portals, CRMs & more. Incorporate our cloud API
@@ -161,7 +161,7 @@ const RCSpage5 = () => {
                     </h1>
                     <h1
                       id="h3para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
                       1 . This tool enables you to encrypt sensitive SMS
                       contents such as one-time passwords, and banking
@@ -174,7 +174,7 @@ const RCSpage5 = () => {
                     </h1>
                     <h1
                       id="h4para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
                       1 . The system can automatically identify URLs within SMS
                       content, whether they are from HTTP links or the user
@@ -189,7 +189,7 @@ const RCSpage5 = () => {
                     </h1>
                     <h1
                       id="h5para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
                       1 . Construct feedback forms, quizzes, surveys, polls, and
                       lead capture forms. <br />
@@ -204,7 +204,7 @@ const RCSpage5 = () => {
                     </h1>
                     <h1
                       id="h6para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
                       1 . Upload a PDF file that showcases your services or
                       products. <br />
@@ -225,7 +225,7 @@ const RCSpage5 = () => {
               <div className="w-full h-full  flex flex-col justify-center    overflow-hidden relative ">
                 <h1
                   id="h1para"
-                  className="sec5heading px-[2.5vw] text-lg max-lg:text-base  h-fit    absolute"
+                  className="sec5heading px-[2.5vw] text-base max-lg:text-base  h-fit    absolute"
                 >
                   <span className="font-bold  text-2xl font-['Epilogue'] ">
                     RCS for Retail
@@ -238,7 +238,7 @@ const RCSpage5 = () => {
                 </h1>
                 <h1
                   id="h2para"
-                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                 >
                   1 . Seamless integrations with multiple e-commerce portals,
                   CRMs & more. Incorporate our cloud API capabilities into your
@@ -246,7 +246,7 @@ const RCSpage5 = () => {
                 </h1>
                 <h1
                   id="h3para"
-                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                 >
                   1 . This tool enables you to encrypt sensitive SMS contents
                   such as one-time passwords, and banking transaction details.{" "}
@@ -259,7 +259,7 @@ const RCSpage5 = () => {
                 </h1>
                 <h1
                   id="h4para"
-                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                 >
                   1 . The system can automatically identify URLs within SMS
                   content, whether they are from HTTP links or the user
@@ -273,7 +273,7 @@ const RCSpage5 = () => {
                 </h1>
                 <h1
                   id="h5para"
-                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                 >
                   1 . Construct feedback forms, quizzes, surveys, polls, and
                   lead capture forms. <br />
@@ -288,7 +288,7 @@ const RCSpage5 = () => {
                 </h1>
                 <h1
                   id="h6para"
-                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-lg max-lg:text-base  h-fit     absolute"
+                  className="sec5heading px-[2.5vw] translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                 >
                   1 . Upload a PDF file that showcases your services or
                   products. <br />

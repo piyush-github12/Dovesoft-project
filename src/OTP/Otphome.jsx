@@ -12,7 +12,7 @@ const Otphome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             OTP Generator and Validator API
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Our OTP (One-Time Password) Generator and Validator API provides a
             robust solution for securing user authentication and transactions.
           </h1>
@@ -30,7 +30,7 @@ const Otphome = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Secure and Reliable OTP Generation and Validation
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Our OTP (One-Time Password) Generator and Validator API provides a
           robust solution for securing user authentication and transactions.
           Designed with security, speed, and reliability in mind, this API helps

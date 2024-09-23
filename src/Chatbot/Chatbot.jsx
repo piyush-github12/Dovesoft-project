@@ -7,7 +7,7 @@ import Section9 from '../Sections/Section9'
 import Section8 from '../Sections/Section8'
 
 const Chatbot = () => {
-  return (<div className="bg-white overflow-hidden relative text-lg">
+  return (<div className="bg-white overflow-hidden relative text-base">
       <Chatbotheropage/>
       <Chatbotpage2/>
       <Chatbotpage3/>

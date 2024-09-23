@@ -12,7 +12,7 @@ const Section9 = ({bg}) => {
           <h1 className="font-bold font-['Epilogue']  text-3xl mb-10 max-md:mb-5">
             Dove Soft.
           </h1>
-          <h2 className="text-lg ">
+          <h2 className="text-base ">
             Sakari, LLC <br /> 201 Spear Street, Suite 1100 <br /> San
             Francisco, CA 94105
           </h2>
@@ -32,11 +32,11 @@ const Section9 = ({bg}) => {
             <img src="./images/Vector-3.png" alt="" />
           </div>
         </div>
-        <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-lg font-light">
+        <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-base font-light">
           <div className="w-[25%] h-full ">
             <h1 className="font-bold text-xl mb-10 max-md:mb-5 ">Features</h1>
             <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Intigrations
+              integrations
             </h2>
             <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
               Business Messaging
@@ -110,7 +110,7 @@ const Section9 = ({bg}) => {
         className="w-full px-[10vw] min-h-[20vh] flex justify-center  text-white text-center "
       >
         <div className="w-[100%] border-t-2 px-32 py-5 max-md:px-[10px] border-white ">
-          <h2 className="text-lg  max-sm:text-sm">
+          <h2 className="text-base  max-sm:text-sm">
             Sakari is a 100% opt in service, to unsubscribe, text ‘STOP’ to the
             originating number. Msg & data rates may apply. Privacy of your data
             is important to us, please see our privacy policy to. To learn about

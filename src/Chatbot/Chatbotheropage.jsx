@@ -12,7 +12,7 @@ const Chatbotheropage = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Unlock conversational commerce with bots on WhatsApp, SMS, and more
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Drive conversions, nurture leads, and offer 24/7 product support
             with chatbots.
           </h1>
@@ -30,7 +30,7 @@ const Chatbotheropage = () => {
         <h1 className="text-3xl text-center font-bold">
           Turn chats into checkouts
         </h1>
-        <h1 className="text-center text-lg px-[15vw] max-md:px-[5vw] mt-[10px]">
+        <h1 className="text-center text-base px-[15vw] max-md:px-[5vw] mt-[10px]">
           Leverage chatbots to work side-by-side with your team to engage
           directly with customers.
         </h1>

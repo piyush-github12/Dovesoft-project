@@ -67,7 +67,7 @@ const Filehostingpage2 = () => {
               <h1 className='font-["Epilogue"] text-2xl font-[500]'>
                 {item.heading}
               </h1>
-              <h1 className="w-[90%] text-lg">{item.para}</h1>
+              <h1 className="w-[90%] text-base">{item.para}</h1>
             </div>
 
             {index % 2 == 0 ? (

@@ -12,7 +12,7 @@ import RCSpage6 from './RCSpage6';
 
 const RCS = () => {
   return (
-    <div className="bg-white overflow-hidden relative text-lg">
+    <div className="bg-white overflow-hidden relative text-base">
       <RCSheropage/>
       <RCSpage2/>
       <RCSpage3/>

@@ -72,7 +72,7 @@ const Section6 = () => {
             Conversational automation for every industry
           </span>
         </h1>
-        <h2 className="text-center text-lg max-sm:text-base  px-[5vw] mb-10">
+        <h2 className="text-center text-base max-sm:text-base  px-[5vw] mb-10">
           We understand your business and can make every customer touchpoint{" "}
           <br />
           conversational across marketing, commerce, and support
@@ -90,10 +90,10 @@ const Section6 = () => {
                 <h1 className="font-bold min-h-[50px]  max-sm:min-h-[40px]   text-2xl  ">
                   {item.heading}
                 </h1>
-                <p className="text-lg   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
+                <p className="text-base   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
                   {item.para}
                 </p>
-                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-lg   hover:text-xl transition-all cursor-pointer">
+                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-base   hover:text-xl transition-all cursor-pointer">
                   <h1 className="">Explore {item.heading}</h1>
                   <FaLongArrowAltRight />
                 </div> */}

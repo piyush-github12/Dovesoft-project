@@ -84,16 +84,21 @@ export default function App() {
      setIsExpanded(!isExpanded);
    };
 
+   const sefalse = ()=>{
+    setIsExpanded(false)
+   }
+
+
    return (
      <div className="w-[25vw] h-fit  max-md:w-[40vw] rounded-2xl overflow-hidden">
-       <div className="h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
+       <div className="h-[180px]  w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
          <img className="w-[140px] max-sm:w-[100px]" src={`${image}`} alt="" />
        </div>
-       <div className="min-h-[210px] text-left px-2 py-2 relative ">
+       <div onMouseLeave={sefalse} className="min-h-[210px] text-left px-2 py-2 relative ">
          <h1 className="font-bold font-['Epilogue'] min-h-[70px] max-sm:min-h-[90px] text-2xl">
            {heading}
          </h1>
-         <p className="text-lg max-sm:text-base  ">
+         <p className="text-base max-sm:text-base  ">
            {isExpanded ? para : `${para.substring(0, 80)}...`}
          {para.length > 80 && (
            <button
@@ -136,7 +141,7 @@ export default function App() {
                   <h1 className="font-bold font-['Epilogue']  h-[70px] max-sm:h-[90px]  text-2xl ">
                     {item.heading}
                   </h1>
-                  <p className="text-lg max-sm:text-base  ">{item.para}</p>
+                  <p className="text-base max-sm:text-base  ">{item.para}</p>
                 </div>
               </div>
             ))}

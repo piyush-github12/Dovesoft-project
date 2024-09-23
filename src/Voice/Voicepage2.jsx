@@ -58,7 +58,7 @@ const Voicepage2 = () => {
                 <h1 className="text-xl mb-2 font-bold">
                   {item.heading}
                 </h1>
-                <h1 className="text-lg ">{item.para}</h1>
+                <h1 className="text-base ">{item.para}</h1>
               </div>
             </div>
           );

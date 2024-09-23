@@ -10,7 +10,7 @@ import Section9 from '../Sections/Section9'
 
 const Automation = () => {
   return (
-    <div className="bg-white overflow-hidden relative text-lg">
+    <div className="bg-white overflow-hidden relative text-base">
       <Automationhero />
       <Automationpage2 />
       <Automationpage3 />

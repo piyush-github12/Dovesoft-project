@@ -58,7 +58,7 @@ const SMSsection5 = () => {
                       />
                     </h1>
                     <h1
-                      className={`text-lg mt-2  overflow-hidden mb-2 transition-all ease-linear duration-200 ${
+                      className={`text-base mt-2  overflow-hidden mb-2 transition-all ease-linear duration-200 ${
                         open == index ? "h-fit" : "h-0"
                       } `}
                     >

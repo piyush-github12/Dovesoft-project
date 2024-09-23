@@ -12,7 +12,7 @@ const Filegpthome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             File GPT
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Simplify customer interactions with our innovative feature that
             allows you to upload brochures, manuals, FAQs, or any other
             informational documents, and let our AI-powered bot handle the rest.
@@ -31,7 +31,7 @@ const Filegpthome = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Turn Your Documents into Intelligent AI-Driven Responses
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Simplify customer interactions with our innovative feature that allows
           you to upload brochures, manuals, FAQs, or any other informational
           documents, and let our AI-powered bot handle the rest. Once uploaded,

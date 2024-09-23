@@ -12,7 +12,7 @@ const Instahero = () => {
           <h1 className="text-[48px]  font-['Epilogue']  leading-[52px] font-bold">
             Delight Your Customers With Instagram Inbox Solution
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Build meaningful connections and boost customer engagement with your
             target audience using the Instagram inbox from ControlHippo.
           </h1>
@@ -22,7 +22,7 @@ const Instahero = () => {
               src="./images/instagram/check.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Elevate customer satisfaction with live customer support
             </h1>
           </div>
@@ -32,7 +32,7 @@ const Instahero = () => {
               src="./images/instagram/check.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Personalize interactions using pre-built response templates
             </h1>
           </div>
@@ -42,7 +42,7 @@ const Instahero = () => {
               src="./images/instagram/check.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Keep track of customer conversations from a single dashboard
             </h1>
           </div>
@@ -52,7 +52,7 @@ const Instahero = () => {
               src="./images/instagram/check.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Elevate customer satisfaction with live customer support
             </h1>
           </div>

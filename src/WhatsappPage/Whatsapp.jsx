@@ -23,12 +23,12 @@ const Whatsapp = () => {
             Goodbye isolated interactions. <br />
             <span className="text-white ">Hello Dove Soft.</span>
           </h1>
-          <h1 className="text-lg text-center ">
+          <h1 className="text-base text-center ">
             Where every message meets its perfect match, right when it matters
             most.
           </h1>
           <div className="min-w-fit w-[160px] h-[60px] bg-white px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-[#29C853] text-lg  font-bold whitespace-nowrap">
+            <h1 className="text-[#29C853] text-base  font-bold whitespace-nowrap">
               Book Demo
             </h1>
           </div>

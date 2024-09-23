@@ -47,7 +47,7 @@ const Linksshotnerpage4 = () => {
               </div>
               <div className="w-full h-full pl-[1.5vw]  ">
                 <h1 className="text-xl mb-2 font-bold">{boxitems.heading}</h1>
-                <h1 className="text-lg ">{boxitems.para}</h1>
+                <h1 className="text-base ">{boxitems.para}</h1>
               </div>
             </div>
           );

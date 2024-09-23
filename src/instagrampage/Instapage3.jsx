@@ -7,7 +7,7 @@ const Instapage3 = () => {
         Connect Seamlessly with Audiences through
         <span className='text-"#0029C7"'> Instagram Shared Inbox </span> 
       </h1>
-      <h1 className="text-center px-[10vw] text-lg">
+      <h1 className="text-center px-[10vw] text-base">
         Forge meaningful connections on Instagram by effortlessly engaging your
         audience through ControlHippo Instagram integration.
       </h1>
@@ -29,7 +29,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Use canned responses for quick resolution of common customer
               queries.
             </h1>
@@ -40,7 +40,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Save time and manage volumes efficiently with Quick Replies
               functionality.
             </h1>
@@ -51,7 +51,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Start conversations instantly with pre-set, personalized response
               templates.
             </h1>
@@ -62,7 +62,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Boost engagement and streamline interactions for your Instagram
               audience.
             </h1>
@@ -87,7 +87,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               View all ongoing customer integrations in one unified dashboard.
             </h1>
           </div>
@@ -97,7 +97,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Empower teams to categorize and assign chats based on queries.
             </h1>
           </div>
@@ -107,7 +107,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Effortlessly manage volumes by adding or removing support reps.
             </h1>
           </div>
@@ -117,7 +117,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Seamlessly handle sales or support inquiries via a single number.
             </h1>
           </div>
@@ -148,7 +148,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Analyze messaging trends comprehensively for actionable insights.
             </h1>
           </div>
@@ -158,7 +158,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Continuously track user engagement across all social media
               platforms.
             </h1>
@@ -169,7 +169,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Gain a complete overview of audience behavior and conversation
               patterns.
             </h1>
@@ -180,7 +180,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Access detailed reports to optimize strategy and enhance
               performance.
             </h1>
@@ -205,7 +205,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Transfer sales inquiries to relevant tools via seamless
               third-party integration.
             </h1>
@@ -216,7 +216,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Share precise customer messages with the sales team for informed
               action.
             </h1>
@@ -227,7 +227,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Ensure each sales inquiry receives proper attention and handling
               throughout.
             </h1>
@@ -238,7 +238,7 @@ const Instapage3 = () => {
               src="./images/instagram/checkgreen.svg"
               alt=""
             />
-            <h1 className="text-lg">
+            <h1 className="text-base">
               Continuously monitor and optimize conversions across the sales
               pipeline.
             </h1>

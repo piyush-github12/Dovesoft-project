@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Bookdemobutton from '../components/Bookdemobutton';
 
-const Intigrationhero = () => {
+const integrationhero = () => {
   return (
     <div className="w-screen h-fit">
       <Navbar />
@@ -12,7 +12,7 @@ const Intigrationhero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Seamless integration. Superior engagement.
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Say goodbye to siloed conversations and fragmented customer
             experiences. Bring all your essential tools into a state of harmony.
           </h1>
@@ -21,7 +21,7 @@ const Intigrationhero = () => {
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
             className="w-[450px] max-md:w-[300px] "
-            src="./images/intigrationimages/heropage.svg"
+            src="./images/integrationimages/heropage.svg"
             alt=""
           />
         </div>
@@ -35,4 +35,4 @@ const Intigrationhero = () => {
   );
 }
 
-export default Intigrationhero
+export default integrationhero

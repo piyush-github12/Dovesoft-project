@@ -28,7 +28,7 @@ const Encryhome = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Risks of unencrypted SMS
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Understanding the risks of unencrypted text messages can help protect
           your business. It also can help you decide which information your
           business should share via SMS and which information you shouldn’t.

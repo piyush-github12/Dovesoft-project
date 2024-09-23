@@ -12,7 +12,7 @@ const Filehostinghero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             File Hosting
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Our Upload File Hosting feature allows you to quickly upload files,
             generate a short URL, and share it across multiple channels.
           </h1>
@@ -30,7 +30,7 @@ const Filehostinghero = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Easily Share Files with Short URLs and Track Their Performance
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           Our Upload File Hosting feature allows you to quickly upload files,
           generate a short URL, and share it across multiple channels. Whether
           you’re distributing marketing materials, important documents, or any

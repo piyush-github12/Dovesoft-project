@@ -7,7 +7,7 @@ const Encrypage3 = () => {
       <h1 className='font-["Epilogue"] text-3xl text-center  font-[500]'>
         Make messaging more secure with DoveSoft
       </h1>
-      <h1 className="text-center text-lg mt-[20px]  ">
+      <h1 className="text-center text-base mt-[20px]  ">
         Dovesoft is the most secure business texting platform on the market. We
         lock down all data on our platform to protect sensitive business
         information. With access to features like data encryption, team

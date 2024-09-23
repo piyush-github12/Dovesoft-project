@@ -3,7 +3,7 @@ import { IoIosArrowDown } from 'react-icons/io';
 
 const SMSsection6 = () => {
 
-    let questionanswwer = [
+    let questionanswer = [
       {
         question: "What is an SMS API or messaging API or SMS gateway API?",
         answer:
@@ -54,13 +54,13 @@ const SMSsection6 = () => {
       <h1 className="text-3xl font-['Epilogue']  text-center font-bold">
         Frequently Asked Questions
       </h1>
-      <h1 className="px-[15vw] text-lg text-center mb-10">
+      <h1 className="px-[15vw] text-base text-center mb-10">
         All questions regarding your issues or queries you are facing or have
         with Dove soft limited
       </h1>
       <div className="w-full h-fit flex justify-center items-center  text-[#2A555A] ">
         <div className="w-[100%] h-fit rounded-2xl bg-[#e5f1ff] p-[5vw]  ">
-          {questionanswwer.map((item, index) => {
+          {questionanswer.map((item, index) => {
             return (
               <div className=" h-fit w-full border-b-2 py-[10px] border-[#32323258]">
                 <div className="flex justify-between items-start w-[100%]  min-h-[40px]">
@@ -81,7 +81,7 @@ const SMSsection6 = () => {
                   </div>
                 </div>
                 <h1
-                  className={`text-lg  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
+                  className={`text-base  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
                     open == index
                       ? "h-[80px] max-lg:h-[80px] max-md:h-[100px]  max-sm:h-[150px] "
                       : "h-0"

@@ -49,7 +49,7 @@ const Voicepage5 = () => {
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Manage Your IVR
         </h1>
-        <h1 className="text-center text-lg mt-[20px] ">
+        <h1 className="text-center text-base mt-[20px] ">
           A Manageable cloud call center to control your calls and improve
           customer experience. Manage a large volume of inbound calls and
           generate more sales opportunities. Better agent engagement and faster
@@ -62,10 +62,10 @@ const Voicepage5 = () => {
             return (
               <div className="min-h-[150px]">
                 <img className="h-[40px]" src={item.img} alt="" />
-                <h1 className="text-lg font-['Epilogue'] mt-[10px] font-bold">
+                <h1 className="text-base font-['Epilogue'] mt-[10px] font-bold">
                   {item.heading}
                 </h1>
-                <h1 className="text-lg mt-[10px] ">
+                <h1 className="text-base mt-[10px] ">
                     {item.para}
                 </h1>
               </div>

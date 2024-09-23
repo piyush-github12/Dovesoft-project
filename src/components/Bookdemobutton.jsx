@@ -9,7 +9,7 @@ const Bookdemobutton = (params) => {
     >
       <h1
         
-        className={`text-lg h-[60px] flex items-center font-bold whitespace-nowrap`}
+        className={`text-base h-[60px] flex items-center font-bold whitespace-nowrap`}
       >
         Book Demo
       </h1>

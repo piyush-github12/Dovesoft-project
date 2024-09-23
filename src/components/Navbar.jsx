@@ -147,7 +147,7 @@ const Navbar = (params) => {
         }
         className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[20px] max-md:mt-[20px] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
       >
-        <div className="w-[30%] font-bold flex text-lg justify-center items-center max-lg:hidden">
+        <div className="w-[30%] font-bold flex text-base justify-center items-center max-lg:hidden">
           <div
             onMouseMove={() => setdropdown(true)}
             // onMouseLeave={() => setdropdown(false)}
@@ -179,7 +179,7 @@ const Navbar = (params) => {
             }}
             className={`min-w-fit w-[100px] h-[50px]  border-2 border-[#fff] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
           >
-            <h1 className=" text-lg  font-bold whitespace-nowrap">Log-in</h1>
+            <h1 className=" text-base  font-bold whitespace-nowrap">Log-in</h1>
           </div>
         </div>
 
@@ -198,7 +198,7 @@ const Navbar = (params) => {
           className="absolute left-0 top-[0px] text-black flex max-lg:flex-col max-lg:items-center max-lg:gap-10  justify-center    px-[3vw]   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
         >
           <div className="w-[90vw]  h-[100px] absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center">
-            <div className="w-[30%] font-bold flex text-lg justify-center items-center max-lg:hidden">
+            <div className="w-[30%] font-bold flex text-base justify-center items-center max-lg:hidden">
               <div
                 // onMouseEnter={() => setdropdown(true)}
                 className="w-[50%] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
@@ -225,7 +225,7 @@ const Navbar = (params) => {
               className="w-[30%] flex justify-end max-lg:hidden items-center gap-10"
             >
               <div className="min-w-fit w-[100px] h-[50px]  border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-                <h1 className="text-black text-lg  font-bold whitespace-nowrap">
+                <h1 className="text-black text-base  font-bold whitespace-nowrap">
                   Log-in
                 </h1>
               </div>

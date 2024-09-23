@@ -12,7 +12,7 @@ const Automationhero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             No-code marketing automation
           </h1>
-          <h1 className="text-lg">
+          <h1 className="text-base">
             Automate every customer interaction to maximize ROI from your
             marketing efforts, and boost conversion rates. Minimize setup and
             maintenance time, and reallocate resources to high-impact tasks with

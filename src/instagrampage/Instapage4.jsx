@@ -8,7 +8,7 @@ import { FaMinus } from "react-icons/fa";
 const Instapage4 = () => {
     const [open, setopen] = useState(0);
 
-     let questionanswwer = [
+     let questionanswer = [
        {
          question:
            "How does ControlHippo ensure compliance with Instagram's guidelines for automated messaging?",
@@ -70,47 +70,41 @@ const Instapage4 = () => {
       <h1 className="text-3xl font-['Epilogue'] px-[10vw] max-sm:px-[5vw] text-center  font-bold mb-[20px] ">
         Frequently Asked Questions for Instagram Inbox
       </h1>
-
-      <div className="w-full h-fit rounded-2xl  ">
-        {questionanswwer.map((item, index) => {
-          return (
-            <div className=" h-fit w-full border-b-2 py-[20px] px-[5vw]  bg-[#fff]  mt-[30px] shadow-[0px_0px_20px_0px] shadow-[#00000030] rounded-xl border-[#32323258]">
-              <div className="flex justify-between items-start w-[100%]  min-h-[40px]">
-                <h1
-                  className={`text-xl font-semibold w-[90%] min-h-[40px] transition-all ease-linear duration-200 `}
-                >
-                  {item.question}
-                </h1>
-                <div className=" h-[25px] w-[25px]  relative   ">
-                  {open != index ? (
-                    <FaPlus
+      <div className="w-full h-fit flex justify-center items-center  text-[#2A555A] ">
+        <div className="w-[100%] h-fit rounded-2xl bg-[#e5f1ff] p-[5vw]  ">
+          {questionanswer.map((item, index) => {
+            return (
+              <div className=" h-fit w-full border-b-2 py-[10px] border-[#32323258]">
+                <div className="flex justify-between items-start w-[100%]  min-h-[40px]">
+                  <h1
+                    className={`text-xl font-semibold w-[90%] min-h-[40px] transition-all ease-linear duration-200 `}
+                  >
+                    {item.question}
+                  </h1>
+                  <div className=" h-[25px] w-[25px]  relative   ">
+                    <IoIosArrowDown
                       onClick={() => {
                         index == open ? setopen(50) : setopen(index);
                       }}
-                      className={`arrow cursor-pointer text-[15px]   h-full w-full absolute top-0 left-o   rounded-full`}
+                      className={`arrow cursor-pointer text-[30px] h-[40px] w-[40px] p-[8px] flex justify-center items-center transition-all ease-linear duration-200 rounded-full  bg-[#2a555a46] text-[#2A555A]  ${
+                        open == index ? "rotate-180" : "rotate-0"
+                      }`}
                     />
-                  ) : (
-                    <FaMinus
-                      onClick={() => {
-                        index == open ? setopen(50) : setopen(index);
-                      }}
-                      className={` cursor-pointer text-[15px]   h-full w-full absolute top-0 left-o `}
-                    />
-                  )}
+                  </div>
                 </div>
+                <h1
+                  className={`text-base  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
+                    open == index
+                      ? "h-[80px] max-lg:h-[80px] max-md:h-[100px]  max-sm:h-[150px] "
+                      : "h-0"
+                  } `}
+                >
+                  {item.answer}
+                </h1>
               </div>
-              <h1
-                className={`text-lg  mt-3 w-[90%] overflow-hidden  transition-all ease-linear duration-200 ${
-                  open == index
-                    ? "h-[100px] max-lg:h-[120px] max-md:h-[150px] max-sm:h-[200px] "
-                    : "h-0"
-                } `}
-              >
-                {item.answer}
-              </h1>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
