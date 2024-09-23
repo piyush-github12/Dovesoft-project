@@ -27,10 +27,10 @@ const Section8 = () => {
   });
 
   return (
-    <div className="w-[100vw] min-h-[100vh] relative  pt-10  bg-[#fff] ">
+    <div className="w-[100vw] min-h-[100vh] relative  pt-[50px]  bg-[#fff] ">
       <div id="section8" className="w-full min-h-[100vh]  z-[7]">
         <div className="w-screen px-[10vw] max-sm:px-[0]  h-fit z-[7] relative bg-white pb-[100px]  ">
-          <h1 className="text-center font-['Epilogue']  text-3xl max-sm:text-2xl font-bold mb-10">
+          <h1 className="text-center font-['Epilogue']  text-3xl max-sm:text-2xl font-bold mb-[50px]">
             <span className="bg-gradient-to-r from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Why Choose Dove Soft
             </span>

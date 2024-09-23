@@ -21,7 +21,7 @@ const Voicehome = () => {
         </div>
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
-            className="h-[500px] max-md:h-[400px] "
+            className="h-[500px]  max-md:h-[400px] "
             src="./images/Voiceimages/hero.svg"
             alt=""
           />

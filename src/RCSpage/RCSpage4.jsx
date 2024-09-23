@@ -26,7 +26,7 @@ const RCSpage4 = () => {
             alt=""
           />
         </div>
-        <div className="w-[50%] max-md:w-full h-full max-md:h-fit border-[10px] rounded-sm p-2 border-[#F4F7FC] grid grid-cols-2 gap-2 ">
+        <div className="w-[50%] max-md:w-full h-full max-md:h-fit  rounded-sm p-2 grid grid-cols-2 gap-2 ">
           {data.map((item, index) => {
             return (
               <div className="w-[100%] min-h-[100px] flex  justify-center px-4 py-2  bg-[#F4F7FC]">

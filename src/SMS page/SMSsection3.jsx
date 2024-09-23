@@ -48,12 +48,12 @@ const Section3 = () => {
     let screenheight = window.screen.height;
     let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
-    let slideheight =""
+    let slideheight = "";
 
-    if( pinheight > screenheight){
-      slideheight = 960 + (pinheight - screenheight)
-    }else{
-      slideheight = pinheight
+    if (pinheight > screenheight) {
+      slideheight = 960 + (pinheight - screenheight);
+    } else {
+      slideheight = pinheight;
     }
 
     gsap.to("#pinscroll", {
@@ -87,12 +87,12 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-screen  h-[100vh] py-2    z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[350px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
+      className="w-screen  h-[100vh] py-2    z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[350px]  max-sm:flex-col  flex max-sm:gap-[20px] gap-[5vw] px-[10vw] max-lg:px-[5vw] "
     >
-      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-350px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-full  ">
+      <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-350px] max-sm:h-[300px] max-sm:pt-10  max-sm:w-[90%]  ">
         <div className="w-full h-screen max-sm:h-[300px] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl font-bold leading-[40px]">
-            <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
+            <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] whitespace-nowrap max-xl:whitespace-normal to-[#F4F9FF] rounded-md px-2">
               Use Dove Soft’s SMS API to
             </span>{" "}
             <br /> Automate Your Texts
@@ -111,7 +111,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-0 max-sm:gap-2 "
+        className="w-[65%]  max-sm:w-[100%]  max-sm:h-[100vh] flex justify-start gap-[5vw]  max-sm:gap-5 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[15%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">
@@ -131,15 +131,15 @@ const Section3 = () => {
           </div>
         </div>
 
-        <div className="h-fit w-[90%] max-sm:w-[70%]   ">
+        <div className="h-fit w-[90%] max-sm:w-[85%]  mt-[50px] ">
           <div
             id="pinscroll"
-            className=" flex flex-col  justify-center pt-[100px]  min-h-[100vh] "
+            className=" flex flex-col  justify-center   min-h-[100vh] "
           >
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-full h-[30vh] max-lg:h-[320px] flex justify-center gap-5 items-start    "
+                className="w-full h-[33vh] max-lg:h-[320px] flex max-sm:flex-col justify-center gap-5 items-start    "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -148,9 +148,7 @@ const Section3 = () => {
                 />
                 <div className="flex flex-col justify-center ">
                   <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                  <p className="w-[100%] max-sm:w-[250px] text-base  mb-2 ">
-                    {item.para}
-                  </p>
+                  <p className="w-[100%]  text-base  mb-2 ">{item.para}</p>
                 </div>
               </div>
             ))}
@@ -163,7 +161,7 @@ const Section3 = () => {
               <div
                 key={item.heading}
                 id={item.heading == "Easy Interactions" && "last"}
-                className="w-full h-[30vh] max-lg:h-[320px] flex justify-center  gap-5 items-start    "
+                className="w-full h-[33vh] max-lg:h-[320px] flex max-sm:flex-col justify-center  gap-5 items-start    "
               >
                 <img
                   src={`./images/${item.image}`}
@@ -172,9 +170,7 @@ const Section3 = () => {
                 />
                 <div className="flex flex-col justify-center ">
                   <h1 className="font-bold mb-2 text-2xl ">{item.heading}</h1>
-                  <p className="w-[90%] max-sm:w-[250px] text-base  mb-2 ">
-                    {item.para}
-                  </p>
+                  <p className="w-[90%]  text-base  mb-2 ">{item.para}</p>
                 </div>
               </div>
             ))}

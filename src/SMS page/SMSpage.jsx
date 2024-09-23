@@ -38,11 +38,11 @@ const SMSpage = () => {
           />
         </div>
       </div>
-      <div className="text-[#021E43] mt-[50px] w-screen">
+      <div className="text-[#021E43] mt-[50px] px-[10vw] max-md:px-[5vw] w-screen">
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Send message with programmable SMS API
         </h1>
-        <h1 className="text-center text-lg px-[15vw] mt-[30px]">
+        <h1 className="text-center text-lg px-[15vw] max-md:px-[0] mt-[30px]">
           Enable SMS API service in your application. With the omnichannel
           experience that SMS gateway API provides, we ensure that your messages
           are delivered to your customers smoothly and reliably.

@@ -92,12 +92,12 @@ const Section3 = () => {
   return (
     <div
       id="section3"
-      className="w-[100vw] h-[100vh] py-2 bg-[#fff]  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[300px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-sm:px-[0px]"
+      className="w-[100vw] h-[100vh] py-2 bg-[#fff]  z-10  mt-10 max-sm:h-[100vh] max-sm:mt-[300px]  max-sm:flex-col  flex max-sm:gap-[20px] px-[10vw] max-lg:px-[5vw]"
     >
       <div className="h-full w-[35%]  max-sm:absolute max-sm:top-[-400px] max-sm:h-[400px] max-sm:pt-[50px] max-sm:px-[2vw] max-sm:w-full  ">
         <div className="w-full h-screen max-sm:h-[400px] max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center   max-lg:pl-[0vw] z-10 flex flex-col justify-center gap-5">
           <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl max-sm:text-center font-bold leading-[40px]">
-            <span className="bg-gradient-to-r max-sm:whitespace-nowrap from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
+            <span className="bg-gradient-to-r max-sm:whitespace-nowrap whitespace-nowrap max-xl:whitespace-normal from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
             <br /> experience with the world’s <br /> most connected platform
@@ -116,7 +116,7 @@ const Section3 = () => {
 
       <div
         id="dualipa"
-        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-[5vw] pl-[2vw] max-sm:pl-2 max-sm:gap-2 "
+        className="w-[65%] max-sm:w-[100%] overflow-hidden  max-sm:h-[100vh] flex justify-start gap-[5vw] max-lg:px-[5vw] max-sm:pl-2 max-sm:gap-2 "
       >
         <div className="h-[100vh] w-[10%] max-sm:w-[15%] flex items-center justify-center  ">
           <div className="line h-[70%] relative w-[2px] bg-[#b5daff] ">

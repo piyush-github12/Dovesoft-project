@@ -40,7 +40,7 @@ const RCSpage6 = () => {
     <div className=" relative    min-h-fit   w-full max-sm:h-fit">
       <div
         id="section6"
-        className="w-screen  pt-[50px]  z-[9] min-h-fit  max-sm:h-fit  rounded-b-[55px]  "
+        className="w-screen  py-[50px]  z-[9] min-h-fit  max-sm:h-fit  rounded-b-[55px]  "
       >
         <h1 className="text-3xl font-['Epilogue']  max-md:text-2xl  text-center font-bold mb-2">
           Why use RCS messaging?

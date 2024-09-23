@@ -65,7 +65,7 @@ const Navbar = (params) => {
         },
         {
           subnameimage: <FaWhatsapp />,
-          subsubname: "Short UR:",
+          subsubname: "Short URL:",
           elemname:"linkShortner"
         },
         {
@@ -240,7 +240,10 @@ const Navbar = (params) => {
             </div>
           </div>
 
-          <div id="dropdowninter" className="w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10   mt-[120px] mb-[30px] ">
+          <div
+            id="dropdowninter"
+            className="w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10   mt-[120px] mb-[30px] "
+          >
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
               {navdata.map((item, index) => {
                 return (
@@ -269,8 +272,12 @@ const Navbar = (params) => {
                 );
               })}
             </div>
-            <div className="w-[350px] overflow-hidden h-[400px] max-lg:w-[400px] flex flex-col pl-10 justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
-              <div id="navrightboxes" className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2">
+            <div className="w-[350px] max-sm:w-[300px] overflow-hidden h-[400px] max-lg:w-[400px] flex flex-col pl-10 max-sm:pl-[0] justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
+              <Link
+                to={`/Livechat`}
+                id="navrightboxes"
+                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2"
+              >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl "> Live Chat</h1>
                   <h2 className="text-xs ">
@@ -281,8 +288,12 @@ const Navbar = (params) => {
                 <div className="w-[30%] flex justify-center items-center h-full">
                   <img className="w-full " src="./images/nav1.png" alt="" />
                 </div>
-              </div>
-              <div id="navrightboxes" className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
+              </Link>
+              <Link
+                to={`/chatbot`}
+                id="navrightboxes"
+                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+              >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl ">Chat Bot</h1>
                   <h2 className="text-xs ">Easey to build chat bots</h2>
@@ -290,8 +301,12 @@ const Navbar = (params) => {
                 <div className="w-[30%] flex justify-center items-center h-full">
                   <img className="w-full " src="./images/nav2.png" alt="" />
                 </div>
-              </div>
-              <div id="navrightboxes" className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 ">
+              </Link>
+              <Link
+                to={`/integration`}
+                id="navrightboxes"
+                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+              >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl "> integration</h1>
                   <h2 className="text-xs ">Explore Digital tools</h2>
@@ -299,7 +314,7 @@ const Navbar = (params) => {
                 <div className="w-[30%] flex justify-center items-center h-full">
                   <img className="w-full " src="./images/nav3.png" alt="" />
                 </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>

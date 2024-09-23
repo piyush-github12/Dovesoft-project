@@ -7,7 +7,7 @@ import Whatsapp from './WhatsappPage/Whatsapp.jsx'
 import RCSpage from './RCSpage/RCS.jsx'
 import Instagram from './instagrampage/Instagram.jsx'
 import Chatbot from './Chatbot/Chatbot.jsx'
-import Intigration from './Intigration/Intigration.jsx'
+import Integration from './Intigration/Intigration.jsx'
 import Automation from './Automation/Automation.jsx'
 import Email from './Email service/Email.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
@@ -30,7 +30,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/rcs" element={<RCSpage />} />
       <Route path="/instagram" element={<Instagram />} />
       <Route path="/chatbot" element={<Chatbot />} />
-      <Route path="/intigration" element={<Intigration />} />
+      <Route path="/integration" element={<Integration />} />
       <Route path="/automation" element={<Automation />} />
       <Route path="/email" element={<Email />} />
       <Route path="/fileGPT" element={<Filegpt />} />
