@@ -64,7 +64,6 @@ const Voicepage3 = () => {
       start: "top 70%",
       end: "60% -50%",
       scrub: true,
-      markers: true,
       onUpdate: (self) => {
         const voicelineBottom = document.querySelector('.voiceline').getBoundingClientRect().bottom;
         const vl3Elements = document.querySelectorAll('.vl3');
