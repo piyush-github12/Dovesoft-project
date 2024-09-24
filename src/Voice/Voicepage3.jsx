@@ -1,3 +1,5 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 import React from 'react'
 
 const Voicepage3 = () => {
@@ -24,6 +26,62 @@ const Voicepage3 = () => {
         para: "Now you or your agent can call back to this number and take the conversation further",
       },
     ];
+ 
+    useGSAP(()=>{
+      const elements = document.querySelectorAll(".vl1");
+      elements.forEach((element)=>{
+          gsap.from(element,{
+              x: -200,
+              opacity: 0,
+              duration: 0.5,
+              scrollTrigger: {
+                  trigger: element,
+                  start: "top 90%", 
+                  end: "top 50%",
+                  scrub:true,
+              },
+          });
+      });
+      const elementsright = document.querySelectorAll(".vl2");
+      elementsright.forEach((element)=>{
+          gsap.from(element,{
+              x: 200,
+              opacity: 0,
+              duration: 0.5,
+              scrollTrigger: {
+                  trigger: element,
+                  start: "top 90%", 
+                  end: "top 50%",
+                  scrub:true,
+              },
+          });
+      });
+
+  gsap.to('.voiceline', {
+    top:0,
+    scrollTrigger: {
+      trigger: ".voicelinemain",
+      start: "top 70%",
+      end: "60% -50%",
+      scrub: true,
+      markers: true,
+      onUpdate: (self) => {
+        const voicelineBottom = document.querySelector('.voiceline').getBoundingClientRect().bottom;
+        const vl3Elements = document.querySelectorAll('.vl3');
+        vl3Elements.forEach((element) => {
+          const vl3Top = element.getBoundingClientRect().top;
+          if (voicelineBottom >= vl3Top) {
+            gsap.to(element, { backgroundColor: "#021E43", duration: 0.2 });
+          } else {
+            gsap.to(element, { backgroundColor: "#D5DBE3", duration: 0.2 });
+          }
+        });
+      }
+    }
+  });
+
+    })
+
   return (
     <div className="w-screen h-fit px-[10vw] max-md:px-[0vw] ">
       <div className=" mt-[50px] max-md:px-[5vw] w-full">
@@ -37,28 +95,29 @@ const Voicepage3 = () => {
       </div>
 
       <div className="w-full h-fit flex justify-center mt-[50px]">
-        <div className="w-[300px] max-md:w-[40vw] h-fit  ">
+        <div className=" w-[300px] max-md:w-[40vw] h-fit  ">
           {data.map((item, index) => {
             return (
-              <div className="w-[300px] max-md:w-[40vw] h-[250px] flex justify-center items-center ">
+              <div className="vl1 w-[300px] max-md:w-[40vw] h-[250px] flex justify-center items-center ">
                 <img className="h-[200px]" src={item.img} alt="" />
               </div>
             );
           })}
         </div>
-        <div className="w-[100px] max-md:w-[10vw] border-l-indigo-800 h-[1250px] flex justify-center">
-          <div className="w-[5px] h-full bg-[#6C6C6C] rounded-full grid content-center gap-[220px]">
-            { data.map((item , index)=>{
-                return (
-                  <div className="w-[30px]  h-[30px] translate-x-[-12px] translate-y-[-5px] bg-[#D5DBE3] border-[1px] border-[#4E6CDD] rounded-full"></div>
-                );
+        <div className="voicelinemain w-[100px] max-md:w-[10vw] border-l-indigo-800 h-[1250px] flex justify-center overflow-hidden">
+          <div className="w-[5px] h-full bg-[#6c6c6c92] relative   rounded-full grid content-center gap-[220px]">
+            <div className="voiceline w-[5px] h-full absolute rounded-full top-[-100%]  bg-[#021E43]"></div>
+            {data.map((item, index) => {
+              return (
+                <div className="vl3 w-[30px]  h-[30px] translate-x-[-12px] translate-y-[-5px] bg-[#6c6c6c92] border-[1px] border-[#6c6c6c92] rounded-full"></div>
+              );
             })}
           </div>
         </div>
-        <div className="w-[300px] max-md:w-[40vw] h-fit  ">
+        <div className="vl2 w-[300px] max-md:w-[40vw] h-fit  ">
           {data.map((item, index) => {
             return (
-              <div className="w-[300px] max-md:w-[40vw] h-[250px] flex items-center">
+              <div className="vl2 w-[300px] max-md:w-[40vw] h-[250px] flex items-center">
                 <h1 className="text-base">{item.para}</h1>
               </div>
             );

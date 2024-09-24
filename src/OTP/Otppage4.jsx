@@ -1,6 +1,50 @@
-import React from 'react'
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import React from "react";
 
 const Otppage4 = () => {
+  useGSAP(() => {
+    const elements = document.querySelectorAll(".fhi1");
+    elements.forEach((element) => {
+      gsap.from(element, {
+        x: -200,
+        opacity: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: element,
+          start: "top 60%",
+          end: "top 0",
+        },
+      });
+    });
+
+    const rightelement = document.querySelectorAll(".fhi2");
+    rightelement.forEach((element) => {
+      gsap.from(element, {
+        x: 200,
+        opacity: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: element,
+          start: "top 60%",
+          end: "top 0",
+        },
+      });
+    });
+    const center = document.querySelectorAll(".fhcenter");
+    center.forEach((element) => {
+      gsap.from(element, {
+        scale: 0,
+        borderWidth: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: element,
+          start: "-200px 60%",
+          end: "top 0",
+        },
+      });
+    });
+  });
   return (
     <div className="w-screen text-black pt-[50px] ">
       <h1 className='font-["Epilogue"] text-3xl px-[10vw] max-md:px-[5vw] pt-[50px] text-center  font-[500]'>
@@ -8,7 +52,7 @@ const Otppage4 = () => {
       </h1>
       <div className="w-screen h-fit px-[10vw] max-md:px-[5vw] py-[50px] flex ">
         <div className="w-[40%] h-fit ">
-          <div className="w-full h-[300px] flex flex-col justify-center ">
+          <div className="fhi1 w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
               OTP Generation
             </h1>
@@ -17,14 +61,14 @@ const Otppage4 = () => {
               communication channel.
             </h1>
           </div>
-          <div className="w-full h-[300px]  flex items-center justify-center ">
+          <div className="fhi1 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
               src="./images/filehostingimages/page4-2.svg"
               alt=""
             />
           </div>
-          <div className="w-full h-[300px] flex flex-col justify-center ">
+          <div className="fhi1 w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
               User Input
             </h1>
@@ -38,26 +82,26 @@ const Otppage4 = () => {
             <div className="absolute w-[30px] h-[30px] bg-[#C4CBD3] rounded-full top-0 translate-x-[-12px] translate-y-[-15px] "></div>
             <div className="absolute w-[30px] h-[30px] bg-[#C4CBD3] rounded-full bottom-0 translate-x-[-12px] translate-y-[15px] "></div>
 
-            <div className="w-[70px] h-[70px] bg-[#00AAE8] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#D2F2FF]">
+            <div className="fhcenter w-[70px] h-[70px] bg-[#00AAE8] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#D2F2FF]">
               <h1 className="font-bold text-2xl">01</h1>
             </div>
-            <div className="w-[70px] h-[70px] bg-[#1871ED] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#D2E5FF]">
+            <div className="fhcenter w-[70px] h-[70px] bg-[#1871ED] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#D2E5FF]">
               <h1 className="font-bold text-2xl">02</h1>
             </div>
-            <div className="w-[70px] h-[70px] bg-[#FF725C] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#FFD6CF]">
+            <div className="fhcenter w-[70px] h-[70px] bg-[#FF725C] rounded-full translate-x-[-32px] flex justify-center items-center border-[8px] border-[#FFD6CF]">
               <h1 className="font-bold text-2xl">03</h1>
             </div>
           </div>
         </div>
         <div className="w-[40%] h-fit ">
-          <div className="w-full h-[300px]  flex items-center justify-center ">
+          <div className="fhi2 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
               src="./images/filehostingimages/page4-1.svg"
               alt=""
             />
           </div>
-          <div className="w-full h-[300px] flex flex-col justify-center ">
+          <div className="fhi2 w-full h-[300px] flex flex-col justify-center ">
             <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
               OTP Validation
             </h1>
@@ -66,7 +110,7 @@ const Otppage4 = () => {
               the user’s identity.
             </h1>
           </div>
-          <div className="w-full h-[300px]  flex items-center justify-center ">
+          <div className="fhi2 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
               src="./images/filehostingimages/page4-3.svg"
@@ -77,6 +121,6 @@ const Otppage4 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Otppage4
+export default Otppage4;

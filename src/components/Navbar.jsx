@@ -65,7 +65,7 @@ const Navbar = (params) => {
         },
         {
           subnameimage: <FaWhatsapp />,
-          subsubname: "Short URL:",
+          subsubname: "Short URL",
           elemname:"linkShortner"
         },
         {

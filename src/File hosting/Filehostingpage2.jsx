@@ -1,3 +1,4 @@
+import { useGSAP } from '@gsap/react';
 import React from 'react'
 
 const Filehostingpage2 = () => {
@@ -38,6 +39,8 @@ const Filehostingpage2 = () => {
       para: "Uploaded files are securely hosted with encrypted connections, ensuring your data remains protected at all times..",
     },
   ];
+
+  
 
   return (
     <div className="w-screen h-fit pt-[50px] ">

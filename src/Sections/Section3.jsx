@@ -100,7 +100,7 @@ const Section3 = () => {
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap whitespace-nowrap max-xl:whitespace-normal from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
-            <br /> experience with the world’s <br /> most connected platform
+            <br /> experience with the world’s  most connected platform
           </h1>
           <h1 className="text-base max-sm:text-base max-sm:text-center">
             With industry-leading expertise, you can deliver superb customer
