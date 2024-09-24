@@ -51,7 +51,7 @@ const Section3 = () => {
     let slideheight = "";
 
     if (pinheight > screenheight) {
-      slideheight = 960 + (pinheight - screenheight);
+      slideheight = 1100 + (pinheight - screenheight);
     } else {
       slideheight = pinheight;
     }

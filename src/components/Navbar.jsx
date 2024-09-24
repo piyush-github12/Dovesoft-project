@@ -118,10 +118,10 @@ const Navbar = (params) => {
         delay: 0.2,
         opacity:1,
       });
-      gsap.from("#navrightboxes", {
-        x: "200px",
-        opacity: 0,
-        stagger: 0.2,
+      gsap.to("#navrightboxes", {
+        x: "0px",
+        opacity: 1,
+        stagger: 0.1,
       });
     } else {
       gsap.to("#dropdown", {
@@ -131,21 +131,49 @@ const Navbar = (params) => {
         translateY: "100px",
         delay: 0,
         opacity:0,
+      }); 
+      gsap.to("#navrightboxes", {
+        x: "200px",
+        opacity: 0,
       });
       
     
     }
   }, [dropdown]);
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="absolute top-0 w-[100vw]   p-1 z-50 flex items-center justify-center">
+    <div
+      className={`fixed top-0 w-[100vw] p-1 z-50 flex items-center justify-center transition-all duration-300 `}
+    >
       <div
         style={
           params.color
             ? { backgroundColor: params.color }
             : { backgroundColor: "#021E43" }
         }
-        className={`w-[90vw] h-[100px] relative px-[3vw]  mt-[20px] max-md:mt-[20px] text-white rounded-full flex items-center justify-between max-lg:justify-center`}
+        className={`w-[90vw] ${
+          isScrolled ? "h-[70px]" : "h-[100px]"
+        } h-[100px] relative px-[3vw]    ${
+          isScrolled ? "mt-[0px] max-md:mt-[0px]" : "mt-[20px] max-md:mt-[20px]"
+        } text-white rounded-full flex items-center justify-between max-lg:justify-center  transition-all duration-300`}
       >
         <div className="w-[30%] font-bold flex text-base justify-center items-center max-lg:hidden">
           <div
@@ -177,7 +205,9 @@ const Navbar = (params) => {
               backgroundColor: params.logincolor,
               color: params.logintextcolor,
             }}
-            className={`min-w-fit w-[100px] h-[50px]  border-2 border-[#fff] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
+            className={`min-w-fit w-[100px] ${
+              isScrolled ? "h-[40px]" : "h-[50px]"
+            }  border-2 border-[#fff] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
           >
             <h1 className=" text-base  font-bold whitespace-nowrap">Log-in</h1>
           </div>
@@ -195,9 +225,15 @@ const Navbar = (params) => {
           id="dropdown"
           ref={elementRef}
           onMouseLeave={() => setdropdown(false)}
-          className="absolute left-0 top-[0px] text-black flex max-lg:flex-col max-lg:items-center max-lg:gap-10  justify-center    px-[3vw]   w-full h-[0px] overflow-hidden bg-white rounded-[50px] "
+          className={`absolute left-0 top-[0px] text-black flex max-lg:flex-col max-lg:items-center max-lg:gap-10  justify-center    px-[3vw]   w-full h-[0px] overflow-hidden bg-white ${
+            isScrolled ? "rounded-[30px]" : " rounded-[50px]"
+          }  `}
         >
-          <div className="w-[90vw]  h-[100px] absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center">
+          <div
+            className={`w-[90vw] ${
+              isScrolled ? "h-[70px] " : "h-[100px]"
+            }  absolute top-0 z-[99] px-[3vw]    bg-[#ffffff] text-black rounded-full flex items-center justify-between max-lg:justify-center`}
+          >
             <div className="w-[30%] font-bold flex text-base justify-center items-center max-lg:hidden">
               <div
                 // onMouseEnter={() => setdropdown(true)}
@@ -212,9 +248,13 @@ const Navbar = (params) => {
               </div>
             </div>
             <Link to="/">
-              <div className=" h-[100px] flex items-center  ">
+              <div
+                className={`${
+                  isScrolled ? "h-[70px]" : "h-[100px]"
+                } flex items-center`}
+              >
                 <img
-                  className="h-[80px]  "
+                  className={`${isScrolled ? "h-[60px]" : "h-[80px]"}`}
                   src="./images/blacklogo.png"
                   alt=""
                 />
@@ -224,8 +264,12 @@ const Navbar = (params) => {
               id="nn"
               className="w-[30%] flex justify-end max-lg:hidden items-center gap-10"
             >
-              <div className="min-w-fit w-[100px] h-[50px]  border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-                <h1 className="text-black text-base  font-bold whitespace-nowrap">
+              <div
+                className={`min-w-fit w-[100px] ${
+                  isScrolled ? "h-[40px]" : "h-[50px]"
+                } border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer`}
+              >
+                <h1 className="text-black text-base font-bold whitespace-nowrap">
                   Log-in
                 </h1>
               </div>
@@ -242,7 +286,9 @@ const Navbar = (params) => {
 
           <div
             id="dropdowninter"
-            className="w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10   mt-[120px] mb-[30px] "
+            className={`w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10   ${
+              isScrolled ? "mt-[80px]" : " mt-[120px]"
+            } mb-[30px] `}
           >
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
               {navdata.map((item, index) => {
@@ -276,7 +322,7 @@ const Navbar = (params) => {
               <Link
                 to={`/Livechat`}
                 id="navrightboxes"
-                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2"
+                className="h-[30%] opacity-0 translate-x-[200px] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2"
               >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl "> Live Chat</h1>
@@ -292,7 +338,7 @@ const Navbar = (params) => {
               <Link
                 to={`/chatbot`}
                 id="navrightboxes"
-                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+                className="h-[30%] opacity-0 translate-x- overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
               >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl ">Chat Bot</h1>
@@ -305,7 +351,7 @@ const Navbar = (params) => {
               <Link
                 to={`/integration`}
                 id="navrightboxes"
-                className="h-[30%] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+                className="h-[30%] opacity-0 translate-x- overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
               >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl "> integration</h1>
