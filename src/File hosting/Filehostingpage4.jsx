@@ -13,10 +13,11 @@ const Filehostingpage4 = () => {
         duration: 0.5,
         scrollTrigger: {
           trigger: element,
-          
+
           start: "top 60%",
-          end: "top 0"
-        }
+          end: "top 0",
+          toggleActions: "play none none reverse",
+        },
       });
     });
 
@@ -25,14 +26,15 @@ const Filehostingpage4 = () => {
       gsap.from(element, {
         x: 200,
         opacity: 0,
-        
+
         duration: 0.5,
         scrollTrigger: {
           trigger: element,
-          
+
           start: "top 60%",
-          end: "top 0"
-        }
+          end: "top 0",
+          toggleActions: "play none none reverse",
+        },
       });
     });
     const center = document.querySelectorAll(".fhcenter");
@@ -47,7 +49,9 @@ const Filehostingpage4 = () => {
           trigger: element,
           
           start: "-200px 60%",
-          end: "top 0"
+          end: "top 0",
+          toggleActions: "play none none reverse",
+
         }
       });
     });

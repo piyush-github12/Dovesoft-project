@@ -10,6 +10,9 @@ import "./SMSswiper.css";
 
 // import required modules
 import { Navigation, Pagination } from "swiper/modules";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
 export default function App() {
   let data = [
@@ -77,7 +80,69 @@ export default function App() {
     },
   ];
 
+     gsap.registerPlugin(useGSAP);
+     gsap.registerPlugin(ScrollTrigger); 
+
+     useGSAP(() => {
+
+
+       gsap.from(".smsswiperboxes", {
+         x: -200,
+         duration: 0.4,
+         opacity: 0,
+         stagger: 0.05,
+         ease: "power2.out",
+         scrollTrigger: {
+           trigger: ".smsswiperboxes",
+           start: "top 60%",
+           end: "top top",
+           toggleActions: "play none none reverse",
+         },
+       });
+
+       const animateSlidefirst = () => {
+         gsap.from(".smsswiperboxes", {
+           x: 200,
+           duration: 0.4,
+           opacity: 0,
+           stagger: 0.05,
+           ease: "power2.out",
+           scrollTrigger: {
+             trigger: ".smsswiperboxes",
+             start: "top 60%",
+             end: "top 0",
+             toggleActions: "play none none reverse",
+           },
+         });
+       };
+
+       const animateSlide = () => {
+         gsap.from(".smsswiperboxes2", {
+           x: -200,
+           duration: 0.4,
+           opacity: 0,
+           stagger: 0.05,
+           ease: "power2.out",
+           scrollTrigger: {
+             trigger: ".smsswiperboxes2",
+             start: "top 50%",
+             end: "top 0",
+             markers: true,
+             toggleActions: "play none none reverse",
+           },
+         });
+       };
+
+       // Add event listener to Swiper navigation buttons
+       const swiperInstance = document.querySelector('.swiper').swiper;
+       swiperInstance.on('slideNextTransitionStart', animateSlide);
+       
+
+     });
+
+
  const FeatureCard = ({ image, heading, para }) => {
+    
    const [isExpanded, setIsExpanded] = useState(false);
 
    const handleToggleExpand = () => {
@@ -90,7 +155,7 @@ export default function App() {
 
 
    return (
-     <div className="w-[25vw] h-fit  max-md:w-[40vw] rounded-2xl overflow-hidden">
+     <div className=" smsswiperboxes2 w-[25vw] h-fit  max-md:w-[40vw] rounded-2xl overflow-hidden">
        <div className="h-[180px]  w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
          <img className="w-[140px] max-sm:w-[100px]" src={`${image}`} alt="" />
        </div>
@@ -128,7 +193,7 @@ export default function App() {
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-[25vw]  h-[400px]  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className= "smsswiperboxes w-[25vw]  h-[400px]  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
               >
                 <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                   <img

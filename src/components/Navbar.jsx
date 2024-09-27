@@ -338,7 +338,7 @@ const Navbar = (params) => {
               <Link
                 to={`/chatbot`}
                 id="navrightboxes"
-                className="h-[30%] opacity-0 translate-x- overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+                className="h-[30%] opacity-0 translate-x-[200px] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
               >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl ">Chat Bot</h1>
@@ -351,7 +351,7 @@ const Navbar = (params) => {
               <Link
                 to={`/integration`}
                 id="navrightboxes"
-                className="h-[30%] opacity-0 translate-x- overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
+                className="h-[30%] opacity-0 translate-x-[200px] overflow-hidden w-full border-2 rounded-3xl border-[#61a3ff] bg-[#9ac4ff18] flex gap-2 "
               >
                 <div className="w-[70%] flex flex-col justify-center pl-4 h-full">
                   <h1 className="font-bold text-xl "> integration</h1>

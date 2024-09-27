@@ -51,21 +51,21 @@ const Section4 = () => {
      gsap.registerPlugin(ScrollTrigger); 
 
      useGSAP(()=>{
-
+      
+        gsap.from(".section4-box", {
+          x: -200,
+          duration: 0.4,
+          opacity: 0,
+          stagger: 0.05,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: ".section4-box",
+            start: "top 70%",
+            end: "bottom 0",
+            toggleActions: "play none none reverse",
+          },
+        });
     
-
-      //  gsap.to("#section4", {
-      //    y: "-120%",
-      //    scrollTrigger: {
-      //      trigger: "#section4",
-      //     //  markers: true,
-      //      start: "10px -100px",
-      //      end: "-100px -600vh",
-      //      scrub:2,
-      //     //  ease:"linear"
-      //     //  pin:true
-      //    },
-      //  });
 
      })
 
@@ -85,11 +85,11 @@ const Section4 = () => {
           <br />
           across various messaging channels
         </h1>
-        <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[4vw] gap-4  max-lg:grid-cols-2">
+        <div className="sectionmainbox w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[4vw] gap-4  max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[25vw]  min-h-[400px]  max-sm:min-h-[450px]  max-md:w-[45vw]   rounded-2xl overflow-hidden"
+              className= "section4-box  w-[25vw]  min-h-[400px]  max-sm:min-h-[450px]  max-md:w-[45vw]   rounded-2xl overflow-hidden"
             >
               <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                 <img

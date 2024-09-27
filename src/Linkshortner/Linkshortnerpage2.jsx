@@ -4,7 +4,7 @@ const Linkshortnerpage2 = () => {
   let data = [
     {
       heading: "Instant URL Shortening",
-      img: "./images/filegptimages/filegptpage2-1.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-1.svg",
       para: "Quickly convert long links into short, easy-to-share URLs. No more messy links—just clean, concise URLs that look professional and are easy to distribute.",
     },
     {
@@ -14,17 +14,17 @@ const Linkshortnerpage2 = () => {
     },
     {
       heading: "Customizable Links",
-      img: "./images/filegptimages/filegptpage2-3.svg",
+      img: "./images/filehostingimages/filehostingpage2-2.svg",
       para: "Customize your short URLs with branded domain options, making your links more recognizable and building trust with your audience.",
     },
     {
       heading: "Real-Time Analytics",
-      img: "./images/filegptimages/filegptpage2-2.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-4.svg",
       para: "Track the performance of your short URLs with detailed analytics, including click-through rates, geographic data, and device information. Understand your audience’s behavior and optimize your campaigns accordingly.",
     },
     {
       heading: "Expiration and Access Control",
-      img: "./images/filegptimages/filegptpage2-3.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-5.svg",
       para: "Set expiration dates for your short URLs or protect them with passwords to control who can access your links and for how long.",
     },
   ];

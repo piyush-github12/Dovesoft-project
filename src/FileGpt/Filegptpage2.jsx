@@ -21,12 +21,12 @@ const Filegptpage2 = () => {
     },
     {
       heading: "WhatsApp Bot Compatibility",
-      img: "./images/filegptimages/filegptpage2-2.svg",
+      img: "./images/filegptimages/filegptpage2-4.svg",
       para: "Extend your AI bot’s reach to WhatsApp, allowing customers to get answers on their preferred messaging platform. Whether it's product queries or service information, your AI bot can handle it all on WhatsApp.",
     },
     {
       heading: "24/7 Availability",
-      img: "./images/filegptimages/filegptpage2-3.svg",
+      img: "./images/filegptimages/filegptpage2-5.svg",
       para: "Provide round-the-clock support without additional manpower. The AI bot operates continuously, ensuring customers get the information they need at any time of day or night.",
     },
   ];

@@ -45,20 +45,24 @@ const Section6 = () => {
       },
     ];
 
-    useGSAP(()=>{
-      // gsap.to("#section6", {
-      //   y: "-120%",
-      //   scrollTrigger: {
-      //     trigger: "#section6",
-      //     //  markers: true,
-      //     start: "10px -100px ",
-      //     end: "-10px -400vh ",
-      //     scrub:2,
-      //     //  pin:true
-      //   },
-      // });
+     gsap.registerPlugin(useGSAP);
+     gsap.registerPlugin(ScrollTrigger);
 
-    })
+     useGSAP(() => {
+       gsap.from(".section6-box", {
+         x: -200,
+         duration: 0.4,
+         opacity: 0,
+         stagger: 0.05,
+         ease: "power2.out",
+         scrollTrigger: {
+           trigger: ".section6-box",
+           start: "top 70%",
+           end: "bottom 0%",
+           toggleActions: "play none none reverse",
+         },
+       });
+     });
 
     
   return (
@@ -77,11 +81,11 @@ const Section6 = () => {
           <br />
           conversational across marketing, commerce, and support
         </h2>
-        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-md:px-[5vw]  gap-4 max-lg:grid-cols-2">
+        <div className=" w-screen h-fit  grid grid-cols-3  px-[10vw] max-md:px-[5vw]  gap-4 max-lg:grid-cols-2">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[25vw]  h-[290px] max-sm:w-[40vw]   rounded-2xl"
+              className="section6-box w-[25vw]  h-[290px] max-sm:w-[40vw]   rounded-2xl"
             >
               <div className="w-full h-[100px]  p-2 flex items-end">
                 <img className="w-[72]" src={`${item.image}`} alt="" />

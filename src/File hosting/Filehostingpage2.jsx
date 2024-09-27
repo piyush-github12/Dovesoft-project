@@ -10,7 +10,7 @@ const Filehostingpage2 = () => {
     },
     {
       heading: "Short URL Generation",
-      img: "./images/filegptimages/filegptpage2-2.svg",
+      img: "./images/filehostingimages/filehostingpage2-2.svg",
       para: "Instantly convert your uploaded files into concise, shareable URLs. These short links are perfect for whatsapp, RCS, SMS and email campaigns, social media posts, and more.",
     },
     {

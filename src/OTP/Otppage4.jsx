@@ -14,6 +14,7 @@ const Otppage4 = () => {
           trigger: element,
           start: "top 60%",
           end: "top 0",
+          toggleActions: "play none none reverse",
         },
       });
     });
@@ -28,6 +29,7 @@ const Otppage4 = () => {
           trigger: element,
           start: "top 60%",
           end: "top 0",
+          toggleActions: "play none none reverse",
         },
       });
     });
@@ -41,6 +43,7 @@ const Otppage4 = () => {
           trigger: element,
           start: "-200px 60%",
           end: "top 0",
+          toggleActions: "play none none reverse",
         },
       });
     });

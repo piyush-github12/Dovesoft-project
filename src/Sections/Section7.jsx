@@ -10,22 +10,7 @@ import { ScrollTrigger } from "gsap/all";
 const Section7 = () => {
 
   
-  gsap.registerPlugin(useGSAP);
-  gsap.registerPlugin(ScrollTrigger); 
-  useGSAP(() => {
-    // gsap.to("#section7", {
-    //   y: "-100%",
-    //   scrollTrigger: {
-    //     trigger: "#section7",
-    //     //  markers: true,
-    //     start: "10px -100px ",
-    //     end: "-100px -600vh ",
-    //     scrub: 2,
-    //     //  pin:true
-    //   },
-    // });
-  });
-
+ 
   return (
     <div className="min-h-fit py-[10vh] max-sm:py-[5vh] w-screen relative ">
       <div
