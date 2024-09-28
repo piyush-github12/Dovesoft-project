@@ -6,7 +6,7 @@ const Section9 = ({bg}) => {
       <div
         id="foot1"
         style={bg ? { backgroundColor: bg } : { backgroundColor: "#031e42" }}
-        className={`w-screen  min-h-[80vh]   flex max-md:flex-col   text-white px-[10vw] py-[150px]  max-sm:py-[20px]  max-md:px-[5vw]`}
+        className={`w-screen  min-h-[80vh]   flex max-md:flex-col   text-white px-[10vw] py-[100px]  max-sm:py-[20px]  max-md:px-[5vw]`}
       >
         <div className="w-[30%] max-md:w-full h-full max-md:h-fit max-md:mb-10 ">
           <h1 className="font-bold font-['Epilogue']  text-3xl mb-10 max-md:mb-5">

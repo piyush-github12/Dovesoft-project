@@ -15,7 +15,7 @@ const Integration = () => {
     <div className="bg-white overflow-hidden relative text-base">
       <Integrationhero />
       <Integrationpage2 />
-      <Integrationpage3/>
+      {/* <Integrationpage3/> */}
       <Integrationpage4/>
       <Integrationpage5/>
       <Integrationpage6/>

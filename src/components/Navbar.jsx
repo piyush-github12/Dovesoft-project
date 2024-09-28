@@ -286,9 +286,9 @@ const Navbar = (params) => {
 
           <div
             id="dropdowninter"
-            className={`w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10   ${
-              isScrolled ? "mt-[80px]" : " mt-[120px]"
-            } mb-[30px] `}
+            className={`w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10 ${
+              isScrolled ? "mt-[80px]" : "mt-[120px]"
+            } mb-[30px] max-md:overflow-y-auto max-md:h-[80vh]`}
           >
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
               {navdata.map((item, index) => {
@@ -318,7 +318,7 @@ const Navbar = (params) => {
                 );
               })}
             </div>
-            <div className="w-[350px] max-sm:w-[300px] overflow-hidden h-[400px] max-lg:w-[400px] flex flex-col pl-10 max-sm:pl-[0] justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
+            <div className="w-[350px] max-sm:w-[300px]  overflow-hidden h-[400px] max-md:min-h-[400px] max-lg:w-[400px] flex flex-col pl-10 max-sm:pl-[0] justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
               <Link
                 to={`/Livechat`}
                 id="navrightboxes"

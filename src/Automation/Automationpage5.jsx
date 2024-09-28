@@ -3,7 +3,7 @@ import React from 'react'
 const Automationpage5 = () => {
   return (
     <div className="w-screen h-fit px-[5vw] mb-[50px] ">
-      <div className="w-full min-h-[800px]  p-[5vw] ">
+      <div className="w-full min-h-[800px]  px-[5vw] ">
         <h1 className='text-3xl  text-center font-["Epilogue"] font-semibold mb-[10px]'>
           Automation made simple
         </h1>

@@ -26,7 +26,7 @@ const Encryhome = () => {
       </div>
       <div className=" mt-[50px] px-[5vw] w-screen">
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
-          Risks of unencrypted SMS
+          Risks of Unencrypted Content
         </h1>
         <h1 className="text-center text-base mt-[20px] ">
           Understanding the risks of unencrypted text messages can help protect

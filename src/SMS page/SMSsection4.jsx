@@ -15,7 +15,7 @@ const Section4 = () => {
         id="section4"
         className="w-screen  h-fit  relative  z-[11] pb-10 bg-[#fff] rounded-b-[55px] "
       >
-        <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-10">
+        <h1 className="text-3xl font-['Epilogue']  max-sm:text-2xl  max-sm:px-[10px] text-center z-10 relative  font-bold mb-[20px]">
           Platform Features
         </h1>
         <h1 className="px-[15vw] max-md:px-[5vw] text-base text-center mb-10">

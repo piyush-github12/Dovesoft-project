@@ -25,10 +25,10 @@ const Filehostingpage3 = () => {
         <h1 className='font-["Epilogue"] text-3xl text-center text-white font-[500]'>
           Use Cases
         </h1>
-        <div className="bg-[#021E43] w-screen h-fit py-[50px]  px-[10vw] max-md:px-[5vw] flex max-md:block gap-[50px]">
+        <div className="bg-[#021E43] w-screen h-fit pt-[50px]  px-[10vw] max-md:px-[5vw] flex max-md:block gap-[50px]">
           {data.map((item, index) => {
             return (
-              <div className="w-[30vw] max-md:w-full max-md:mb-[50px] min-h-[250px] bg-white rounded-xl p-[20px]   ">
+              <div className="w-[30vw] max-md:w-full max-md:mb-[50px] min-h-[200px] bg-white rounded-xl p-[20px]   ">
                 <img className="w-[80px] mb-[10px]" src={item.img} alt="" />
                 <h1 className='font-["Epilogue"] text-xl font-semibold mb-[20px]'>
                   {item.heading}

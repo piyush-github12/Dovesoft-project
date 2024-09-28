@@ -16,7 +16,7 @@ const Automation = () => {
       <Automationpage3 />
       <Automationpage4/>
       <Automationpage5/>
-      <Automationpage6/>
+      {/* <Automationpage6/> */}
       <Section8/>
       <Section9/>
     </div>

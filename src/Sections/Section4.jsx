@@ -99,7 +99,7 @@ const Section4 = () => {
                 />
               </div>
               <div className=" min-h-[210px]  px-2 py-2 relative">
-                <h1 className="font-bold min-h-[70px] max-sm:min-h-[90px]  text-2xl ">
+                <h1 className="font-bold min-h-[40px]   text-2xl ">
                   {item.heading}
                 </h1>
                 <p className="text-base max-sm:text-base  ">{item.para}</p>

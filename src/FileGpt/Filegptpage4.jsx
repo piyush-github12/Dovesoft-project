@@ -39,10 +39,10 @@ const Filegptpage4 = () => {
       <h1 className="text-3xl font-['Epilogue'] text-center font-bold mb-[50px]">
         Benefits of File GPT
       </h1>
-      <div className="w-full h-fit mt-[30px] relative grid justify-items-center gap-5 px-[3vw] max-lg:px-[0] grid-cols-2  ">
+      <div className="w-full h-fit mt-[30px] relative grid justify-items-center gap-5 px-[3vw] max-lg:px-[0] grid-cols-2  max-md:grid-cols-1 ">
         {data.map((boxitems, boxindex) => {
           return (
-            <div className="w-[35vw] max-lg:w-[40vw] border-[1.5px] rounded-2xl border-[#00000042]  min-h-[150px] px-[15px] py-[20px] flex max-sm:block bg-white text-black   ">
+            <div className="w-[35vw] max-lg:w-[40vw] max-md:w-full border-[1.5px] rounded-2xl border-[#00000042]  min-h-[150px] px-[15px] py-[20px] flex max-sm:block bg-white text-black   ">
               <div className="w-[35px] h-[35px]   ">
                 <img className="w-full h-full" src={boxitems.img} alt="" />
               </div>

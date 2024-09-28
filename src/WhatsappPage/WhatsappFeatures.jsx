@@ -6,7 +6,7 @@ const WhatsappFeatures = () => {
     
   return (
     <div>
-      <div className="text-[#000] mt-[50px] w-screen">
+      <div className="text-[#000] w-screen">
         <h1 className="text-3xl font-['Epilogue']  text-center font-bold">
           Powerful Features that you <br /> Need
         </h1>

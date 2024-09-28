@@ -6,23 +6,23 @@ const Filegptpage3 = () => {
     let data = [
       {
         heading: "Sales Assistance",
-        img: "./images/filegptimages/filegptpage3-1.svg",
+        img: "./images/filehostingimages/filehostingpage3-1.svg",
         para: "Support your sales team by providing instant answers to customer inquiries about product features, pricing, and specifications through the AI bot",
       },
       {
         heading: "Customer Support",
-        img: "./images/filegptimages/filegptpage3-2.svg",
+        img: "./images/filehostingimages/filehostingpage3-2.svg",
         para: "Provide quick access to FAQs, help articles, or feedback forms through short URLs in chat, SMS, or email, simplifying the support process for your customers.",
       },
       {
         heading: "Internal Knowledge Sharing",
-        img: "./images/filegptimages/filegptpage3-3.svg",
+        img: "./images/filehostingimages/filehostingpage3-3.svg",
         para: "Enable employees to quickly find information from company handbooks, guidelines, or training materials, helping them resolve queries efficiently without searching through lengthy documents.",
       },
     ];
 
   return (
-    <div className="bg-[#021E43] w-screen h-fit py-[50px]">
+    <div className="bg-[#021E43] w-screen h-fit pt-[50px]">
       <h1 className='font-["Epilogue"] text-3xl text-center text-white font-[500]'>
         Use Cases
       </h1>

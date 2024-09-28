@@ -23,7 +23,7 @@ const Whatsappheropage = () => {
           <img src="./images/whatsappPageImages/hero.png" alt="" />
         </div>
       </div>
-      <div className="w-screen px-[10vw] min-h-[600px] py-[50px] flex max-md:block">
+      <div className="w-screen px-[10vw] min-h-[600px] py-[20px] flex max-md:block">
         <div className="w-[50%] max-md:w-full h-full max-md:h-fit relative z-[2] pt-[50px] flex flex-col justify-center gap-5">
           <h1 className="text-[48px] font-['Epilogue']  w-[80%] leading-[52px] font-bold">
             Import, Broadcast & Track

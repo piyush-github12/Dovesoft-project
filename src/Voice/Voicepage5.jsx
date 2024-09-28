@@ -45,7 +45,7 @@ const Voicepage5 = () => {
     ];
   return (
     <div className="py-[50px] ">
-      <div className=" mt-[50px] px-[10vw] max-md:px-[5vw]  w-full">
+      <div className="  px-[10vw] max-md:px-[5vw]  w-full">
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           Manage Your IVR
         </h1>

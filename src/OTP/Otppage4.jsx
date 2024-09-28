@@ -67,7 +67,7 @@ const Otppage4 = () => {
           <div className="fhi1 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
-              src="./images/filehostingimages/page4-2.svg"
+              src="./images/OTPimages/page4-2.svg"
               alt=""
             />
           </div>
@@ -100,7 +100,7 @@ const Otppage4 = () => {
           <div className="fhi2 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
-              src="./images/filehostingimages/page4-1.svg"
+              src="./images/OTPimages/page4-1.svg"
               alt=""
             />
           </div>
@@ -116,7 +116,7 @@ const Otppage4 = () => {
           <div className="fhi2 w-full h-[300px]  flex items-center justify-center ">
             <img
               className="h-full"
-              src="./images/filehostingimages/page4-3.svg"
+              src="./images/OTPimages/page4-3.svg"
               alt=""
             />
           </div>

@@ -44,8 +44,8 @@ const Voicepage4 = () => {
     },
   ];
   return (
-    <div className="py-[50px]">
-      <div className=" mt-[50px] px-[10vw] max-md:px-[5vw]  w-full">
+    <div className="my-[20px] py-[50px] bg-[#021E43] ">
+      <div className=" px-[10vw] max-md:px-[5vw] text-white  w-full">
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
           3. IVR
         </h1>
@@ -56,7 +56,7 @@ const Voicepage4 = () => {
         </h1>
       </div>
 
-      <div className="w-screen h-fit px-[10vw] max-md:px-[5vw] grid grid-cols-2 max-sm:grid-cols-1 mt-[50px] justify-items-center ">
+      <div className="w-screen h-fit px-[10vw] max-md:px-[5vw] grid grid-cols-2 max-sm:grid-cols-1 gap-5 mt-[50px] justify-items-center ">
         {data.map((item, index) => {
           return (
             <div className="w-[30vw] max-md:w-[100%]  min-h-[150px] px-[15px] py-[20px] flex max-sm:block bg-white text-black rounded-2xl  ">

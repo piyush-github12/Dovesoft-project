@@ -94,7 +94,7 @@ export default function App() {
          ease: "power2.out",
          scrollTrigger: {
            trigger: ".smsswiperboxes",
-           start: "top 60%",
+           start: "top 70%",
            end: "top top",
            toggleActions: "play none none reverse",
          },
@@ -102,14 +102,14 @@ export default function App() {
 
        const animateSlidefirst = () => {
          gsap.from(".smsswiperboxes", {
-           x: 200,
+           x: -200,
            duration: 0.4,
            opacity: 0,
            stagger: 0.05,
            ease: "power2.out",
            scrollTrigger: {
              trigger: ".smsswiperboxes",
-             start: "top 60%",
+             start: "top 70%",
              end: "top 0",
              toggleActions: "play none none reverse",
            },
@@ -125,9 +125,8 @@ export default function App() {
            ease: "power2.out",
            scrollTrigger: {
              trigger: ".smsswiperboxes2",
-             start: "top 50%",
+             start: "top 70%",
              end: "top 0",
-             markers: true,
              toggleActions: "play none none reverse",
            },
          });
@@ -136,7 +135,7 @@ export default function App() {
        // Add event listener to Swiper navigation buttons
        const swiperInstance = document.querySelector('.swiper').swiper;
        swiperInstance.on('slideNextTransitionStart', animateSlide);
-       
+       swiperInstance.on('slidePrevTransitionStart', animateSlidefirst);
 
      });
 
@@ -159,8 +158,8 @@ export default function App() {
        <div className="h-[180px]  w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
          <img className="w-[140px] max-sm:w-[100px]" src={`${image}`} alt="" />
        </div>
-       <div onMouseLeave={sefalse} className="min-h-[210px] text-left px-2 py-2 relative ">
-         <h1 className="font-bold font-['Epilogue'] min-h-[70px] max-sm:min-h-[90px] text-2xl">
+       <div onMouseLeave={sefalse} className="min-h-[180px] text-left px-2 py-2 relative ">
+         <h1 className="font-bold font-['Epilogue'] min-h-[40px]  text-2xl">
            {heading}
          </h1>
          <p className="text-base max-sm:text-base  ">
@@ -193,7 +192,7 @@ export default function App() {
             {data.map((item) => (
               <div
                 key={item.heading}
-                className= "smsswiperboxes w-[25vw]  h-[400px]  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className= "smsswiperboxes w-[25vw]  h-fit  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
               >
                 <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                   <img
@@ -202,8 +201,8 @@ export default function App() {
                     alt=""
                   />
                 </div>
-                <div className=" h-[210px] text-left px-2 py-2 relative">
-                  <h1 className="font-bold font-['Epilogue']  h-[70px] max-sm:h-[90px]  text-2xl ">
+                <div className=" min-h-[180px] text-left px-2 py-2 relative">
+                  <h1 className="font-bold font-['Epilogue']  min-h-[40px]  text-2xl ">
                     {item.heading}
                   </h1>
                   <p className="text-base max-sm:text-base  ">{item.para}</p>

@@ -58,8 +58,8 @@ const Filehostingpage4 = () => {
   });
    
   return (
-    <div className="w-screen text-black py-[50px] ">
-      <h1 className='font-["Epilogue"] text-3xl px-[10vw] max-md:px-[5vw] pt-[50px] text-center  font-[500]'>
+    <div className="w-screen text-black py-[50px] max-md:pb-0 ">
+      <h1 className='font-["Epilogue"] text-3xl px-[10vw] max-md:px-[5vw] pt-[50px] max-md:pt-0 text-center  font-[500]'>
         How It Works
       </h1>
       <div className="w-screen h-fit px-[10vw] max-md:px-[5vw] py-[50px] flex ">
