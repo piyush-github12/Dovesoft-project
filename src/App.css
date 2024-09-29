@@ -13,3 +13,58 @@
 body{
     scroll-behavior: smooth;
 }
+
+.custom-scrollbar {
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Width of the scrollbar */
+  height: 10px;
+
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #9c9c9c97; /* Color of the track */
+  border-radius: 10px; /* Rounded corners */
+ 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color of the thumb when hovered */
+  cursor: pointer;
+}
+
+
+.custom-scrollbar2 {
+  overflow-y: auto;
+
+}
+
+.custom-scrollbar2::-webkit-scrollbar {
+  
+  width: 5px; /* Width of the scrollbar */
+  height: 10px;
+}
+
+.custom-scrollbar2::-webkit-scrollbar-track {
+  background: #f1f1f173; /* Color of the track */
+  border-radius: 10px; /* Rounded corners */
+  /* margin-top: 10px; */
+  
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb {
+  background: #e4e4e4a9; /* Color of the thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.custom-scrollbar2::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; /* Color of the thumb when hovered */
+  cursor: pointer;
+}

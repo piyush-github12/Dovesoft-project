@@ -28,11 +28,11 @@ const Encrypage2 = () => {
     <div className="w-screen h-fit pt-[50px] ">
       {data.map((item, index) => {
         return (
-          <div className="w-screen min-h-[250px] px-[10vw] max-md:px-[5vw] py-[40px]  max-md:py-[20px]   flex items-center justify-between gap-10 max-md:flex-col">
+          <div className="w-screen min-h-[250px] px-[10vw] max-md:px-[5vw] py-[20px]  flex items-center justify-between gap-10 max-md:flex-col">
             {index % 2 == 0 ? (
               ""
             ) : (
-              <div className="w-[40%] px-[50px] max-md:px-[30px] py-[20px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[50px]">
+              <div className="w-[40%] px-[50px] max-md:px-[30px] py-[20px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[20px]">
                 <img
                   className="w-[250px] max-md:w-[300px]"
                   src={`${item.img}`}
@@ -55,7 +55,7 @@ const Encrypage2 = () => {
             </div>
 
             {index % 2 == 0 ? (
-              <div className="w-[40%] px-[50px] max-md:px-[30px] py-[20px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[50px]">
+              <div className="w-[40%] px-[50px] max-md:px-[30px] py-[20px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[20px]">
                 <img
                   className="w-[250px] max-md:w-[300px]"
                   src={`${item.img}`}
