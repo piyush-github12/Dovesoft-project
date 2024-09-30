@@ -18,6 +18,7 @@ import Otp from './OTP/Otp.jsx'
 import Encry from './Encry Content/Encry.jsx'
 import Voice from './Voice/Voice.jsx'
 import Aboutus from './Aboutus/Aboutus.jsx'
+import Contact from './Contactus/Contact.jsx'
 
 
 
@@ -41,6 +42,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/encryptedcontent" element={<Encry />} />
       <Route path="/voice" element={<Voice />} />
       <Route path="/aboutus" element={<Aboutus />} />
+      <Route path="/contactus" element={<Contact />} />
     </Routes>
   </BrowserRouter>
 );

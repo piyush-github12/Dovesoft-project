@@ -4,12 +4,12 @@ const Encrypage2 = () => {
   let data = [
     {
       heading: "Man-in-the-middle attacks",
-      img: "./images/Encryimages/page2-1.svg",
+      img: "./images/Encryimages/page2-1.png",
       para: "This occurs when an attacker intercepts communication using a vulnerability, allowing them to read the conversation or even modify the message sent.",
     },
     {
       heading: "Unauthorized access",
-      img: "./images/Encryimages/page2-2.svg",
+      img: "./images/Encryimages/page2-2.png",
       para: "Unencrypted text messages can be read by mobile carriers, government authorities, and hackers. This means any sensitive information shared over text could be exposed.",
     },
     {
@@ -19,7 +19,7 @@ const Encrypage2 = () => {
     },
     {
       heading: "Hackers could gain unauthorized access to accounts.",
-      img: "./images/Encryimages/page2-4.svg",
+      img: "./images/Encryimages/page2-4.png",
       para: "Textline’s security analyst Daniel de Jesus recommends not using SMS for user authentication purposes, especially in industries dealing with highly-sensitive information, like banking accounts. That’s because SMS codes can be intercepted by malicious attackers to gain access to accounts. Instead, our security expert recommends authenticator applications like 1Password or Authy, to provide an extra layer of security.",
     },
   ];
