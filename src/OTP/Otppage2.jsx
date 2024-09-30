@@ -14,7 +14,7 @@ const Otppage2 = () => {
     },
     {
       heading: "Configurable OTP Settings",
-      img: "./images/OTPimages/page2-3.png",
+      img: "./images/OTPimages/page2-3.svg",
       para: "Customize OTP length, expiry time, and allowed retries to match your application’s security requirements.",
     },
     {
