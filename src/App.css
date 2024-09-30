@@ -15,7 +15,7 @@ body{
 }
 
 .custom-scrollbar {
-  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -42,7 +42,7 @@ body{
 
 
 .custom-scrollbar2 {
-  overflow-y: auto;
+  overflow-x: auto;
 
 }
 

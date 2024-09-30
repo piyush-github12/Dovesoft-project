@@ -10,52 +10,6 @@ const Section5 = () => {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger); 
 
-  // useGSAP(()=>{
-    
-  //   gsap.to(".textanimation", {
-  //     scrollTrigger:{
-  //       trigger:".section5",
-  //       start:"top 80%"
-  //     },
-  //     keyframes: [
-  //       { color: "#61a3ff", scale: "1.1", duration:2 },
-  //       { color: "#fff", scale: "1",},
-  //     ],
-  //     duration:3,
-  //     repeat: -1,
-  //     stagger: 3,
-  //     repeatDelay:0
-  //   });
-
-  //   gsap.to(".sec5heading", {
-  //     scrollTrigger: {
-  //       trigger: ".section5",
-  //       start: "top 80%",
-  //     },
-  //     keyframes: [{ y: 0 }, { y: 0 }, { y: "-200%" }],
-  //     stagger: 3,
-  //     duration: 3,
-  //     repeat: -1,
-  //     repeatDelay: 0,
-  //   });
-
-  //   gsap.to(".imageani", {
-  //     scrollTrigger: {
-  //       trigger: ".section5",
-  //       start: "top 80%",
-  //     },
-  //     keyframes: [
-  //       { opacity: 1, x: "0", duration: 0.1 },
-  //       { opacity: 1, x: "0" },
-  //       { opacity: 0, x: "0", duration: 0.1 },
-  //     ],
-  //     stagger: 3,
-  //     duration: 3,
-  //     repeat: -1,
-  //     repeatDelay: 0,
-  //   });
-
-  // })
 
   const handalclick = (e)=>{
 
@@ -99,22 +53,6 @@ const Section5 = () => {
 
     
   };
-
-  useGSAP(()=>{
-
-    //  gsap.to("#section5", {
-    //    y: "-120%",
-    //    scrollTrigger: {
-    //      trigger: "#section5",
-    //     //  markers: true,
-    //      start: "10px -100px ",
-    //      end: "-100px -600vh ",
-    //      scrub:2,
-    //       // pin:true
-    //    },
-    //  });
-
-  })
  
   return (
     <div className=" relative py-2 w-[100vw] min-h-[850px]  ">
@@ -134,7 +72,7 @@ const Section5 = () => {
             <span className="text-[#61a3ff]">superhuman</span>
           </h1>
           <div className="flex max-lg:flex-col relative z-[9]  w-full h-[60vh] max-sm:min-h-[500px] justify-between">
-            <div className="max-md:text-[15px]   whitespace-nowrap max-lg:text-[15px] w-[25%] justify-center max-lg:w-full h-full max-lg:h-[15%]  text-xl flex flex-col max-sm:grid max-sm:grid-cols-3 max-sm:justify-items-center max-lg:flex-row gap-10 max-md:gap-5   border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
+            <div className="max-md:text-[15px]  whitespace-nowrap max-lg:text-[15px] w-[25%]  max-lg:w-[90%] max-lg:ml-[20px] max-lg:h-[80px]   text-xl flex justify-center max-lg:justify-normal flex-col  max-lg:overflow-x-auto max-lg:overflow-y-hidden max-lg:custom-scrollbar2    max-lg:flex-row gap-10    border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
               <h1
                 onClick={handalclick}
                 id="h1"
@@ -178,7 +116,7 @@ const Section5 = () => {
                 File GPT
               </h1>
             </div>
-            <div className="w-[70%]  flex max-lg:w-full max-lg:h-fit">
+            <div className="w-[70%]  flex  max-lg:w-full max-lg:h-fit">
               <div className="w-[40%]  h-full  flex justify-center items-center relative p-2 overflow-hidden ">
                 <div className="  w-full h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
                 <img

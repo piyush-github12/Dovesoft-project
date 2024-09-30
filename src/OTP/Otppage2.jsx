@@ -9,37 +9,37 @@ const Otppage2 = () => {
     },
     {
       heading: "Multi-Channel OTP Delivery",
-      img: "./images/OTPimages/page2-2.svg",
+      img: "./images/OTPimages/page2-2.png",
       para: "Deliver OTPs via multiple channels such as SMS, email, or in-app notifications, ensuring your users receive the codes promptly.",
     },
     {
       heading: "Configurable OTP Settings",
-      img: "./images/OTPimages/page2-3.svg",
+      img: "./images/OTPimages/page2-3.png",
       para: "Customize OTP length, expiry time, and allowed retries to match your application’s security requirements.",
     },
     {
       heading: "High-Level Security",
-      img: "./images/OTPimages/page2-4.svg",
+      img: "./images/OTPimages/page2-4.png",
       para: "OTPs are cryptographically secure, ensuring that each code is unique, unpredictable, and valid for only a limited time.",
     },
     {
       heading: "Rate Limiting",
-      img: "./images/OTPimages/page2-5.svg",
+      img: "./images/OTPimages/page2-5.png",
       para: "Prevent abuse with built-in rate limiting, restricting the number of OTPs generated or validated within a specified timeframe.",
     },
     {
       heading: "Scalability",
-      img: "./images/OTPimages/page2-6.svg",
+      img: "./images/OTPimages/page2-6.png",
       para: "Designed to handle thousands of OTP requests per second, our API scales effortlessly as your user base grows.",
     },
     {
       heading: "Real-Time Validation",
-      img: "./images/OTPimages/page2-7.svg",
+      img: "./images/OTPimages/page2-7.png",
       para: "Instantly validate OTPs provided by users, ensuring a smooth and secure authentication process.",
     },
     {
       heading: "Detailed Analytics",
-      img: "./images/OTPimages/page2-8.svg",
+      img: "./images/OTPimages/page2-8.png",
       para: "Track OTP generation, delivery, and validation with real-time analytics, helping you monitor the success rates and detect potential issues.",
     },
   ];

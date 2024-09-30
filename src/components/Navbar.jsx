@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 import { RiMenu3Line } from "react-icons/ri";
 
 import { BiMessageDetail } from "react-icons/bi";
@@ -354,7 +355,7 @@ const Navbar = (params) => {
                 className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[5px] " />
               </div>
               <div
                 onClick={() => {
@@ -418,7 +419,7 @@ const Navbar = (params) => {
                 className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[5px]" />
               </div>
               <div
                 onClick={() => {
@@ -537,7 +538,7 @@ const Navbar = (params) => {
                 className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[5px]" />
               </div>
             </div>
             <Link to="/">
@@ -601,7 +602,7 @@ const Navbar = (params) => {
                 className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[5px] " />
               </div>
             </div>
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">

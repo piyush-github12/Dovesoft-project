@@ -9,17 +9,17 @@ const Linkshortnerpage2 = () => {
     },
     {
       heading: "Multi-Channel Sharing",
-      img: "./images/filegptimages/filegptpage2-2.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-2.png",
       para: "Use your short URLs across various communication channels, including emails, social media, SMS, and chat applications, ensuring your audience can access your content no matter where they are.",
     },
     {
       heading: "Customizable Links",
-      img: "./images/filehostingimages/filehostingpage2-2.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-3.png",
       para: "Customize your short URLs with branded domain options, making your links more recognizable and building trust with your audience.",
     },
     {
       heading: "Real-Time Analytics",
-      img: "./images/linkshortnerimages/linkshortnerpage2-4.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-4.png",
       para: "Track the performance of your short URLs with detailed analytics, including click-through rates, geographic data, and device information. Understand your audience’s behavior and optimize your campaigns accordingly.",
     },
     {

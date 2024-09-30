@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section9 = ({bg}) => {
   return (
-    <div className="  relative min-h-[100vh] bg-black  z-[6]  ">
+    <div className="  relative min-h-fit bg-black  z-[6]  ">
       <div
         id="foot1"
         style={bg ? { backgroundColor: bg } : { backgroundColor: "#031e42" }}

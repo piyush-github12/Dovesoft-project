@@ -101,10 +101,10 @@ const WhatsappConvertLeads = () => {
         </div>
 
         <div className="w-[50%] max-md:w-full h-fit pb-[50px] max-md:h-fit max-md:pt-[50px] relative z-[2]  flex flex-col justify-center gap-5">
-          <h1 className="text-[48px] font-['Epilogue']  w-[80%] leading-[52px] font-bold">
+          <h1 className="text-[48px] font-['Epilogue']  w-[80%] max-md:w-full leading-[52px] font-bold">
            {data[selected].heading}
           </h1>
-          <h1 className="w-[90%] text-base">
+          <h1 className="w-[90%] max-md:w-full text-base">
             {data[selected].description}
           </h1>
           <Bookdemobutton

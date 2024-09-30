@@ -5,32 +5,32 @@ const Filehostingpage2 = () => {
   let data = [
     {
       heading: "Quick File Uploads",
-      img: "./images/filegptimages/filegptpage2-1.svg",
+      img: "./images/filegptimages/page2-1.png",
       para: "Effortlessly upload files of various formats, including PDFs, images, videos, and more. Our intuitive interface ensures a seamless upload experience.",
     },
     {
       heading: "Short URL Generation",
-      img: "./images/filehostingimages/filehostingpage2-2.svg",
+      img: "./images/linkshortnerimages/linkshortnerpage2-3.png",
       para: "Instantly convert your uploaded files into concise, shareable URLs. These short links are perfect for whatsapp, RCS, SMS and email campaigns, social media posts, and more.",
     },
     {
       heading: "Multi-Channel Sharing",
-      img: "./images/filegptimages/filegptpage2-3.svg",
+      img: "./images/filehostingimages/page2-3.png",
       para: " Share the generated short URLs across all channels like SMS, Whatsapp, RCS, Email and manuy more. Simplify the way you distribute content and reach your audience wherever they are.",
     },
     {
       heading: "Traceable Reports",
-      img: "./images/filehostingimages/filehostingpage2-4.svg",
+      img: "./images/filehostingimages/page2-4.png",
       para: "Gain insights into how your short URLs are performing. Track clicks, location data, devices used, and more with real-time analytics, helping you understand user engagement and optimize your sharing strategy.",
     },
     {
       heading: "Custom URL Branding",
-      img: "./images/filehostingimages/filehostingpage2-5.svg",
+      img: "./images/filehostingimages/page2-5.png",
       para: "Personalize your short URLs with custom domain options, enhancing brand visibility and trust.",
     },
     {
       heading: "Expiration and Access Control",
-      img: "./images/filehostingimages/filehostingpage2-6.svg",
+      img: "./images/filehostingimages/page2-6.png",
       para: "Set expiration dates for short URLs or restrict access with password protection, ensuring your files remain secure and available for only as long as you need.",
     },
     {
