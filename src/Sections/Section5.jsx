@@ -71,8 +71,8 @@ const Section5 = () => {
             Platform capabilities to make you a <br />{" "}
             <span className="text-[#61a3ff]">superhuman</span>
           </h1>
-          <div className="flex max-lg:flex-col relative z-[9]  w-full h-[60vh] max-sm:min-h-[500px] justify-between">
-            <div className="max-md:text-[15px]  whitespace-nowrap max-lg:text-[15px] w-[25%]  max-lg:w-[90%] max-lg:ml-[20px] max-lg:h-[80px]   text-xl flex justify-center max-lg:justify-normal flex-col  max-lg:overflow-x-auto max-lg:overflow-y-hidden max-lg:custom-scrollbar2    max-lg:flex-row gap-10    border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
+          <div className="flex max-lg:flex-col relative z-[9]  w-full min-h-[60vh] max-sm:min-h-[500px] justify-between">
+            <div className="max-md:text-[15px]  whitespace-nowrap max-lg:text-[15px] w-[25%]  max-lg:w-[90%] max-lg:ml-[20px] max-lg:pb-[20px] max-lg:px-[20px]  text-xl flex justify-center max-lg:justify-normal flex-col  max-lg:overflow-x-auto max-lg:overflow-y-hidden max-lg:custom-scrollbar2    max-lg:flex-row gap-10    border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
               <h1
                 onClick={handalclick}
                 id="h1"
@@ -116,48 +116,48 @@ const Section5 = () => {
                 File GPT
               </h1>
             </div>
-            <div className="w-[70%]  flex  max-lg:w-full max-lg:h-fit">
-              <div className="w-[40%]  h-full  flex justify-center items-center relative p-2 overflow-hidden ">
+            <div className="w-[70%]   flex max-lg:flex-col max-lg:items-center max-lg:w-full max-lg:h-fit">
+              <div className="w-[40%] max-lg:w-[80%] h-full max-lg:h-[350px] max-lg:mt-[20px] flex justify-center items-center relative p-2 overflow-hidden ">
                 <div className="  w-full h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
                 <img
                   id="h1image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] "
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] "
                   alt=""
                 />
                 <img
                   id="h2image"
                   src="./images/sms.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h3image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h4image"
                   src="./images/voice_website.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h5image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
                 <img
                   id="h6image"
                   src="./images/Liveagent.png"
-                  className="imageani object-cover w-full max-md:h-[40vw] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
+                  className="imageani object-cover w-full max-lg:h-[300px] max-lg:w-[250px] absolute top-[50%] translate-y-[-50%] translate-x-[-100px] opacity-0"
                   alt=""
                 />
               </div>
-              <div className="w-[60%]  h-[60vh] max-lg:h-[500px] ">
-                <div className="w-full h-[60vh] max-lg:h-[500px]  pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
+              <div className="w-[60%] max-lg:w-[90%]  h-[60vh] max-lg:h-[300px] ">
+                <div className="w-full h-[60vh] max-lg:h-[300px]  pl-[50px] max-md:pl-2 z-10 flex flex-col justify-center gap-5">
                   <div className="w-full h-full  flex flex-col justify-center    overflow-hidden relative ">
                     <h1
                       id="h1para"

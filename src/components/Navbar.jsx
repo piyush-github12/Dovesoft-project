@@ -286,20 +286,20 @@ const Navbar = (params) => {
               setdropdown(true);
               setcompanydropdown(false);
             }}
-            className="w-[150px]  h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+            className="w-[150px]  h-[50px] flex justify-center items-center gap-1 cursor-pointer"
           >
             <h1>Product</h1>
-            <IoIosArrowDown className="mt-[5px]" />
+            <IoIosArrowDown className="mt-[2px] text-xl " />
           </div>
           <div
             onClick={() => {
               setcompanydropdown(true);
               setdropdown(false);
             }}
-            className="w-[150px]  h-[50px] flex justify-center items-center gap-2 cursor-pointer "
+            className="w-[150px]  h-[50px] flex justify-center items-center gap-1 cursor-pointer "
           >
             <h1>Company</h1>
-            <IoIosArrowDown className="mt-[5px]" />
+            <IoIosArrowDown className="mt-[2px] text-xl " />
           </div>
         </div>
 
@@ -352,20 +352,20 @@ const Navbar = (params) => {
                   setdropdown(true);
                   setcompanydropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowUp className="mt-[5px] " />
+                <IoIosArrowUp className="mt-[2px] text-xl  " />
               </div>
               <div
                 onClick={() => {
                   setdropdown(false);
                   setcompanydropdown(true);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowDown className="mt-[2px] text-xl " />
               </div>
             </div>
             <Link to="/">
@@ -416,20 +416,20 @@ const Navbar = (params) => {
                   setdropdown(true);
                   setcompanydropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowUp className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[2px] text-xl " />
               </div>
               <div
                 onClick={() => {
                   setcompanydropdown(true);
                   setdropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowDown className="mt-[2px] text-xl " />
               </div>
             </div>
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
@@ -525,20 +525,20 @@ const Navbar = (params) => {
                   setdropdown(true);
                   setcompanydropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowDown className="mt-[2px] text-xl " />
               </div>
               <div
                 onClick={() => {
                   setcompanydropdown(true);
                   setdropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowUp className="mt-[5px]" />
+                <IoIosArrowUp className="mt-[2px] text-xl " />
               </div>
             </div>
             <Link to="/">
@@ -589,20 +589,20 @@ const Navbar = (params) => {
                   setdropdown(true);
                   setcompanydropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer"
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer"
               >
                 <h1>Product</h1>
-                <IoIosArrowDown className="mt-[5px]" />
+                <IoIosArrowDown className="mt-[2px] text-xl " />
               </div>
               <div
                 onClick={() => {
                   setcompanydropdown(true);
                   setdropdown(false);
                 }}
-                className="w-[150px] h-[50px] flex justify-center items-center gap-2 cursor-pointer "
+                className="w-[150px] h-[50px] flex justify-center items-center gap-1 cursor-pointer "
               >
                 <h1>Company</h1>
-                <IoIosArrowUp className="mt-[5px] " />
+                <IoIosArrowUp className="mt-[2px] text-xl  " />
               </div>
             </div>
             <div className="w-[70%] max-lg:w-full  flex max-sm:grid  max-sm:grid-cols-1 max-sm:justify-items-center max-sm:gap-10">
