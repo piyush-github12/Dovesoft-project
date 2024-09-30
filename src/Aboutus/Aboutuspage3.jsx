@@ -4,33 +4,33 @@ const Aboutuspage3 = () => {
 
   let data = [
     {
-      heading: "Mr. Rahul Bhanushali",
-      img: "",
+      heading: "Rahul Bhanushali",
+      img: "./images/Aboutus/rahul.png",
       post: "Managing Director",
     },
     {
       heading: "Pankaj Bhanushali",
-      img: "",
+      img: "./images/Aboutus/pankaj.png",
       post: "Executive Director",
     },
     {
       heading: "Chirag Mewada",
-      img: "",
+      img: "./images/Aboutus/chirag.png",
       post: "Non-executive Director",
     },
     {
       heading: "Chandra Prakash Maurya",
-      img: "",
+      img: "./images/Aboutus/chandra.jpeg",
       post: "Executive Director",
     },
     {
       heading: "Hirenkumar Shah",
-      img: "",
+      img: "./images/Aboutus/hiren.png",
       post: "Independent Director",
     },
     {
       heading: "Nupur Ranbir Chauhan",
-      img: "",
+      img: "./images/Aboutus/nupur.png",
       post: "Independent Director",
     },
   ];
@@ -38,17 +38,17 @@ const Aboutuspage3 = () => {
   let data2 = [
     {
       heading: "Muktesh Narula",
-      img: "",
+      img: "./images/Aboutus/muktesh.png",
       post: "Chef Executive Officer",
     },
     {
       heading: "Gaurav Karmawat",
-      img: "",
+      img: "./images/Aboutus/gaurav.png",
       post: "Chief Financial Officer ",
     },
     {
       heading: "Archit Tundia",
-      img: "",
+      img: "./images/Aboutus/archit.png",
       post: "Company Secretary ",
     },
   ];
@@ -60,15 +60,15 @@ const Aboutuspage3 = () => {
       <div className="w-full h-fit grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 justify-items-center gap-10 px-[5vw]">
         {data.map((item, index) => {
           return (
-            <div className="w-[250px] h-[300px] bg-[#e6e6e6] rounded-3xl ">
-              <div className="w-full h-[200px] flex items-center justify-center ">
+            <div className="w-[250px] h-[300px] bg-[#e6e6e6] rounded-3xl hover:scale-105 transition-all duration-300 group">
+              <div className="w-full h-[200px] flex items-center justify-center overflow-hidden">
                 <img
-                  className="w-[150px] h-[150px] rounded-full object-cover border-[8px] border-[#fff]"
-                  src=""
+                  className="w-[150px] h-[150px] rounded-full object-cover border-[8px] border-[#fff] transition-transform duration-300 group-hover:scale-[1.1]"
+                  src={item.img}
                   alt=""
                 />
               </div>
-              <div className="w-full h-[100px] mt-[10px] ">
+              <div className="w-full h-[100px] mt-[10px]">
                 <h1 className='text-base font-["Epilogue"] font-bold text-center'>
                   {item.heading}
                 </h1>
@@ -87,11 +87,11 @@ const Aboutuspage3 = () => {
       <div className="w-full h-fit grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 justify-items-center gap-10 px-[5vw]">
         {data2.map((item, index) => {
           return (
-            <div className="w-[250px] h-[300px] bg-[#e6e6e6] rounded-3xl ">
-              <div className="w-full h-[200px] flex items-center justify-center ">
+            <div className="w-[250px] h-[300px] bg-[#e6e6e6] rounded-3xl hover:scale-105 transition-all duration-300 group">
+              <div className="w-full h-[200px] flex items-center justify-center overflow-hidden">
                 <img
-                  className="w-[150px] h-[150px] rounded-full object-cover border-[8px] border-[#fff]"
-                  src=""
+                  className="w-[150px] h-[150px] rounded-full object-cover border-[8px] border-[#fff] transition-transform duration-300 group-hover:scale-[1.1] "
+                  src={item.img}
                   alt=""
                 />
               </div>
