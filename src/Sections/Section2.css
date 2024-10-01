@@ -1,6 +1,6 @@
 .marqutag1{
     animation-name: marqueanimation;
-    animation-duration: 10s;
+    animation-duration: 40s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
    
@@ -14,7 +14,7 @@
         transform: translate(0, 0);
     }
     100%{
-        transform: translatex(-1000px);
+        transform: translatex(-3080px);
     }
     
 }
