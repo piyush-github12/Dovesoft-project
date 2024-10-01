@@ -3,6 +3,7 @@ import React from "react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import Bookdemobutton from "../components/Bookdemobutton";
 
 const Section3 = () => {
   const data = [
@@ -106,11 +107,7 @@ const Section3 = () => {
             With industry-leading expertise, you can deliver superb customer
             experience through our global network.
           </h1>
-          <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-base h-[60px] flex items-center font-bold whitespace-nowrap">
-              Book Demo
-            </h1>
-          </div>
+          <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
         </div>
       </div>
 
