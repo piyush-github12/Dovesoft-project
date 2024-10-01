@@ -8,11 +8,11 @@ const Instahero = () => {
       <Navbar color="#9777E2" logincolor="#fff" logintextcolor="#000" />
       <div className="w-screen  min-h-[800px] pt-[150px] max-md:pt-[120px] px-[10vw] max-sm:px-[5vw] bg-gradient-to-r from-[#5B51D8] relative overflow-hidden to-[#833AB4] text-white flex max-md:block  pb-[50px]">
         <div className="w-[20vw] h-[20vw] absolute  bottom-0 right-0 translate-x-[30%] translate-y-[20%] bg-[#F04C5B] blur-[100px]  rounded-full "></div>
-        <div className="w-[55%] h-full max-md:h-fit max-md:w-full relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
+        <div className="w-[55%] h-full font-semibold max-md:h-fit max-md:w-full relative z-[2] pt-[50px]  flex flex-col justify-center gap-5">
           <h1 className="text-[48px]  font-['Epilogue']  leading-[52px] font-bold">
             Delight Your Customers With Instagram Inbox Solution
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base ">
             Build meaningful connections and boost customer engagement with your
             target audience using the Instagram inbox from ControlHippo.
           </h1>

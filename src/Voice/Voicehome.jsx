@@ -12,7 +12,7 @@ const Voicehome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Voice solutions for your business
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base font-semibold">
             Voice solutions provide an easy way to rach your customers and
             create a more visible image for your business. It can help you to
             conrert a caller into a customers.

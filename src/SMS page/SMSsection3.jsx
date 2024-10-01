@@ -44,45 +44,50 @@ const Section3 = () => {
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
-  useGSAP(() => {
-    let screenheight = window.screen.height;
-    let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
-    let slideheight = "";
+    useGSAP(() => {
+      let screenheight = window.screen.height;
+      let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
-    if (pinheight > screenheight) {
-      slideheight = 1100 + (pinheight - screenheight);
-    } else {
-      slideheight = pinheight;
-    }
+      let slideheight = "";
 
-    gsap.to("#pinscroll", {
-      y: -slideheight,
-      scrollTrigger: {
-        trigger: "#section3",
-        start: "top top",
-        pin: true,
-        scrub: true,
-      },
-    });
+      if (pinheight > screenheight) {
+        slideheight = 1100 + (pinheight - screenheight);
+      } else {
+        slideheight = pinheight;
+      }
 
-    gsap.to("#fillline", {
-      height: "100%",
-      scrollTrigger: {
-        trigger: "#section3",
-        start: "top top",
-        scrub: true,
-      },
-    });
-    gsap.to("#movercircle", {
-      top: "calc(100%  - 25px)",
-      scrollTrigger: {
-        trigger: "#section3",
-        start: "top top",
-        scrub: true,
-      },
-    });
-  });
+      gsap.to("#pinscroll", {
+        y: -slideheight,
+        scrollTrigger: {
+          trigger: "#section3",
+          start: "top top",
+          pin: true,
+          scrub: true,
+        },
+      });
+
+      gsap.to("#fillline", {
+        height: "100%",
+        scrollTrigger: {
+          trigger: "#section3",
+          start: "top top",
+          scrub: true,
+        },
+      });
+      gsap.to("#movercircle", {
+        top: "calc(100%  - 25px)",
+        scrollTrigger: {
+          trigger: "#section3",
+          start: "top top",
+          scrub: true,
+        },
+      });
+    }, []);
+
+
+
+  
 
   return (
     <div

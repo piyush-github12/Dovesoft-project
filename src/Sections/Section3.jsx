@@ -4,6 +4,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 import Section4 from "./Section4";
+import Bookdemobutton from "../components/Bookdemobutton";
 
 const Section3 = () => {
   const data = [
@@ -49,14 +50,12 @@ const Section3 = () => {
     let screenheight = window.screen.height;
     let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
-
     let slideheight = "";
 
     if (pinheight > screenheight) {
       slideheight = 1100 + (pinheight - screenheight);
-
     } else {
-      slideheight = pinheight ;
+      slideheight = pinheight;
     }
 
     gsap.to("#pinscroll", {
@@ -74,7 +73,6 @@ const Section3 = () => {
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-        // pin: true,
         scrub: true,
       },
     });
@@ -83,11 +81,10 @@ const Section3 = () => {
       scrollTrigger: {
         trigger: "#section3",
         start: "top top",
-        // pin: true,
         scrub: true,
       },
     });
-  });
+  }, {  dependencies: [window.screen.height] });
 
   return (
     <div
@@ -100,17 +97,13 @@ const Section3 = () => {
             <span className="bg-gradient-to-r max-sm:whitespace-nowrap whitespace-nowrap max-xl:whitespace-normal from-[#A8CCFF] to-[#F4F9FF] rounded-md px-2">
               Harness over 10 years of
             </span>{" "}
-            <br /> experience with the world’s  most connected platform
+            <br /> experience with the world’s most connected platform
           </h1>
           <h1 className="text-base max-sm:text-base max-sm:text-center">
             With industry-leading expertise, you can deliver superb customer
             experience through our global network.
           </h1>
-          <div className="min-w-fit w-[160px] h-[60px] bg-gradient-to-r from-[#0d72ff] to-[#4893FC] border-2 border-[#7AB1FC] px-5 rounded-md flex justify-center items-center gap-2 hover:scale-[1.2] transition-all cursor-pointer">
-            <h1 className="text-white text-base h-[60px] flex items-center font-bold whitespace-nowrap">
-              Book Demo
-            </h1>
-          </div>
+          <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
         </div>
       </div>
 

@@ -38,30 +38,26 @@ export default function App() {
           scale: 0.7,
           //   slideShadows: true,
         }}
-        // autoplay={{
-        //   delay: 5000,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
         navigation={true}
         pagination={true}
         modules={[Autoplay, EffectCoverflow, Pagination, Navigation]}
         className={` bg-white text-white text-center  `}
       >
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                The OTP SMS service from Dove Soft Limited has been a
+                game-changer for our online business. The delivery is always
+                prompt, and the security features ensure a safe experience for
+                our customers.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -72,28 +68,25 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">
+                Fintech Products and Solutions India Pvt Ltd
+              </h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                The failover feature with nocode workflow builder has been a
+                lifesaver. My campaigns seamlessly switch to multiple channels,
+                ensuring maximum reach.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -104,28 +97,24 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">Gurukrupa Realcon</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                Before using this platform, our marketing campaigns were a
+                patchwork of different tools. Now, we have a centralized
+                solution that allows us to create, manage, and optimize all our
+                campaigns from one place
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -136,28 +125,23 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">khadims</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                The drag-and-drop interface makes it incredibly easy to design
+                complex workflows. We've been able to create highly personalized
+                customer journeys that drive conversions.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -168,28 +152,23 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">Bikanervala</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                The platform's(mobiCOMM) analytics and reporting features are
+                invaluable. We can track the performance of our campaigns in
+                real-time and make data-driven decisions.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -200,28 +179,24 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">Zee Limited</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                Our previous communication platform was unreliable and prone to
+                outages. With this solution, we've experienced 100% uptime and
+                have been able to maintain consistent communication with our
+                customers.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -232,28 +207,23 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">INOX Leisure</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide
-          className={` w-[50vw]  landingpageswiper  relative`}
-        >
-          <div className="w-[95%] my-[20px] h-fit   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+        <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
+          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
               </div>
               <h2 className="text-base max-sm:text-base leading-[28px] italic  relative ">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Officiis, voluptates ab ex blanditiis deserunt debitis a enim
-                nihil? Omnis et porro quos assumenda nesciunt, nemo, repudiandae
-                provident ab esse excepturi at quo, dolor eum officiis!
-                Distinctio harum dolore eveniet minima expedita iusto, numquam
-                dignissimos reprehenderit suscipit in maiores tempora quasi.
+                Our company was struggling with high customer churn rates. By
+                implementing a chatbot-powered support system, we were able to
+                reduce churn by 25% and improve customer satisfaction.
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
@@ -264,14 +234,13 @@ export default function App() {
                   alt=""
                 />
               </div>
-              <h2 className="text-base">Jone Wick</h2>
+              <h2 className="text-base">EaseMyTrip</h2>
               <h4 className="text-sm font-[50] ">
                 Lorem ipsum dolor sit amet.
               </h4>
             </div>
           </div>
         </SwiperSlide>
-       
       </Swiper>
     </div>
   );

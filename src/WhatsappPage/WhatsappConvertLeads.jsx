@@ -73,7 +73,7 @@ const WhatsappConvertLeads = () => {
         </h1>
       </div>
       <div className="w-full py-[20px] px-[5vw] mt-[20px] relative z-[2] overflow-hidden">
-        <div className="flex whitespace-nowrap py-[10px] px-[5vw] overflow-x-auto custom-scrollbar">
+        <div className="flex justify-between whitespace-nowrap py-[10px] px-[5vw] overflow-x-auto custom-scrollbar">
           {data.map((item, index) => {
             return (
               <h1
@@ -100,8 +100,8 @@ const WhatsappConvertLeads = () => {
           />
         </div>
 
-        <div className="w-[50%] max-md:w-full h-fit pb-[50px] max-md:h-fit max-md:pt-[50px] relative z-[2]  flex flex-col justify-center gap-5">
-          <h1 className="text-[48px] font-['Epilogue']  w-[80%] max-md:w-full leading-[52px] font-bold">
+        <div className="w-[50%] max-md:w-full h-fit pb-[50px] max-md:h-fit max-md:pt-[50px] relative z-[2]  flex flex-col justify-center  gap-5">
+          <h1 className="text-3xl font-['Epilogue']  w-[80%] max-md:w-full  font-bold">
            {data[selected].heading}
           </h1>
           <h1 className="w-[90%] max-md:w-full text-base">

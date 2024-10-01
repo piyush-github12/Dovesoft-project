@@ -12,7 +12,7 @@ const Aboutushome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             About us
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base font-semibold">
             Dove Soft, established in Mumbai in 2011, provides integrated cloud
             communication solutions for SMS, Voice, and Email. Offering services
             through API/SMPP, their solutions easily integrate into

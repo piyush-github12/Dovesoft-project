@@ -12,7 +12,7 @@ const Linkshortnerhero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Make Long URL into Short URL
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base font-semibold">
             Our URL Shortener feature allows you to convert long, unwieldy links
             into short, memorable URLs that are perfect for sharing across
             multiple communication channels.

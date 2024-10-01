@@ -12,7 +12,7 @@ const Filehostinghero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             File Hosting
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base font-semibold">
             Our Upload File Hosting feature allows you to quickly upload files,
             generate a short URL, and share it across multiple channels.
           </h1>

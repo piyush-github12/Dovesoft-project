@@ -1,106 +1,95 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import { FaInstagram } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+
+
+
 
 const Section9 = ({bg}) => {
   return (
-    <div className="  relative min-h-fit bg-black  z-[6]  ">
+    <div className="  relative min-h-fit   z-[6] text-white  ">
       <div
-        id="foot1"
         style={bg ? { backgroundColor: bg } : { backgroundColor: "#031e42" }}
-        className={`w-screen  min-h-[80vh]   flex max-md:flex-col   text-white px-[10vw] py-[100px]  max-sm:py-[20px]  max-md:px-[5vw]`}
+        className="w-full h-fit flex  max-md:flex-col py-[50px] text-base px-[10vw] max-sm:px-[5vw] max-sm:pr-0"
       >
-        <div className="w-[30%] max-md:w-full h-full max-md:h-fit max-md:mb-10 ">
-          <h1 className="font-bold font-['Epilogue']  text-3xl mb-10 max-md:mb-5">
-            Dove Soft.
+        <div className="w-[50%] max-md:w-full max-md:h-fit h-[400px]  ">
+          <img
+            className="h-[150px] object-contain"
+            src="./images/whitelogo.png"
+            alt=""
+          />
+          <h1>
+            Sakari, LLC <br />
+            201 Spear Street, Suite 1100 <br />
+            San Francisco, CA 94105
           </h1>
-          <h2 className="text-base ">
-            Sakari, LLC <br /> 201 Spear Street, Suite 1100 <br /> San
-            Francisco, CA 94105
-          </h2>
 
-          <div className="w-[200px] mt-10">
-            {" "}
-            <img src="./images/google.png" alt="" />
-          </div>
-          <div className="w-[200px] mt-10">
-            {" "}
-            <img src="./images/apple.png" alt="" />
-          </div>
-          <div className="w-full  flex gap-10 mt-10">
-            <img src="./images/Vector.png" alt="" />
-            <img src="./images/Vector-1.png" alt="" />
-            <img src="./images/Vector-2.png" alt="" />
-            <img src="./images/Vector-3.png" alt="" />
+          <div className="flex w-[200px] justify-between mt-[50px] ">
+            <Link to="" className='text-[30px]'>
+              <FaSquareFacebook />
+            </Link>
+            <Link to="" className='text-[30px]'>
+            <FaLinkedin/>
+            </Link>
+            <Link to="" className='text-[30px]'>
+              <FaYoutube />
+            </Link>
+            <Link to="" className='text-[30px]'>
+              <FaXTwitter />
+            </Link>
           </div>
         </div>
-        <div className="w-[70%] max-md:w-full  h-full flex  gap-2 text-base font-light">
-          <div className="w-[25%] h-full ">
-            <h1 className="font-bold text-xl mb-10 max-md:mb-5 ">Features</h1>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              integrations
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Business Messaging
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              VOIP/Leading Texting
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Mobile App
-            </h2>
+        <div className="w-[50%] max-md:w-full max-md:h-fit h-[400px] pt-[50px]  flex justify-end max-md:justify-normal ">
+          <div className='w-[30%] h-full '>
+            <h1 className='text-lg font-bold'>Product</h1>
+            <Link to="/sms">
+            <h1 className='text-base mt-[15px]'>SMS</h1>
+            </Link>
+            <Link to="/whatsapp">
+            <h1 className='text-base mt-[15px]'>Whatsapp</h1>
+            </Link>
+            <Link to="/rcs">
+            <h1 className='text-base mt-[15px]'>RCS</h1>
+            </Link>
+            <Link to="/voice">
+            <h1 className='text-base mt-[15px]'>Voice</h1>
+            </Link>
+            <Link to="/email">
+            <h1 className='text-base mt-[15px]'>Email</h1>
+            </Link>
+            <Link to="/instagram">
+            <h1 className='text-base mt-[15px]'>Instagram</h1>
+            </Link>
           </div>
-          <div className="w-[25%] h-full ">
-            <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Learn</h1>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Book Demo
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              HubSpot Integration
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              SalesMsg vs Sakari
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Partner Program
-            </h2>
+          <div className='w-[30%] h-full '>
+            <h1 className='text-lg font-bold'>Compony</h1>
+            <Link to="/aboutus">
+            <h1 className='text-base mt-[15px]'>About Us</h1>
+            </Link>
+            <Link to="/contactus">
+            <h1 className='text-base mt-[15px]'>Contact Us</h1>
+            </Link>
+            <Link to="/career">
+            <h1 className='text-base mt-[15px]'>Career</h1>
+            </Link>
+            <Link to="/team">
+            <h1 className='text-base mt-[15px]'>Team</h1>
+            </Link>
+           
           </div>
-          <div className="w-[25%] h-full ">
-            <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Resources</h1>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              About Us
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              blog
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Knowledge Base
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Careers
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Developer Portal
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              SMS Lenght Circulator
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Case Study
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Contact Us
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              API Status
-            </h2>
-          </div>
-          <div className="w-[25%] h-full ">
-            <h1 className="font-bold text-xl mb-10 max-md:mb-5  ">Leagal</h1>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Privacy Policy
-            </h2>
-            <h2 className="mb-5  max-md:leading-[20px]  max-sm:text-[14px]">
-              Terms of Service
-            </h2>
+          <div className='w-[30%] h-full '>
+            <h1 className='text-lg font-bold'>Legal</h1>
+            <Link to="">
+            <h1 className='text-base mt-[15px]'>Privacy Policy</h1>
+            </Link>
+            <Link to="">
+            <h1 className='text-base mt-[15px]'>Terms of Service</h1>
+            </Link>
           </div>
         </div>
       </div>

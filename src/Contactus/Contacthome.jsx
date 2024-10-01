@@ -15,7 +15,7 @@ const Contacthome = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Contact us
           </h1>
-          <div className="flex flex-col gap-4 text-base">
+          <div className="flex flex-col gap-4 text-base font-semibold">
             <div className="flex items-center gap-2">
               <MdEmail className="h-5 w-5" />
               <span>

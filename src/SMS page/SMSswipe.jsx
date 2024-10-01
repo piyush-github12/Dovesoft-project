@@ -17,64 +17,64 @@ import { ScrollTrigger } from "gsap/all";
 export default function App() {
   let data = [
     {
-      image: "./images/sec-4-1.png",
+      image: "./images/sms/firstbox1.svg",
       heading: "Protocol",
       para: "SMPP, HTTP, HTTPs, XML, JSON and Proprietary API's",
     },
     {
-      image: "./images/sec-4-2.png",
+      image: "./images/sms/firstbox2.svg",
       heading: "Unicode Support",
       para: "Unicode and Flash SMS",
     },
     {
-      image: "./images/sec-4-3.png",
+      image: "./images/sms/firstbox3.svg",
       heading: "Black Listing",
       para: "MSISDN & keyword in SMS text",
     },
     {
-      image: "./images/sec-4-4.png",
+      image: "./images/sms/firstbox4.svg",
       heading: "Security Complaint",
       para: "Data encryption in rest and in motion",
     },
     {
-      image: "./images/sec-4-5.png",
+      image: "./images/sms/firstbox5.svg",
       heading: "API Format",
       para: "Robust RESTful, Multi format API HTTPs, XML, JSON",
     },
     {
-      image: "./images/sec-4-6.png",
+      image: "./images/sms/firstbox6.svg",
       heading: "Short URL",
       para: "Auto short URL from any source like SMPP, HTTP and UI",
     },
   ];
   let data2 = [
     {
-      image: "./images/sec-4-1.png",
+      image: "./images/sms/secondbox1.svg",
       heading: "Smart Addons",
       para: "Run surveys, feedback, quiz, contact form, offer code camapigns",
     },
     {
-      image: "./images/sec-4-2.png",
+      image: "./images/sms/secondbox2.svg",
       heading: "Tracable report",
       para: "When a user clicks on a link in a short URL or a smart addon, the application can trace the device information",
     },
     {
-      image: "./images/sec-4-3.png",
+      image: "./images/sms/secondbox3.svg",
       heading: "Encode Content",
       para: "Automatically encode the message contents for sensitive information, so that no one, not even our support staff, can view this content.",
     },
     {
-      image: "./images/sec-4-4.png",
+      image: "./images/sms/secondbox4.svg",
       heading: "Clean Infrmative Reports",
       para: `Delivery Timing Report: This report outlines the number of SMS messages that were delivered within specific time frames - 5 seconds, 15 seconds, 30 seconds, and over 30 seconds. Separate Undelivered SMS Report: Additionally, there is a separate report that groups undelivered SMS messages, categorizing them by the reason for non-delivery.`,
     },
     {
-      image: "./images/sec-4-5.png",
+      image: "./images/sms/secondbox5.svg",
       heading: "OTP Generator & Validation API",
       para: "We have an API that generates an OTP (One-Time Password) and sends it to the user's mobile number. We also have a separate API that is used to validate the delivered OTP.",
     },
     {
-      image: "./images/sec-4-6.png",
+      image: "./images/sms/secondbox6.svg",
       heading: "Easiest DLT Templates Management",
       para: "Export template file from the DLT portal and then import it into our application. That's all there is to it.",
     },

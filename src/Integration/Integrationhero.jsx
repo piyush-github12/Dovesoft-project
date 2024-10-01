@@ -12,7 +12,7 @@ const integrationhero = () => {
           <h1 className="text-[48px] font-['Epilogue']  leading-[52px] font-bold">
             Seamless integration. Superior engagement.
           </h1>
-          <h1 className="text-base">
+          <h1 className="text-base font-semibold">
             Say goodbye to siloed conversations and fragmented customer
             experiences. Bring all your essential tools into a state of harmony.
           </h1>
