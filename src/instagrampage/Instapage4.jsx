@@ -8,60 +8,59 @@ const Instapage4 = () => {
     
 
     let questionanswer = [
-        {
-            question:
-                "How does ControlHippo ensure compliance with Instagram's guidelines for automated messaging?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "What level of customization is possible with automated Instagram messages using ControlHippo?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "Does ControlHippo's Instagram Messaging API support quick replies for instant responses?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "How does ControlHippo's tool manage high volumes of Instagram automated messages efficiently?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "Can I personalize the pre-set response templates to align with my brand's tone and style?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "How does ControlHippo ensure the security and privacy of customer data?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "Does the unified dashboard allow integration with other customer support or CRM platforms?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "Are there limitations on the number of messages or conversations that can be managed through ControlHippo's tool?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
-        {
-            question:
-                "How easy is it to set up and train teams to use ControlHippo's tools for efficient handling of inquiries?",
-            answer:
-                " At ControlHippo, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
-        },
+      {
+        question:
+          "How does Dovesoft ensure compliance with Instagram's guidelines for automated messaging?",
+        answer:
+          " At Dovesoft, we ensure compliance by adhering strictly to Instagram's policies, constantly updating our tool to align with any changes and verifying all messaging functionalities against Instagram's guidelines.",
+      },
+      {
+        question:
+          "What level of customization is possible with automated Instagram messages using Dovesoft?",
+        answer:
+          "Dovesoft provides extensive customization, allowing personalized responses, brand-aligned templates, and tailored messaging content to match individual brand tones and styles on Instagram.",
+      },
+      {
+        question:
+          "Does Dovesoft's Instagram Messaging API support quick replies for instant responses?",
+        answer:
+          "Yes, Dovesoft's Instagram Messaging API fully supports quick replies– enabling instant responses for efficient engagement.",
+      },
+      {
+        question:
+          "How does Dovesoft's tool manage high volumes of Instagram automated messages efficiently?",
+        answer:
+          "Dovesoft employs efficient algorithms and innovative features within its tool to handle high volumes of Instagram messages, enabling our platform to efficiently manage any volume, no matter how large it is.",
+      },
+      {
+        question:
+          "Can I personalize the pre-set response templates to align with my brand's tone and style?",
+        answer:
+          "Indeed! Dovesoft allows complete personalization of pre-set response templates, ensuring they reflect your brand's voice and resonate with your audience on Instagram.",
+      },
+      {
+        question:
+          "How does Dovesoft ensure the security and privacy of customer data?",
+        answer:
+          "Dovesoft employs robust encryption methods, strict access controls, and regular security audits to safeguard customer data.",
+      },
+      {
+        question:
+          "Does the unified dashboard allow integration with other customer support or CRM platforms?",
+        answer:
+          "Yes, Dovesoft's unified dashboard seamlessly integrates with various customer support and CRM platforms, including HubSpot, Pipedrive, Zoho, and Slack.",
+      },
+      {
+        question:
+          "Are there limitations on the number of messages or conversations that can be managed through Dovesoft's tool?",
+        answer:
+          "While Dovesoft doesn't impose strict limitations, its scalability is designed to handle large volumes of messages and conversations effectively.",
+      },
+      {
+        question:
+          "How easy is it to set up and train teams to use Dovesoft's tools for efficient handling of inquiries?",
+        answer: "The Dovesoft tool is incredibly easy to set up. Additionally, it features an intuitive UI and easy navigation, making it accessible for users of varying technical expertise.",
+      },
     ];
       const [open, setopen] = useState(null);
       const answerRefs = useRef([]);

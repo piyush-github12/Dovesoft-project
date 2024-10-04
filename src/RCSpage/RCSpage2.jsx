@@ -22,7 +22,7 @@ const RCSpage2 = () => {
         </div>
       </div>
       <div className='w-full h-fit flex justify-center pt-[20px]'>
-            <img className='h-[400px] max-sm:w-[100%] max-sm:h-auto' src="./images/RCSimages/page2.png" alt="" />
+            <img className='h-[450px] max-sm:w-[100%] max-sm:h-auto' src="./images/RCSimages/page2.webp" alt="" />
       </div>
     </div>
   );

@@ -22,11 +22,11 @@ const Section9 = ({bg}) => {
             src="./images/whitelogo.png"
             alt=""
           />
-          <h1>
+          <h1 className='w-[70%] max-sm:w-[90%]'>
             Dove Soft
             <br />
-            201 Spear Street, Suite 1100 <br />
-            San Francisco, CA 94105
+            1101,DLH Park Swami Vivekananda Rd, Rani Sati Nagar, Sunder Nagar,
+            Goregaon West, Mumbai, Maharashtra 400062
           </h1>
 
           <div className="flex w-fit justify-between gap-5 mt-[50px] ">

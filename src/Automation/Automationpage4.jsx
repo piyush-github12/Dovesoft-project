@@ -3,7 +3,7 @@ import React from 'react'
 const Automationpage4 = () => {
   return (
     <div className="w-screen h-fit px-[5vw] mb-[50px] mt-[50px] text-white">
-      <div className="w-full min-h-[800px] bg-[#021E43] p-[5vw] rounded-[25px]">
+      <div className="w-full min-h-[500px] bg-[#021E43] p-[5vw] rounded-[25px]">
         <h1 className='text-3xl px-[5vw] max-md:px-[0] text-center font-["Epilogue"] font-semibold mb-[10px]'>
           Create flexible automations that drive customer engagement
         </h1>
@@ -12,14 +12,14 @@ const Automationpage4 = () => {
           customer behavior in real-time.
         </h1>
 
-        <div className="w-full h-fit py-[50px] flex items-center justify-center">
+        {/* <div className="w-full h-fit py-[50px] flex items-center justify-center">
           <img
             className="w-[700px] max-md:w-[400px]"
             src="./images/automationimages/page5.svg"
             alt=""
           />
-        </div>
-        <div className="w-full  h-fit grid grid-cols-3 max-md:grid-cols-1 justify-items-center">
+        </div> */}
+        <div className="w-full  h-fit mt-[100px] grid grid-cols-3 max-md:grid-cols-1 justify-items-center">
           <div className="h-fit w-[20vw] max-md:w-full max-md:mb-[40px] ">
             <h1 className='text-base font-["Epilogue"] font-semibold mb-[10px]'>
               Dynamic triggers
@@ -49,7 +49,7 @@ const Automationpage4 = () => {
             </h1>
           </div>
         </div>
-        <div className="w-full  h-fit grid grid-cols-3 mt-[50px] max-md:grid-cols-1 justify-items-center">
+        <div className="w-full  h-fit grid grid-cols-3 mt-[50px] max-md:mt-[0px] max-md:grid-cols-1 justify-items-center">
           <div className="h-fit w-[20vw] max-md:w-full max-md:mb-[40px] ">
             <h1 className='text-base font-["Epilogue"] font-semibold mb-[10px]'>
               Automated messages

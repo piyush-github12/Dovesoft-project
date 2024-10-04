@@ -92,20 +92,20 @@ const Section4 = () => {
           <br />
           across various messaging channels
         </h1>
-        <div className="sectionmainbox w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[4vw] gap-4  max-lg:grid-cols-2">
+        <div className="sectionmainbox w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-md:px-[4vw] gap-4 justify-items-center  max-lg:grid-cols-2 max-sm:grid-cols-1">
           {data.map((item) => (
             <Link to={item.elemlink}
               key={item.heading}
-              className= "section4-box  w-[25vw]  min-h-[400px]  max-sm:min-h-[450px]  max-md:w-[45vw]   rounded-2xl overflow-hidden"
+              className= "section4-box  w-[25vw]  min-h-[400px]  max-sm:min-h-fit  max-md:w-[45vw] max-sm:w-full  rounded-2xl overflow-hidden"
             >
               <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                 <img
-                  className="w-[140px] max-sm:w-[100px]"
+                  className="w-[140px] "
                   src={`${item.image}`}
                   alt=""
                 />
               </div>
-              <div className=" min-h-[210px]  px-2 py-2 relative">
+              <div className=" min-h-[210px] max-sm:min-h-fit  px-2 py-2 relative">
                 <h1 className="font-bold min-h-[40px]   text-2xl ">
                   {item.heading}
                 </h1>

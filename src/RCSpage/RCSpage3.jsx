@@ -7,7 +7,7 @@ const RCSpage3 = () => {
         <div className="w-[50%] flex items-center justify-center max-md:w-full h-full max-md:h-fit  max-md:mb-[30px] ">
           <img
             className="w-[500px] max-md:w-[300px]"
-            src="./images/RCSimages/rcspage3-1.svg"
+            src="./images/RCSimages/page3.webp"
             alt=""
           />
         </div>
@@ -38,7 +38,7 @@ const RCSpage3 = () => {
         <div className="w-[50%] flex items-center justify-center max-md:w-full h-full max-md:h-fit ">
           <img
             className="w-[500px] max-md:w-[300px]"
-            src="./images/RCSimages/rcspage3-2.svg"
+            src="./images/RCSimages/page4.webp"
             alt=""
           />
         </div>
@@ -47,7 +47,7 @@ const RCSpage3 = () => {
         <div className="w-[50%] flex items-center justify-center max-md:w-full h-full max-md:h-fit  max-md:mb-[30px]">
           <img
             className="w-[500px] max-md:w-[300px]"
-            src="./images/RCSimages/rcspage3-3.svg"
+            src="./images/RCSimages/page5.webp"
             alt=""
           />
         </div>

@@ -81,33 +81,29 @@ const Section6 = () => {
           <br />
           conversational across marketing, commerce, and support
         </h2>
-        <div className=" w-screen h-fit  grid grid-cols-3  px-[10vw] max-md:px-[5vw]  gap-4 max-lg:grid-cols-2">
+        <div className=" w-screen h-fit  grid grid-cols-3  px-[10vw] max-md:px-[5vw] max-lg:justify-items-center  gap-4 max-lg:grid-cols-2 max-sm:grid-cols-1">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="section6-box w-[25vw]  h-[290px] max-sm:w-[40vw]   rounded-2xl"
+              className="section6-box w-[25vw]  h-[290px] max-sm:h-fit max-sm:w-[100%]   rounded-2xl"
             >
               <div className="w-full h-[100px]  p-2 flex items-end">
                 <img className="w-[72]" src={`${item.image}`} alt="" />
               </div>
-              <div className="w-full h-[190px] relative px-2">
+              <div className="w-full h-[190px] max-sm:h-fit relative px-2">
                 <h1 className="font-bold min-h-[50px]  max-sm:min-h-[40px]   text-2xl  ">
                   {item.heading}
                 </h1>
-                <p className="text-base   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-[40vw]">
+                <p className="text-base   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-full">
                   {item.para}
                 </p>
-                {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-base   hover:text-xl transition-all cursor-pointer">
-                  <h1 className="">Explore {item.heading}</h1>
-                  <FaLongArrowAltRight />
-                </div> */}
+               
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      {/* <Section7 /> */}
     </div>
   );
 }

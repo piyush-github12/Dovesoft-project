@@ -61,7 +61,7 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
                 <img
                   className="w-full object-cover"
                   src="./images/customer.jpg"
@@ -71,9 +71,7 @@ export default function App() {
               <h2 className="text-base">
                 Fintech Products and Solutions India Pvt Ltd
               </h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -90,17 +88,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[90%] "
+                  src="./images/marquelogo/7.png"
                   alt=""
                 />
               </div>
               <h2 className="text-base">Gurukrupa Realcon</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -118,17 +114,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[100%] object-cover"
+                  src="./images/marquelogo/khadims.webp"
                   alt=""
                 />
               </div>
               <h2 className="text-base">khadims</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -145,17 +139,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[90%] object-cover"
+                  src="./images/marquelogo/11.png"
                   alt=""
                 />
               </div>
               <h2 className="text-base">Bikanervala</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -172,17 +164,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[90%] object-cover"
+                  src="./images/marquelogo/2.png"
                   alt=""
                 />
               </div>
               <h2 className="text-base">Zee Limited</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -200,17 +190,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[80%] object-cover"
+                  src="./images/marquelogo/21.webp"
                   alt=""
                 />
               </div>
               <h2 className="text-base">INOX Leisure</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>
@@ -227,17 +215,15 @@ export default function App() {
               </h2>
             </div>
             <div className="min-h-[40%] mt-[20px] flex flex-col items-center justify-end gap-1">
-              <div className="w-[70px] h-[70px] overflow-hidden rounded-full border-4 border-[#FFD02B]">
+              <div className="w-[100px] h-[100px] flex items-center justify-center overflow-hidden rounded-full border-4 bg-white border-[#FFD02B]">
                 <img
-                  className="w-full object-cover"
-                  src="./images/customer.jpg"
+                  className="w-[90%]  object-cover"
+                  src="./images/marquelogo/9.png"
                   alt=""
                 />
               </div>
               <h2 className="text-base">EaseMyTrip</h2>
-              <h4 className="text-sm font-[50] ">
-                Lorem ipsum dolor sit amet.
-              </h4>
+             
             </div>
           </div>
         </SwiperSlide>

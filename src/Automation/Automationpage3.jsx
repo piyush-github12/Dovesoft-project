@@ -8,10 +8,10 @@ const Automationpage3 = () => {
         Create flexible flows that drive customer engagement
       </h1>
 
-      <div className="w-screen h-fit px-[8vw] grid grid-cols-3 max-sm:grid-cols-1">
-        <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px] ">
+      <div className="w-screen h-fit px-[8vw] grid grid-cols-3 max-md:grid-cols-1">
+        <div className="w-[30vw] max-md:w-full max-md:flex max-md:flex-col max-md:justify-center max-md:items-center min-h-[300px] p-[20px] ">
           <img
-            className="w-full max-sm:w-[250px]  "
+            className="w-[300px] max-md:w-[250px]  "
             src="./images/automationimages/page3-1.svg"
             alt=""
           />
@@ -23,9 +23,9 @@ const Automationpage3 = () => {
             their cart and improve your conversion rates.
           </h1>
         </div>
-        <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px]">
+        <div className="w-[30vw] max-md:w-full max-md:flex max-md:flex-col max-md:justify-center max-md:items-center   min-h-[300px] p-[20px]">
           <img
-            className="w-full max-sm:w-[250px]  "
+            className="w-[300px] max-md:w-[250px]  "
             src="./images/automationimages/page3-2.svg"
             alt=""
           />
@@ -37,9 +37,9 @@ const Automationpage3 = () => {
             a faster response time and better informed sales follow ups.
           </h1>
         </div>
-        <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px]">
+        <div className="w-[30vw] max-md:w-full max-md:flex max-md:flex-col max-md:justify-center max-md:items-center  min-h-[300px] p-[20px]">
           <img
-            className="w-full max-sm:w-[250px]  "
+            className="w-[300px] max-md:w-[250px]  "
             src="./images/automationimages/page3-3.svg"
             alt=""
           />

@@ -24,8 +24,8 @@ const RCSheropage = () => {
         </div>
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
-            className="w-[400px] "
-            src="./images/RCSimages/Rcshero.png"
+            className="w-[500px] "
+            src="./images/RCSimages/hero.webp"
             alt=""
           />
         </div>

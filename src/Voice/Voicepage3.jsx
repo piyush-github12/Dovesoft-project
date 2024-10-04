@@ -85,7 +85,7 @@ const Voicepage3 = () => {
     <div className="w-screen h-fit px-[10vw] max-md:px-[0vw] ">
       <div className=" mt-[50px] max-md:px-[5vw] w-full">
         <h1 className="text-3xl font-['Epilogue'] text-center font-bold">
-          2. What Can You Do With a Missed Call Number Service?{" "}
+          2. Missed Call Number
         </h1>
         <h1 className="text-center text-base mt-[20px] ">
           You can publish your unique missed call number in print media,

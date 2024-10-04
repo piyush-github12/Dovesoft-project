@@ -4,9 +4,9 @@ import Bookdemobutton from './Bookdemobutton';
 const GoodIsolation = ({bg}) => {
   return (
     <div
-      className={`w-screen px-[10vw] max-sm:px-[5vw]  h-fit pb-[100px] relative z-[7] rounded-b-[55px] bg-white text-white flex items-center justify-center`}
+      className={`w-screen px-[10vw] max-sm:px-[2vw]  h-fit pb-[100px] relative z-[7] rounded-b-[55px] bg-white text-white flex items-center justify-center`}
     >
-      <div className="w-[100%] h-[350px]  shadow-lg shadow-[#000000b9] rounded-l-full max-md:rounded-l-[15vw] rounded-tr-full max-md:rounded-tr-[15vw]  bg-[rgb(3,30,66)] py-20 flex flex-col items-center justify-center gap-5">
+      <div className="w-[100%] h-[350px]  shadow-lg shadow-[#000000b9] rounded-l-full max-md:rounded-l-[15vw] rounded-tr-full max-md:rounded-tr-[15vw]  bg-[rgb(3,30,66)] py-20 max-md:px-[2vw] flex flex-col items-center justify-center gap-5">
         <h1 className="text-3xl font-['Epilogue'] font-bold max-sm:text-2xl text-center">
           Goodbye isolated interactions. <br />
           <span
