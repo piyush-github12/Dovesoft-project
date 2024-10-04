@@ -217,39 +217,39 @@ const WhatsappSolutions = () => {
         boxes: [
           {
             boximage: "./images/whatsappPageImages/so6-1.svg",
-            boxheading: "Lead Management",
+            boxheading: "Share Your Catalog",
             boxpara:
-              "Engage and attract new students, and integrate with your CRM to broadcast marketing messages on WhatsApp.",
+              "Use WhatsApp to showcase your products and keep your customers updated with the latest stock information.",
           },
           {
             boximage: "./images/whatsappPageImages/so6-2.svg",
-            boxheading: "Instant Problem Resolution",
+            boxheading: "Fast Response to Offers",
             boxpara:
-              "Provide quick answers with automated chatbot flows and escalate to support teams when human action is needed.",
+              "Invite fast responses to your sales promotions as over 90% of WhatsApp messages are opened within 3 minutes.",
           },
           {
             boximage: "./images/whatsappPageImages/so6-3.svg",
-            boxheading: "Support For Admissions",
+            boxheading: "Confirmation & Support",
             boxpara:
-              "Guide parents through your admissions process with chatbots that ensure students sign up correctly.",
+              "Send automated order confirmation and billing updates, and automate responses for support with non-code chatbots.",
           },
           {
             boximage: "./images/whatsappPageImages/so6-4.svg",
-            boxheading: "Onboarding Support",
+            boxheading: "Personalized Promotions",
             boxpara:
-              "Provide instant information to assist students in completing your onboarding process easily.",
+              "Send targeted WhatsApp campaigns with personalized promotions based on customer purchase patterns or seasons.",
           },
           {
             boximage: "./images/whatsappPageImages/so6-5.svg",
-            boxheading: "Timely Class Reminders",
+            boxheading: "Loyalty Program Updates",
             boxpara:
-              "Message students directly on WhatsApp with automated reminders of timetables and classes.",
+              "Enroll customers in your loyalty programs and update them on points schemes and personalized special offers.",
           },
           {
             boximage: "./images/whatsappPageImages/so6-6.svg",
-            boxheading: "Student Reports",
+            boxheading: "In Stock & New Products",
             boxpara:
-              "Instantly deliver reports and exam results to students and parents with automated WhatsApp messages.",
+              "Immediately alert customers when items are back in stock, and promote new products, upsell and cross sell.",
           },
         ],
       },
@@ -258,39 +258,39 @@ const WhatsappSolutions = () => {
         boxes: [
           {
             boximage: "./images/whatsappPageImages/so7-1.svg",
-            boxheading: "Share Your Catalog",
+            boxheading: "Appointment Automation",
             boxpara:
-              "Use WhatsApp to showcase your products and keep your customers updated with the latest stock information.",
+              "Automate with Wati’s drag-and-drop chatbot builder to provide self-service convenience that lets customers book via WhatsApp.",
           },
           {
             boximage: "./images/whatsappPageImages/so7-2.svg",
-            boxheading: "Fast Response to Offers",
+            boxheading: "Appointment Reminders",
             boxpara:
-              "Invite fast responses to your sales promotions as over 90% of WhatsApp messages are opened within 3 minutes.",
+              "Use Wati to avoid missed appointments by sending timely automated WhatsApp reminders to your customers, service users or patients.",
           },
           {
             boximage: "./images/whatsappPageImages/so7-3.svg",
             boxheading: "Confirmation & Support",
             boxpara:
-              "Send automated order confirmation and billing updates, and automate responses for support with non-code chatbots.",
+              "Send your customers, service users or patients automated reminders to collect samples and reports from your clinic or hospital.",
           },
           {
             boximage: "./images/whatsappPageImages/so7-4.svg",
-            boxheading: "Personalized Promotions",
+            boxheading: "Consultation Follow Up",
             boxpara:
-              "Send targeted WhatsApp campaigns with personalized promotions based on customer purchase patterns or seasons.",
+              "Use Wati to provide healthcare with a more personal touch by sending post-consultation follow up WhatsApp messages to check in on your patients.",
           },
           {
             boximage: "./images/whatsappPageImages/so7-5.svg",
-            boxheading: "Loyalty Program Updates",
+            boxheading: "Automated Support",
             boxpara:
-              "Enroll customers in your loyalty programs and update them on points schemes and personalized special offers.",
+              "Creating a Wati chatbot for WhatsApp allows you to support your service users or patients 24/7, even when live support is not available.",
           },
           {
             boximage: "./images/whatsappPageImages/so7-6.svg",
-            boxheading: "In Stock & New Products",
+            boxheading: "Privacy Guaranteed",
             boxpara:
-              "Immediately alert customers when items are back in stock, and promote new products, upsell and cross sell.",
+              "Provide more confidence in your services by using WhatsApp’s secure messaging technology to protect your healthcare communications.",
           },
         ],
       },
@@ -331,7 +331,7 @@ const WhatsappSolutions = () => {
           <div className="w-full h-fit mt-[30px] relative grid justify-items-center gap-5  grid-cols-2  max-sm:grid-cols-1 ">
             {data[clcicked].boxes.map((boxitems, boxindex) => {
               return (
-                <div className="w-[30vw] max-sm:w-full max-lg:w-[40vw]  min-h-[150px] px-[15px] py-[20px] flex max-sm:block bg-white text-black rounded-2xl  ">
+                <div  className="w-[30vw] max-sm:w-full max-lg:w-[40vw]  min-h-[150px] px-[15px] py-[20px] flex max-sm:block bg-white text-black rounded-2xl  ">
                   <div className="w-[35px] h-[35px]   ">
                     <img
                       className="w-full h-full"

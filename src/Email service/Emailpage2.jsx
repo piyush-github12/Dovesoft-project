@@ -254,7 +254,7 @@ const Emailpage2 = () => {
         <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center  max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full  max-md:w-[300px]"
-            src="./images/emailimages/emailpage2-6.svg"
+            src="./images/emailimages/Email 4.svg"
             alt=""
           />
         </div>

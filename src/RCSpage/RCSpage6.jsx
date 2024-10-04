@@ -46,11 +46,11 @@ const RCSpage6 = () => {
           Why use RCS messaging?
         </h1>
 
-        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[5vw]  gap-4 max-lg:grid-cols-2">
+        <div className="w-screen h-fit  grid grid-cols-3  px-[10vw] max-lg:px-[5vw]  gap-4 max-lg:grid-cols-2 max-md:grid-cols-1">
           {data.map((item) => (
             <div
               key={item.heading}
-              className="w-[25vw]  min-h-[290px] max-lg:w-[40vw]   rounded-2xl"
+              className="w-[25vw]  min-h-[290px] max-lg:w-[40vw] max-md:w-[100%]  rounded-2xl"
             >
               <div className="w-full h-[100px]  p-2 flex justify-center items-end">
                 <img className="w-[72]" src={`${item.image}`} alt="" />
@@ -59,7 +59,7 @@ const RCSpage6 = () => {
                 <h1 className="font-bold min-h-[50px]  text-center  text-2xl  ">
                   {item.heading}
                 </h1>
-                <p className="text-base text-center  max-sm:text-base mb-2  max-lg:w-[40vw]">
+                <p className="text-base text-center  max-sm:text-base mb-2  max-lg:w-[40vw] max-md:w-[100%]">
                   {item.para}
                 </p>
                 {/* <div className="flex gap-2 absolute bottom-5 items-center text-[#1871ED] text-base   hover:text-xl transition-all cursor-pointer">

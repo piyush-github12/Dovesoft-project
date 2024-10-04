@@ -105,31 +105,31 @@ const RCSpage5 = () => {
                 <div className="  w-[50vw] h-[20%] max-lg:hidden absolute rounded-xl z-10 bottom-0 bg-gradient-to-t from-[#021f43] to-transparent"></div>
                 <img
                   id="h1image"
-                  src="./images/RCSimages/rcspage3-3.svg"
+                  src="./images/RCSimages/retail.webp"
                   className="imageani object-cover w-[400px] max-lg:w-[300px] max-sm:w-[200px]  absolute top-[50%] translate-y-[-50%] "
                   alt=""
                 />
                 <img
                   id="h2image"
-                  src=".//images/RCSimages/rcspage3-2.svg"
+                  src=".//images/RCSimages/bfsi.webp"
                   className="imageani object-cover w-[400px] max-lg:w-[300px] max-sm:w-[200px]  absolute top-[50%] translate-y-[-50%]  opacity-0"
                   alt=""
                 />
                 <img
                   id="h3image"
-                  src="./images/RCSimages/rcspage3-3.svg"
+                  src="./images/RCSimages/travel.webp"
                   className="imageani object-cover w-[400px] max-lg:w-[300px] max-sm:w-[200px]  absolute top-[50%] translate-y-[-50%]  opacity-0"
                   alt=""
                 />
                 <img
                   id="h4image"
-                  src=".//images/RCSimages/rcspage3-1.svg"
+                  src=".//images/RCSimages/telecom.webp"
                   className="imageani object-cover w-[400px] max-lg:w-[300px] max-sm:w-[200px]  absolute top-[50%] translate-y-[-50%]  opacity-0"
                   alt=""
                 />
                 <img
                   id="h5image"
-                  src="./images/RCSimages/rcspage3-3.svg"
+                  src="./images/RCSimages/healthcare.webp"
                   className="imageani object-cover w-[400px] max-lg:w-[300px] max-sm:w-[200px]  absolute top-[50%] translate-y-[-50%]  opacity-0"
                   alt=""
                 />
@@ -154,67 +154,60 @@ const RCSpage5 = () => {
                       id="h2para"
                       className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
-                      1 . Seamless integrations with multiple e-commerce
-                      portals, CRMs & more. Incorporate our cloud API
-                      capabilities into your business workflow through our
-                      trusted integration partners.
+                      <span className="font-bold  text-2xl font-['Epilogue'] ">
+                        RCS for Banking, Financial Services And Insurance
+                      </span>{" "}
+                      <br />
+                      <br />
+                      Offer comprehensive banking services over RCS messaging,
+                      including upselling and cross-selling financial products,
+                      sending notification and updates, OTPs, and facilitating
+                      the collection of EMIs and payments.
                     </h1>
                     <h1
                       id="h3para"
                       className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
-                      1 . This tool enables you to encrypt sensitive SMS
-                      contents such as one-time passwords, and banking
-                      transaction details. <br />
+                      <span className="font-bold  text-2xl font-['Epilogue'] ">
+                        RCS for Tour Travel and Hospitality
+                      </span>{" "}
                       <br />
-                      2 . This functionality is exclusively available through
-                      the SMS API. <br />
-                      <br />3 . No one, not even our support staff, can decrypt
-                      the contents of these encrypted SMS messages.
+                      <br />
+                      Sends travel packages with images. Keep customers informed
+                      with travel updates, booking details, and last-minute
+                      necessities such as boarding passes. Streamline
+                      reservations with a virtual concierge and offer
+                      around-the-clock travel recommendations for a seamless
+                      travel experience.
                     </h1>
                     <h1
                       id="h4para"
                       className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
-                      1 . The system can automatically identify URLs within SMS
-                      content, whether they are from HTTP links or the user
-                      interface. <br />
-                      <br />2 . The application then converts this lengthy URL
-                      into a shortened, unique URL specific to each mobile
-                      number. <br />
-                      <br />3 . When the user clicks on this shortened URL, the
-                      application will track and record the timing, device
-                      category (e.g. computer or mobile device), operating
-                      system, and browser information.
+                      <span className="font-bold  text-2xl font-['Epilogue'] ">
+                        RCS for Telecom
+                      </span>{" "}
+                      <br />
+                      <br />
+                      Send promotional offers, payment reminders, recharge
+                      transactions through chat, and offer real-time customer
+                      support using both virtual assistance and live agents.
                     </h1>
                     <h1
                       id="h5para"
                       className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
                     >
-                      1 . Construct feedback forms, quizzes, surveys, polls, and
-                      lead capture forms. <br />
+                      <span className="font-bold  text-2xl font-['Epilogue'] ">
+                        RCS for Healthcare, Hospitals, and Laboratories.
+                      </span>{" "}
                       <br />
-                      2 . Generate trackable short URLs for the smart add-ons,
-                      which provide insights like timing, device category (e.g.
-                      computer or mobile), operating system, and browser when
-                      the URL is accessed. <br />
-                      <br />3 . Leverage these smart add-ons across other
-                      communication channels such as SMS, WhatsApp, RCS, and
-                      Email using generated short URLs.
-                    </h1>
-                    <h1
-                      id="h6para"
-                      className="sec5heading translate-y-[200px] opacity-0 text-base max-lg:text-base  h-fit     absolute"
-                    >
-                      1 . Upload a PDF file that showcases your services or
-                      products. <br />
                       <br />
-                      2 . Allow your customers to ask any questions related to
-                      your business, and this tool will provide answers drawn
-                      from the uploaded document. <br />
-                      <br />3 . You can also integrate this tool into your
-                      WhatsApp and RCS chatbots.
+                      Hospital has a lot to do with messaging. Easy updates to
+                      patients for appointments, send reminders, test reports,
+                      patient history and video educational guidance for
+                      treatments.
                     </h1>
+                   
                   </div>
                 </div>
               </div>

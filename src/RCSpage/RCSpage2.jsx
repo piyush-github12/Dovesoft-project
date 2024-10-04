@@ -21,8 +21,8 @@ const RCSpage2 = () => {
           <h1 className='text-center'>115% campaign revenue growth</h1>
         </div>
       </div>
-      <div className='w-full h-fit flex justify-center pt-[50px]'>
-            <img className='w-[80%]' src="./images/RCSimages/page2.png" alt="" />
+      <div className='w-full h-fit flex justify-center pt-[20px]'>
+            <img className='h-[400px] max-sm:w-[100%] max-sm:h-auto' src="./images/RCSimages/page2.png" alt="" />
       </div>
     </div>
   );

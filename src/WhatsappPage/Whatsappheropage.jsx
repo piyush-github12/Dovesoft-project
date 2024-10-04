@@ -38,7 +38,7 @@ const Whatsappheropage = () => {
           <Bookdemobutton clr="#3AB52E" textclr="#fff" />
         </div>
         <div className="h-[550px] max-md:h-fit max-md:py-[50px]  w-[50%] max-md:w-full flex items-center justify-center ">
-          <img src="./images/whatsappPageImages/page2image.png" alt="" />
+          <img src="./images/whatsappPageImages/whatsapp_import.png" alt="" />
         </div>
       </div>
     </div>

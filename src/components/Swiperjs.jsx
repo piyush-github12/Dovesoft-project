@@ -48,7 +48,7 @@ export default function App() {
         className={` bg-white text-white text-center  `}
       >
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -78,7 +78,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -105,7 +105,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -133,7 +133,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -160,7 +160,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -187,7 +187,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />
@@ -215,7 +215,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className={` w-[50vw]  landingpageswiper  relative`}>
-          <div className="w-[95%] my-[20px] min-h-[350px]   py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
+          <div className="w-[95%] my-[20px] min-h-[350px] flex flex-col justify-between  py-[20px] px-[5vw]  rounded-xl border-4 border-white  ">
             <div className="min-h-[60%] max-sm:h-[70%] overflow-hidden ">
               <div className=" ">
                 <img className="w-[30px] " src="./images/quotes.png" alt="" />

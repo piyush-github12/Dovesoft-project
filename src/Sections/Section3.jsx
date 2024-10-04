@@ -47,7 +47,7 @@ const Section3 = () => {
    gsap.registerPlugin(ScrollTrigger);
 
    useGSAP(() => {
-     let screenheight = window.screen.height;
+     let screenheight = window.innerHeight;
      let pinheight = document.querySelector("#pinscroll").offsetHeight;
 
      let slideheight = "";
@@ -55,7 +55,7 @@ const Section3 = () => {
      if (pinheight > screenheight) {
        slideheight = 1100 + (pinheight - screenheight);
      } else {
-       slideheight = pinheight;
+       slideheight = pinheight + 50;
      }
 
      gsap.to("#pinscroll", {

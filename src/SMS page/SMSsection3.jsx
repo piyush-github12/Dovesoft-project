@@ -10,35 +10,35 @@ const Section3 = () => {
     {
       image: "authentication.png",
       heading: "Two-Factor Authentication(2FA)",
-      para: `Verify users quickly and efficiently. Provide your users with a fast and simple OTP & 2FA process, supported by a failover solution. Enable OTP login via mobile number or email address.`,
+      para: `Secure your App or Web Application with our simple & ready to configure 2FA APIs. Easily integrate 2FA into your application with an SMS API that utilizes voice and SMS messaging to ensure the security of your customers.`,
     },
     {
       image: "marketing 1.png",
       heading: "Alerts & Notifications",
-      para: "Whether you want to upload a list of contacts or capture leads from a website form, with Dove Soft you can effortlessly create customized forms without any coding skills.",
+      para: "Integrate sms API messaging to Reduce no-shows by sending automated alert SMSs. Update customers in real-time and provide them with reminders and alerts in a timely, secure, and reliable way that they can trust.",
     },
     {
       image: "marketing 1-1.png",
       heading: "Send SMS OTP",
-      para: "Forge connections and drive conversions like never before. Enhance your conversion rate with SMS, Voice, email, RCS, and WhatsApp, incorporating images, CTA actions, and more.",
+      para: "Experience simplified SMS API platform, designed to deliver OTP instantly in no time, with enhanced security and speed. Send SMS OTP to verify and restrict Fraud Logins. An enhanced API for OTP failure solution with Fallback.",
     },
   ];
 
   const data1 = [
     {
       image: "image.png",
-      heading: "Chatbots",
-      para: "Verify users quickly and efficiently. Provide your users with a fast and simple OTP & 2FA process, supported by a failover solution. Enable OTP login via mobile number or email address.",
+      heading: "Transactional SMS",
+      para: "Give messaging capabilities to your crm to Send SMS messaging. Use SMS API to trigger every transaction detail on billing to your customers timely and helpful payment reminders.",
     },
     {
       image: "image-1.png",
-      heading: "Failovers",
-      para: "We Make sure your urgent messages never fail. Send Communications through secure channels. API automatically handles switch routes to make sure your message gets delivered successfully.",
+      heading: "SMS to Email/Voice",
+      para: "Integrate SMS messaging API into email/voice service so users and agents can communicate seamlessly in the channel they prefer. You can use all channel parallely or simultaneously.",
     },
     {
       image: "image-2.png",
-      heading: "Easy Interactions",
-      para: "Cloud APIs are built keeping developers in mind. This helps Easy understanding and Implementing things with knowledge base API docs and 24X7 Support.",
+      heading: "Custom-made",
+      para: "Businesses follow different branches and requirement scenarios. We are all ears to listen to your requirements. We will offer you a simplified and flexible SMS API that fulfills your messaging needs. Like hotels.",
     },
   ];
 

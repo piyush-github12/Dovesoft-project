@@ -34,7 +34,7 @@ const SMSsection5 = () => {
             Build closer connections with SMS campaigns
           </h1>
           <div className="flex max-md:flex-col h-fit">
-            <div className="h-full w-[60%] max-md:w-[100%] max-md:h-fit px-[5vw]  flex flex-col justify-center">
+            <div className="h-full w-[55%] max-md:w-[100%] max-md:h-fit px-[5vw]  flex flex-col justify-center">
               {data.map((item, index) => {
                 return (
                   <div
@@ -68,10 +68,10 @@ const SMSsection5 = () => {
                 );
               })}
             </div>
-            <div className=" h-[500px] max-md:h-fit max-md:py-[50px] w-[40%] max-md:w-[100%] flex  items-center max-md:justify-center">
+            <div className=" h-[500px] max-md:h-fit max-md:py-[50px] w-[45%] max-md:w-[100%] flex  items-center max-md:justify-center">
               <img
                 className="w-[90%] max-md:w-[60vw]"
-                src="./images/SMSsection5image.png"
+                src="./images/sms/SMS_campaigns.png"
                 alt=""
               />
             </div>
