@@ -107,10 +107,7 @@ const Navbar = (params) => {
           subsubname: "OTP Generator",
           elemname: "otp",
         },
-        {
-          subnameimage: <MdOutlineMail />,
-          subsubname: "Smart Addons",
-        },
+       
         {
           subnameimage: <FaRegFile />,
           subsubname: "File GPT",
@@ -570,7 +567,7 @@ const Navbar = (params) => {
             </div>
 
             <div
-              onClick={() => setdropdown(false)}
+              onClick={() => setcompanydropdown(false)}
               className="absolute right-[30px] h-[30px] w-[30px]  text-[30px] hidden max-lg:block"
             >
               <RiMenu3Line />
@@ -581,7 +578,7 @@ const Navbar = (params) => {
             id="componydropdowninter"
             className={`w-full opacity-0 translate-y-[100px] flex max-lg:flex-col max-lg:items-center max-lg:gap-10 ${
               isScrolled ? "mt-[80px]" : "mt-[120px]"
-            } mb-[30px] max-md:overflow-y-auto max-md:h-[80vh]`}
+            } mb-[30px] max-md:overflow-y-auto max-md:min-h-[50vh]`}
           >
             <div className="w-full hidden max-lg:flex  font-bold  text-base justify-center  items-center ">
               <div
@@ -633,7 +630,7 @@ const Navbar = (params) => {
                 );
               })}
             </div>
-            <div className="w-[350px] max-sm:w-[300px]  overflow-hidden h-[400px] max-md:min-h-[400px] max-lg:w-[400px] flex flex-col pl-10 max-sm:pl-[0] justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
+            {/* <div className="w-[350px] max-sm:w-[300px]  overflow-hidden h-[400px] max-md:min-h-[400px] max-lg:w-[400px] flex flex-col pl-10 max-sm:pl-[0] justify-evenly  border-l-2 border-[#00000075] max-lg:border-none p-2">
               <Link
                 to={`/Livechat`}
                 id="componynavrightboxes"
@@ -676,7 +673,7 @@ const Navbar = (params) => {
                   <img className="w-full " src="./images/nav3.png" alt="" />
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -3,11 +3,7 @@ import React from 'react'
 const Aboutuspage3 = () => {
 
   let data = [
-    {
-      heading: "Rahul Bhanushali",
-      img: "./images/Aboutus/rahul.png",
-      post: "Managing Director",
-    },
+   
     {
       heading: "Pankaj Bhanushali",
       img: "./images/Aboutus/pankaj.png",

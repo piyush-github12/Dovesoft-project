@@ -20,7 +20,7 @@ const Otphome = () => {
         </div>
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
-            className="h-[500px] max-md:w-[300px] "
+            className="h-[500px]  "
             src="./images/OTPimages/hero.svg"
             alt=""
           />
