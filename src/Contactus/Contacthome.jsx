@@ -19,13 +19,13 @@ const Contacthome = () => {
             <div className="flex items-center gap-2">
               <MdEmail className="text-[25px] shrink-0" />
               <span>
-                <span className="text-xl font-bold">Email :</span> contact@dovesoft.com
+                <span className="text-xl font-bold">Email :</span> support@dove-soft.com
               </span>
             </div>
             <div className="flex items-center gap-2">
               <FaPhone className="text-[25px] shrink-0" />
               <span>
-                <span className="text-xl font-bold">Phone :</span> +91 9876543210
+                <span className="text-xl font-bold">Phone :</span> +91 9376498182
               </span>
             </div>
             <div className="flex  w-[80%] max-md:w-full gap-2">
@@ -42,7 +42,7 @@ const Contacthome = () => {
         <div className="w-[50%] h-[450px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
             className="w-[450px] max-md:w-[300px] "
-            src="./images/contacthero.png"
+            src="./images/voice.svg"
             alt=""
           />
         </div>

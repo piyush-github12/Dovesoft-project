@@ -85,25 +85,23 @@ const Section6 = () => {
           {data.map((item) => (
             <div
               key={item.heading}
-              className="section6-box w-[25vw]  h-[290px] max-sm:h-fit max-sm:w-[100%]   rounded-2xl"
+              className="section6-box w-[25vw]  h-[290px] max-sm:h-fit max-sm:w-[100%]  rounded-2xl"
             >
-              <div className="w-full h-[100px]  p-2 flex items-end">
+              <div className="w-full h-[100px]  p-2 flex  items-end max-sm:justify-center">
                 <img className="w-[72]" src={`${item.image}`} alt="" />
               </div>
               <div className="w-full h-[190px] max-sm:h-fit relative px-2">
-                <h1 className="font-bold min-h-[50px]  max-sm:min-h-[40px]   text-2xl  ">
+                <h1 className="font-bold min-h-[50px]  max-sm:min-h-[40px] max-sm:text-center  text-2xl  ">
                   {item.heading}
                 </h1>
-                <p className="text-base   max-sm:text-base mb-2 max-md:w-[30vw] max-sm:w-full">
+                <p className="text-base   max-sm:text-base mb-2 max-md:w-[30vw]  max-sm:text-center max-sm:w-full">
                   {item.para}
                 </p>
-               
               </div>
             </div>
           ))}
         </div>
       </div>
-
     </div>
   );
 }
