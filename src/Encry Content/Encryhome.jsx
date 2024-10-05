@@ -19,7 +19,7 @@ const Encryhome = () => {
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
             className="h-[500px] max-md:w-[300px] "
-            src="./images/Encryimages/hero.svg"
+            src="./images/Encryimages/hero.webp"
             alt=""
           />
         </div>

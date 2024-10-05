@@ -35,7 +35,7 @@ const integrationpage2 = () => {
         <div className="w-[60%] flex items-center justify-center max-md:w-full h-[400px] max-md:h-fit ">
           <img
             className="w-[600px] max-md:w-[400px]"
-            src="./images/integrationimages/page2.svg"
+            src="./images/integrationimages/page2.webp"
             alt=""
           />
         </div>

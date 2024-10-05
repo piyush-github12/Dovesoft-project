@@ -16,7 +16,7 @@ const integrationpage5 = () => {
         <div className="w-full h-fit py-[50px] flex items-center justify-center">
           <img
             className="w-[700px] max-md:w-[400px]"
-            src="./images/integrationimages/page5.svg"
+            src="./images/integrationimages/page5.webp"
             alt=""
           />
         </div>

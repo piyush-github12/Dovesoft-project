@@ -27,7 +27,7 @@ const Chatbotpage2 = () => {
         <div className="w-[50%] flex items-center justify-center max-md:w-full h-full max-md:h-fit ">
           <img
             className="w-[500px] max-md:w-[300px]"
-            src="./images/chatbotimages/chatbotpage2.svg"
+            src="./images/chatbotimages/chatbotpage2.webp"
             alt=""
           />
         </div>

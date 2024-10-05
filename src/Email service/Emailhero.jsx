@@ -23,7 +23,7 @@ const Emailhero = () => {
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full max-md:mt-[30px]  flex items-center justify-center">
           <img
             className="w-[450px] max-md:w-[300px] "
-            src="./images/emailimages/emailhero.svg"
+            src="./images/emailimages/emailhero.webp"
             alt=""
           />
         </div>

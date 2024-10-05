@@ -18,7 +18,7 @@ const integrationpage3 = () => {
         <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px] ">
           <img
             className="w-full max-sm:w-[250px]  "
-            src="./images/integrationimages/page3-1.svg"
+            src="./images/integrationimages/page3-1.webp"
             alt=""
           />
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">
@@ -32,7 +32,7 @@ const integrationpage3 = () => {
         <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px]">
           <img
             className="w-full max-sm:w-[250px]  "
-            src="./images/integrationimages/page3-2.svg"
+            src="./images/integrationimages/page3-2.webp"
             alt=""
           />
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">
@@ -46,7 +46,7 @@ const integrationpage3 = () => {
         <div className="w-[30vw] max-sm:w-full min-h-[300px] p-[20px]">
           <img
             className="w-full max-sm:w-[250px]  "
-            src="./images/integrationimages/page3-3.svg"
+            src="./images/integrationimages/page3-3.webp"
             alt=""
           />
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">

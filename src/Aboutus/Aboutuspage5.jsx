@@ -17,7 +17,7 @@ const Aboutuspage5 = () => {
   return (
     <div className="w-screen h-fit py-[50px] px-[10vw] max-md:px-[5vw] bg-[#021E43]">
       <h1 className='text-white text-center text-3xl font-["Epilogue"] font-bold mb-[50px]'>
-        Serving <span className="text-[#96C2FF]">3500+</span> enterprise clients
+        Serving top enterprise clients
         from the <br /> leading industries in the country
       </h1>
       <div className="w-[100%] flex  items-center justify-center overflow-x-auto overflow-y-hidden custom-noscrollbar">

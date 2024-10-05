@@ -4,7 +4,7 @@ const Encrypage2 = () => {
   let data = [
     {
       heading: "Man-in-the-middle attacks",
-      img: "./images/Encryimages/page2-1.png",
+      img: "./images/Encryimages/page2-1.webp",
       para: "This occurs when an attacker intercepts communication using a vulnerability, allowing them to read the conversation or even modify the message sent.",
     },
     {
@@ -14,12 +14,12 @@ const Encrypage2 = () => {
     },
     {
       heading: "The wrong recipient could read your message",
-      img: "./images/Encryimages/page2-3.svg",
+      img: "./images/Encryimages/page2-3.webp",
       para: "This occurs when an attacker intercepts communication using a vulnerability, allowing them to read the conversation or even modify the message sent.",
     },
     {
       heading: "Hackers could gain unauthorized access to accounts.",
-      img: "./images/Encryimages/page2-4.png",
+      img: "./images/Encryimages/page2-4.webp",
       para: "Textline’s security analyst Daniel de Jesus recommends not using SMS for user authentication purposes, especially in industries dealing with highly-sensitive information, like banking accounts. That’s because SMS codes can be intercepted by malicious attackers to gain access to accounts. Instead, our security expert recommends authenticator applications like 1Password or Authy, to provide an extra layer of security.",
     },
   ];

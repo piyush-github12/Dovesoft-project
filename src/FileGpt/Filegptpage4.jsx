@@ -5,32 +5,32 @@ const Filegptpage4 = () => {
    let data = [
      {
        heading: "Enhanced Customer Experience",
-       img: "./images/whatsappPageImages/lead.svg.svg",
+       img: "./images/filegptimages/vec1.svg",
        para: "Provide quick, accurate answers to customer questions, improving satisfaction and engagement by delivering the information they need instantly.",
      },
      {
        heading: "Reduced Workload for Teams",
-       img: "./images/whatsappPageImages/resolution.svg.svg",
+       img: "./images/filegptimages/vec2.svg",
        para: "Automate repetitive inquiries and free up your support and sales teams to focus on more complex tasks that require a human touch.",
      },
      {
        heading: "Multi-Channel Support",
-       img: "./images/whatsappPageImages/addmision.svg.svg",
+       img: "./images/filegptimages/vec3.svg",
        para: "Leverage the power of AI across multiple platforms, including your website chatbot and WhatsApp, providing a consistent and unified customer experience.",
      },
      {
        heading: "Scalable Solution",
-       img: "./images/whatsappPageImages/onboarding.svg.svg",
+       img: "./images/filegptimages/vec4.svg",
        para: "Scale your support without scaling your costs. As your business grows, the AI bot can handle an increasing volume of queries without additional resources.",
      },
      {
        heading: "Cost-Effective",
-       img: "./images/whatsappPageImages/reminders.svg.svg",
+       img: "./images/filegptimages/vec5.svg",
        para: "Reduce the need for extensive customer service staffing, cutting costs while maintaining high-quality support for your users.",
      },
      {
        heading: "Data-Driven Insights",
-       img: "./images/whatsappPageImages/streports.svg.svg",
+       img: "./images/filegptimages/vec6.svg",
        para: "Gain insights into what your customers are asking the most, allowing you to update and refine your documents to better meet their needs.",
      },
    ];

@@ -4,32 +4,32 @@ const Linksshotnerpage4 = () => {
   let data = [
     {
       heading: "Improved User Experience",
-      img: "./images/whatsappPageImages/lead.svg.svg",
+      img: "./images/filegptimages/vec1.svg",
       para: "Short URLs are easier to read, share, and remember, providing a smoother experience for your audience.",
     },
     {
       heading: "Enhanced Brand Visibility",
-      img: "./images/whatsappPageImages/resolution.svg.svg",
+      img: "./images/filegptimages/vec2.svg",
       para: "Custom short URLs help reinforce your brand and build trust with your audience, making your communications more professional.",
     },
     {
       heading: "Simplified Sharing",
-      img: "./images/whatsappPageImages/addmision.svg.svg",
+      img: "./images/filegptimages/vec3.svg",
       para: "Easily distribute links across any channel, including character-limited platforms like Twitter, without worrying about long, complex URLs.",
     },
     {
       heading: "Actionable Insights",
-      img: "./images/whatsappPageImages/onboarding.svg.svg",
+      img: "./images/filegptimages/vec4.svg",
       para: "Gain valuable insights into how your audience interacts with your links, allowing you to fine-tune your strategies and improve engagement.",
     },
     {
       heading: "Increased Click-Through Rates",
-      img: "./images/whatsappPageImages/reminders.svg.svg",
+      img: "./images/filegptimages/vec5.svg",
       para: "Short and branded URLs are more likely to be clicked, leading to higher engagement and better conversion rates.",
     },
     {
       heading: "Security and Control",
-      img: "./images/whatsappPageImages/streports.svg.svg",
+      img: "./images/filegptimages/vec6.svg",
       para: "Manage your links with expiration dates and access restrictions, ensuring that your content is shared securely and only with the intended audience.",
     },
   ];

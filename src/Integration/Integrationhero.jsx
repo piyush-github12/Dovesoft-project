@@ -21,7 +21,7 @@ const integrationhero = () => {
         <div className="w-[50%] h-[500px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
             className="w-[450px] max-md:w-[300px] "
-            src="./images/integrationimages/heropage.svg"
+            src="./images/integrationimages/heropage.webp"
             alt=""
           />
         </div>

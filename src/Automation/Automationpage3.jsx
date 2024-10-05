@@ -18,7 +18,7 @@ const Automationpage3 = () => {
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">
             Recover abandoned carts
           </h1>
-          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px]">
+          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px] max-md:text-center">
             Nudge your customers to complete the purchase of items they added in
             their cart and improve your conversion rates.
           </h1>
@@ -32,7 +32,7 @@ const Automationpage3 = () => {
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">
             Real-time lead alerts
           </h1>
-          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px]">
+          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px] max-md:text-center">
             Ping your sales team on Slack whenever a new lead comes in, ensuring
             a faster response time and better informed sales follow ups.
           </h1>
@@ -46,7 +46,7 @@ const Automationpage3 = () => {
           <h1 className="text-base px-[40px] max-md:px-[20px] font-semibold mt-[20px] font-['Epilogue']">
             Post-purchase retention
           </h1>
-          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px]">
+          <h1 className="text-base px-[40px] max-md:px-[20px] mt-[10px] max-md:text-center">
             Follow up after a purchase with messages and offers to retain your
             customers longer and boost lifecycle value.
           </h1>
