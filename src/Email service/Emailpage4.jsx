@@ -16,10 +16,10 @@ const Emailpage4 = () => {
       </div>
 
       <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[20px] max-md:py-[20px]  max-md:mt-[20px] flex items-center gap-10 max-md:block">
-        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center  max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
+        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] rounded-3xl flex items-center justify-center  max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full  max-md:w-[300px]"
-            src="./images/emailimages/page4-1.svg"
+            src="./images/emailimages/Email 7.svg"
             alt=""
           />
         </div>
@@ -61,10 +61,10 @@ const Emailpage4 = () => {
         </div>
       </div>
       <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[20px] max-md:py-[20px]  max-md:mt-[20px] flex items-center gap-10 max-md:block">
-        <div className="w-[50%] hidden px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl  items-center justify-center max-md:flex max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
+        <div className="w-[50%] hidden px-[50px] max-md:px-[30px] py-[30px] rounded-3xl  items-center justify-center max-md:flex max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full  max-md:w-[300px]"
-            src="./images/emailimages/page4-2.svg"
+            src="./images/emailimages/Email 8.svg"
             alt=""
           />
         </div>
@@ -101,19 +101,19 @@ const Emailpage4 = () => {
             </h1>
           </div>
         </div>
-        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[50px]">
+        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full h-fit max-md:h-fit max-md:my-[50px]">
           <img
             className="w-full  max-md:w-[300px]"
-            src="./images/emailimages/page4-2.svg"
+            src="./images/emailimages/Email 8.svg"
             alt=""
           />
         </div>
       </div>
       <div className="w-screen min-h-[500px] px-[10vw] max-md:px-[5vw] py-[20px] max-md:py-[20px]  max-md:mt-[20px] flex items-center gap-10 max-md:block">
-        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center  max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
+        <div className="w-[50%] px-[50px] max-md:px-[30px] py-[30px] rounded-3xl flex items-center justify-center  max-md:w-full h-fit max-md:h-fit max-md:mb-[50px]">
           <img
             className="w-full  max-md:w-[300px]"
-            src="./images/emailimages/page4-3.svg"
+            src="./images/emailimages/Email 9.svg"
             alt=""
           />
         </div>

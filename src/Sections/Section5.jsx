@@ -72,46 +72,46 @@ const Section5 = () => {
             <span className="text-[#61a3ff]">superhuman</span>
           </h1>
           <div className="flex max-lg:flex-col relative z-[9]  w-full min-h-[60vh] max-sm:min-h-[500px] justify-between">
-            <div className="max-md:text-[15px]  whitespace-nowrap max-lg:text-[15px] w-[25%]  max-lg:w-[90%] max-lg:ml-[20px] max-lg:pb-[20px] max-lg:px-[20px]  text-xl flex justify-center max-lg:justify-normal flex-col  max-lg:overflow-x-auto max-lg:overflow-y-hidden max-lg:custom-scrollbar2    max-lg:flex-row gap-10    border-r-[1px] max-lg:border-none border-[#cce1ff5e] ">
+            <div className="max-md:text-[15px] whitespace-nowrap max-lg:text-[15px] w-[25%] max-lg:w-[90%] max-lg:ml-[20px] max-lg:pb-[20px] max-lg:px-[20px] text-xl flex justify-center max-lg:justify-normal flex-col max-lg:overflow-x-auto max-lg:overflow-y-hidden max-lg:custom-scrollbar2 max-lg:flex-row gap-10 border-r-[1px] max-lg:border-none border-[#cce1ff5e] select-none ">
               <h1
                 onClick={handalclick}
                 id="h1"
-                className=" textanimation cursor-pointer text-[#61a3ff]"
+                className="textanimation select-none cursor-pointer text-[#61a3ff]"
               >
                 Live Agents
               </h1>
               <h1
                 onClick={handalclick}
                 id="h2"
-                className=" textanimation cursor-pointer"
+                className="textanimation select-none cursor-pointer "
               >
                 Integrations
               </h1>
               <h1
                 onClick={handalclick}
                 id="h3"
-                className=" textanimation cursor-pointer"
+                className="textanimation select-none cursor-pointer    "
               >
                 Encrypted content
               </h1>
               <h1
                 onClick={handalclick}
                 id="h4"
-                className=" textanimation cursor-pointer"
+                className="textanimation select-none cursor-pointer    "
               >
                 Auto-short URL
               </h1>
               <h1
                 onClick={handalclick}
                 id="h5"
-                className=" textanimation cursor-pointer"
+                className="textanimation select-none cursor-pointer  "
               >
                 Smart Addons
               </h1>
               <h1
                 onClick={handalclick}
                 id="h6"
-                className=" textanimation cursor-pointer"
+                className="textanimation select-none cursor-pointer"
               >
                 File GPT
               </h1>

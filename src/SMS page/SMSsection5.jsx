@@ -11,15 +11,15 @@ const SMSsection5 = () => {
       },
       {
         nm: "Create campaigns that resonate",
-        para: "Unlock the power of SMS campaigns with our credit bundles. Enable SMS campaigns in just one click — no complex setup needed.",
+        para: "Craft the perfect text message to engage customers. Turn your SMS into MMS by adding an image .",
       },
       {
         nm: "Connect with your target audience",
-        para: "Unlock the power of SMS campaigns with our credit bundles. Enable SMS campaigns in just one click — no complex setup needed.",
+        para: "Ensure your messages are always relevant by targeting the right audience through segments based on location, preferences, purchase history, and more..",
       },
       {
         nm: "Track campaign performance",
-        para: "Unlock the power of SMS campaigns with our credit bundles. Enable SMS campaigns in just one click — no complex setup needed.",
+        para: "Enhance your marketing strategy by leveraging reports and statistics to understand what resonates with your audience. Keep a close eye on key campaign metrics like delivery and conversion rates.",
       },
     ];
 
@@ -70,7 +70,7 @@ const SMSsection5 = () => {
             </div>
             <div className=" h-[500px] max-md:h-fit max-md:py-[50px] w-[45%] max-md:w-[100%] flex  items-center max-md:justify-center">
               <img
-                className="w-[90%] max-md:w-[60vw]"
+                className="w-[90%] "
                 src="./images/sms/SMS_campaigns.png"
                 alt=""
               />

@@ -154,11 +154,11 @@ export default function App() {
 
 
    return (
-     <div className=" smsswiperboxes2 w-[25vw] h-fit  max-md:w-[40vw] rounded-2xl overflow-hidden">
+     <div className=" smsswiperboxes2 w-[25vw] max-sm:w-full h-fit  max-md:w-[40vw] rounded-2xl overflow-hidden">
        <div className="h-[180px]  w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
          <img className="w-[140px] max-sm:w-[100px]" src={`${image}`} alt="" />
        </div>
-       <div onMouseLeave={sefalse} className="min-h-[180px] text-left px-2 py-2 relative ">
+       <div onMouseLeave={sefalse} className="min-h-[180px] max-sm:min-h-fit text-left px-2 py-2 relative ">
          <h1 className="font-bold font-['Epilogue'] min-h-[40px]  text-2xl">
            {heading}
          </h1>
@@ -188,11 +188,11 @@ export default function App() {
         className="mySwiper  "
       >
         <SwiperSlide className="SMSswiper ">
-          <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+          <div className="w-screen h-full relative  z-10 grid grid-cols-3 max-lg:justify-items-center  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2 max-sm:grid-cols-1 ">
             {data.map((item) => (
               <div
                 key={item.heading}
-                className= "smsswiperboxes w-[25vw]  h-fit  max-sm:h-[450px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className="smsswiperboxes w-[25vw] max-sm:w-full  h-fit  max-md:w-[40vw]   rounded-2xl overflow-hidden"
               >
                 <div className=" h-[180px] w-full bg-gradient-to-b from-[#96C2FF] to-[#E4F0FF] flex items-center justify-center">
                   <img
@@ -201,7 +201,7 @@ export default function App() {
                     alt=""
                   />
                 </div>
-                <div className=" min-h-[180px] text-left px-2 py-2 relative">
+                <div className=" min-h-[180px] max-sm:min-h-[100px] text-left px-2 py-2 relative">
                   <h1 className="font-bold font-['Epilogue']  min-h-[40px]  text-2xl ">
                     {item.heading}
                   </h1>
@@ -212,7 +212,7 @@ export default function App() {
           </div>
         </SwiperSlide>
         <SwiperSlide className="SMSswiper">
-          <div className="w-screen h-fit relative z-10 grid grid-cols-3 px-[10vw] max-sm:px-[5vw] gap-4 max-lg:grid-cols-2 ">
+          <div className="w-screen h-fit relative z-10 grid grid-cols-3 max-lg:justify-items-center  px-[10vw] max-sm:px-[5vw] gap-4 max-lg:grid-cols-2  max-sm:grid-cols-1 ">
             {data2.map((item) => (
               <FeatureCard key={item.heading} {...item} />
             ))}

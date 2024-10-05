@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
@@ -46,9 +46,21 @@ const Section3 = () => {
   gsap.registerPlugin(ScrollTrigger);
 
 
+
+  useEffect(()=>{
+
+    const handalResize=()=>{
+
+      
+    }
+  })
+
+
     useGSAP(() => {
       let screenheight = window.screen.height;
       let pinheight = document.querySelector("#pinscroll").offsetHeight;
+
+      
 
       let slideheight = "";
 

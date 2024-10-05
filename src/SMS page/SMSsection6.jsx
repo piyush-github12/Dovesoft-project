@@ -49,7 +49,7 @@ const SMSsection6 = () => {
     {
       question: "How can I start sending messages using SMS API?",
       answer: [
-        "Authkey will help you organize and manage your SMS API setup if you want to send messages worldwide. SMS gateways can be used in a variety of ways, including transactional alerts and OTP messages across the globe. We offer you a multichannel messaging API that supports SMS, Voice and Email on a single platform and fully assisted with detailed documentation and developer friendly code instructions. Choose precisely which channels you want to use as well you can use all channels on a single API integration.",
+        "Dovesoft will help you organize and manage your SMS API setup if you want to send messages worldwide. SMS gateways can be used in a variety of ways, including transactional alerts and OTP messages across the globe. We offer you a multichannel messaging API that supports SMS, Voice and Email on a single platform and fully assisted with detailed documentation and developer friendly code instructions. Choose precisely which channels you want to use as well you can use all channels on a single API integration.",
         <br />,
         <br />,
         "Just Sign up to us! Rest our team will handle, to fulfill the best messaging service.",
@@ -69,7 +69,7 @@ const SMSsection6 = () => {
       question:
         "What is fallback enabled SMS API? Or what is the solution if SMS fails?",
       answer:
-        "As fallback is a sending feature that uses the multi channels simultaneously i.e SMS, Voice & Email. Authkey’s API is fallback-enabled that drives the messaging information on the associated channels. Know more on fallback. Fallback-enabled sending is highly recommended in case of SMS OTPs or urgent time based messaging. For instance, if the SMS OTP fails/delays, an automated voice call passes the same one time password digits utilizing builtin text to speech tool.",
+        "As fallback is a sending feature that uses the multi channels simultaneously i.e SMS, Voice & Email. Dovesoft’s API is fallback-enabled that drives the messaging information on the associated channels. Know more on fallback. Fallback-enabled sending is highly recommended in case of SMS OTPs or urgent time based messaging. For instance, if the SMS OTP fails/delays, an automated voice call passes the same one time password digits utilizing builtin text to speech tool.",
     },
   ];
 

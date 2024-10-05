@@ -23,6 +23,7 @@ body {
 
 .SMSswiper {
   width: 100vw;
+  height: auto;
   text-align: center;
   font-size: 18px;
   /* background: #fff; */
