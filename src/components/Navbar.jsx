@@ -22,14 +22,7 @@ import { PiCertificateBold } from "react-icons/pi";
 import { IoIosPeople } from "react-icons/io";
 import { SiFuturelearn } from "react-icons/si";
 import { IoHomeOutline } from "react-icons/io5";
-
-
-
-
-
-
-
-
+import { PiHandshakeFill } from "react-icons/pi";
 
 
 
@@ -143,24 +136,19 @@ const Navbar = (params) => {
 
         {
           subnameimage: <SiFuturelearn />,
-          subsubname: "Career",
-          elemname: "",
+          subsubname: "Careers",
+          elemname: "careers",
         },
         {
           subnameimage: <IoIosPeople />,
           subsubname: "Team",
-          elemname: "",
+          elemname: "team",
         },
       ],
     },
     {
       mainname: "More",
       subname: [
-        {
-          subnameimage: <MdEvent />,
-          subsubname: "Events",
-          elemname: "",
-        },
         {
           subnameimage: <FaAward />,
           subsubname: "Awards and Recognition",
@@ -169,7 +157,12 @@ const Navbar = (params) => {
         {
           subnameimage: <PiCertificateBold />,
           subsubname: "Certificate",
-          elemname: "",
+          elemname: "certificates",
+        },
+        {
+          subnameimage: <PiHandshakeFill />,
+          subsubname: "Investor Relation",
+          elemname: "investor_relation",
         },
       ],
     },

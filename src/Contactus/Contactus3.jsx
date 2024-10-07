@@ -7,10 +7,10 @@ const Contactus3 = () => {
         Our Offices
       </h1>
       <div className="w-screen h-fit grid grid-cols-3 gap-[30px]  px-[10vw] max-md:px-[5vw] ">
-        <div className="min-h-[300px] p-[15px] bg-[#f9f8f8] rounded-lg">
-          <div className="w-full h-[150px]  flex items-center justify-center">
+        <div className="group min-h-[300px]  p-[20px] bg-[#f9f8f8] rounded-lg">
+          <div className="w-full h-[150px]   flex items-center justify-center">
             <img
-              className="h-[90%] grayscale"
+              className="h-[90%] grayscale group-hover:grayscale-0 "
               src="./images/locations/mumbai.png"
               alt=""
             />
@@ -23,10 +23,10 @@ const Contactus3 = () => {
             Goregaon West, Mumbai, Maharashtra 400062
           </h1>
         </div>
-        <div className="min-h-[300px] p-[15px] bg-[#f9f8f8] rounded-lg">
-          <div className="w-full h-[150px]  flex items-center justify-center">
+        <div className="group min-h-[300px]  p-[20px] bg-[#f9f8f8] rounded-lg">
+          <div className="w-full h-[150px]   flex items-center justify-center">
             <img
-              className="h-[90%] grayscale"
+              className="h-[90%] grayscale group-hover:grayscale-0 "
               src="./images/locations/ahmedabad.png"
               alt=""
             />
@@ -38,10 +38,10 @@ const Contactus3 = () => {
             621, North Plaza, beside 4Dsquare mall, Motera Ahmedabad 380005
           </h1>
         </div>
-        <div className="min-h-[300px] p-[15px] bg-[#f9f8f8] rounded-lg">
-          <div className="w-full h-[150px]  flex items-center justify-center">
+        <div className="group min-h-[300px]  p-[20px] bg-[#f9f8f8] rounded-lg">
+          <div className="w-full h-[150px]   flex items-center justify-center">
             <img
-              className="h-[90%] grayscale"
+              className="h-[90%] grayscale group-hover:grayscale-0 "
               src="./images/locations/delhi.png"
               alt=""
             />
@@ -54,10 +54,10 @@ const Contactus3 = () => {
             Course Extension road, Gurugram, Haryana 122102
           </h1>
         </div>
-        <div className="min-h-[300px] p-[15px] bg-[#f9f8f8] rounded-lg">
-          <div className="w-full h-[150px]  flex items-center justify-center">
+        <div className="group min-h-[300px]  p-[20px] bg-[#f9f8f8] rounded-lg">
+          <div className="w-full h-[150px]   flex items-center justify-center">
             <img
-              className="h-[90%] grayscale"
+              className="h-[90%] grayscale group-hover:grayscale-0 "
               src="./images/locations/dubai.png"
               alt=""
             />

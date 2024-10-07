@@ -128,10 +128,10 @@ const Section9 = ({bg}) => {
             </div>
             <div className="w-fit max-md:w-[33%]  h-full ">
               <h1 className="text-lg font-bold">Legal</h1>
-              <Link to="">
+              <Link to="https://dove-soft.com/privacy_policy.php">
                 <h1 className="text-base mt-[15px]">Privacy Policy</h1>
               </Link>
-              <Link to="">
+              <Link to="https://dove-soft.com/terms.php">
                 <h1 className="text-base mt-[15px]">Terms of Service</h1>
               </Link>
             </div>
