@@ -1,6 +1,6 @@
 import React from 'react'
-import Irhero from './irhero';
-import Irpage2 from './irpage2';
+import Irhero from './Irhero';
+import Irpage2 from './Irpage2';
 import GoodIsolation from '../components/GoodIsolation';
 import Section9 from '../Sections/Section9';
 
