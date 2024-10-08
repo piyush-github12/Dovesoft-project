@@ -119,8 +119,8 @@ const Section9 = ({bg}) => {
               <Link to="/contactus">
                 <h1 className="text-base mt-[15px]">Contact Us</h1>
               </Link>
-              <Link to="/career">
-                <h1 className="text-base mt-[15px]">Career</h1>
+              <Link to="/careers">
+                <h1 className="text-base mt-[15px]">Careers</h1>
               </Link>
               <Link to="/team">
                 <h1 className="text-base mt-[15px]">Team</h1>
@@ -128,10 +128,10 @@ const Section9 = ({bg}) => {
             </div>
             <div className="w-fit max-md:w-[33%]  h-full ">
               <h1 className="text-lg font-bold">Legal</h1>
-              <Link to="https://dove-soft.com/privacy_policy.php">
+              <Link to="/Privacy">
                 <h1 className="text-base mt-[15px]">Privacy Policy</h1>
               </Link>
-              <Link to="https://dove-soft.com/terms.php">
+              <Link to="/termscondition">
                 <h1 className="text-base mt-[15px]">Terms of Service</h1>
               </Link>
             </div>

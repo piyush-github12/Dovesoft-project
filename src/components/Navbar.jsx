@@ -164,6 +164,11 @@ const Navbar = (params) => {
           subsubname: "Investor Relation",
           elemname: "investor_relation",
         },
+        {
+          subnameimage: <IoIosPeople />,
+          subsubname: "Committees ",
+          elemname: "Committees",
+        },
       ],
     },
   ];

@@ -3,6 +3,9 @@ import { FaFileInvoice } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import pdf2015 from "/images/Certificates/9001-2015.pdf"
 import pdf2013 from "/images/Certificates/27001-2013.pdf"
+import pdfcorporateidentity from "/images/Certificates/corporateidentity.pdf"
+import pdfpan from "/images/Certificates/PanCard.pdf"
+import pdfregistration from "/images/Certificates/Registration.pdf"
 
 const Certificatepage2 = () => {
 
@@ -64,18 +67,65 @@ const Certificatepage2 = () => {
       </div>
       <div className="w-screen h-fit px-[10vw] max-md:px-[5vw] pt-[50px] pb-[100px]">
         <h1 className='text-4xl  text-center  font-["Epilogue"] font-semibold mb-[50px]'>
-          2. Compliance Certifcates
+          2.  Documents
         </h1>
-        <div className=" grid grid-cols-3 max-md:grid-cols-1 justify-items-center gap-[40px]">
-          <div> 
-            <img src="./images/Certificates/certi-1.png" alt="" />
-          </div>
-          <div> 
-            <img src="./images/Certificates/certi-2.png" alt="" />
-          </div>
-          <div> 
-            <img src="./images/Certificates/certi-3.png" alt="" />
-          </div>
+        <div className=" grid grid-cols-3 max-md:grid-cols-1 gap-[40px]">
+          <Link to="#" onClick={handlePdfDownload(pdfpan)}>
+            <div className="group  h-[200px] relative py-[30px] px-[30px] bg-[#F0F2F8] rounded-lg">
+              <div className="absolute w-[5px] h-[50px] left-0 top-[30px] bg-[#1871ED]"></div>
+              <div className="w-[40px] h-[40px] bg-[#1871ED] flex items-center justify-center rounded-md mt-[5px] ">
+                <FaFileInvoice className="text-white text-[30px]" />
+              </div>
+              <h1 className='text-2xl  font-["Epilogue"] font-semibold text-[#1871ED] mt-[20px]'>
+                Pan Card
+              </h1>
+
+              <div className="absolute right-0 top-[30px] h-[70%] w-[100px]">
+                <img
+                  className="opacity-50 group-hover:opacity-100 transition-all duration-200"
+                  src="./images/Certificates/Pattern.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </Link>
+          <Link to="#" onClick={handlePdfDownload(pdfregistration)}>
+            <div className="group  h-[200px] relative py-[30px] px-[30px] bg-[#F0F2F8] rounded-lg">
+              <div className="absolute w-[5px] h-[50px] left-0 top-[30px] bg-[#1871ED]"></div>
+              <div className="w-[40px] h-[40px] bg-[#1871ED] flex items-center justify-center rounded-md mt-[5px] ">
+                <FaFileInvoice className="text-white text-[30px]" />
+              </div>
+              <h1 className='text-2xl  font-["Epilogue"] font-semibold text-[#1871ED] mt-[20px]'>
+                Registration
+              </h1>
+
+              <div className="absolute right-0 top-[30px] h-[70%] w-[100px]">
+                <img
+                  className="opacity-50 group-hover:opacity-100 transition-all duration-200"
+                  src="./images/Certificates/Pattern.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </Link>
+          <Link to="#" onClick={handlePdfDownload(pdfcorporateidentity)}>
+            <div className="group  h-[200px] relative py-[30px] px-[30px] bg-[#F0F2F8] rounded-lg">
+              <div className="absolute w-[5px] h-[50px] left-0 top-[30px] bg-[#1871ED]"></div>
+              <div className="w-[40px] h-[40px] bg-[#1871ED] flex items-center justify-center rounded-md mt-[5px] ">
+                <FaFileInvoice className="text-white text-[30px]" />
+              </div>
+              <h1 className='text-2xl  font-["Epilogue"] font-semibold text-[#1871ED] mt-[20px]'>
+                Corporate Identity
+              </h1>
+              <div className="absolute right-0 top-[30px] h-[70%] w-[100px]">
+                <img
+                  className="opacity-50 group-hover:opacity-100 transition-all duration-200"
+                  src="./images/Certificates/Pattern.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </Link>
         </div>
       </div>
     </>

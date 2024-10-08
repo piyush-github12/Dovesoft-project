@@ -79,7 +79,7 @@ const Section4 = () => {
   
 
   return (
-    <div className="relative min-h-[100vh]  pt-[10vh]  max-sm:pt-[10px] ">
+    <div className="relative min-h-[750px]  pt-[10vh]  max-sm:pt-[10px] ">
       <div
         id="section4"
         className="w-screen h-fit  relative  z-[11] pb-10 bg-[#fff] rounded-b-[55px] "

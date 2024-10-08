@@ -377,7 +377,7 @@ const Irpage2 = () => {
 
 
   return (
-    <div className="w-screen px-[5vw] max-md:px-[5vw] py-[50px]">
+    <div className="w-screen px-[5vw] max-md:px-[5vw] py-[100px] ">
       <div className="w-full h-fit  flex rounded-xl border-[5px] border-[#1871ED]">
         <div className="w-[30%] h-auto border-r-[2px] border-[#1871ED] ">
           <h1 className="w-full h-[80px]  text-base flex items-center justify-center border-b-[2px] border-[#1871ED]"></h1>
@@ -424,7 +424,7 @@ const Irpage2 = () => {
             </div>
           </div>
 
-          <div className="w-full h-full px-[30px] py-[20px]">
+          <div className="w-full h-full px-[30px] py-[20px] max-sm:py-[10px] max-sm:px-[5px]">
             {typeof data[clickedheading].insidedata[clickedinsideelement].right === "function"
               ? data[clickedheading].insidedata[clickedinsideelement].right()
               : null}

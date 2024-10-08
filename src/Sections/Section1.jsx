@@ -93,9 +93,9 @@ const Section1 = () => {
         className=" w-full  relative z-[20] h-fit flex items-center justify-center "
       >
         <Navbar />
-        <div className=" w-[95%] h-[95%] my-[10px] max-md:h-[1500px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-md:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff93] to-[#95bfff]">
+        <div className=" w-[95%] min-h-[100vh]  my-[10px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-lg:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff93] to-[#95bfff]">
           <div className='absolute z-[-1] w-full h-full top-0 left-0 '>
-            <video autoPlay controls loop muted className='h-full object-cover' src="./images/heropagevideo.mp4"></video>
+            <video autoPlay loop muted className='h-full object-cover' src="./images/heropagevideo.mp4"></video>
           </div>
           <div
             id="maincircle"
@@ -164,7 +164,7 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92aaff98] blur-[100px]  rounded-full "></div>
-          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-md:mt-[300px]   relative  z-10 flex flex-col justify-center   gap-5">
+          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-lg:mt-[200px]   relative  z-10 flex flex-col justify-center   gap-5">
             <div className=" min-w-full h-[170px]  max-md:mt-[10vh] ">
               <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
                 <h1 className="heading1 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
@@ -215,9 +215,9 @@ const Section1 = () => {
             </div>
             <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
           </div>
-          <div className=" w-[60vw] max-md:w-[100vw] h-screen max-md:h-[500px] relative  pb-[5vh] flex items-end justify-start  ">
+          <div className=" w-[60vw] max-lg:w-full h-screen max-lg:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-lg:justify-center  ">
             {/* <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div> */}
-            <div className="posterimage translate-x-[-50px] flex items-end justify-center w-[500px] h-full ">
+            <div className="posterimage translate-x-[-50px] max-lg:translate-x-0 flex items-end justify-center w-[500px] h-full ">
               <img
                 className=" h-[550px] max-lg:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
                 src="./images/sms_website.png"

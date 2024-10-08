@@ -6,7 +6,7 @@ const Contactus3 = () => {
       <h1 className="text-4xl font-['Epilogue'] text-center font-bold my-[50px]">
         Our Offices
       </h1>
-      <div className="w-screen h-fit grid grid-cols-3 gap-[30px]  px-[10vw] max-md:px-[5vw] ">
+      <div className="w-screen h-fit grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-[30px]  px-[10vw] max-md:px-[5vw] ">
         <div className="group min-h-[300px]  p-[20px] bg-[#f9f8f8] rounded-lg">
           <div className="w-full h-[150px]   flex items-center justify-center">
             <img

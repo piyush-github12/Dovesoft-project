@@ -23,6 +23,9 @@ import Careers from './Careers/Careers.jsx'
 import Team from './Team/Team.jsx'
 import Certificate from './Certificatepage/Certificate.jsx'
 import Ir from './Investorrelation/ir.jsx'
+import Committees from './Committees/Committees.jsx'
+import Privacy from './Privacy/Privacy.jsx'
+import Termscondition from './Termscondition/Termscondition.jsx'
 
 
 
@@ -51,7 +54,10 @@ createRoot(document.getElementById("root")).render(
       <Route path="/team" element={<Team />} />
       <Route path="/certificates" element={<Certificate />} />
       <Route path="/investor_relation" element={<Ir />} />
-      
+      <Route path="/Committees" element={<Committees />} />
+      <Route path="/Privacy" element={<Privacy />} />
+      <Route path="/termscondition" element={<Termscondition />} />
+
     </Routes>
   </BrowserRouter>
 );
