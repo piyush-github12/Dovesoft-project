@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useRef, useEffect } from 'react'
 
 import { BiMessageDetail } from "react-icons/bi";
 import { MdOutlineMail } from "react-icons/md";
@@ -49,6 +49,15 @@ const Section1 = () => {
         repeat: -1,
         repeatDelay: 0,
       });
+      gsap.to(".heading2", {
+        keyframes: {
+          y: ["250px", "0px", "0px", "0px", "-400px"],
+        },
+        stagger: 5,
+        duration: 5,
+        repeat: -1,
+        repeatDelay: 0,
+      });
       gsap.to(".paras", {
         keyframes: {
           y: ["120px", "10px", "10px", "10px", "-120px"],
@@ -83,7 +92,20 @@ const Section1 = () => {
       // });
     },
   );
+ 
 
+  useEffect(() => {
+    const handleResize = () => {
+      window.location.reload();
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
 
   return (
@@ -93,13 +115,19 @@ const Section1 = () => {
         className=" w-full  relative z-[20] h-fit flex items-center justify-center "
       >
         <Navbar />
-        <div className=" w-[95%] min-h-[100vh]  my-[10px]  rounded-[55px] px-[7vw] max-sm:px-[3vw]  flex max-lg:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff93] to-[#95bfff]">
-          <div className='absolute z-[-1] w-full h-full top-0 left-0 '>
-            <video autoPlay loop muted className='h-full object-cover' src="./images/heropagevideo.mp4"></video>
+        <div className=" w-[95%] min-h-[100vh]  my-[10px]  rounded-[55px] px-[7vw] max-md:px-[3vw]  flex max-xl:flex-col relative overflow-hidden bg-gradient-to-r from-[#cad4ff93] to-[#95bfff]">
+          <div className="absolute z-[-1] w-full h-full top-0 left-0 ">
+            <video
+              autoPlay
+              loop
+              muted
+              className="h-full object-cover"
+              src="./images/heropagevideo.mp4"
+            ></video>
           </div>
           <div
             id="maincircle"
-            className="maincircle w-[35vw] h-[35vw] z-20 max-lg:w-[500px] max-lg:h-[500px] max-md:min-h-[500px] max-md:min-w-[500px]    rotate-[-45deg] absolute right-[-12vw] top-[-12vw] max-lg:right-[-20vw] max-lg:top-[-20vw] max-md:right-[-200px] max-md:top-[-200px]  border-[30px]  border-[#ff8a0496] rounded-full flex items-center justify-center text-white"
+            className="maincircle w-[35vw] h-[35vw] z-20 max-xl:w-[500px] max-xl:h-[500px] max-md:min-h-[500px] max-md:min-w-[500px]    rotate-[-45deg] absolute right-[-12vw] top-[-12vw] max-xl:right-[-20vw] max-xl:top-[-20vw] max-md:right-[-200px] max-md:top-[-200px]  border-[30px]  border-[#ff8a0496] rounded-full flex items-center justify-center text-white"
           >
             <div className="line w-full  h-[10px]  rotate-[0deg] absolute">
               <div className="smallcircle w-[170px] h-[170px] text-blue-500 rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#ffffff] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
@@ -164,8 +192,8 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92aaff98] blur-[100px]  rounded-full "></div>
-          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-lg:mt-[200px]   relative  z-10 flex flex-col justify-center   gap-5">
-            <div className=" min-w-full h-[170px]  max-md:mt-[10vh] ">
+          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-sm:h-fit max-sm:mt-[300px] max-xl:mt-[200px]   relative  z-10 flex flex-col justify-center    gap-5">
+            <div className=" min-w-full h-[170px]  max-md:mt-[10vh] max-sm:hidden ">
               <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
                 <h1 className="heading1 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
@@ -189,57 +217,81 @@ const Section1 = () => {
                 </h1>
               </div>
             </div>
+            <div className=" min-w-full h-[190px]  max-md:mt-[10vh]  hidden max-sm:block">
+              <div className="relative w-[90vw] h-[190px]  overflow-hidden font-['Epilogue'] ">
+                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-3xl  font-bold leading-4xl absolute translate-y-[250px]">
+                  Scale your customer <br /> engagement with a <br /> reliable
+                  SMS API
+                </h1>
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                  Stand out in the <br /> messaging inbox with <br />
+                  RCS Business Messaging
+                </h1>
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                  Build stronger customer <br /> relationships with <br />
+                  WhatsApp Business API
+                </h1>
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                  Discover the Unlimited <br /> Potential of Emails and <br />{" "}
+                  Hit the Inbox
+                </h1>
+                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                  Automate outbound <br /> and support calls <br /> with Voice
+                  AI
+                </h1>
+              </div>
+            </div>
 
-            <div className="relative h-[100px] w-full overflow-hidden">
-              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute ">
+            <div className="relative h-[100px] w-full max-sm:w-[90vw] overflow-hidden">
+              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-sm:w-[100%] absolute ">
                 Send and receive text messages without latency, with a superior
                 network of direct carrier connections in over 160 countries
               </h1>
-              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-sm:w-[100%] absolute translate-y-[120px] ">
                 Engage customers across marketing, commerce, and support with
                 rich media, branding, credible trust marks, and conversational
                 journeys
               </h1>
-              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-sm:w-[100%] absolute translate-y-[120px] ">
                 Go beyond one-way messages. Interact with customers across their
                 lifecycle
               </h1>
-              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-sm:w-[100%] absolute translate-y-[120px] ">
                 With all the features to help businesses achieve their marketing
                 and sales goals in the most simplified manner.
               </h1>
-              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-md:w-[100%] absolute translate-y-[120px] ">
+              <h1 className="paras font-semibold text-base max-md:text-sm w-[80%] max-sm:w-[100%] absolute translate-y-[120px] ">
                 Deflect callers to digital channels, boost agent productivity,
                 and lower contact center costs with cloud-based Voice AI API
               </h1>
             </div>
             <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
           </div>
-          <div className=" w-[60vw] max-lg:w-full h-screen max-lg:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-lg:justify-center  ">
+          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center  ">
             {/* <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div> */}
-            <div className="posterimage translate-x-[-50px] max-lg:translate-x-0 flex items-end justify-center w-[500px] h-full ">
+            <div className="posterimage translate-x-[-50px] max-xl:translate-x-0 flex items-end justify-center w-[500px] h-full ">
               <img
-                className=" h-[550px] max-lg:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
+                className=" h-[550px] max-xl:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
                 src="./images/sms_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/rcs_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/whatsapp_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/email_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-lg:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/voice_website.png"
                 alt=""
               />
