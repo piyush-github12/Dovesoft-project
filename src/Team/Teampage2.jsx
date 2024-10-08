@@ -118,7 +118,7 @@ const Teampage2 = () => {
         Account Team
       </h1>
 
-      <div className="w-full h-fit grid grid-cols-2 justify-items-center gap-10 px-[5vw]">
+      <div className="w-full h-fit grid grid-cols-2 max-sm:grid-cols-1 justify-items-center gap-10 px-[5vw]">
         {Accounts.map((item, index) => {
           return (
             <div className="w-[250px] h-[250px]  rounded-3xl  ">

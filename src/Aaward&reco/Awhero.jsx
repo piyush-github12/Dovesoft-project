@@ -17,7 +17,7 @@ const Awhero = () => {
           Explore Our Recognitions and Awards
           </h1>
         </div>
-        <div className="w-[50%] h-[400px] max-md:h-fit max-md:w-full  flex items-center justify-center">
+        <div className="w-[50%] h-[400px] max-md:h-fit max-md:w-full  flex items-center justify-center"> 
           <img
             className="w-[500px] max-md:w-[300px] "
             src="./images/aw&reco/hero.png"

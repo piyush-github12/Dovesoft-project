@@ -14,8 +14,8 @@ const Chatbotpage4 = () => {
 
         <div className="w-full h-fit py-[100px] flex items-center justify-center">
           <img
-            className="w-[600px] max-md:w-[300px]"
-            src="./images/chatbotimages/page4.webp"
+            className="w-[500px] max-md:w-[300px]"
+            src="./images/chatbotimages/page4.png"
             alt=""
           />
         </div>

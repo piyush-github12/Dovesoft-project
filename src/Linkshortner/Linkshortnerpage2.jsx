@@ -39,7 +39,7 @@ const Linkshortnerpage2 = () => {
             ) : (
               <div className="w-[40%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full  max-md:h-fit max-md:my-[20px]">
                 <img
-                  className="h-[250px] max-md:w-[250px]"
+                  className="w-[250px] max-md:w-[250px]"
                   src={`${item.img}`}
                   alt=""
                 />
@@ -47,7 +47,7 @@ const Linkshortnerpage2 = () => {
             )}
             <div className="w-[40%] hidden px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl  items-center justify-center max-md:flex max-md:w-full  max-md:h-fit max-md:mb-[20px]">
               <img
-                className="h-[250px] max-md:h-[2h0px]"
+                className="w-[250px] max-md:h-[250px]"
                 src={`${item.img}`}
                 alt=""
               />
@@ -62,7 +62,7 @@ const Linkshortnerpage2 = () => {
             {index % 2 == 0 ? (
               <div className="w-[40%] px-[50px] max-md:px-[30px] py-[30px] bg-[#EAF9FF] rounded-3xl flex items-center justify-center max-md:hidden  max-md:w-full  max-md:h-fit max-md:my-[20px]">
                 <img
-                  className="h-[250px] max-md:h-[2h0px]"
+                  className="w-[250px] max-md:h-[250px]"
                   src={`${item.img}`}
                   alt=""
                 />

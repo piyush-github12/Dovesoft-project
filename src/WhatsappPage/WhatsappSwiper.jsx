@@ -154,21 +154,21 @@ export default function App() {
         modules={[Navigation, Pagination]}
         className="mySwiper "
       >
-        <SwiperSlide className="SMSswiper">
-          <div className="w-screen  h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+        <SwiperSlide className="">
+          <div className="w-screen  h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2 max-sm:grid-cols-1">
             {data.map((item) => (
               <div
                 key={item.heading}
-                className="w-[25vw]  h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className="w-[25vw]  min-h-[200px]  max-sm:min-h-[100px]  max-md:w-[40vw] max-sm:w-full  rounded-2xl overflow-hidden"
               >
-                <div className=" h-[200px] text-left px-2 py-2 relative">
+                <div className=" min-h-[200px]   max-sm:min-h-[100px] text-left px-2 py-2 relative">
                   <div className="flex max-lg:block gap-2 items-start ">
                     <img
                       className="w-[40px] h-[40px]"
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
+                    <h1 className="font-bold min-h-[70px] max-sm:min-h-[50px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>
@@ -178,21 +178,21 @@ export default function App() {
             ))}
           </div>
         </SwiperSlide>
-        <SwiperSlide className="SMSswiper">
-          <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+        <SwiperSlide className="">
+          <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2 max-sm:grid-cols-1">
             {data2.map((item) => (
               <div
                 key={item.heading}
-                className="w-[25vw]  min-h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className="w-[25vw]  min-h-[200px]  max-sm:min-h-[100px]  max-md:w-[40vw] max-sm:w-full  rounded-2xl overflow-hidden"
               >
-                <div className=" min-h-[200px] text-left px-2 py-2 relative">
+                <div className=" min-h-[200px] max-sm:min-h-[100px] text-left px-2 py-2 relative">
                   <div className="flex max-lg:block gap-2 items-start ">
                     <img
                       className="w-[40px] h-[40px]"
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
+                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[50px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>
@@ -202,21 +202,21 @@ export default function App() {
             ))}
           </div>
         </SwiperSlide>
-        <SwiperSlide className="SMSswiper">
-          <div className="w-screen h-fit relative  z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2">
+        <SwiperSlide className="">
+          <div className="w-screen h-auto relative   z-10 grid grid-cols-3  px-[10vw] max-sm:px-[5vw] gap-4  max-lg:grid-cols-2 max-sm:grid-cols-1">
             {data3.map((item) => (
               <div
                 key={item.heading}
-                className="w-[25vw]  min-h-[200px]  max-sm:h-[300px]  max-md:w-[40vw]   rounded-2xl overflow-hidden"
+                className="w-[25vw]  min-h-[200px]  max-sm:min-h-[100px]  max-md:w-[40vw] max-sm:w-full  rounded-2xl overflow-hidden"
               >
-                <div className=" min-h-[200px] text-left px-2 py-2 relative">
+                <div className=" min-h-[200px]  max-sm:min-h-[100px] text-left px-2 py-2 relative">
                   <div className="flex max-lg:block gap-2 items-start ">
                     <img
                       className="w-[40px] h-[40px]"
                       src={item.image}
                       alt=""
                     />
-                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[100px]  text-2xl ">
+                    <h1 className="font-bold font-['Epilogue']  min-h-[70px] max-sm:min-h-[50px]  text-2xl ">
                       {item.heading}
                     </h1>
                   </div>

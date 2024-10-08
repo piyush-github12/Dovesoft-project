@@ -217,29 +217,40 @@ const Section1 = () => {
                 </h1>
               </div>
             </div>
-            <div className=" min-w-full h-[190px]  max-md:mt-[10vh]  hidden max-sm:block">
-              <div className="relative w-[90vw] h-[190px]  overflow-hidden font-['Epilogue'] ">
-                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-3xl  font-bold leading-4xl absolute translate-y-[250px]">
+            <div className=" min-w-full  h-[150px] heropageheightadjuster  max-md:mt-[10vh]  hidden max-sm:block">
+              <div className="relative w-[90vw] h-[150px] heropageheightadjuster  overflow-hidden font-['Epilogue'] ">
+                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[33px] t3xl font-bold leading-2xl absolute translate-y-[250px]">
                   Scale your customer <br /> engagement with a <br /> reliable
                   SMS API
                 </h1>
-                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[33px] t3xl   font-bold leading-2xl absolute translate-y-[250px]">
                   Stand out in the <br /> messaging inbox with <br />
                   RCS Business Messaging
                 </h1>
-                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[33px] t3xl   font-bold leading-2xl absolute translate-y-[250px]">
                   Build stronger customer <br /> relationships with <br />
                   WhatsApp Business API
                 </h1>
-                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                <h1 className="heading2 font-['Epilogue']     whitespace-nowrap max-md:whitespace-normal  text-[33px] t3xl   font-bold leading-2xl absolute translate-y-[250px]">
                   Discover the Unlimited <br /> Potential of Emails and <br />{" "}
                   Hit the Inbox
                 </h1>
-                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-3xl    font-bold leading-4xl absolute translate-y-[250px]">
+                <h1 className="heading2 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[33px] t3xl   font-bold leading-2xl absolute translate-y-[250px]">
                   Automate outbound <br /> and support calls <br /> with Voice
                   AI
                 </h1>
               </div>
+              <style jsx>{`
+                @media (max-width: 400px) {
+                  .heropageheightadjuster {
+                    height: 190px;
+                  }
+                  .t3xl {
+                    font-size: 30px;
+                    line-height: 35px;
+                  }
+                }
+              `}</style>
             </div>
 
             <div className="relative h-[100px] w-full max-sm:w-[90vw] overflow-hidden">
@@ -267,7 +278,7 @@ const Section1 = () => {
             </div>
             <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
           </div>
-          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center  ">
+          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center max-md:mt-[50px]  ">
             {/* <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div> */}
             <div className="posterimage translate-x-[-50px] max-xl:translate-x-0 flex items-end justify-center w-[500px] h-full ">
               <img
