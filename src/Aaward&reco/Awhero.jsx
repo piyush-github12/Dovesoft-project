@@ -16,7 +16,6 @@ const Awhero = () => {
           Honoring Outstanding Contributions and Achievements
           Explore Our Recognitions and Awards
           </h1>
-          <Bookdemobutton clr="#fff" textclr="#000" />
         </div>
         <div className="w-[50%] h-[400px] max-md:h-fit max-md:w-full  flex items-center justify-center">
           <img
