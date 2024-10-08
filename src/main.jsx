@@ -22,10 +22,11 @@ import Contact from './Contactus/Contact.jsx'
 import Careers from './Careers/Careers.jsx'
 import Team from './Team/Team.jsx'
 import Certificate from './Certificatepage/Certificate.jsx'
-import Ir from './Investorrelation/ir.jsx'
+import Ir from './Investorrelation/Ir.jsx'
 import Committees from './Committees/Committees.jsx'
 import Privacy from './Privacy/Privacy.jsx'
 import Termscondition from './Termscondition/Termscondition.jsx'
+import Aw from './Aaward&reco/Aw.jsx'
 
 
 
@@ -57,6 +58,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/Committees" element={<Committees />} />
       <Route path="/Privacy" element={<Privacy />} />
       <Route path="/termscondition" element={<Termscondition />} />
+      <Route path="/awaards&recognition" element={<Aw/>} />
 
     </Routes>
   </BrowserRouter>

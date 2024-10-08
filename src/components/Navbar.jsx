@@ -152,7 +152,7 @@ const Navbar = (params) => {
         {
           subnameimage: <FaAward />,
           subsubname: "Awards and Recognition",
-          elemname: "",
+          elemname: "awaards&recognition",
         },
         {
           subnameimage: <PiCertificateBold />,
