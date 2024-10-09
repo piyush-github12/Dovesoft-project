@@ -192,7 +192,7 @@ const Section1 = () => {
             </div>
           </div>
           <div className="w-[40vw] h-[60vw] absolute z-[9] bottom-0 left-0 translate-x-[-30%] translate-y-[40%] bg-[#92aaff98] blur-[100px]  rounded-full "></div>
-          <div className="w-[75vw] max-md:w-[100vw] h-screen max-md:h-[700px] max-sm:h-fit max-sm:mt-[300px] max-xl:mt-[200px]   relative  z-10 flex flex-col justify-center    gap-5">
+          <div className="w-[75vw] max-md:w-[100vw] h-screen max-xl:h-fit max-sm:h-fit max-md:mt-[300px] max-xl:mt-[400px]   relative  z-10 flex flex-col justify-center    gap-5">
             <div className=" min-w-full h-[170px]  max-md:mt-[10vh] max-sm:hidden ">
               <div className="relative  h-[170px]  overflow-hidden font-['Epilogue'] ">
                 <h1 className="heading1 font-['Epilogue']    whitespace-nowrap max-md:whitespace-normal  text-[48px]  font-bold leading-[56px] absolute translate-y-[250px]">
@@ -278,31 +278,31 @@ const Section1 = () => {
             </div>
             <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
           </div>
-          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center max-md:mt-[150px]  ">
+          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] max-sm:h-[300px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center max-sm:mt-[150px]  ">
             {/* <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div> */}
             <div className="posterimage translate-x-[-50px] max-xl:translate-x-0 flex items-end justify-center w-[500px] h-full ">
               <img
-                className=" h-[550px] max-xl:h-[50vh]  object-cover  scale-[0.99] absolute opacity-0 "
+                className=" h-[550px] max-xl:h-[350px] max-sm:-[300px]  object-cover  scale-[0.99] absolute opacity-0 "
                 src="./images/sms_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[350px] max-sm:-[300px]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/rcs_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[350px] max-sm:-[300px]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/whatsapp_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[350px] max-sm:-[300px]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/email_website.png"
                 alt=""
               />
               <img
-                className=" h-[550px] max-xl:h-[50vh]  object-cover   scale-[0.99] absolute opacity-0  "
+                className=" h-[550px] max-xl:h-[350px] max-sm:-[300px]  object-cover   scale-[0.99] absolute opacity-0  "
                 src="./images/voice_website.png"
                 alt=""
               />
