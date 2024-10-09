@@ -121,7 +121,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
-              className="h-full object-cover"
+              className="w-full object-cover"
               src="./images/heropagevideo.mp4"
             ></video>
           </div>
@@ -156,7 +156,7 @@ const Section1 = () => {
             <div className="line w-full  h-[10px]  rotate-[-144deg] absolute">
               <div className="smallcircle w-[170px] h-[170px] rotate-[45deg] border-[0px] border-[#B9D6FF] bg-[#29ae5e] rounded-full absolute translate-x-[-50%] translate-y-[-50%] flex flex-col items-center justify-center">
                 <FaWhatsapp className="text-[40px]" />
-                <h1 className="font-extrabold text-[1.8vw] max-md:text-[20px]">
+                <h1 className="font-extrabold text-[1.5vw] max-md:text-[20px]">
                   Whatsapp
                 </h1>
               </div>
