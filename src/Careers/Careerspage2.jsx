@@ -53,11 +53,11 @@ const Careerspage2 = () => {
               className="w-[25vw]  min-h-[250px] max-lg:w-[40vw] max-md:w-[100%]  rounded-2xl"
             >
               <div className="w-full h-[100px]  p-2 flex justify-center items-end">
-                <img
-                  className="w-[50px] "
-                  src={`${item.image}`}
-                  alt=""
-                />
+                <div className="w-[100px] h-[100px] bg-[#1871ED] rounded-full flex items-center justify-center " >
+
+
+                <img className="w-[60px] " src={`${item.image}`} alt="" />
+                </div>
               </div>
               <div className="w-full min-h-[100px] relative px-2 flex flex-col items-center justify-center">
                 <h1 className="font-bold min-h-[50px]  text-center  text-2xl  ">

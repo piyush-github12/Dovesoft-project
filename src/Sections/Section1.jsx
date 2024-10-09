@@ -243,7 +243,7 @@ const Section1 = () => {
               <style jsx>{`
                 @media (max-width: 400px) {
                   .heropageheightadjuster {
-                    height: 190px;
+                    height: 210px;
                   }
                   .t3xl {
                     font-size: 30px;
@@ -278,7 +278,7 @@ const Section1 = () => {
             </div>
             <Bookdemobutton clr="#0d72ff" textclr="#ffff" borderclr="#7AB1FC" />
           </div>
-          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center max-md:mt-[50px]  ">
+          <div className=" w-[60vw] max-xl:w-full h-screen max-xl:h-[400px] relative  pb-[5vh] flex items-end  justify-start max-xl:justify-center max-md:mt-[150px]  ">
             {/* <div className="  w-full h-[20px] absolute rounded-xl  bottom-0 bg-gradient-to-t from-[#95BFFF] to-transparent"></div> */}
             <div className="posterimage translate-x-[-50px] max-xl:translate-x-0 flex items-end justify-center w-[500px] h-full ">
               <img
