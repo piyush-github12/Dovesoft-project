@@ -121,7 +121,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
-              className="w-full object-cover"
+              className="w-full h-full object-cover"
               src="./images/heropagevideo.mp4"
             ></video>
           </div>
@@ -241,7 +241,7 @@ const Section1 = () => {
                 </h1>
               </div>
               <style jsx>{`
-                @media (max-width: 400px) {
+                @media (max-width: 500px) {
                   .heropageheightadjuster {
                     height: 210px;
                   }
