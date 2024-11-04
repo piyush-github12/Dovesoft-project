@@ -16,7 +16,6 @@ import Section9 from './Sections/Section9';
 const App = () => {
   return (
     <div className='overflow-hidden bg-[#fff]'>
-      {/* <Navbar/> */}
       <Section1/>
       <Section2/>
       <Section3/>
@@ -26,7 +25,6 @@ const App = () => {
       <Section7/>
       <Section8/>
       <Section9/>
-      {/* <Footer/> */}
 
     </div>
   );
